@@ -1,0 +1,50 @@
+zach@zachs-mac-mini dotfiles % git push -u origin main
+The authenticity of host 'github.com (140.82.112.4)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+zach@zachs-mac-mini dotfiles % ssh-keygen -t ed25519 -C "zjv5002@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/zach/.ssh/id_ed25519):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /Users/zach/.ssh/id_ed25519
+Your public key has been saved in /Users/zach/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:/tz9PXYI/xNeRTJWks7x1E+PDJS3cEV/pfCLSaJVMWI zjv5002@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|          E.*o.=*|
+|         . o++OoB|
+|          o .Xo@=|
+|         o o o*.*|
+|        S   o . .|
+|       .    .  ..|
+|        .    o..o|
+|         o . .o=o|
+|          o . ooB|
++----[SHA256]-----+
+zach@zachs-mac-mini dotfiles % eval "$(ssh-agent -s)"
+Agent pid 2310
+zach@zachs-mac-mini dotfiles % home
+zach@zachs-mac-mini ~ % cd .ssh
+zach@zachs-mac-mini .ssh % ls
+id_ed25519	id_ed25519.pub	known_hosts
+zach@zachs-mac-mini .ssh % touch ~/.ssh/config
+zach@zachs-mac-mini .ssh % ls
+config		id_ed25519	id_ed25519.pub	known_hosts
+zach@zachs-mac-mini .ssh % cd config
+cd: not a directory: config
+zach@zachs-mac-mini .ssh % l
+zsh: command not found: l
+zach@zachs-mac-mini .ssh % vim config
+zach@zachs-mac-mini .ssh % ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+Enter passphrase for /Users/zach/.ssh/id_ed25519:
+Identity added: /Users/zach/.ssh/id_ed25519 (zjv5002@gmail.com)
+zach@zachs-mac-mini .ssh % pbcopy < ~/.ssh/id_ed25519.pub
