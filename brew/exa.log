@@ -1,0 +1,68 @@
+ brew install exa
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+############################################################################################################################## 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+############################################################################################################################## 100.0%
+Warning: exa has been deprecated because it is not maintained upstream!
+==> Downloading https://ghcr.io/v2/homebrew/core/exa/manifests/0.10.1_2-1
+############################################################################################################################## 100.0%
+==> Fetching dependencies for exa: ca-certificates, openssl@3, libssh2 and libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023-12-12
+############################################################################################################################## 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:5c99ffd0861f01adc19cab495027024f7d890e42a9e7b689706b85c
+############################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.0_1
+############################################################################################################################## 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:4bf12955cbd2ef13c0ee3fd19c6d4b3f4b04c0023ede6348eb25d7a18298f
+############################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.11.0_1
+############################################################################################################################## 100.0%
+==> Fetching libssh2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/blobs/sha256:41e860bcf96b8e86bb5f2c321fb1ca14b620adce510cec881eeac2f432e00e5
+############################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/manifests/1.7.1
+############################################################################################################################## 100.0%
+==> Fetching libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/blobs/sha256:d1de8934d2ee512544fa5d941329c516d64b3c3aad437fef7825a18401c70be
+############################################################################################################################## 100.0%
+==> Fetching exa
+==> Downloading https://ghcr.io/v2/homebrew/core/exa/blobs/sha256:1fbc96b6cc8e79125e95d083250528237b558c80e84b658f1936d933d64d1b50
+############################################################################################################################## 100.0%
+==> Installing dependencies for exa: ca-certificates, openssl@3, libssh2 and libgit2
+==> Installing exa dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2023-12-12
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/13aa86e429e05d02a76005d1881eaf625091a5ac4dc7d7674c706d12ba48796a--ca-certificates-2023-12-12.bottle_manifest.json
+==> Pouring ca-certificates--2023-12-12.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2023-12-12: 3 files, 226.7KB
+==> Installing exa dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.2.0_1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/8e5415de690efd057f74775ab4b808fed9a50bf29c34ee9cb52118d189ef73a9--openssl@3-3.2.0_1.bottle_manifest.json
+==> Pouring openssl@3--3.2.0_1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.2.0_1: 6,805 files, 31.9MB
+==> Installing exa dependency: libssh2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.11.0_1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/48ca0c7785b21630a4817c59b72205609ccb0575e7abc64d64af2e61a60b5b0a--libssh2-1.11.0_1.bottle_manifest.json
+==> Pouring libssh2--1.11.0_1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.0_1: 197 files, 1.2MB
+==> Installing exa dependency: libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/manifests/1.7.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/1b309c0d2e280bfce9151bfc58b4b2d18986fd471ee65e4585b6dc341fe347da--libgit2-1.7.1.bottle_manifest.json
+==> Pouring libgit2--1.7.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.7.1: 104 files, 4.5MB
+==> Installing exa
+==> Pouring exa--0.10.1_2.arm64_ventura.bottle.1.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/exa/0.10.1_2: 12 files, 973.2KB
+==> Running `brew cleanup exa`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> exa
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
