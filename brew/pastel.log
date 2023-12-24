@@ -1,0 +1,12 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/pastel/manifests/0.9.0-1
+==> Fetching pastel
+==> Downloading https://ghcr.io/v2/homebrew/core/pastel/blobs/sha256:6c1b18789ed1303a84264ce7f255e29ad1e7dfaa823606bd268266544c02f843
+==> Pouring pastel--0.9.0.arm64_ventura.bottle.1.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/pastel/0.9.0: 12 files, 1.3MB
+==> Running `brew cleanup pastel`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
