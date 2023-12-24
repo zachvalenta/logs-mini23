@@ -1,0 +1,5 @@
+venvs are in /Users/zach/Library/Application Support/pipx/venvs
+apps are exposed on your $PATH at /Users/zach/.local/bin
+manual pages are exposed at /Users/zach/.local/share/man
+   package powerline-shell 0.7.0, installed using Python 3.12.1
+    - powerline-shell
