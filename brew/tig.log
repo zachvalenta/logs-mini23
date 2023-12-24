@@ -1,0 +1,37 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/tig/manifests/2.5.8_1
+==> Fetching dependencies for tig: readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.7
+==> Fetching readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:1cbe9a00128c3b5cdf1107419087f00505533c73a60c3a210212e041dd12b3ee
+==> Fetching tig
+==> Downloading https://ghcr.io/v2/homebrew/core/tig/blobs/sha256:a433db97a4470854452df7310d11758fea48ffd75a4e1e8a9f3b3ddae789dc44
+==> Installing dependencies for tig: readline
+==> Installing tig dependency: readline
+==> Downloading https://ghcr.io/v2/homebrew/core/readline/manifests/8.2.7
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/14125f7fa4b49853f76160b864f58379d90e52833ffeb8bd0643609bcd7f02a7--readline-8.2.7.bottle_manifest.json
+==> Pouring readline--8.2.7.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.2.7: 50 files, 1.7MB
+==> Installing tig
+==> Pouring tig--2.5.8_1.arm64_ventura.bottle.tar.gz
+==> Caveats
+A sample of the default configuration has been installed to:
+  /opt/homebrew/opt/tig/share/tig/examples/tigrc
+to override the system-wide default configuration, copy the sample to:
+  /opt/homebrew/etc/tigrc
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/tig/2.5.8_1: 15 files, 994.3KB
+==> Running `brew cleanup tig`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> tig
+A sample of the default configuration has been installed to:
+  /opt/homebrew/opt/tig/share/tig/examples/tigrc
+to override the system-wide default configuration, copy the sample to:
+  /opt/homebrew/etc/tigrc
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
