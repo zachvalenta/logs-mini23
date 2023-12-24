@@ -1,0 +1,8 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/diff-so-fancy/manifests/1.4.4
+==> Fetching diff-so-fancy
+==> Downloading https://ghcr.io/v2/homebrew/core/diff-so-fancy/blobs/sha256:0a4e3b0b333e0fb2f2ea0f6b3ddaa2d2f024583541238975c39f0008ea7044eb
+==> Pouring diff-so-fancy--1.4.4.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/diff-so-fancy/1.4.4: 8 files, 47.6KB
+==> Running `brew cleanup diff-so-fancy`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
