@@ -1,0 +1,35 @@
+==> Fetching dependencies for eddieantonio/eddieantonio/imgcat: jpeg
+==> Fetching jpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg/manifests/9e
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg/blobs/sha256:9f4b61fba5eac14705918c94e7f43ecfb7f20774d1c8195d15675ddce4e1b7d3
+==> Fetching eddieantonio/eddieantonio/imgcat
+==> Downloading https://github.com/eddieantonio/imgcat/releases/download/v2.6.0/imgcat-2.6.0.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27859104/9359a379-1183-4fbe-b2cd-a83bb99fa22d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231224%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231224T004548Z&X-Amz-Expires=300&X-Amz-Signature=d009490eed094f95dccfa8ab08decce9dfe5b4faf1fbaa98f5e6cab165fdcf02&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=27859104&response-content-disposition=attachment%3B%20filename%3Dimgcat-2.6.0.tar.gz&response-content-type=application%2Foctet-stream
+==> Installing imgcat from eddieantonio/eddieantonio
+==> Installing dependencies for eddieantonio/eddieantonio/imgcat: jpeg
+==> Installing eddieantonio/eddieantonio/imgcat dependency: jpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg/manifests/9e
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/2b2f8b288d01e487869928818a6967fa52e710e5480dcc149e6d5da6721ffb5e--jpeg-9e.bottle_manifest.json
+==> Pouring jpeg--9e.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg/9e: 21 files, 903.6KB
+==> Installing eddieantonio/eddieantonio/imgcat
+[34m==>[0m [1m./configure[0m
+[34m==>[0m [1mmake install PREFIX=/opt/homebrew/Cellar/imgcat/2.6.0[0m
+==> Caveats
+The imgcat binary conflicts with iTerm2 3.0's shell script of the same name.
+To use this formula as drop-in replacement, add `unalias imgcat` to your
+shell startup file **after** sourcing the shell integration, like so:
+
+    unalias imgcat
+==> Summary
+🍺  /opt/homebrew/Cellar/imgcat/2.6.0: 6 files, 279.7KB, built in 5 seconds
+==> Running `brew cleanup imgcat`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> imgcat
+The imgcat binary conflicts with iTerm2 3.0's shell script of the same name.
+To use this formula as drop-in replacement, add `unalias imgcat` to your
+shell startup file **after** sourcing the shell integration, like so:
+
+    unalias imgcat
