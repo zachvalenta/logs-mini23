@@ -1,0 +1,12 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/fd/manifests/9.0.0
+==> Fetching fd
+==> Downloading https://ghcr.io/v2/homebrew/core/fd/blobs/sha256:9571530e58a9248c63ef228c24b2871366a93bc40819f56f3851e11b70cc122d
+==> Pouring fd--9.0.0.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/fd/9.0.0: 13 files, 2.7MB
+==> Running `brew cleanup fd`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
