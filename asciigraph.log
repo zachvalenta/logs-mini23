@@ -1,0 +1,3 @@
+$ go install github.com/guptarohit/asciigraph/cmd/asciigraph@latest
+
+go: downloading github.com/guptarohit/asciigraph v0.5.6
