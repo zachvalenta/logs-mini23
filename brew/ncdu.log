@@ -1,0 +1,16 @@
+$ brew install ncdu
+
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+############################################################################################################################## 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+############################################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ncdu/manifests/2.3
+############################################################################################################################## 100.0%
+==> Fetching ncdu
+==> Downloading https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:be4225e9e3a60fc201015d0b347b4d6aa91716ec87b48329f5a3fb64201aaede
+############################################################################################################################## 100.0%
+==> Pouring ncdu--2.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ncdu/2.3: 6 files, 574.0KB
+==> Running `brew cleanup ncdu`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
