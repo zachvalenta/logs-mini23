@@ -1,0 +1,5 @@
+python -m pipx install poetry
+  installed package poetry 1.7.1, installed using Python 3.12.1
+  These apps are now globally available
+    - poetry
+done! ✨ 🌟 ✨
