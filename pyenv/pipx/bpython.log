@@ -1,0 +1,8 @@
+$ python -m pipx install bpython
+  installed package bpython 0.24, installed using Python 3.12.1
+  These apps are now globally available
+    - bpdb
+    - bpython
+    - bpython-curses
+    - bpython-urwid
+done! ✨ 🌟 ✨
