@@ -1,0 +1,43 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/manifests/2023.11.16-1
+==> Fetching dependencies for yt-dlp: python-brotli, python-certifi and python-mutagen
+==> Downloading https://ghcr.io/v2/homebrew/core/python-brotli/manifests/1.1.0
+==> Fetching python-brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/python-brotli/blobs/sha256:9268f3b14509a185b3ad3440ddaee09c3f36adefd6f54e5836f17b5e2f941dff
+==> Downloading https://ghcr.io/v2/homebrew/core/python-certifi/manifests/2023.11.17-1
+==> Fetching python-certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/python-certifi/blobs/sha256:747a885c9fd8935a23942e7e148f76029365fb4223f1d4ed138859cb3f1eba0c
+==> Downloading https://ghcr.io/v2/homebrew/core/python-mutagen/manifests/1.47.0_1-1
+==> Fetching python-mutagen
+==> Downloading https://ghcr.io/v2/homebrew/core/python-mutagen/blobs/sha256:d1784d4b134151cfce667ced82387a5b849015883f43433899da2ba5e40868b7
+==> Fetching yt-dlp
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/blobs/sha256:f0559dd8febc7ca17981fb4ad38ffd914b9b65b822abf9b5083af687e0350ed5
+==> Installing dependencies for yt-dlp: python-brotli, python-certifi and python-mutagen
+==> Installing yt-dlp dependency: python-brotli
+==> Downloading https://ghcr.io/v2/homebrew/core/python-brotli/manifests/1.1.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/03e255706a724de1e268415456cd52282e22e8d0c4a90395de34e4c84fcafec8--python-brotli-1.1.0.bottle_manifest.json
+==> Pouring python-brotli--1.1.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python-brotli/1.1.0: 25 files, 1.8MB
+==> Installing yt-dlp dependency: python-certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/python-certifi/manifests/2023.11.17-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/0de846edba62cfa8858c05c32e7d5a548a1e7ebecc133c43d5b0c29bc0d0c670--python-certifi-2023.11.17-1.bottle_manifest.json
+==> Pouring python-certifi--2023.11.17.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/python-certifi/2023.11.17: 30 files, 24.1KB
+==> Installing yt-dlp dependency: python-mutagen
+==> Downloading https://ghcr.io/v2/homebrew/core/python-mutagen/manifests/1.47.0_1-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/e1e5c615ca5ddeca0bfe842e9038ffa40dd6c8a7c1523e62dc11b44c02f19c16--python-mutagen-1.47.0_1-1.bottle_manifest.json
+==> Pouring python-mutagen--1.47.0_1.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/python-mutagen/1.47.0_1: 151 files, 1.2MB
+==> Installing yt-dlp
+==> Pouring yt-dlp--2023.11.16.arm64_ventura.bottle.1.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/yt-dlp/2023.11.16: 1,660 files, 16.5MB
+==> Running `brew cleanup yt-dlp`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> yt-dlp
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions

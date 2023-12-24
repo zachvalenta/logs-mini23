@@ -1,0 +1,52 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/youtube-dl/manifests/2021.12.17-4
+==> Fetching dependencies for youtube-dl: mpdecimal, sqlite and python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/2.5.1
+==> Fetching mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:5b1c62c08b42feb6e48c461a9de4751803f3ccc76830213a517f0905178dbbef
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.44.2
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:51a64970ce486193db224b93411b5a778c5aac6a94867ddf78022729ca398b99
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.1
+==> Fetching python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:6295e2dc67b5f8232e6985bc6a0a1e8c73068587426a6158d31b5edfaf71cc63
+==> Fetching youtube-dl
+==> Downloading https://ghcr.io/v2/homebrew/core/youtube-dl/blobs/sha256:0f0777822da37695c41651a1745fda40a3bda17b7d252b682c74eaa8591023b5
+==> Installing dependencies for youtube-dl: mpdecimal, sqlite and python@3.12
+==> Installing youtube-dl dependency: mpdecimal
+==> Downloading https://ghcr.io/v2/homebrew/core/mpdecimal/manifests/2.5.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f367c2ee08c56b88be0662703a8e4275f8657608a268c8c44e845154b0cea543--mpdecimal-2.5.1.bottle_manifest.json
+==> Pouring mpdecimal--2.5.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpdecimal/2.5.1: 71 files, 2.2MB
+==> Installing youtube-dl dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.44.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/1e19b0e6cb419159b49df50f3595c3b44e67ec5f5d1110ece66a9785df57a844--sqlite-3.44.2.bottle_manifest.json
+==> Pouring sqlite--3.44.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.44.2: 11 files, 4.7MB
+==> Installing youtube-dl dependency: python@3.12
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/b13664874124f24d86fbf576412860426d44202df0a3a858c00900d566c12ea4--python@3.12-3.12.1.bottle_manifest.json
+==> Pouring python@3.12--3.12.1.arm64_ventura.bottle.tar.gz
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.12/3.12.1/bin/python3.12 -Im ensurepip[0m
+[34m==>[0m [1m/opt/homebrew/Cellar/python@3.12/3.12.1/bin/python3.12 -Im pip install -v --[0m
+🍺  /opt/homebrew/Cellar/python@3.12/3.12.1: 3,225 files, 65.3MB
+==> Installing youtube-dl
+==> Pouring youtube-dl--2021.12.17.arm64_ventura.bottle.4.tar.gz
+==> Caveats
+The current youtube-dl version has many unresolved issues.
+Upstream have not tagged a new release since 2021.
+
+Please use yt-dlp instead.
+==> Summary
+🍺  /opt/homebrew/Cellar/youtube-dl/2021.12.17: 846 files, 5.9MB
+==> Running `brew cleanup youtube-dl`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> youtube-dl
+The current youtube-dl version has many unresolved issues.
+Upstream have not tagged a new release since 2021.
+
+Please use yt-dlp instead.
+
+brew uninstall youtube-dl
+Uninstalling /opt/homebrew/Cellar/youtube-dl/2021.12.17... (846 files, 5.9MB)
