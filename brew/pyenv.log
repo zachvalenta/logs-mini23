@@ -1,0 +1,35 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/manifests/2.3.35
+==> Fetching dependencies for pyenv: m4, autoconf and pkg-config
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/manifests/1.4.19
+==> Fetching m4
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:11308abe8d607be35da9e88a1d789f191914bf043bca4fdde2b50a6cbf1713cc
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/manifests/2.72
+==> Fetching autoconf
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:bb39057e87dd9cb940bee15ff5b5172952a0350e59b14a6f55b8006a07813186
+==> Downloading https://ghcr.io/v2/homebrew/core/pkg-config/manifests/0.29.2_3
+==> Fetching pkg-config
+==> Downloading https://ghcr.io/v2/homebrew/core/pkg-config/blobs/sha256:3ff612c5e44b945c8c0cc6df7d3edb407ca67cddad9c89f9ab99ced494b7a8c2
+==> Fetching pyenv
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/blobs/sha256:097dfe00661f64d388d9afd9c11059f8e5bb01a19d40c263fb1b41277cc9fb8c
+==> Installing dependencies for pyenv: m4, autoconf and pkg-config
+==> Installing pyenv dependency: m4
+==> Downloading https://ghcr.io/v2/homebrew/core/m4/manifests/1.4.19
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/5b2a7f715487b7377e409e8ca58569040cd89f33859f691210c58d94410fd33b--m4-1.4.19.bottle_manifest.json
+==> Pouring m4--1.4.19.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/m4/1.4.19: 13 files, 742.3KB
+==> Installing pyenv dependency: autoconf
+==> Downloading https://ghcr.io/v2/homebrew/core/autoconf/manifests/2.72
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/b73cdb320c4261bbf8d02d03e50dc755c869c5859c1d4e93616898fc7cd939ff--autoconf-2.72.bottle_manifest.json
+==> Pouring autoconf--2.72.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/autoconf/2.72: 71 files, 3.6MB
+==> Installing pyenv dependency: pkg-config
+==> Downloading https://ghcr.io/v2/homebrew/core/pkg-config/manifests/0.29.2_3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/ac691fc7ab8ecffba32a837e7197101d271474a3a84cfddcc30c9fd6763ab3c6--pkg-config-0.29.2_3.bottle_manifest.json
+==> Pouring pkg-config--0.29.2_3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pkg-config/0.29.2_3: 11 files, 676.2KB
+==> Installing pyenv
+==> Pouring pyenv--2.3.35.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pyenv/2.3.35: 1,132 files, 3.4MB
+==> Running `brew cleanup pyenv`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
