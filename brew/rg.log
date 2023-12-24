@@ -1,0 +1,12 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/ripgrep/manifests/14.0.3
+==> Fetching ripgrep
+==> Downloading https://ghcr.io/v2/homebrew/core/ripgrep/blobs/sha256:19945856a69414ea653b53501f026fec4dcdad0ee315c8a296f9c8146593793b
+==> Pouring ripgrep--14.0.3.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/ripgrep/14.0.3: 13 files, 7MB
+==> Running `brew cleanup ripgrep`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
