@@ -1,0 +1,27 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/bat/manifests/0.24.0
+==> Fetching dependencies for bat: oniguruma
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/manifests/6.9.9
+==> Fetching oniguruma
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/blobs/sha256:def0fa2c032e85b817ed3408867af987da1cafe3f2aa6aee2fb3c29df2d202d6
+==> Fetching bat
+==> Downloading https://ghcr.io/v2/homebrew/core/bat/blobs/sha256:b36dd52fda8441a5b9c83f0914b4f362c8caa9c6a1143b1ee2c7f54941b8ed6b
+==> Installing dependencies for bat: oniguruma
+==> Installing bat dependency: oniguruma
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/manifests/6.9.9
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/35140c4d3995b75388bed026ef6d0acbb4d6076047cdcd895bfd996c0c8d6487--oniguruma-6.9.9.bottle_manifest.json
+==> Pouring oniguruma--6.9.9.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/oniguruma/6.9.9: 14 files, 1.4MB
+==> Installing bat
+==> Pouring bat--0.24.0.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/bat/0.24.0: 14 files, 4.0MB
+==> Running `brew cleanup bat`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> bat
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
