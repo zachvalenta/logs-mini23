@@ -1,0 +1,12 @@
+venvs are in /Users/zach/Library/Application Support/pipx/venvs
+apps are exposed on your $PATH at /Users/zach/.local/bin
+manual pages are exposed at /Users/zach/.local/share/man
+   package bpython 0.24, installed using Python 3.12.1
+    - bpdb
+    - bpython
+    - bpython-curses
+    - bpython-urwid
+   package poetry 1.7.1, installed using Python 3.12.1
+    - poetry
+   package powerline-shell 0.7.0, installed using Python 3.12.1
+    - powerline-shell
