@@ -10,3 +10,5 @@ manual pages are exposed at /Users/zach/.local/share/man
     - poetry
    package powerline-shell 0.7.0, installed using Python 3.12.1
     - powerline-shell
+   package termgraph 0.5.3, installed using Python 3.12.1
+    - termgraph
