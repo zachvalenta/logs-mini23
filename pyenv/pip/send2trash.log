@@ -1,0 +1,10 @@
+$ python -m pip install send2trash --user
+
+Collecting send2trash
+  Downloading Send2Trash-1.8.2-py3-none-any.whl (18 kB)
+Installing collected packages: send2trash
+Successfully installed send2trash-1.8.2
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.2
+[notice] To update, run: pip install --upgrade pip
+
