@@ -1,0 +1,18 @@
+$ python -m pip install catppuccin
+
+Collecting catppuccin
+  Obtaining dependency information for catppuccin from https://files.pythonhosted.org/packages/93/28/d372122f545415ac36ef288fa863d56f586704cd5c9aa6668a072f3cd0a4/catppuccin-1.3.2-py3-none-any.whl.metadata
+  Downloading catppuccin-1.3.2-py3-none-any.whl.metadata (4.6 kB)
+Downloading catppuccin-1.3.2-py3-none-any.whl (8.0 kB)
+Installing collected packages: catppuccin
+Successfully installed catppuccin-1.3.2
+
+$ python -m pip uninstall catppuccin
+
+Found existing installation: catppuccin 1.3.2
+Uninstalling catppuccin-1.3.2:
+  Would remove:
+    /Users/zach/.pyenv/versions/3.12.1/lib/python3.12/site-packages/catppuccin-1.3.2.dist-info/*
+    /Users/zach/.pyenv/versions/3.12.1/lib/python3.12/site-packages/catppuccin/*
+Proceed (Y/n)? Y
+  Successfully uninstalled catppuccin-1.3.2
