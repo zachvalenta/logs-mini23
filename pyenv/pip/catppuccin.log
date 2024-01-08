@@ -16,3 +16,15 @@ Uninstalling catppuccin-1.3.2:
     /Users/zach/.pyenv/versions/3.12.1/lib/python3.12/site-packages/catppuccin/*
 Proceed (Y/n)? Y
   Successfully uninstalled catppuccin-1.3.2
+
+$ python -m pip install 'catppuccin[pygments]' --user
+Collecting catppuccin[pygments]
+  Obtaining dependency information for catppuccin[pygments] from https://files.pythonhosted.org/packages/93/28/d372122f545415ac36ef288fa863d56f586704cd5c9aa6668a072f3cd0a4/catppuccin-1.3.2-py3-none-any.whl.metadata
+  Using cached catppuccin-1.3.2-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /Users/zach/.local/lib/python3.12/site-packages (from catppuccin[pygments]) (2.17.2)
+Using cached catppuccin-1.3.2-py3-none-any.whl (8.0 kB)
+Installing collected packages: catppuccin
+Successfully installed catppuccin-1.3.2
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.2
+[notice] To update, run: pip install --upgrade pip
