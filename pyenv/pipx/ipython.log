@@ -1,0 +1,17 @@
+pipx install ipython
+⚠️  File exists at /Users/zach/.local/bin/ipython and points to /Users/zach/.local/bin/ipython, not /Users/zach/Library/Application
+    Support/pipx/venvs/ipython/bin/ipython. Not modifying.
+⚠️  File exists at /Users/zach/.local/bin/ipython3 and points to /Users/zach/.local/bin/ipython3, not
+    /Users/zach/Library/Application Support/pipx/venvs/ipython/bin/ipython3. Not modifying.
+⚠️  File exists at /Users/zach/.local/share/man/man1/ipython.1 and points to /Users/zach/.local/share/man/man1/ipython.1, not
+    /Users/zach/Library/Application Support/pipx/venvs/ipython/share/man/man1/ipython.1. Not modifying.
+  installed package ipython 8.24.0, installed using Python 3.12.1
+  These apps are now globally available
+    - ipython (symlink missing or pointing to unexpected location)
+    - ipython3 (symlink missing or pointing to unexpected location)
+  These manual pages are now globally available
+    - man1/ipython.1 (symlink missing or pointing to unexpected location)
+done! ✨ 🌟 ✨
+
+pipx uninstall ipython
+uninstalled ipython! ✨ 🌟 ✨
