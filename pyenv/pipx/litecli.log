@@ -1,0 +1,5 @@
+pipx install litecli
+  installed package litecli 1.11.0, installed using Python 3.12.1
+  These apps are now globally available
+    - litecli
+done! ✨ 🌟 ✨
