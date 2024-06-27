@@ -1,0 +1,27 @@
+==> Downloading https://ghcr.io/v2/homebrew/core/tmux/manifests/3.4_1-1
+==> Fetching dependencies for tmux: utf8proc
+==> Downloading https://ghcr.io/v2/homebrew/core/utf8proc/manifests/2.9.0
+==> Fetching utf8proc
+==> Downloading https://ghcr.io/v2/homebrew/core/utf8proc/blobs/sha256:fb2efcc310a7627642f9dc0e617e6f311b53b286dd8c5bcfbf630ee19525b804
+==> Fetching tmux
+==> Downloading https://ghcr.io/v2/homebrew/core/tmux/blobs/sha256:32be1a9082ff54dc7f98f92fb91f72e00f31b9b24e3bc97434ad1a769763c057
+==> Installing dependencies for tmux: utf8proc
+==> Installing tmux dependency: utf8proc
+==> Downloading https://ghcr.io/v2/homebrew/core/utf8proc/manifests/2.9.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/cc0d93c9e41f609c06bdb60811acec4d26281218bbc70fb8196fd788f238fbcc--utf8proc-2.9.0.bottle_manifest.json
+==> Pouring utf8proc--2.9.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/utf8proc/2.9.0: 11 files, 771.1KB
+==> Installing tmux
+==> Pouring tmux--3.4_1.arm64_ventura.bottle.1.tar.gz
+==> Caveats
+Example configuration has been installed to:
+  /opt/homebrew/opt/tmux/share/tmux
+==> Summary
+🍺  /opt/homebrew/Cellar/tmux/3.4_1: 10 files, 1.2MB
+==> Running `brew cleanup tmux`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> tmux
+Example configuration has been installed to:
+  /opt/homebrew/opt/tmux/share/tmux
