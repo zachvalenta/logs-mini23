@@ -6,3 +6,7 @@ $ python -m pipx install bpython
     - bpython-curses
     - bpython-urwid
 done! ✨ 🌟 ✨
+
+pipx inject bpython rich
+  injected package rich into venv bpython
+done! ✨ 🌟 ✨
