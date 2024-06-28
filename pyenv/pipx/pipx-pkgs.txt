@@ -6,6 +6,14 @@ manual pages are exposed at /Users/zach/.local/share/man
     - bpython
     - bpython-curses
     - bpython-urwid
+   package calcure 3.0.1, installed using Python 3.12.1
+    - calcure
+   package harlequin 1.16.0, installed using Python 3.12.1
+    - harlequin
+   package jrnl 4.1, installed using Python 3.12.1
+    - jrnl
+   package litecli 1.11.0, installed using Python 3.12.1
+    - litecli
    package poetry 1.7.1, installed using Python 3.12.1
     - poetry
    package powerline-shell 0.7.0, installed using Python 3.12.1
