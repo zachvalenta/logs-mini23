@@ -1,24 +1,8 @@
-venvs are in /Users/zach/Library/Application Support/pipx/venvs
-apps are exposed on your $PATH at /Users/zach/.local/bin
-manual pages are exposed at /Users/zach/.local/share/man
-   package bpython 0.24, installed using Python 3.12.1
-    - bpdb
-    - bpython
-    - bpython-curses
-    - bpython-urwid
-    Injected Packages:
-      - rich 13.7.1
-   package calcure 3.0.1, installed using Python 3.12.1
-    - calcure
-   package harlequin 1.16.0, installed using Python 3.12.1
-    - harlequin
-   package jrnl 4.1, installed using Python 3.12.1
-    - jrnl
-   package litecli 1.11.0, installed using Python 3.12.1
-    - litecli
-   package poetry 1.7.1, installed using Python 3.12.1
-    - poetry
-   package powerline-shell 0.7.0, installed using Python 3.12.1
-    - powerline-shell
-   package termgraph 0.5.3, installed using Python 3.12.1
-    - termgraph
+bpython 0.24
+calcure 3.0.1
+harlequin 1.16.0
+jrnl 4.1
+litecli 1.11.0
+poetry 1.7.1
+powerline-shell 0.7.0
+termgraph 0.5.3
