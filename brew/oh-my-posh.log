@@ -1,0 +1,58 @@
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+Warning: Treating jandedobbeleer/oh-my-posh/oh-my-posh as a formula. For the cask, use jandedobbeleer/oh-my-posh/oh-my-posh or specify the `--cask` flag.
+==> Fetching dependencies for jandedobbeleer/oh-my-posh/oh-my-posh: go
+==> Fetching go
+==> Downloading https://ghcr.io/v2/homebrew/core/go/manifests/1.22.5
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/go/blobs/sha256:4ee396f802050dc2e02872e3db981ad3fb8708acc17be727833f80197a7ac68f
+############################################################################################################################### 100.0%
+==> Fetching jandedobbeleer/oh-my-posh/oh-my-posh
+==> Downloading https://github.com/JanDeDobbeleer/oh-my-posh/archive/v21.27.0.tar.gz
+==> Downloading from https://codeload.github.com/JanDeDobbeleer/oh-my-posh/tar.gz/refs/tags/v21.27.0
+############################################################################################################################### 100.0%
+==> Installing oh-my-posh from jandedobbeleer/oh-my-posh
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+==> Installing dependencies for jandedobbeleer/oh-my-posh/oh-my-posh: go
+==> Installing jandedobbeleer/oh-my-posh/oh-my-posh dependency: go
+==> Downloading https://ghcr.io/v2/homebrew/core/go/manifests/1.22.5
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/60ee37f405e46d6dcc4c130fc1c751f34fa24a1b6b8c99abcac563ee9a24b434--go-1.22.5.bottle_manifest.json
+==> Pouring go--1.22.5.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/go/1.22.5: 12,869 files, 250.8MB
+==> Installing jandedobbeleer/oh-my-posh/oh-my-posh
+==> go build -o=oh-my-posh -ldflags="-s -w -X 'github.com/jandedobbeleer/oh-my-posh/src/build.Version=21.27.0' -X 'github.com/jandedob
+==> Caveats
+Thanks for installing Oh My Posh.
+Have a look at https://ohmyposh.dev/docs/ for detailed instructions for your shell.
+Sample themes can be found at $(brew --prefix oh-my-posh)/themes.
+
+If you're enjoying Oh My Posh, feel free to donate or become a sponsor.
+https://github.com/sponsors/JanDeDobbeleer
+
+In case you're looking for help, want to share how you use Oh My Posh, or find like-minded individuals, join our Discord community!
+https://discord.gg/n7E3DkXssv
+==> Summary
+🍺  /opt/homebrew/Cellar/oh-my-posh/21.27.0: 131 files, 16.4MB, built in 18 seconds
+==> Running `brew cleanup oh-my-posh`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> oh-my-posh
+Thanks for installing Oh My Posh.
+Have a look at https://ohmyposh.dev/docs/ for detailed instructions for your shell.
+Sample themes can be found at $(brew --prefix oh-my-posh)/themes.
+
+If you're enjoying Oh My Posh, feel free to donate or become a sponsor.
+https://github.com/sponsors/JanDeDobbeleer
+
+In case you're looking for help, want to share how you use Oh My Posh, or find like-minded individuals, join our Discord community!
+https://discord.gg/n7E3DkXssv
