@@ -1,98 +1,63 @@
-$ brew install neovim
-==> Downloading https://formulae.brew.sh/api/formula.jws.json
-
-==> Downloading https://formulae.brew.sh/api/cask.jws.json
-########################################################################################################################################################################################################### 100.0%
-==> Downloading https://ghcr.io/v2/homebrew/core/neovim/manifests/0.9.4
-########################################################################################################################################################################################################### 100.0%
-==> Fetching dependencies for neovim: unibilium, libtermkey, libuv, libvterm, luajit, luv, msgpack and tree-sitter
-==> Downloading https://ghcr.io/v2/homebrew/core/unibilium/manifests/2.1.1-3
-########################################################################################################################################################################################################### 100.0%
-==> Fetching unibilium
-==> Downloading https://ghcr.io/v2/homebrew/core/unibilium/blobs/sha256:d9089f06243f3f86c73d4480e6fc7aa0bfdfc59d359c190601f8c9f13b4e38f7
-########################################################################################################################################################################################################### 100.0%
-==> Downloading https://ghcr.io/v2/homebrew/core/libtermkey/manifests/0.22-1
-########################################################################################################################################################################################################### 100.0%
-==> Fetching libtermkey
-==> Downloading https://ghcr.io/v2/homebrew/core/libtermkey/blobs/sha256:7d8785550b878770b207750a28a857906ddcca4dd23ad01d2c1c342adca32e2a
-########################################################################################################################################################################################################### 100.0%
-==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.47.0
-########################################################################################################################################################################################################### 100.0%
+neovim 0.9.4 is already installed but outdated (so it will be upgraded).
+==> Downloading https://ghcr.io/v2/homebrew/core/neovim/manifests/0.10.0
+==> Fetching dependencies for neovim: libuv, lpeg, luajit, luv, msgpack and tree-sitter
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.48.0
 ==> Fetching libuv
-==> Downloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:05e8c9cdb92b838680bd8e1525bdcf04b60e1829508cd185f11bc84d2389e188
-########################################################################################################################################################################################################### 100.0%
-==> Downloading https://ghcr.io/v2/homebrew/core/libvterm/manifests/0.3.3
-########################################################################################################################################################################################################### 100.0%
-==> Fetching libvterm
-==> Downloading https://ghcr.io/v2/homebrew/core/libvterm/blobs/sha256:0e2015cf46c8c515721f3200ed53ad9b98385985ed3eb91cb4503270469bed17
-########################################################################################################################################################################################################### 100.0%
-==> Downloading https://ghcr.io/v2/homebrew/core/luajit/manifests/2.1.1700008891
-########################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:5106b72009a33f1d670f25cf5d32b6262b68e8e56f6c81ed44fe52dc51434b08
+==> Downloading https://ghcr.io/v2/homebrew/core/lpeg/manifests/1.1.0-1
+==> Fetching lpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/lpeg/blobs/sha256:032f19654879a0542eb5836fa19da7ae278fb1709375f4b17e8a24b219e54293
+==> Downloading https://ghcr.io/v2/homebrew/core/luajit/manifests/2.1.1716656478
 ==> Fetching luajit
-==> Downloading https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:53ba2ddfe3a8433df1b052c6f8bfd6f34ad75730f4479b92f32ef9d911d74875
-########################################################################################################################################################################################################### 100.0%
-==> Downloading https://ghcr.io/v2/homebrew/core/luv/manifests/1.45.0-0
-########################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:f9b7e0eeff8586562c05c89ed36b85b120d8b5d3cb5bfa0e45ed4ff49650c710
+==> Downloading https://ghcr.io/v2/homebrew/core/luv/manifests/1.48.0-2
 ==> Fetching luv
-==> Downloading https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:bc38c2dbc804c17b0a4896f4723ded25e18c2a935363ecb65d1a28c6382442d6
-########################################################################################################################################################################################################### 100.0%
-==> Downloading https://ghcr.io/v2/homebrew/core/msgpack/manifests/6.0.0
-########################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:5b52e62605db4618b943a313b7dc27fa1ca4d606289f773a934d62aa841ce822
+==> Downloading https://ghcr.io/v2/homebrew/core/msgpack/manifests/6.0.2
 ==> Fetching msgpack
-==> Downloading https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:e41b85a88da3012d8a7819799333410558cca1ef59663fda84718be0856002e6
-########################################################################################################################################################################################################### 100.0%
-==> Downloading https://ghcr.io/v2/homebrew/core/tree-sitter/manifests/0.20.8
-########################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:a25d6e1381f812f45212ee16ab624dfc5b210a05f6d9ae4b77eeade014e16f87
+==> Downloading https://ghcr.io/v2/homebrew/core/tree-sitter/manifests/0.22.6
 ==> Fetching tree-sitter
-==> Downloading https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:80f5d110450dfa623f0ff043bfb9279a03e760aafa8b67a8f919f8371a8a4282
-########################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:1f1136ed859849e34a77202ec68651b9b5500dd36c71f97fde4e1f417da0684f
 ==> Fetching neovim
-==> Downloading https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:d86a5c7cfc96b756f1169d62f3193bb32837878ab230a52f66b752d817483465
-########################################################################################################################################################################################################### 100.0%
-==> Installing dependencies for neovim: unibilium, libtermkey, libuv, libvterm, luajit, luv, msgpack and tree-sitter
-==> Installing neovim dependency: unibilium
-==> Downloading https://ghcr.io/v2/homebrew/core/unibilium/manifests/2.1.1-3
-Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/21e3de000f424c98d5ae8364cfa81613211080390b08e4188c3b36091b72e6b3--unibilium-2.1.1-3.bottle_manifest.json
-==> Pouring unibilium--2.1.1.arm64_ventura.bottle.3.tar.gz
-🍺  /opt/homebrew/Cellar/unibilium/2.1.1: 63 files, 324.3KB
-==> Installing neovim dependency: libtermkey
-==> Downloading https://ghcr.io/v2/homebrew/core/libtermkey/manifests/0.22-1
-Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6a21b1ea580c6ac308b60af6eebf426147704c74e2ad19eb776a5d7fefd01f29--libtermkey-0.22-1.bottle_manifest.json
-==> Pouring libtermkey--0.22.arm64_ventura.bottle.1.tar.gz
-🍺  /opt/homebrew/Cellar/libtermkey/0.22: 33 files, 164.9KB
+==> Downloading https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:031b5ec26e73d2523c561bf54ffb9984012f6fd4a8610a41dbf73048713d2060
+==> Upgrading neovim
+  0.9.4 -> 0.10.0 
+==> Installing dependencies for neovim: libuv, lpeg, luajit, luv, msgpack and tree-sitter
 ==> Installing neovim dependency: libuv
-==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.47.0
-Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/bfee09d0f61c35b1a86c5b7a0f6b2f9e0a8b18a81bbd065f6eea7054b543f3ea--libuv-1.47.0.bottle_manifest.json
-==> Pouring libuv--1.47.0.arm64_ventura.bottle.tar.gz
-🍺  /opt/homebrew/Cellar/libuv/1.47.0: 19 files, 1.1MB
-==> Installing neovim dependency: libvterm
-==> Downloading https://ghcr.io/v2/homebrew/core/libvterm/manifests/0.3.3
-Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/b5fadcaa02193cc4a1b7ba1b24eddec6a6a95bd8004f5e0c493a4d9673b5410b--libvterm-0.3.3.bottle_manifest.json
-==> Pouring libvterm--0.3.3.arm64_ventura.bottle.tar.gz
-🍺  /opt/homebrew/Cellar/libvterm/0.3.3: 12 files, 390.8KB
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.48.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/8ee1d27fb604f55e3c4415b96e34dc9c7f557996832c372d984c8162b29a4ad2--libuv-1.48.0.bottle_manifest.json
+==> Pouring libuv--1.48.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libuv/1.48.0: 20 files, 1.1MB
+==> Installing neovim dependency: lpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/lpeg/manifests/1.1.0-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/5906a2786f22dd74352335366e9b152ed78248ffa0b9aefb61209bbcdfb96581--lpeg-1.1.0-1.bottle_manifest.json
+==> Pouring lpeg--1.1.0.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/lpeg/1.1.0: 14 files, 316.7KB
 ==> Installing neovim dependency: luajit
-==> Downloading https://ghcr.io/v2/homebrew/core/luajit/manifests/2.1.1700008891
-Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/09d20d6b18bd5bcd716aa0a32f5c3c7f8679b68509fc8712664d443134cf4a8f--luajit-2.1.1700008891.bottle_manifest.json
-==> Pouring luajit--2.1.1700008891.arm64_ventura.bottle.tar.gz
-🍺  /opt/homebrew/Cellar/luajit/2.1.1700008891: 55 files, 2.1MB
+==> Downloading https://ghcr.io/v2/homebrew/core/luajit/manifests/2.1.1716656478
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/d37332011cdf293bb21603780b921878f7921e0cf207aeac4379e2bae55d9a21--luajit-2.1.1716656478.bottle_manifest.json
+==> Pouring luajit--2.1.1716656478.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/luajit/2.1.1716656478: 56 files, 2.1MB
 ==> Installing neovim dependency: luv
-==> Downloading https://ghcr.io/v2/homebrew/core/luv/manifests/1.45.0-0
-Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f9204090ce0c0eefb3c21235f40a091248c0f07b0147ac923c7bc9dbb6255b21--luv-1.45.0-0.bottle_manifest.json
-==> Pouring luv--1.45.0-0.arm64_ventura.bottle.tar.gz
-🍺  /opt/homebrew/Cellar/luv/1.45.0-0: 15 files, 846.0KB
+==> Downloading https://ghcr.io/v2/homebrew/core/luv/manifests/1.48.0-2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/35e34648f227188d25ae472d9d07df6a21b470ee9ff657b78ef9f23dd5d43fb4--luv-1.48.0-2.bottle_manifest.json
+==> Pouring luv--1.48.0-2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/luv/1.48.0-2: 16 files, 857.1KB
 ==> Installing neovim dependency: msgpack
-==> Downloading https://ghcr.io/v2/homebrew/core/msgpack/manifests/6.0.0
-Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/3533ae77dcecb13cc631f865cf4137bba537acdaea45d1c9a206585bc94a434b--msgpack-6.0.0.bottle_manifest.json
-==> Pouring msgpack--6.0.0.arm64_ventura.bottle.tar.gz
-🍺  /opt/homebrew/Cellar/msgpack/6.0.0: 38 files, 220.4KB
+==> Downloading https://ghcr.io/v2/homebrew/core/msgpack/manifests/6.0.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/52b992d3b4c8e42f0e508961190bb15c544cf7c6937e81298543d9b9f84075d7--msgpack-6.0.2.bottle_manifest.json
+==> Pouring msgpack--6.0.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/msgpack/6.0.2: 39 files, 206.8KB
 ==> Installing neovim dependency: tree-sitter
-==> Downloading https://ghcr.io/v2/homebrew/core/tree-sitter/manifests/0.20.8
-Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/52b85b7c7e2d9e5a284fb6abcb72dd209fd3a9642516af8549d9359457d00b02--tree-sitter-0.20.8.bottle_manifest.json
-==> Pouring tree-sitter--0.20.8.arm64_ventura.bottle.tar.gz
-🍺  /opt/homebrew/Cellar/tree-sitter/0.20.8: 18 files, 12.1MB
+==> Downloading https://ghcr.io/v2/homebrew/core/tree-sitter/manifests/0.22.6
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/fa4d0581ab677f1356d0a823bd9f3a56354b7b6b000554025542ae0f4a3b4fe5--tree-sitter-0.22.6.bottle_manifest.json
+==> Pouring tree-sitter--0.22.6.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tree-sitter/0.22.6: 15 files, 14.1MB
 ==> Installing neovim
-==> Pouring neovim--0.9.4.arm64_ventura.bottle.tar.gz
-🍺  /opt/homebrew/Cellar/neovim/0.9.4: 1,737 files, 26.5MB
+==> Pouring neovim--0.10.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/neovim/0.10.0: 1,903 files, 32MB
 ==> Running `brew cleanup neovim`...
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/neovim/0.9.4... (1,737 files, 26.5MB)
