@@ -1,0 +1,11 @@
+$ pipx install visidata
+
+  installed package visidata 3.0.2, installed using Python 3.12.1
+  These apps are now globally available
+    - vd
+    - vd2to3.vdx
+    - visidata
+  These manual pages are now globally available
+    - man1/vd.1
+    - man1/visidata.1
+done! ✨ 🌟 ✨
