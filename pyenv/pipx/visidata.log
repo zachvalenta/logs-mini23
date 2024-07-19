@@ -9,3 +9,8 @@ $ pipx install visidata
     - man1/vd.1
     - man1/visidata.1
 done! ✨ 🌟 ✨
+
+$ pipx inject visidata openpyxl
+
+  injected package openpyxl into venv visidata
+done! ✨ 🌟 ✨
