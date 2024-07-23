@@ -1,0 +1,34 @@
+$ pipx install csvkit
+
+  installed package csvkit 2.0.1, installed using Python 3.12.1
+  These apps are now globally available
+    - csvclean
+    - csvcut
+    - csvformat
+    - csvgrep
+    - csvjoin
+    - csvjson
+    - csvlook
+    - csvpy
+    - csvsort
+    - csvsql
+    - csvstack
+    - csvstat
+    - in2csv
+    - sql2csv
+  These manual pages are now globally available
+    - man1/csvclean.1
+    - man1/csvcut.1
+    - man1/csvformat.1
+    - man1/csvgrep.1
+    - man1/csvjoin.1
+    - man1/csvjson.1
+    - man1/csvlook.1
+    - man1/csvpy.1
+    - man1/csvsort.1
+    - man1/csvsql.1
+    - man1/csvstack.1
+    - man1/csvstat.1
+    - man1/in2csv.1
+    - man1/sql2csv.1
+done! ✨ 🌟 ✨
