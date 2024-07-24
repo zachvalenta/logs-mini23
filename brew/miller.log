@@ -1,0 +1,20 @@
+$ brew install miller
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 1 tap (jandedobbeleer/oh-my-posh).
+
+You have 26 outdated formulae installed.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/miller/manifests/6.12.0
+########################################################################################################################################################################################################### 100.0%
+==> Fetching miller
+==> Downloading https://ghcr.io/v2/homebrew/core/miller/blobs/sha256:e8b026ce87877e8145ec7484568aea1bebf4fd632a2faaa77a2eda687290bf11
+########################################################################################################################################################################################################### 100.0%
+==> Pouring miller--6.12.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/miller/6.12.0: 8 files, 38.8MB
+==> Running `brew cleanup miller`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
