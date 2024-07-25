@@ -1,0 +1,12 @@
+$ brew install xsv
+
+==> Downloading https://ghcr.io/v2/homebrew/core/xsv/manifests/0.13.0-3
+########################################################################################################################################################################################################### 100.0%
+==> Fetching xsv
+==> Downloading https://ghcr.io/v2/homebrew/core/xsv/blobs/sha256:e3782f25035444ff4b65770eddc8598a1908e1538d1d338954fc22a928846db4
+########################################################################################################################################################################################################### 100.0%
+==> Pouring xsv--0.13.0.arm64_ventura.bottle.3.tar.gz
+🍺  /opt/homebrew/Cellar/xsv/0.13.0: 9 files, 3MB
+==> Running `brew cleanup xsv`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
