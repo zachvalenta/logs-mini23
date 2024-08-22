@@ -1,0 +1,73 @@
+$ brew install zola
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:ce5c135bf98da783bf5964e89aab587e3341c8adc379f36ace17ae7881f53e8c
+############################################################################################################################### 100.0%
+==> Pouring portable-ruby-3.3.4_1.arm64_big_sur.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 1 tap (jandedobbeleer/oh-my-posh).
+
+You have 39 outdated formulae installed.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/zola/manifests/0.19.2
+############################################################################################################################### 100.0%
+==> Fetching zola
+==> Downloading https://ghcr.io/v2/homebrew/core/zola/blobs/sha256:8a28ce287dcc749f5e812497c440ca7a5d6a2106edc88f2dbb196c5af811ffd4
+############################################################################################################################### 100.0%
+==> Pouring zola--0.19.2.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/zola/0.19.2: 12 files, 30.6MB
+==> Running `brew cleanup zola`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/ca-certificates--2024-03-11... (129.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/certifi--2024.6.2... (5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ffmpeg--7.0.1... (20MB)
+Removing: /Users/zach/Library/Caches/Homebrew/glib--2.80.3... (8.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/go--1.22.5... (99.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/harfbuzz--8.5.0... (2.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/jpeg-xl--0.10.2... (11.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libass--0.17.2... (231.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libssh--0.10.6... (475.2KB)
+Removing: /opt/homebrew/Cellar/libuv/1.47.0... (19 files, 1.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/luajit--2.1.1716656478... (875.2KB)
+Removing: /opt/homebrew/Cellar/luv/1.45.0-0... (15 files, 846.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mpg123--1.32.6... (632.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/msgpack--6.0.2... (45.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/neovim--0.10.0... (8.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/oh-my-posh--21.27.0.tar.gz... (6.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.12--3.12.4... (15.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/readline--8.2.10... (575.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/sdl2--2.30.4... (1.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/sqlite--3.46.0... (2.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/svt-av1--2.1.0... (1.7MB)
+Removing: /opt/homebrew/Cellar/tree-sitter/0.20.8... (18 files, 12.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/unbound--1.20.0... (2.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/xz--5.4.6... (674.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp--2024.5.27_1... (4.7MB)
+==> Autoremoving 2 unneeded formulae:
+go
+libtermkey
+Uninstalling /opt/homebrew/Cellar/libtermkey/0.22... (33 files, 164.9KB)
+Uninstalling /opt/homebrew/Cellar/go/1.22.5... (12,869 files, 250.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/go_mod_cache... (5,891 files, 161.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/tz_bottle_manifest--0.7.0... (7.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/go_cache... (2,252 files, 182.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/fzf--0.53.0... (1.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/tz--0.7.0... (1.8MB)
+Removing: /Users/zach/Library/Logs/Homebrew/python@3.12... (2 files, 2KB)
+Removing: /Users/zach/Library/Logs/Homebrew/glib... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/fontconfig... (146.8KB)
+Removing: /Users/zach/Library/Logs/Homebrew/openssl@3... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/unbound... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/gnutls... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/oh-my-posh... (3 files, 141.9KB)
