@@ -1,0 +1,22 @@
+$ brew install wget
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 1 tap (jandedobbeleer/oh-my-posh).
+
+You have 45 outdated formulae installed.
+
+==> Downloading https://ghcr.io/v2/homebrew/core/wget/manifests/1.24.5
+############################################################################################################################### 100.0%
+==> Fetching wget
+==> Downloading https://ghcr.io/v2/homebrew/core/wget/blobs/sha256:ac4c0330b70dae06eaa8065bfbea78dda277699d1ae8002478017a1bd9cf1908
+############################################################################################################################### 100.0%
+==> Pouring wget--1.24.5.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/wget/1.24.5: 92 files, 4.5MB
+==> Running `brew cleanup wget`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ brew uninstall wget
