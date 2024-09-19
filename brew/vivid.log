@@ -1,0 +1,17 @@
+$ brew install vivid
+
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+############################################################################################################################### 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+##O#-   #
+Warning: Treating vivid as a formula. For the cask, use homebrew/cask/vivid or specify the `--cask` flag. To silence this message, use the `--formula` flag.
+==> Downloading https://ghcr.io/v2/homebrew/core/vivid/manifests/0.10.1
+############################################################################################################################### 100.0%
+==> Fetching vivid
+==> Downloading https://ghcr.io/v2/homebrew/core/vivid/blobs/sha256:6b836a81f247fdbbfdb40cdb637b8da247189d6bdcd47d12fef66c8e45782bd1
+############################################################################################################################### 100.0%
+==> Pouring vivid--0.10.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/vivid/0.10.1: 10 files, 901.5KB
+==> Running `brew cleanup vivid`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
