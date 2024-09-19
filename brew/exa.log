@@ -66,3 +66,22 @@ Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ==> exa
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
+
+
+$ brew uninstall exa
+
+Uninstalling /opt/homebrew/Cellar/exa/0.10.1_2... (12 files, 973.2KB)
+
+Warning: The following may be exa configuration files and have not been removed!
+If desired, remove them manually with `rm -rf`:
+  /opt/homebrew/etc/pkcs11.conf.example
+==> Autoremoving 1 unneeded formula:
+libgit2
+Uninstalling /opt/homebrew/Cellar/libgit2/1.8.1... (106 files, 4.7MB)
+libgit2 1.7.1 is still installed.
+To remove all versions, run:
+  brew uninstall --force libgit2
+
+$ brew uninstall --force libgit2
+
+Uninstalling libgit2... (104 files, 4.5MB)
