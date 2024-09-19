@@ -1,0 +1,33 @@
+$ brew install eza
+
+==> Downloading https://ghcr.io/v2/homebrew/core/eza/manifests/0.19.4
+############################################################################################################################### 100.0%
+==> Fetching dependencies for eza: libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/manifests/1.8.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/84b074c6d1ee51616dfba962c9b638aeda6093080b5ebf82e6a02017bce44215--libgit2-1.8.1.bottle_manifest.json
+==> Fetching libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/blobs/sha256:da870e964178facdcfddf478f968122daf1ef8e6ef2cf80e23069191c65ce532
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a3d3e49822bcdde42a3de9d6b9dc3f6aa34223e5db0ba2d5bb9f7fef2d2949aa--libgit2--1.8.1.arm64_ventura.bottle.tar.gz
+==> Fetching eza
+==> Downloading https://ghcr.io/v2/homebrew/core/eza/blobs/sha256:b7829b78bcdceddf5d87211582ca0cb1e98f6662d09733f873958a93e6d597c3
+############################################################################################################################### 100.0%
+==> Installing dependencies for eza: libgit2
+==> Installing eza dependency: libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/manifests/1.8.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/84b074c6d1ee51616dfba962c9b638aeda6093080b5ebf82e6a02017bce44215--libgit2-1.8.1.bottle_manifest.json
+==> Pouring libgit2--1.8.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.8.1: 106 files, 4.7MB
+==> Installing eza
+==> Pouring eza--0.19.4.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/eza/0.19.4: 15 files, 1.3MB
+==> Running `brew cleanup eza`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> eza
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
