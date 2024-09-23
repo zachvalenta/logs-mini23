@@ -1,0 +1,20 @@
+$ brew install dasel
+
+==> Downloading https://formulae.brew.sh/api/formula.jws.json
+############################################################################################################################### 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.jws.json
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/dasel/manifests/2.8.1
+############################################################################################################################### 100.0%
+==> Fetching dasel
+==> Downloading https://ghcr.io/v2/homebrew/core/dasel/blobs/sha256:9654ac991b33c3d38161b7edd9943cd11fecff1b9045247f6449518fadd0e7de
+############################################################################################################################### 100.0%
+==> Pouring dasel--2.8.1.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/dasel/2.8.1: 10 files, 12MB
+==> Running `brew cleanup dasel`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
