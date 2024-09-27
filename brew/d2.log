@@ -1,0 +1,24 @@
+$ brew tap terrastruct/d2
+
+==> Tapping terrastruct/d2
+Cloning into '/opt/homebrew/Library/Taps/terrastruct/homebrew-d2'...
+remote: Enumerating objects: 213, done.
+remote: Counting objects: 100% (86/86), done.
+remote: Compressing objects: 100% (65/65), done.
+remote: Total 213 (delta 44), reused 62 (delta 21), pack-reused 127 (from 1)
+Receiving objects: 100% (213/213), 40.68 KiB | 2.26 MiB/s, done.
+Resolving deltas: 100% (99/99), done.
+Tapped 1 formula (16 files, 55.4KB).
+
+$ brew install d2
+
+==> Downloading https://ghcr.io/v2/homebrew/core/d2/manifests/0.6.6
+############################################################################################################################### 100.0%
+==> Fetching d2
+==> Downloading https://ghcr.io/v2/homebrew/core/d2/blobs/sha256:a485c895fed104e605ca34380ce25b2108db15254de03a806a4fa086b41211da
+############################################################################################################################### 100.0%
+==> Pouring d2--0.6.6.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/d2/0.6.6: 7 files, 34MB
+==> Running `brew cleanup d2`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
