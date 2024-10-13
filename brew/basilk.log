@@ -1,0 +1,34 @@
+$ brew tap GabAlpha/tap
+
+==> Tapping gabalpha/tap
+Cloning into '/opt/homebrew/Library/Taps/gabalpha/homebrew-tap'...
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 24 (delta 4), reused 6 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (24/24), 5.25 KiB | 5.25 MiB/s, done.
+Resolving deltas: 100% (4/4), done.
+Tapped 1 formula (12 files, 10.9KB).
+
+$ brew install basilk
+
+==> Fetching gabalpha/tap/basilk
+==> Downloading https://github.com/GabAlpha/basilk/releases/download/0.2.0/basilk-aarch64-apple-darwin.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/838061986/811fae92-c59a-4733-a82d-e25621193e6e?X-Amz-
+################################################################################################################################################ 100.0%
+==> Installing basilk from gabalpha/tap
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+🍺  /opt/homebrew/Cellar/basilk/0.2.0: 4 files, 1.5MB, built in 2 seconds
+==> Running `brew cleanup basilk`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
