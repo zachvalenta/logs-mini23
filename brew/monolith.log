@@ -1,0 +1,12 @@
+$ brew install monolith
+
+==> Downloading https://ghcr.io/v2/homebrew/core/monolith/manifests/2.8.3
+################################################################################################################################################ 100.0%
+==> Fetching monolith
+==> Downloading https://ghcr.io/v2/homebrew/core/monolith/blobs/sha256:39c6a4d727b1e5a295db251c3cf4dc7f6293648c1edbcee23d4cd44fda350495
+################################################################################################################################################ 100.0%
+==> Pouring monolith--2.8.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/monolith/2.8.3: 8 files, 5MB
+==> Running `brew cleanup monolith`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
