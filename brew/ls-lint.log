@@ -1,0 +1,12 @@
+$ brew install ls-lint
+
+==> Downloading https://ghcr.io/v2/homebrew/core/ls-lint/manifests/2.2.3
+################################################################################################################################################ 100.0%
+==> Fetching ls-lint
+==> Downloading https://ghcr.io/v2/homebrew/core/ls-lint/blobs/sha256:8fac9b7885df446f7fcda2415ea0d4839d9792f7ff18a1905b9184bc30552815
+################################################################################################################################################ 100.0%
+==> Pouring ls-lint--2.2.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ls-lint/2.2.3: 7 files, 2.2MB
+==> Running `brew cleanup ls-lint`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
