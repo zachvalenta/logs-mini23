@@ -1,0 +1,6 @@
+$ pipx install "browsr[all]"
+
+  installed package browsr 1.21.0, installed using Python 3.12.1
+  These apps are now globally available
+    - browsr
+done! ✨ 🌟 ✨
