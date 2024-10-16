@@ -1,0 +1,12 @@
+$ brew install difftastic
+
+==> Downloading https://ghcr.io/v2/homebrew/core/difftastic/manifests/0.60.0
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching difftastic
+==> Downloading https://ghcr.io/v2/homebrew/core/difftastic/blobs/sha256:a403220d743c7f595fc3082862cc0dab71a19384af81ef18d8f52ceb8c6303f8
+##################################################################################################################################################################################################################################### 100.0%
+==> Pouring difftastic--0.60.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/difftastic/0.60.0: 9 files, 82.9MB
+==> Running `brew cleanup difftastic`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
