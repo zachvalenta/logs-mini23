@@ -1,0 +1,5 @@
+$ pipx install dooit
+  installed package dooit 2.2.0, installed using Python 3.12.1
+  These apps are now globally available
+    - dooit
+done! ✨ 🌟 ✨
