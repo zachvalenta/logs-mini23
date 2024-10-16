@@ -1,0 +1,31 @@
+$ brew install lusingander/tap/serie
+
+==> Tapping lusingander/tap
+Cloning into '/opt/homebrew/Library/Taps/lusingander/homebrew-tap'...
+remote: Enumerating objects: 88, done.
+remote: Counting objects: 100% (88/88), done.
+remote: Compressing objects: 100% (61/61), done.
+remote: Total 88 (delta 29), reused 79 (delta 20), pack-reused 0 (from 0)
+Receiving objects: 100% (88/88), 11.12 KiB | 5.56 MiB/s, done.
+Resolving deltas: 100% (29/29), done.
+Tapped 2 formulae (16 files, 20.9KB).
+==> Fetching lusingander/tap/serie
+==> Downloading https://github.com/lusingander/serie/releases/download/v0.4.0/serie-0.4.0-aarch64-apple-darwin.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/834730157/d2ca17f8-c9bc-4d43-9fe1-49721c1cc832?X-Amz-
+################################################################################################################################################ 100.0%
+==> Installing serie from lusingander/tap
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+🍺  /opt/homebrew/Cellar/serie/0.4.0: 4 files, 6.7MB, built in 0 seconds
+==> Running `brew cleanup serie`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
