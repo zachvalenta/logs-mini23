@@ -1,0 +1,44 @@
+$ brew install dlvhdr/formulae/diffnav
+
+==> Tapping dlvhdr/formulae
+Cloning into '/opt/homebrew/Library/Taps/dlvhdr/homebrew-formulae'...
+remote: Enumerating objects: 58, done.
+remote: Counting objects: 100% (58/58), done.
+remote: Compressing objects: 100% (45/45), done.
+remote: Total 58 (delta 12), reused 6 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (58/58), 10.06 KiB | 5.03 MiB/s, done.
+Resolving deltas: 100% (12/12), done.
+Tapped 1 formula (15 files, 20.3KB).
+==> Fetching dependencies for dlvhdr/formulae/diffnav: git
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.46.1
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:70ccbdc52815dfb31ebd0dda1184b223cda10f3ab81ea9292d2867fae36e575b
+################################################################################################################################################ 100.0%
+==> Fetching dlvhdr/formulae/diffnav
+==> Downloading https://github.com/dlvhdr/diffnav/releases/download/v0.2.8/diffnav_Darwin_arm64.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/859366716/14cd3e6a-7255-467f-a4be-a426efccaee8?X-Amz-
+################################################################################################################################################ 100.0%
+==> Installing diffnav from dlvhdr/formulae
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+==> Installing dependencies for dlvhdr/formulae/diffnav: git
+==> Installing dlvhdr/formulae/diffnav dependency: git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.46.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f9827694160eac02305489744f5b8625b8f227428757f81075c03e8261dec167--git-2.46.1.bottle_manifest.json
+==> Pouring git--2.46.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/git/2.46.1: 1,679 files, 54.3MB
+==> Installing dlvhdr/formulae/diffnav
+🍺  /opt/homebrew/Cellar/diffnav/0.2.8: 6 files, 3.4MB, built in 2 seconds
+==> Running `brew cleanup diffnav`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
