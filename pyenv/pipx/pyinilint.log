@@ -1,0 +1,6 @@
+$ pipx install pyinilint
+
+  installed package pyinilint 0.17, installed using Python 3.12.1
+  These apps are now globally available
+    - pyinilint
+done! ✨ 🌟 ✨
