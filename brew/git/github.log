@@ -14,3 +14,22 @@ zsh completions have been installed to:
 ==> Running `brew cleanup gh`...
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+# auth login -> stdout mangled by opening new iTerm tab
+# stuff missing: SSH key title (mini23) protocol (SSH) key (`id_ed25519.pub`)
+? Upload your SSH public key to your GitHub account? /Users/zach/.ssh/id_ed25519.pub
+? Title for your SSH key: mini23
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: 51CC-BA51
+Press Enter to open github.com in your browser...
+✓ Authentication complete.
+- gh config set -h github.com git_protocol ssh
+✓ Configured git protocolt to log into? GitHub.com
+✓ SSH key already existed on your GitHub account: /Users/zach/.ssh/id_ed25519.pub
+✓ Logged in as zachvalentaey to your GitHub account?  [Use arrows to move, type to filter]
+> /Users/zach/.ssh/id_ed25519.pub
+  Skip
+A new release of gh is available: 2.57.0 → 2.59.0
+To upgrade, run: brew upgrade gh
+https://github.com/cli/cli/releases/tag/v2.59.0
