@@ -1,0 +1,16 @@
+$ brew install gh
+
+==> Downloading https://ghcr.io/v2/homebrew/core/gh/manifests/2.57.0
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching gh
+==> Downloading https://ghcr.io/v2/homebrew/core/gh/blobs/sha256:a17392cfb2be6f7a0a4631991120fa4445844bde0695d71b49d58ea563d5f8df
+##################################################################################################################################################################################################################################### 100.0%
+==> Pouring gh--2.57.0.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/gh/2.57.0: 201 files, 41.2MB
+==> Running `brew cleanup gh`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
