@@ -1,0 +1,12 @@
+$ brew install jq
+
+==> Downloading https://ghcr.io/v2/homebrew/core/jq/manifests/1.7.1-1
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching jq
+==> Downloading https://ghcr.io/v2/homebrew/core/jq/blobs/sha256:b1a185e72ca020f08a8de22fabe1ad2425bf48d2e0378c5e07a6678020fa3e15
+##################################################################################################################################################################################################################################### 100.0%
+==> Pouring jq--1.7.1.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/jq/1.7.1: 20 files, 1.4MB
+==> Running `brew cleanup jq`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
