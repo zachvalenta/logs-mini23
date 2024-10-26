@@ -1,0 +1,31 @@
+$ brew install jesseduffield/lazygit/lazygit
+
+==> Tapping jesseduffield/lazygit
+Cloning into '/opt/homebrew/Library/Taps/jesseduffield/homebrew-lazygit'...
+remote: Enumerating objects: 394, done.
+remote: Counting objects: 100% (132/132), done.
+remote: Compressing objects: 100% (132/132), done.
+remote: Total 394 (delta 85), reused 0 (delta 0), pack-reused 262 (from 1)
+Receiving objects: 100% (394/394), 61.51 KiB | 2.93 MiB/s, done.
+Resolving deltas: 100% (255/255), done.
+Tapped 1 formula (15 files, 81KB).
+==> Fetching jesseduffield/lazygit/lazygit
+==> Downloading https://github.com/jesseduffield/lazygit/releases/download/v0.44.1/lazygit_0.44.1_Darwin_arm64.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/134017286/c50a2b66-8b02-4e00-9396-b88ffc18a0a0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241021%2Fus-ea
+##################################################################################################################################################################################################################################### 100.0%
+==> Installing lazygit from jesseduffield/lazygit
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+🍺  /opt/homebrew/Cellar/lazygit/0.44.1: 6 files, 18MB, built in 2 seconds
+==> Running `brew cleanup lazygit`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
