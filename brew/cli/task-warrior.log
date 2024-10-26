@@ -1,0 +1,16 @@
+$ brew install task
+
+==> Downloading https://ghcr.io/v2/homebrew/core/task/manifests/3.1.0
+################################################################################################################################################ 100.0%
+==> Fetching task
+==> Downloading https://ghcr.io/v2/homebrew/core/task/blobs/sha256:0213581f5102105e16537570650842cdc1ac8a8b2bd046b588083c12842f30ee
+################################################################################################################################################ 100.0%
+==> Pouring task--3.1.0.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/task/3.1.0: 89 files, 19.7MB
+==> Running `brew cleanup task`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
