@@ -1,0 +1,32 @@
+$ brew install dotenvx/brew/dotenvx
+
+
+==> Tapping dotenvx/brew
+Cloning into '/opt/homebrew/Library/Taps/dotenvx/homebrew-brew'...
+remote: Enumerating objects: 1028, done.
+remote: Counting objects: 100% (396/396), done.
+remote: Compressing objects: 100% (196/196), done.
+remote: Total 1028 (delta 249), reused 323 (delta 176), pack-reused 632 (from 1)
+Receiving objects: 100% (1028/1028), 142.59 KiB | 3.39 MiB/s, done.
+Resolving deltas: 100% (598/598), done.
+Tapped 4 formulae (22 files, 187.7KB).
+==> Fetching dotenvx/brew/dotenvx
+==> Downloading https://github.com/dotenvx/dotenvx/releases/download/v1.21.0/dotenvx-1.21.0-darwin-arm64.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/720267554/e9e3ec8c-1ad9-4392-b360-12cee8caa84b?X-Amz-
+################################################################################################################################################ 100.0%
+==> Installing dotenvx from dotenvx/brew
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+🍺  /opt/homebrew/Cellar/dotenvx/64: 5 files, 44.8MB, built in 1 second
+==> Running `brew cleanup dotenvx`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
