@@ -1,0 +1,66 @@
+$ brew tap clarkema/nomad
+==> Tapping clarkema/nomad
+Cloning into '/opt/homebrew/Library/Taps/clarkema/homebrew-nomad'...
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 30 (delta 0), reused 1 (delta 0), pack-reused 27 (from 1)
+Receiving objects: 100% (30/30), done.
+Resolving deltas: 100% (9/9), done.
+Tapped 4 formulae (17 files, 11.3KB).
+
+$ brew install x12pp
+==> Fetching dependencies for clarkema/nomad/x12pp: z3, llvm and rust
+==> Fetching z3
+==> Downloading https://ghcr.io/v2/homebrew/core/z3/manifests/4.13.0
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/z3/blobs/sha256:507fedcd8807ff385894fda0116da2b80f85ea538f226e67d052603312db559f
+################################################################################################################################################ 100.0%
+==> Fetching llvm
+==> Downloading https://ghcr.io/v2/homebrew/core/llvm/manifests/18.1.8
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/llvm/blobs/sha256:3f04b1fa80df148acf12f32fb13e1d37005bfc8e7efaf9b7f59141af084d099d
+###############################                                                                                                                   22.1%################################################################################################################################################ 100.0%
+==> Fetching rust
+==> Downloading https://ghcr.io/v2/homebrew/core/rust/manifests/1.81.0
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:567f85fc6853432ce4bcbd3a336067a2544b59c2b9a17272a1afa8aecd8fa873
+################################################################################################################################################ 100.0%
+==> Fetching clarkema/nomad/x12pp
+==> Downloading https://github.com/clarkema/x12pp/archive/v0.3.0.tar.gz
+==> Downloading from https://codeload.github.com/clarkema/x12pp/tar.gz/refs/tags/v0.3.0
+
+==> Installing x12pp from clarkema/nomad
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+==> Installing dependencies for clarkema/nomad/x12pp: z3, llvm and rust
+==> Installing clarkema/nomad/x12pp dependency: z3
+==> Downloading https://ghcr.io/v2/homebrew/core/z3/manifests/4.13.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f76733dc8564492bde6da5ddd68bf485a259b09d276de374047a4600ed52edff--z3-4.13.0.bottle_manifest.json
+==> Pouring z3--4.13.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/z3/4.13.0: 120 files, 31.5MB
+==> Installing clarkema/nomad/x12pp dependency: llvm
+==> Downloading https://ghcr.io/v2/homebrew/core/llvm/manifests/18.1.8
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/9d70a7262267fa7670ab51757d7337dbd8b6551585c152024416a738cd5d4172--llvm-18.1.8.bottle_manifest.json
+==> Pouring llvm--18.1.8.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/llvm/18.1.8: 7,722 files, 1.8GB
+==> Installing clarkema/nomad/x12pp dependency: rust
+==> Downloading https://ghcr.io/v2/homebrew/core/rust/manifests/1.81.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/90056b7dfcf2c0c054545596c07c95ce214b87c5316d3c5b34d4a9d653c13788--rust-1.81.0.bottle_manifest.json
+==> Pouring rust--1.81.0.arm64_ventura.bottle.tar.gz
+k🍺  /opt/homebrew/Cellar/rust/1.81.0: 3,435 files, 312.3MB
+==> Installing clarkema/nomad/x12pp
+==> cargo install --root /opt/homebrew/Cellar/x12pp/0.3.0 --path .
+🍺  /opt/homebrew/Cellar/x12pp/0.3.0: 9 files, 992KB, built in 12 seconds
+==> Running `brew cleanup x12pp`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
