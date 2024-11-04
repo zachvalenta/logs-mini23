@@ -1,0 +1,27 @@
+$ pipx install typeinc
+  installed package typeinc 1.0.0, installed using Python 3.12.1
+  These apps are now globally available
+    - typeinc
+done! ✨ 🌟 ✨
+
+$ typeinc
+Traceback (most recent call last):
+  File "/Users/zach/.local/bin/typeinc", line 7, in <module>
+    from typeinc.main import main
+  File "/Users/zach/Library/Application Support/pipx/venvs/typeinc/lib/python3.12/site-packages/typeinc/main.py", line 5, in <module>
+    from .configurations.text_gen import text_gen
+  File "/Users/zach/Library/Application Support/pipx/venvs/typeinc/lib/python3.12/site-packages/typeinc/configurations/text_gen.py", line 3, in <module>
+    import pkg_resources
+ModuleNotFoundError: No module named 'pkg_resources'
+
+$ pipx inject typeinc setuptools
+  injected package setuptools into venv typeinc
+done! ✨ 🌟 ✨
+
+$ typeinc
+Do you want to save the result? (y/n): y
+Enter your name: zjv
+Your score is saved. To see the top 10 scores, run `typeinc -r <difficulty level>`
+Thank you for playing!
+An error occurred: endwin() returned ERR
+Exiting typeinc...
