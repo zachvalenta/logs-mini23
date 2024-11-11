@@ -1,0 +1,2 @@
+$ git clone git@github.com:birchb1024/frangipanni.git
+$ GO111MODULE=on go build
