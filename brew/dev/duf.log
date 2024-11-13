@@ -1,0 +1,12 @@
+$ brew install duf
+
+==> Downloading https://ghcr.io/v2/homebrew/core/duf/manifests/0.8.1
+################################################################################################################################################ 100.0%
+==> Fetching duf
+==> Downloading https://ghcr.io/v2/homebrew/core/duf/blobs/sha256:0957499928211de66a44dded811cac647a0916746a8d43ea2c6847ab5a34e48d
+################################################################################################################################################ 100.0%
+==> Pouring duf--0.8.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/duf/0.8.1: 6 files, 3MB
+==> Running `brew cleanup duf`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
