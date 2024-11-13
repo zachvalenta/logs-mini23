@@ -1,0 +1,16 @@
+$ brew install dust
+
+==> Downloading https://ghcr.io/v2/homebrew/core/dust/manifests/1.1.1
+################################################################################################################################################ 100.0%
+==> Fetching dust
+==> Downloading https://ghcr.io/v2/homebrew/core/dust/blobs/sha256:1e7f5ad55de4ecaf061118e300993278ec4d86effc7907f1c3371914c9ffc80d
+################################################################################################################################################ 100.0%
+==> Pouring dust--1.1.1.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/dust/1.1.1: 12 files, 2.2MB
+==> Running `brew cleanup dust`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
