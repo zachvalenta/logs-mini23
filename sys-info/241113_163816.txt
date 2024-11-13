@@ -1,0 +1,100 @@
+ PID   User │ TTY  CPU MEM:▼ CPU Time MEM │ Command
+            │      [%]   [%]          [%] │
+ 1556  zach │      0.0   5.1 00:00:19 5.1 │ /Applications/Brave Browser.app/Contents/MacOS/Brave
+ 1673  zach │      0.0   4.9 00:00:21 4.9 │ /Applications/Visual Studio Code.app/Contents/Framew
+ 9070  zach │      0.0   4.3 00:00:03 4.3 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 1923  zach │      0.0   3.8 00:00:46 3.8 │ /Applications/iTerm.app/Contents/MacOS/iTerm2
+ 14712 zach │      0.0   2.9 00:00:00 2.9 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 3829  zach │      0.0   2.4 00:00:01 2.4 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 10605 zach │      0.0   2.4 00:00:00 2.4 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 1667  zach │      0.0   1.7 00:00:07 1.7 │ /Applications/Visual Studio Code.app/Contents/MacOS/
+ 1562  zach │      0.0   1.6 00:00:26 1.6 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 1835  zach │      0.0   1.4 00:00:09 1.4 │ /Applications/Visual Studio Code.app/Contents/Framew
+ 10521 zach │      0.0   1.1 00:00:00 1.1 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 1563  zach │      0.0   1.1 00:00:05 1.1 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 15913 zach │      0.0   1.1 00:00:00 1.1 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 10515 zach │      0.0   1.0 00:00:00 1.0 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 3917  zach │      0.0   1.0 00:00:00 1.0 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 15642 zach │      0.0   1.0 00:00:00 1.0 │ /System/Library/Frameworks/AppKit.framework/Versions
+ 672   zach │      0.0   0.8 00:00:00 0.8 │ /System/Library/CoreServices/Finder.app/Contents/Mac
+ 1670  zach │      0.0   0.7 00:00:07 0.7 │ /Applications/Visual Studio Code.app/Contents/Framew
+ 1906  zach │      0.0   0.7 00:00:01 0.7 │ /Applications/Visual Studio Code.app/Contents/Framew
+ 732   zach │      0.0   0.6 00:00:01 0.6 │ /Applications/SoundSource.app/Contents/MacOS/SoundSo
+ 1833  zach │      0.0   0.6 00:00:00 0.6 │ /Applications/Visual Studio Code.app/Contents/Framew
+ 1572  zach │      0.0   0.6 00:00:00 0.6 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 15163 zach │      0.0   0.6 00:00:00 0.6 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 721   zach │      0.0   0.5 00:00:00 0.5 │ /System/Library/CoreServices/Spotlight.app/Contents/
+ 2423  zach │      0.0   0.5 00:00:00 0.5 │ /System/Library/Services/AppleSpell.service/Contents
+ 2458  zach │      0.0   0.5 00:00:00 0.5 │ /System/Library/Frameworks/AppKit.framework/Versions
+ 811   zach │      0.0   0.4 00:00:00 0.4 │ /System/Applications/News.app/Contents/PlugIns/NewsT
+ 670   zach │      0.0   0.4 00:00:00 0.4 │ /System/Library/CoreServices/ControlCenter.app/Conte
+ 11394 zach │      0.0   0.4 00:00:00 0.4 │ /System/Library/Frameworks/AppKit.framework/Versions
+ 809   zach │      0.0   0.4 00:00:00 0.4 │ /System/Library/CoreServices/Screen Time.app/Content
+ 11389 zach │      0.0   0.4 00:00:00 0.4 │ /System/Applications/Preview.app/Contents/MacOS/Prev
+ 1834  zach │      0.0   0.4 00:00:00 0.4 │ /Applications/Visual Studio Code.app/Contents/Framew
+ 812   zach │      0.0   0.4 00:00:00 0.4 │ /System/Applications/Stocks.app/Contents/PlugIns/Sto
+ 808   zach │      0.0   0.4 00:00:00 0.4 │ /System/Applications/Weather.app/Contents/PlugIns/We
+ 1564  zach │      0.0   0.4 00:00:00 0.4 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 148   zach │      0.0   0.4 00:00:00 0.4 │ /System/Library/CoreServices/loginwindow.app/Content
+ 733   zach │      0.0   0.4 00:00:00 0.4 │ /System/Library/CoreServices/NotificationCenter.app/
+ 14476 zach │      0.0   0.4 00:00:00 0.4 │ /System/Library/PrivateFrameworks/TelephonyUtilities
+ 1852  zach │      0.0   0.3 00:00:00 0.3 │ /Applications/Visual Studio Code.app/Contents/Framew
+ 15641 zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/Frameworks/CoreServices.framework/Fr
+ 727   zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/Frameworks/CoreServices.framework/Fr
+ 7424  zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/Input Methods/SCIM.app/Contents/Plug
+ 15794 zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/Frameworks/CoreServices.framework/Fr
+ 700   zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/CoreServices/Dock.app/Contents/XPCSe
+ 1611  zach │      0.0   0.3 00:00:00 0.3 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 1665  zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/Frameworks/QuickLook.framework/Versi
+ 669   zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/CoreServices/Dock.app/Contents/MacOS
+ 1671  zach │      0.0   0.3 00:00:00 0.3 │ /Applications/Visual Studio Code.app/Contents/Framew
+ 697   zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/PrivateFrameworks/CoreDuetContext.fr
+ 740   zach │      0.0   0.3 00:00:00 0.3 │ /Applications/Flux.app/Contents/MacOS/Flux
+ 2459  zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/Frameworks/QuickLookUI.framework/Ver
+ 701   zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/Frameworks/Accounts.framework/Versio
+ 817   zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/CoreServices/UIKitSystem.app/Content
+ 1612  zach │      0.0   0.3 00:00:00 0.3 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 682   zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/PrivateFrameworks/VoiceShortcuts.fra
+ 15912 zach │      0.0   0.3 00:00:00 0.3 │ /System/Library/Frameworks/CoreServices.framework/Fr
+ 724   zach │      0.0   0.3 00:00:00 0.3 │ /usr/libexec/sharingd
+ 3312  zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/AMPLibrary.framewo
+ 722   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/CloudKitDaemon.fra
+ 780   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/HomeKitDaemon.fram
+ 707   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/IDS.framework/iden
+ 858   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/UIFoundation.frame
+ 668   zach │      0.0   0.2 00:00:01 0.2 │ /System/Library/CoreServices/WindowManager.app/Conte
+ 757   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/HearingCore.framew
+ 771   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/CoreServices/TextInputMenuAgent.app/
+ 15643 zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/Frameworks/QuickLookUI.framework/Ver
+ 767   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/IMCore.framework/i
+ 1623  zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/AppStoreDaemon.fra
+ 723   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/Frameworks/QuickLookThumbnailing.fra
+ 4713  zach │      0.0   0.2 00:00:00 0.2 │ /Applications/Brave Browser.app/Contents/Frameworks/
+ 716   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/CoreSuggestions.fr
+ 385   zach │      0.0   0.2 00:00:00 0.2 │ /usr/libexec/lsd
+ 689   zach │      0.0   0.2 00:00:00 0.2 │ /usr/libexec/routined LAUNCHED_BY_LAUNCHD
+ 680   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/Frameworks/CoreTelephony.framework/S
+ 741   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/CoreServices/WiFiAgent.app/Contents/
+ 665   zach │      0.0   0.2 00:00:00 0.2 │ /usr/libexec/knowledge-agent
+ 9911  zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/Frameworks/QuickLookThumbnailing.fra
+ 677   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/CoreServices/iconservicesagent
+ 788   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/AssistantServices.
+ 752   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/iTunesCloud.framew
+ 14269 zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/Noticeboard.framew
+ 8521  zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/CalendarDaemon.fra
+ 768   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/CoreServices/cloudpaird
+ 2452  zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/CoreServices/OSDUIHelper.app/Content
+ 846   zach │      0.0   0.2 00:00:00 0.2 │ /usr/libexec/tipsd
+ 857   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/SoftwareUpdate.fra
+ 1495  zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/PhotoAnalysis.fram
+ 11395 zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/Frameworks/QuickLookUI.framework/Ver
+ 2410  zach │ s001 0.0   0.2 00:00:00 0.2 │ cmus
+ 742   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/CoreServices/CoreServicesUIAgent.app
+ 8519  zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/PhotoLibraryServic
+ 703   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/FileProvider.frame
+ 685   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/Frameworks/QuickLookUI.framework/Ver
+ 769   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/CoreServices/diagnostics_agent
+ 779   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/CoreServices/TextInputSwitcher.app/C
+ 773   zach │      0.0   0.2 00:00:00 0.2 │ /System/Library/PrivateFrameworks/AppleMediaServices
+ 1553  zach │      0.0   0.2 00:00:00 0.2 │ /usr/libexec/transparencyd
+ 14474 zach │      0.0   0.2 00:00:00 0.2 │ /usr/libexec/fmfd
