@@ -1,0 +1,16 @@
+$ brew install procs
+
+==> Downloading https://ghcr.io/v2/homebrew/core/procs/manifests/0.14.6
+################################################################################################################################################ 100.0%
+==> Fetching procs
+==> Downloading https://ghcr.io/v2/homebrew/core/procs/blobs/sha256:f4e55542abfdf250b389dbf60b7cfaa9363268c3e944aff27f9a82dc5dd28003
+################################################################################################################################################ 100.0%
+==> Pouring procs--0.14.6.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/procs/0.14.6: 12 files, 4.9MB
+==> Running `brew cleanup procs`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
