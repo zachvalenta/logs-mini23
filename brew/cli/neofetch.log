@@ -1,0 +1,26 @@
+$ brew install neofetch
+
+Warning: neofetch has been deprecated because it has an archived upstream repository! It will be disabled on 2025-05-04.
+==> Downloading https://ghcr.io/v2/homebrew/core/neofetch/manifests/7.1.0-4
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for neofetch: screenresolution
+==> Downloading https://ghcr.io/v2/homebrew/core/screenresolution/manifests/1.6
+################################################################################################################################################ 100.0%
+==> Fetching screenresolution
+==> Downloading https://ghcr.io/v2/homebrew/core/screenresolution/blobs/sha256:115831028fe4da37486b48aabc70fc13fde8a297aa2e3d5eee9ea822a2727053
+################################################################################################################################################ 100.0%
+==> Fetching neofetch
+==> Downloading https://ghcr.io/v2/homebrew/core/neofetch/blobs/sha256:1382d315f586920f24251b6cd7a79b1c940634d073b42c72007ed87a796d1efc
+################################################################################################################################################ 100.0%
+==> Installing dependencies for neofetch: screenresolution
+==> Installing neofetch dependency: screenresolution
+==> Downloading https://ghcr.io/v2/homebrew/core/screenresolution/manifests/1.6
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/298712553713fe4c5c2d3cad5fb6d00a14d7d22b549e11b3247c78e46f208b24--screenresolution-1.6.bottle_manifest.json
+==> Pouring screenresolution--1.6.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/screenresolution/1.6: 6 files, 60.4KB
+==> Installing neofetch
+==> Pouring neofetch--7.1.0.all.bottle.4.tar.gz
+🍺  /opt/homebrew/Cellar/neofetch/7.1.0: 7 files, 354.4KB
+==> Running `brew cleanup neofetch`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
