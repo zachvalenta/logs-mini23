@@ -1,0 +1,81 @@
+$ cargo install havn
+    Updating crates.io index
+  Downloaded havn v0.1.16
+  Downloaded 1 crate (207.3 KB) in 0.49s
+  Installing havn v0.1.16
+    Updating crates.io index
+     Locking 62 packages to latest compatible versions
+      Adding hermit-abi v0.3.9 (latest: v0.4.0)
+      Adding wasi v0.11.0+wasi-snapshot-preview1 (latest: v0.13.3+wasi-0.2.2)
+      Adding windows-sys v0.52.0 (latest: v0.59.0)
+  Downloaded anstream v0.6.18
+  Downloaded quote v1.0.37
+  Downloaded colorchoice v1.0.3
+  Downloaded cfg-if v1.0.0
+  Downloaded is_terminal_polyfill v1.70.1
+  Downloaded anstyle-query v1.1.2
+  Downloaded scopeguard v1.2.0
+  Downloaded clap_lex v0.7.3
+  Downloaded lock_api v0.4.12
+  Downloaded autocfg v1.4.0
+  Downloaded anstyle-parse v0.2.6
+  Downloaded utf8parse v0.2.2
+  Downloaded tokio-macros v2.4.0
+  Downloaded parking_lot_core v0.9.10
+  Downloaded unicode-ident v1.0.13
+  Downloaded unicode-width v0.2.0
+  Downloaded mio v1.0.2
+  Downloaded socket2 v0.5.7
+  Downloaded clap v4.5.21
+  Downloaded clap_builder v4.5.21
+  Downloaded unicase v2.8.0
+  Downloaded smallvec v1.13.2
+  Downloaded proc-macro2 v1.0.89
+  Downloaded parking_lot v0.12.3
+  Downloaded syn v2.0.87
+  Downloaded clap_derive v4.5.18
+  Downloaded strsim v0.11.1
+  Downloaded signal-hook-registry v1.4.2
+  Downloaded pin-project-lite v0.2.15
+  Downloaded heck v0.5.0
+  Downloaded anstyle v1.0.10
+  Downloaded tokio v1.41.1
+  Downloaded libc v0.2.164
+  Downloaded 33 crates (3.1 MB) in 0.61s
+   Compiling proc-macro2 v1.0.89
+   Compiling libc v0.2.164
+   Compiling unicode-ident v1.0.13
+   Compiling autocfg v1.4.0
+   Compiling utf8parse v0.2.2
+   Compiling parking_lot_core v0.9.10
+   Compiling cfg-if v1.0.0
+   Compiling anstyle v1.0.10
+   Compiling colorchoice v1.0.3
+   Compiling anstyle-parse v0.2.6
+   Compiling anstyle-query v1.1.2
+   Compiling smallvec v1.13.2
+   Compiling is_terminal_polyfill v1.70.1
+   Compiling scopeguard v1.2.0
+   Compiling anstream v0.6.18
+   Compiling unicode-width v0.2.0
+   Compiling clap_lex v0.7.3
+   Compiling unicase v2.8.0
+   Compiling strsim v0.11.1
+   Compiling lock_api v0.4.12
+   Compiling heck v0.5.0
+   Compiling pin-project-lite v0.2.15
+   Compiling clap_builder v4.5.21
+   Compiling mio v1.0.2
+   Compiling signal-hook-registry v1.4.2
+   Compiling socket2 v0.5.7
+   Compiling parking_lot v0.12.3
+   Compiling quote v1.0.37
+   Compiling syn v2.0.87
+   Compiling tokio-macros v2.4.0
+   Compiling clap_derive v4.5.18
+   Compiling tokio v1.41.1
+   Compiling clap v4.5.21
+   Compiling havn v0.1.16
+    Finished `release` profile [optimized] target(s) in 12.26s
+  Installing /Users/zach/.cargo/bin/havn
+   Installed package `havn v0.1.16` (executable `havn`)
