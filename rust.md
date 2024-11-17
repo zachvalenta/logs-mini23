@@ -110,6 +110,101 @@ DEV
 
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+info: downloading installer
+
+Welcome to Rust!
+
+This will download and install the official compiler for the Rust
+programming language, and its package manager, Cargo.
+
+Rustup metadata and toolchains will be installed into the Rustup
+home directory, located at:
+
+  /Users/zach/.rustup
+
+This can be modified with the RUSTUP_HOME environment variable.
+
+The Cargo home directory is located at:
+
+  /Users/zach/.cargo
+
+This can be modified with the CARGO_HOME environment variable.
+
+The cargo, rustc, rustup and other commands will be added to
+Cargo's bin directory, located at:
+
+  /Users/zach/.cargo/bin
+
+This path will then be added to your PATH environment variable by
+modifying the profile files located at:
+
+  /Users/zach/.profile
+  /Users/zach/.zshenv
+
+You can uninstall at any time with rustup self uninstall and
+these changes will be reverted.
+
+Current installation options:
+
+
+   default host triple: aarch64-apple-darwin
+     default toolchain: stable (default)
+               profile: default
+  modify PATH variable: yes
+
+1) Proceed with standard installation (default - just press enter)
+2) Customize installation
+3) Cancel installation
+>1
+
+info: profile set to 'default'
+info: default host triple is aarch64-apple-darwin
+info: syncing channel updates for 'stable-aarch64-apple-darwin'
+info: latest update on 2024-10-17, rust version 1.82.0 (f6e511eec 2024-10-15)
+info: downloading component 'cargo'
+info: downloading component 'clippy'
+info: downloading component 'rust-docs'
+ 16.3 MiB /  16.3 MiB (100 %)  12.6 MiB/s in  1s ETA:  0s
+info: downloading component 'rust-std'
+ 23.4 MiB /  23.4 MiB (100 %)   8.3 MiB/s in  2s ETA:  0s
+info: downloading component 'rustc'
+ 54.7 MiB /  54.7 MiB (100 %)  10.3 MiB/s in  5s ETA:  0s
+info: downloading component 'rustfmt'
+info: installing component 'cargo'
+info: installing component 'clippy'
+info: installing component 'rust-docs'
+ 16.3 MiB /  16.3 MiB (100 %)   6.7 MiB/s in  1s ETA:  0s
+info: installing component 'rust-std'
+ 23.4 MiB /  23.4 MiB (100 %)  20.7 MiB/s in  1s ETA:  0s
+info: installing component 'rustc'
+ 54.7 MiB /  54.7 MiB (100 %)  22.7 MiB/s in  2s ETA:  0s
+info: installing component 'rustfmt'
+info: default toolchain set to 'stable-aarch64-apple-darwin'
+
+  stable-aarch64-apple-darwin installed - rustc 1.82.0 (f6e511eec 2024-10-15)
+
+
+Rust is installed now. Great!
+
+To get started you may need to restart your current shell.
+This would reload your PATH environment variable to include
+Cargo's bin directory ($HOME/.cargo/bin).
+
+To configure your current shell, you need to source
+the corresponding env file under $HOME/.cargo.
+
+This is usually done by running one of the following (note the leading DOT):
+. "$HOME/.cargo/env"            # For sh/bash/zsh/ash/dash/pdksh
+source "$HOME/.cargo/env.fish"  # For fish
+```
+```sh
+$ . "$HOME/.cargo/env"
+$ rust --version # zsh: command not found: rust
+
+$ cargo --version  # cargo 1.82.0 (8f40fc59f 2024-08-21)
+$ rustc --version  # rustc 1.82.0 (f6e511eec 2024-10-15)
 ```
 
 ## port from Brew to Rust
