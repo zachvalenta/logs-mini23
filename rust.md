@@ -1,4 +1,7 @@
-# install fails due to Homebrew conflict
+# CURRENT
+
+## install fails due to Homebrew conflict
+
 ```sh
 $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
@@ -15,16 +18,50 @@ Continue? (y/N) N
 error: cannot install while Rust is installed
 ```
 
-# no pkg rely on rust
+## rust no rustc yes
 
 ```sh
-$ brew uses --installed python # cairo, cmus, ffmpeg, glib, harfbuzz, libass, llvm, pango, rust, tesseract, yt-dlp
-$ brew uses --installed rust # no output
-```
+$ which rust  # rust not found
 
-# Homebrew has rustc
-
-```sh
 $ which rustc  # /opt/homebrew/bin/rustc
 $ rustc --version  # rustc 1.81.0 (eeb90cda1 2024-09-04) (Homebrew)
 ```
+
+# SOLUTION
+
+## trade-offs
+
+* port Homebrew pkgs to Rust: screw up configs?
+* uninstall Homebrew rustc: existing pkgs unaffected bc already compiled *or* blows up when Homebrew attempts upgrade (could be bad if Homebrew tries to get another Rust compiler)
+
+## plan
+
+* uninstall rustc
+* move single pkg from Homebrew to Rust and see what happens
+- config files
+- `which`
+* if successful, move from less important packages to more
+
+## pkg
+
+CORE
+* atuin
+* bat
+* broot
+* fd
+* eza
+* rg
+
+LITTLE UTILS
+* basilk
+* mdcat
+* dust / procs / havn
+* monolith
+* onefetch
+* pastel
+* tokei
+
+DEV
+* hexyl
+* serie / delta
+* zola
