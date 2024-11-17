@@ -1,0 +1,5 @@
+═════════════════════════════════════
+|__|  /\  \  / |\ | 127.0.0.1:1-65535
+|  | /--\  \/  | \| 
+═════════════════════════════════════
+[?25l⠋ scanning ⠙ scanning ⠹ scanning ⠸ scanning ⠼ scanning ⠴ scanning ⠦ scanning ⠧ scanning ⠇ scanning ⠏ scanning ⠋ scanning ⠙ scanning ⠹ scanning ⠸ scanning ⠼ scanning ⠴ scanning ⠦ scanning ⠧ scanning [?25h0 open, 65535 closed, took 1.325s
