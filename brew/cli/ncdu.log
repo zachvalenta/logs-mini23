@@ -14,3 +14,21 @@ $ brew install ncdu
 ==> Running `brew cleanup ncdu`...
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ brew upgrade ncdu
+
+==> Upgrading 1 outdated package:
+ncdu 2.3 -> 2.5
+==> Downloading https://ghcr.io/v2/homebrew/core/ncdu/manifests/2.5
+################################################################################################################################################ 100.0%
+==> Fetching ncdu
+==> Downloading https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:8478d4058dc184f43368ca19c32aecf5a7be3a4f7175fb41a59f5202f170288f
+################################################################################################################################################ 100.0%
+==> Upgrading ncdu
+  2.3 -> 2.5
+==> Pouring ncdu--2.5.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ncdu/2.5: 7 files, 460.2KB
+==> Running `brew cleanup ncdu`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/ncdu/2.3... (6 files, 574.0KB)
