@@ -1,0 +1,330 @@
+$ cargo install taskwarrior-tui
+
+    Updating crates.io index
+  Downloaded taskwarrior-tui v0.26.3
+  Downloaded 1 crate (79.1 KB) in 0.55s
+  Installing taskwarrior-tui v0.26.3
+    Updating crates.io index
+     Locking 196 packages to latest compatible versions
+      Adding bitflags v1.3.2 (latest: v2.6.0)
+      Adding clipboard-win v4.5.0 (latest: v5.4.0)
+      Adding crossterm v0.27.0 (latest: v0.28.1)
+      Adding darling v0.14.4 (latest: v0.20.10)
+      Adding darling_core v0.14.4 (latest: v0.20.10)
+      Adding darling_macro v0.14.4 (latest: v0.20.10)
+      Adding derive_builder v0.12.0 (latest: v0.20.2)
+      Adding derive_builder_core v0.12.0 (latest: v0.20.2)
+      Adding derive_builder_macro v0.12.0 (latest: v0.20.2)
+      Adding destructure_traitobject v0.2.0 (latest: v0.3.0)
+      Adding encode_unicode v0.3.6 (latest: v1.0.0)
+      Adding endian-type v0.1.2 (latest: v0.2.0)
+      Adding error-code v2.3.1 (latest: v3.3.1)
+      Adding fd-lock v3.0.13 (latest: v4.0.2)
+      Adding heck v0.4.1 (latest: v0.5.0)
+      Adding hermit-abi v0.3.9 (latest: v0.4.0)
+      Adding itertools v0.11.0 (latest: v0.13.0)
+      Adding linux-raw-sys v0.4.14 (latest: v0.6.5)
+      Adding mio v0.8.11 (latest: v1.0.2)
+      Adding nix v0.26.4 (latest: v0.29.0)
+      Adding ordered-float v2.10.1 (latest: v4.5.0)
+      Adding ratatui v0.23.0 (latest: v0.29.0)
+      Adding rustyline v12.0.0 (latest: v15.0.0)
+      Adding rustyline-derive v0.9.0 (latest: v0.11.0)
+      Adding str-buf v1.0.6 (latest: v3.0.3)
+      Adding strsim v0.10.0 (latest: v0.11.1)
+      Adding strum v0.25.0 (latest: v0.26.3)
+      Adding strum_macros v0.25.3 (latest: v0.26.4)
+      Adding syn v1.0.109 (latest: v2.0.89)
+      Adding thiserror v1.0.69 (latest: v2.0.3)
+      Adding thiserror-impl v1.0.69 (latest: v2.0.3)
+      Adding thread-id v4.2.2 (latest: v5.0.0)
+      Adding unicode-truncate v0.2.0 (latest: v2.0.0)
+      Adding unicode-width v0.1.14 (latest: v0.2.0)
+      Adding versions v5.0.1 (latest: v6.3.2)
+      Adding wasi v0.11.0+wasi-snapshot-preview1 (latest: v0.13.3+wasi-0.2.2)
+      Adding windows-core v0.52.0 (latest: v0.58.0)
+      Adding windows-sys v0.48.0 (latest: v0.59.0)
+      Adding windows-sys v0.52.0 (latest: v0.59.0)
+      Adding windows-targets v0.48.5 (latest: v0.52.6)
+      Adding windows_aarch64_gnullvm v0.48.5 (latest: v0.52.6)
+      Adding windows_aarch64_msvc v0.48.5 (latest: v0.52.6)
+      Adding windows_i686_gnu v0.48.5 (latest: v0.52.6)
+      Adding windows_i686_msvc v0.48.5 (latest: v0.52.6)
+      Adding windows_x86_64_gnu v0.48.5 (latest: v0.52.6)
+      Adding windows_x86_64_gnullvm v0.48.5 (latest: v0.52.6)
+      Adding windows_x86_64_msvc v0.48.5 (latest: v0.52.6)
+      Adding zerocopy v0.7.35 (latest: v0.8.10)
+      Adding zerocopy-derive v0.7.35 (latest: v0.8.10)
+  Downloaded adler2 v2.0.0
+  Downloaded backtrace v0.3.74
+  Downloaded futures-task v0.3.31
+  Downloaded tokio-stream v0.1.16
+  Downloaded darling v0.14.4
+  Downloaded core-foundation-sys v0.8.7
+  Downloaded futures v0.3.31
+  Downloaded unsafe-any-ors v1.0.0
+  Downloaded dirs-sys v0.4.1
+  Downloaded humantime v2.1.0
+  Downloaded serde v1.0.215
+  Downloaded thread-id v4.2.2
+  Downloaded path-clean v1.0.1
+  Downloaded option-ext v0.2.0
+  Downloaded ident_case v1.0.1
+  Downloaded destructure_traitobject v0.2.0
+  Downloaded bytes v1.8.0
+  Downloaded console v0.15.8
+  Downloaded typemap-ors v1.0.0
+  Downloaded strum v0.25.0
+  Downloaded signal-hook v0.3.17
+  Downloaded fnv v1.0.7
+  Downloaded equivalent v1.0.1
+  Downloaded derive_builder_macro v0.12.0
+  Downloaded darling_macro v0.14.4
+  Downloaded bitflags v1.3.2
+  Downloaded endian-type v0.1.2
+  Downloaded byteorder v1.5.0
+  Downloaded bitflags v2.6.0
+  Downloaded addr2line v0.24.2
+  Downloaded cassowary v0.3.0
+  Downloaded strsim v0.10.0
+  Downloaded rand_core v0.6.4
+  Downloaded ppv-lite86 v0.2.20
+  Downloaded paste v1.0.15
+  Downloaded itoa v1.0.13
+  Downloaded home v0.5.9
+  Downloaded futures-core v0.3.31
+  Downloaded errno v0.3.9
+  Downloaded futures-macro v0.3.31
+  Downloaded versions v5.0.1
+  Downloaded rustyline-derive v0.9.0
+  Downloaded ordered-float v2.10.1
+  Downloaded heck v0.4.1
+  Downloaded getrandom v0.2.15
+  Downloaded rustversion v1.0.18
+  Downloaded pin-utils v0.1.0
+  Downloaded zerocopy-derive v0.7.35
+  Downloaded unsafe-libyaml v0.2.11
+  Downloaded unicode-ident v1.0.14
+  Downloaded uuid v1.11.0
+  Downloaded nibble_vec v0.1.0
+  Downloaded futures-sink v0.3.31
+  Downloaded futures-io v0.3.31
+  Downloaded futures-executor v0.3.31
+  Downloaded fd-lock v3.0.13
+  Downloaded either v1.13.0
+  Downloaded dirs v5.0.1
+  Downloaded slab v0.4.9
+  Downloaded proc-macro2 v1.0.92
+  Downloaded serde_json v1.0.133
+  Downloaded log4rs v1.3.0
+  Downloaded unicode-segmentation v1.12.0
+  Downloaded indexmap v2.6.0
+  Downloaded zerocopy v0.7.35
+  Downloaded rustyline v12.0.0
+  Downloaded nom v7.1.3
+  Downloaded syn v2.0.89
+  Downloaded unicode-width v0.1.14
+  Downloaded unicode-truncate v0.2.0
+  Downloaded task-hookrs v0.9.0
+  Downloaded ratatui v0.23.0
+  Downloaded regex v1.11.1
+  Downloaded nix v0.26.4
+  Downloaded radix_trie v0.2.1
+  Downloaded rustix v0.38.41
+  Downloaded regex-syntax v0.8.5
+  Downloaded log-mdc v0.1.0
+  Downloaded regex-automata v0.4.9
+  Downloaded object v0.36.5
+  Downloaded better-panic v0.3.0
+  Downloaded gimli v0.31.1
+  Downloaded chrono v0.4.38
+  Downloaded futures-util v0.3.31
+  Downloaded itertools v0.11.0
+  Downloaded aho-corasick v1.1.3
+  Downloaded syn v1.0.109
+  Downloaded hashbrown v0.15.1
+  Downloaded serde_yaml v0.9.34+deprecated
+  Downloaded rand v0.8.5
+  Downloaded minimal-lexical v0.2.1
+  Downloaded memchr v2.7.4
+  Downloaded crossterm v0.27.0
+  Downloaded serde_derive v1.0.215
+  Downloaded ryu v1.0.18
+  Downloaded num-traits v0.2.19
+  Downloaded miniz_oxide v0.8.0
+  Downloaded log v0.4.22
+  Downloaded darling_core v0.14.4
+  Downloaded once_cell v1.20.2
+  Downloaded mio v0.8.11
+  Downloaded derivative v2.2.0
+  Downloaded signal-hook-mio v0.2.4
+  Downloaded shlex v1.3.0
+  Downloaded shellexpand v3.1.0
+  Downloaded serde-value v0.7.0
+  Downloaded rustc-demangle v0.1.24
+  Downloaded rand_chacha v0.3.1
+  Downloaded lazy_static v1.5.0
+  Downloaded indoc v2.0.5
+  Downloaded iana-time-zone v0.1.61
+  Downloaded futures-channel v0.3.31
+  Downloaded derive_builder_core v0.12.0
+  Downloaded derive_builder v0.12.0
+  Downloaded clap_complete v4.5.38
+  Downloaded arc-swap v1.7.1
+  Downloaded anyhow v1.0.93
+  Downloaded thiserror-impl v1.0.69
+  Downloaded thiserror v1.0.69
+  Downloaded strum_macros v0.25.3
+  Downloaded 120 crates (8.7 MB) in 1.02s
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling libc v0.2.164
+   Compiling autocfg v1.4.0
+   Compiling cfg-if v1.0.0
+   Compiling memchr v2.7.4
+   Compiling serde v1.0.215
+   Compiling syn v1.0.109
+   Compiling smallvec v1.13.2
+   Compiling parking_lot_core v0.9.10
+   Compiling strsim v0.10.0
+   Compiling lock_api v0.4.12
+   Compiling num-traits v0.2.19
+   Compiling ident_case v1.0.1
+   Compiling futures-core v0.3.31
+   Compiling scopeguard v1.2.0
+   Compiling utf8parse v0.2.2
+   Compiling fnv v1.0.7
+   Compiling anstyle-parse v0.2.6
+   Compiling is_terminal_polyfill v1.70.1
+   Compiling anstyle-query v1.1.2
+   Compiling colorchoice v1.0.3
+   Compiling heck v0.5.0
+   Compiling anstyle v1.0.10
+   Compiling anstream v0.6.18
+   Compiling slab v0.4.9
+   Compiling byteorder v1.5.0
+   Compiling pin-project-lite v0.2.15
+   Compiling rustversion v1.0.18
+   Compiling signal-hook v0.3.17
+   Compiling strsim v0.11.1
+   Compiling bitflags v2.6.0
+   Compiling clap_lex v0.7.3
+   Compiling clap_builder v4.5.21
+   Compiling getrandom v0.2.15
+   Compiling signal-hook-registry v1.4.2
+   Compiling quote v1.0.37
+   Compiling futures-sink v0.3.31
+   Compiling syn v2.0.89
+   Compiling parking_lot v0.12.3
+   Compiling serde_json v1.0.133
+   Compiling itoa v1.0.13
+   Compiling ryu v1.0.18
+   Compiling rustix v0.38.41
+   Compiling core-foundation-sys v0.8.7
+   Compiling thiserror v1.0.69
+   Compiling iana-time-zone v0.1.61
+   Compiling futures-channel v0.3.31
+   Compiling rand_core v0.6.4
+   Compiling errno v0.3.9
+   Compiling equivalent v1.0.1
+   Compiling hashbrown v0.15.1
+   Compiling futures-io v0.3.31
+   Compiling gimli v0.31.1
+   Compiling option-ext v0.2.0
+   Compiling paste v1.0.15
+   Compiling unicode-width v0.1.14
+   Compiling futures-task v0.3.31
+   Compiling destructure_traitobject v0.2.0
+   Compiling either v1.13.0
+   Compiling adler2 v2.0.0
+   Compiling anyhow v1.0.93
+   Compiling heck v0.4.1
+   Compiling pin-utils v0.1.0
+   Compiling itertools v0.11.0
+   Compiling indexmap v2.6.0
+   Compiling miniz_oxide v0.8.0
+   Compiling unsafe-any-ors v1.0.0
+   Compiling dirs-sys v0.4.1
+   Compiling chrono v0.4.38
+   Compiling ordered-float v2.10.1
+   Compiling mio v1.0.2
+   Compiling socket2 v0.5.7
+   Compiling darling_core v0.14.4
+   Compiling object v0.36.5
+   Compiling aho-corasick v1.1.3
+   Compiling addr2line v0.24.2
+   Compiling nibble_vec v0.1.0
+   Compiling shlex v1.3.0
+   Compiling bitflags v1.3.2
+   Compiling minimal-lexical v0.2.1
+   Compiling unsafe-libyaml v0.2.11
+   Compiling lazy_static v1.5.0
+   Compiling unicode-segmentation v1.12.0
+   Compiling rustc-demangle v0.1.24
+   Compiling endian-type v0.1.2
+   Compiling darling_macro v0.14.4
+   Compiling serde_derive v1.0.215
+   Compiling clap_derive v4.5.18
+   Compiling zerocopy-derive v0.7.35
+   Compiling darling v0.14.4
+   Compiling futures-macro v0.3.31
+   Compiling thiserror-impl v1.0.69
+   Compiling derive_builder_core v0.12.0
+   Compiling zerocopy v0.7.35
+   Compiling tokio-macros v2.4.0
+   Compiling futures-util v0.3.31
+   Compiling strum_macros v0.25.3
+   Compiling derive_builder_macro v0.12.0
+   Compiling clap v4.5.21
+   Compiling regex-syntax v0.8.5
+   Compiling bytes v1.8.0
+   Compiling ppv-lite86 v0.2.20
+   Compiling derive_builder v0.12.0
+   Compiling rand_chacha v0.3.1
+   Compiling clap_complete v4.5.38
+   Compiling rand v0.8.5
+   Compiling tokio v1.41.1
+   Compiling taskwarrior-tui v0.26.3
+   Compiling backtrace v0.3.74
+   Compiling strum v0.25.0
+   Compiling radix_trie v0.2.1
+   Compiling rustyline-derive v0.9.0
+   Compiling regex-automata v0.4.9
+   Compiling derivative v2.2.0
+   Compiling futures-executor v0.3.31
+   Compiling console v0.15.8
+   Compiling nom v7.1.3
+   Compiling nix v0.26.4
+   Compiling log v0.4.22
+   Compiling mio v0.8.11
+   Compiling signal-hook-mio v0.2.4
+   Compiling crossterm v0.27.0
+   Compiling serde_yaml v0.9.34+deprecated
+   Compiling serde-value v0.7.0
+   Compiling uuid v1.11.0
+   Compiling fd-lock v3.0.13
+   Compiling dirs v5.0.1
+   Compiling typemap-ors v1.0.0
+   Compiling thread-id v4.2.2
+   Compiling home v0.5.9
+   Compiling log-mdc v0.1.0
+   Compiling once_cell v1.20.2
+   Compiling indoc v2.0.5
+   Compiling arc-swap v1.7.1
+   Compiling humantime v2.1.0
+   Compiling cassowary v0.3.0
+   Compiling log4rs v1.3.0
+   Compiling rustyline v12.0.0
+   Compiling ratatui v0.23.0
+   Compiling shellexpand v3.1.0
+   Compiling task-hookrs v0.9.0
+   Compiling versions v5.0.1
+   Compiling tokio-stream v0.1.16
+   Compiling regex v1.11.1
+   Compiling better-panic v0.3.0
+   Compiling futures v0.3.31
+   Compiling unicode-truncate v0.2.0
+   Compiling path-clean v1.0.1
+    Building [=======================> ] 193/194: taskwarrior-tui(bin)
+    Installing /Users/zach/.cargo/bin/taskwarrior-tui
+   Installed package `taskwarrior-tui v0.26.3` (executable `taskwarrior-tui`)
