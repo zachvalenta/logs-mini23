@@ -968,3 +968,35 @@ Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/925bc6092c568b
 ==> Running `brew cleanup cmus`...
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ brew upgrade cmus
+
+Warning: cmus 2.11.0 already installed
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/atuin_bottle_manifest--18.3.0... (7.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/atuin--18.3.0... (9.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libuv_bottle_manifest--1.48.0... (7.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libuv--1.48.0... (356KB)
+Removing: /Users/zach/Library/Caches/Homebrew/lpeg_bottle_manifest--1.1.0-1... (9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/lpeg--1.1.0... (74.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/luajit_bottle_manifest--2.1.1716656478... (7.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/luv_bottle_manifest--1.48.0-2... (8.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/luv--1.48.0-2... (230.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/miller_bottle_manifest--6.12.0... (7.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/miller--6.12.0... (7.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/msgpack_bottle_manifest--6.0.2... (7.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/neovim_bottle_manifest--0.10.0... (16.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/tree-sitter_bottle_manifest--0.22.6... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/xsv_bottle_manifest--0.13.0-3... (9.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/xsv--0.13.0... (991.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/cargo_cache... (493 files, 10.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/go_bottle_manifest--1.22.5... (10.0KB)
+Removing: /Users/zach/Library/Logs/Homebrew/basilk... (115B)
+Removing: /Users/zach/Library/Logs/Homebrew/diffnav... (119B)
+Removing: /Users/zach/Library/Logs/Homebrew/dotenvx... (116B)
+Removing: /Users/zach/Library/Logs/Homebrew/lazygit... (125B)
+Removing: /Users/zach/Library/Logs/Homebrew/rust... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/serie... (117B)
+Removing: /Users/zach/Library/Logs/Homebrew/x12pp... (3 files, 20.6KB)
