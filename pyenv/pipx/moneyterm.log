@@ -1,0 +1,9 @@
+$ pipx install moneyterm
+
+  installed package moneyterm 0.0.5, installed using Python 3.12.1
+  These apps are now globally available
+    - moneyterm
+done! ✨ 🌟 ✨
+
+$ pipx uninstall moneyterm
+uninstalled moneyterm! ✨ 🌟 ✨
