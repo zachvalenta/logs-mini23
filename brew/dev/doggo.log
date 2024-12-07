@@ -1,0 +1,16 @@
+$ brew install doggo
+
+==> Downloading https://ghcr.io/v2/homebrew/core/doggo/manifests/1.0.4
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching doggo
+==> Downloading https://ghcr.io/v2/homebrew/core/doggo/blobs/sha256:260a08b5b69cfc07ba076cfac18c62c2588eee46fd24300f0582a8523dbeb099
+##################################################################################################################################################################################################################################### 100.0%
+==> Pouring doggo--1.0.4.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/doggo/1.0.4: 10 files, 9.5MB
+==> Running `brew cleanup doggo`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
