@@ -1,0 +1,6 @@
+$ pipx install kanban-tui
+
+  installed package kanban-tui 0.4.0, installed using Python 3.12.1
+  These apps are now globally available
+    - ktui
+done! ✨ 🌟 ✨
