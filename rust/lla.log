@@ -332,3 +332,119 @@ Caused by:
 warning: build failed, waiting for other jobs to finish...
 error: failed to compile `lla v0.3.0`, intermediate artifacts can be found at `/var/folders/j2/z0b166gn4fzfyrlzmjf63bgh0000gn/T/cargo-installRYXC3Y`.
 To reuse those artifacts with a future compilation, set the environment variable `CARGO_TARGET_DIR` to that path.
+
+$ cargo install lla  # after patch https://github.com/triyanox/lla/issues/47
+    Updating crates.io index
+  Installing lla v0.3.0
+    Updating crates.io index
+     Locking 145 packages to latest compatible versions
+      Adding clap v3.2.25 (available: v4.5.23)
+      Adding dashmap v5.5.3 (available: v6.1.0)
+      Adding prost v0.12.6 (available: v0.13.4)
+      Adding strip-ansi-escapes v0.1.1 (available: v0.2.0)
+      Adding terminal_size v0.3.0 (available: v0.4.1)
+      Adding unicode-width v0.1.14 (available: v0.2.0)
+   Compiling proc-macro2 v1.0.92
+   Compiling libc v0.2.168
+   Compiling unicode-ident v1.0.14
+   Compiling autocfg v1.4.0
+   Compiling rustix v0.38.42
+   Compiling anyhow v1.0.94
+   Compiling either v1.13.0
+   Compiling serde v1.0.216
+   Compiling itertools v0.12.1
+   Compiling memchr v2.7.4
+   Compiling prettyplease v0.2.25
+   Compiling aho-corasick v1.1.3
+   Compiling cfg-if v1.0.0
+   Compiling bytes v1.9.0
+   Compiling hashbrown v0.15.2
+   Compiling bitflags v2.6.0
+   Compiling regex-syntax v0.8.5
+   Compiling errno v0.3.10
+   Compiling equivalent v1.0.1
+   Compiling crossbeam-utils v0.8.20
+   Compiling indexmap v2.7.0
+   Compiling quote v1.0.37
+   Compiling fixedbitset v0.4.2
+   Compiling syn v2.0.90
+   Compiling once_cell v1.20.2
+   Compiling fastrand v2.3.0
+   Compiling petgraph v0.6.5
+   Compiling lock_api v0.4.12
+   Compiling heck v0.5.0
+   Compiling multimap v0.10.0
+   Compiling log v0.4.22
+   Compiling lazy_static v1.5.0
+   Compiling parking_lot_core v0.9.10
+   Compiling tempfile v3.14.0
+   Compiling crossbeam-epoch v0.9.18
+   Compiling num-traits v0.2.19
+   Compiling regex-automata v0.4.9
+   Compiling indexmap v1.9.3
+   Compiling portable-atomic v1.10.0
+   Compiling smallvec v1.13.2
+   Compiling unicode-width v0.1.14
+   Compiling serde_json v1.0.133
+   Compiling thiserror v1.0.69
+   Compiling scopeguard v1.2.0
+   Compiling rayon-core v1.12.1
+   Compiling console v0.15.8
+   Compiling regex v1.11.1
+   Compiling crossbeam-deque v0.8.5
+   Compiling vte_generate_state_changes v0.1.2
+   Compiling winnow v0.6.20
+   Compiling itoa v1.0.14
+   Compiling utf8parse v0.2.2
+   Compiling ryu v1.0.18
+   Compiling arrayvec v0.5.2
+   Compiling core-foundation-sys v0.8.7
+   Compiling option-ext v0.2.0
+   Compiling os_str_bytes v6.6.1
+   Compiling hashbrown v0.12.3
+   Compiling clap_lex v0.2.4
+   Compiling vte v0.10.1
+   Compiling iana-time-zone v0.1.61
+   Compiling dirs-sys v0.4.1
+   Compiling serde_derive v1.0.216
+   Compiling prost-derive v0.12.6
+   Compiling thiserror-impl v1.0.69
+   Compiling atty v0.2.14
+   Compiling shell-words v1.1.0
+   Compiling textwrap v0.16.1
+   Compiling prost v0.12.6
+   Compiling termcolor v1.4.1
+   Compiling prost-types v0.12.6
+   Compiling bitflags v1.3.2
+   Compiling hashbrown v0.14.5
+   Compiling number_prefix v0.4.0
+   Compiling strsim v0.10.0
+   Compiling zeroize v1.8.1
+   Compiling same-file v1.0.6
+   Compiling unicode-width v0.2.0
+   Compiling dashmap v5.5.3
+   Compiling indicatif v0.17.9
+   Compiling prost-build v0.12.6
+   Compiling walkdir v2.5.0
+   Compiling dialoguer v0.11.0
+   Compiling clap v3.2.25
+   Compiling lla_plugin_interface v0.3.0
+error: failed to run custom build command for `lla_plugin_interface v0.3.0`
+
+Caused by:
+  process didn't exit successfully: `/var/folders/j2/z0b166gn4fzfyrlzmjf63bgh0000gn/T/cargo-install2Wkk0c/release/build/lla_plugin_interface-6d423382540ebd6a/build-script-build` (exit status: 101)
+  --- stderr
+  thread 'main' panicked at /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lla_plugin_interface-0.3.0/build.rs:2:67:
+  called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: "Could not find `protoc`. If `protoc` is installed, try setting the `PROTOC` environment variable to the path of the `protoc` binary. To install it on macOS, run `brew install protobuf`. It is also available at https://github.com/protocolbuffers/protobuf/releases  For more information: https://docs.rs/prost-build/#sourcing-protoc" }
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...
+error: failed to compile `lla v0.3.0`, intermediate artifacts can be found at `/var/folders/j2/z0b166gn4fzfyrlzmjf63bgh0000gn/T/cargo-install2Wkk0c`.
+To reuse those artifacts with a future compilation, set the environment variable `CARGO_TARGET_DIR` to that path.
+
+$ rustup update
+info: syncing channel updates for 'stable-aarch64-apple-darwin'
+info: checking for self-update
+
+  stable-aarch64-apple-darwin unchanged - rustc 1.83.0 (90b35a623 2024-11-26)
+
+info: cleaning up downloads & tmp directories
