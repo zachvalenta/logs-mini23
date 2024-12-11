@@ -1,0 +1,334 @@
+$ cargo install lla
+
+    Updating crates.io index
+  Downloaded lla v0.3.0
+  Downloaded 1 crate (43.7 KB) in 0.52s
+  Installing lla v0.3.0
+    Updating crates.io index
+     Locking 146 packages to latest compatible versions
+      Adding arrayvec v0.5.2 (latest: v0.7.6)
+      Adding bitflags v1.3.2 (latest: v2.6.0)
+      Adding clap v3.2.25 (latest: v4.5.23)
+      Adding clap_lex v0.2.4 (latest: v0.7.4)
+      Adding dashmap v5.5.3 (latest: v6.1.0)
+      Adding encode_unicode v0.3.6 (latest: v1.0.0)
+      Adding fixedbitset v0.4.2 (latest: v0.5.7)
+      Adding hashbrown v0.12.3 (latest: v0.15.2)
+      Adding hashbrown v0.14.5 (latest: v0.15.2)
+      Adding hermit-abi v0.1.19 (latest: v0.4.0)
+      Adding indexmap v1.9.3 (latest: v2.7.0)
+      Adding itertools v0.12.1 (latest: v0.13.0)
+      Adding linux-raw-sys v0.4.14 (latest: v0.6.5)
+      Adding os_str_bytes v6.6.1 (latest: v7.0.0)
+      Adding prost v0.12.6 (latest: v0.13.4)
+      Adding prost-build v0.12.6 (latest: v0.13.4)
+      Adding prost-derive v0.12.6 (latest: v0.13.4)
+      Adding prost-types v0.12.6 (latest: v0.13.4)
+      Adding strip-ansi-escapes v0.1.1 (latest: v0.2.0)
+      Adding strsim v0.10.0 (latest: v0.11.1)
+      Adding terminal_size v0.3.0 (latest: v0.4.1)
+      Adding thiserror v1.0.69 (latest: v2.0.6)
+      Adding thiserror-impl v1.0.69 (latest: v2.0.6)
+      Adding unicode-width v0.1.14 (latest: v0.2.0)
+      Adding vte v0.10.1 (latest: v0.13.0)
+      Adding wasi v0.11.0+wasi-snapshot-preview1 (latest: v0.13.3+wasi-0.2.2)
+      Adding windows-core v0.52.0 (latest: v0.58.0)
+      Adding windows-sys v0.48.0 (latest: v0.59.0)
+      Adding windows-sys v0.52.0 (latest: v0.59.0)
+      Adding windows-targets v0.48.5 (latest: v0.52.6)
+      Adding windows_aarch64_gnullvm v0.48.5 (latest: v0.52.6)
+      Adding windows_aarch64_msvc v0.48.5 (latest: v0.52.6)
+      Adding windows_i686_gnu v0.48.5 (latest: v0.52.6)
+      Adding windows_i686_msvc v0.48.5 (latest: v0.52.6)
+      Adding windows_x86_64_gnu v0.48.5 (latest: v0.52.6)
+      Adding windows_x86_64_gnullvm v0.48.5 (latest: v0.52.6)
+      Adding windows_x86_64_msvc v0.48.5 (latest: v0.52.6)
+  Downloaded arrayvec v0.5.2
+  Downloaded atty v0.2.14
+  Downloaded number_prefix v0.4.0
+  Downloaded lla_plugin_interface v0.3.0
+  Downloaded vte_generate_state_changes v0.1.2
+  Downloaded colored v2.1.0
+  Downloaded clap_lex v0.2.4
+  Downloaded itoa v1.0.14
+  Downloaded zeroize v1.8.1
+  Downloaded glob v0.3.1
+  Downloaded users v0.11.0
+  Downloaded strip-ansi-escapes v0.1.1
+  Downloaded terminal_size v0.3.0
+  Downloaded dialoguer v0.11.0
+  Downloaded vte v0.10.1
+  Downloaded anyhow v1.0.94
+  Downloaded textwrap v0.16.1
+  Downloaded serde_derive v1.0.216
+  Downloaded prost-build v0.12.6
+  Downloaded serde v1.0.216
+  Downloaded indexmap v1.9.3
+  Downloaded clap v3.2.25
+  Downloaded hashbrown v0.12.3
+  Downloaded itertools v0.12.1
+  Downloaded hashbrown v0.15.2
+  Downloaded portable-atomic v1.10.0
+  Downloaded indexmap v2.7.0
+  Downloaded prost-types v0.12.6
+  Downloaded chrono v0.4.39
+  Downloaded syn v2.0.90
+  Downloaded prettyplease v0.2.25
+  Downloaded rustix v0.38.42
+  Downloaded indicatif v0.17.9
+  Downloaded bytes v1.9.0
+  Downloaded os_str_bytes v6.6.1
+  Downloaded libloading v0.8.6
+  Downloaded prost-derive v0.12.6
+  Downloaded fixedbitset v0.4.2
+  Downloaded termcolor v1.4.1
+  Downloaded petgraph v0.6.5
+  Downloaded libc v0.2.168
+  Downloaded shell-words v1.1.0
+  Downloaded prost v0.12.6
+  Downloaded multimap v0.10.0
+  Downloaded errno v0.3.10
+  Downloaded dashmap v5.5.3
+  Downloaded fastrand v2.3.0
+  Downloaded 47 crates (4.2 MB) in 0.52s
+   Compiling libc v0.2.168
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling autocfg v1.4.0
+   Compiling rustix v0.38.42
+   Compiling anyhow v1.0.94
+   Compiling either v1.13.0
+   Compiling serde v1.0.216
+   Compiling itertools v0.12.1
+   Compiling memchr v2.7.4
+   Compiling bytes v1.9.0
+   Compiling aho-corasick v1.1.3
+   Compiling hashbrown v0.15.2
+   Compiling prettyplease v0.2.25
+   Compiling regex-syntax v0.8.5
+   Compiling equivalent v1.0.1
+   Compiling cfg-if v1.0.0
+   Compiling bitflags v2.6.0
+   Compiling crossbeam-utils v0.8.20
+   Compiling quote v1.0.37
+   Compiling indexmap v2.7.0
+   Compiling syn v2.0.90
+   Compiling fastrand v2.3.0
+   Compiling once_cell v1.20.2
+   Compiling fixedbitset v0.4.2
+   Compiling petgraph v0.6.5
+   Compiling lock_api v0.4.12
+   Compiling errno v0.3.10
+   Compiling log v0.4.22
+   Compiling parking_lot_core v0.9.10
+   Compiling heck v0.5.0
+   Compiling multimap v0.10.0
+   Compiling regex-automata v0.4.9
+   Compiling lazy_static v1.5.0
+   Compiling crossbeam-epoch v0.9.18
+   Compiling indexmap v1.9.3
+   Compiling tempfile v3.14.0
+   Compiling num-traits v0.2.19
+   Compiling serde_json v1.0.133
+   Compiling rayon-core v1.12.1
+   Compiling thiserror v1.0.69
+   Compiling smallvec v1.13.2
+   Compiling unicode-width v0.1.14
+   Compiling portable-atomic v1.10.0
+   Compiling scopeguard v1.2.0
+   Compiling console v0.15.8
+   Compiling regex v1.11.1
+   Compiling crossbeam-deque v0.8.5
+   Compiling vte_generate_state_changes v0.1.2
+   Compiling arrayvec v0.5.2
+   Compiling itoa v1.0.14
+   Compiling utf8parse v0.2.2
+   Compiling option-ext v0.2.0
+   Compiling core-foundation-sys v0.8.7
+   Compiling hashbrown v0.12.3
+   Compiling ryu v1.0.18
+   Compiling winnow v0.6.20
+   Compiling os_str_bytes v6.6.1
+   Compiling clap_lex v0.2.4
+   Compiling iana-time-zone v0.1.61
+   Compiling vte v0.10.1
+   Compiling dirs-sys v0.4.1
+   Compiling serde_derive v1.0.216
+   Compiling prost-derive v0.12.6
+   Compiling thiserror-impl v1.0.69
+   Compiling atty v0.2.14
+   Compiling prost v0.12.6
+   Compiling prost-types v0.12.6
+   Compiling bitflags v1.3.2
+   Compiling number_prefix v0.4.0
+   Compiling shell-words v1.1.0
+   Compiling textwrap v0.16.1
+   Compiling hashbrown v0.14.5
+   Compiling termcolor v1.4.1
+   Compiling unicode-width v0.2.0
+   Compiling strsim v0.10.0
+   Compiling prost-build v0.12.6
+   Compiling zeroize v1.8.1
+   Compiling same-file v1.0.6
+   Compiling walkdir v2.5.0
+   Compiling dialoguer v0.11.0
+   Compiling users v0.11.0
+   Compiling indicatif v0.17.9
+   Compiling lla_plugin_interface v0.3.0
+   Compiling clap v3.2.25
+   Compiling dashmap v5.5.3
+error: failed to run custom build command for `lla_plugin_interface v0.3.0`
+
+Caused by:
+  process didn't exit successfully: `/var/folders/j2/z0b166gn4fzfyrlzmjf63bgh0000gn/T/cargo-installtidgpG/release/build/lla_plugin_interface-900037d4c424c11d/build-script-build` (exit status: 101)
+  --- stderr
+  thread 'main' panicked at /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lla_plugin_interface-0.3.0/build.rs:2:67:
+  called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: "Could not find `protoc`. If `protoc` is installed, try setting the `PROTOC` environment variable to the path of the `protoc` binary. To install it on macOS, run `brew install protobuf`. It is also available at https://github.com/protocolbuffers/protobuf/releases  For more information: https://docs.rs/prost-build/#sourcing-protoc" }
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...
+error: failed to compile `lla v0.3.0`, intermediate artifacts can be found at `/var/folders/j2/z0b166gn4fzfyrlzmjf63bgh0000gn/T/cargo-installtidgpG`.
+To reuse those artifacts with a future compilation, set the environment variable `CARGO_TARGET_DIR` to that path.
+
+$ rustup update
+
+info: syncing channel updates for 'stable-aarch64-apple-darwin'
+info: latest update on 2024-11-28, rust version 1.83.0 (90b35a623 2024-11-26)
+info: downloading component 'cargo'
+info: downloading component 'clippy'
+info: downloading component 'rust-docs'
+info: downloading component 'rust-std'
+ 25.7 MiB /  25.7 MiB (100 %)  16.0 MiB/s in  1s ETA:  0s
+info: downloading component 'rustc'
+ 53.1 MiB /  53.1 MiB (100 %)   9.8 MiB/s in  5s ETA:  0s
+info: downloading component 'rustfmt'
+info: removing previous version of component 'cargo'
+info: removing previous version of component 'clippy'
+info: removing previous version of component 'rust-docs'
+info: removing previous version of component 'rust-std'
+info: removing previous version of component 'rustc'
+info: removing previous version of component 'rustfmt'
+info: installing component 'cargo'
+info: installing component 'clippy'
+info: installing component 'rust-docs'
+ 16.5 MiB /  16.5 MiB (100 %)   7.3 MiB/s in  1s ETA:  0s
+info: installing component 'rust-std'
+ 25.7 MiB /  25.7 MiB (100 %)  20.5 MiB/s in  1s ETA:  0s
+info: installing component 'rustc'
+ 53.1 MiB /  53.1 MiB (100 %)  22.3 MiB/s in  2s ETA:  0s
+info: installing component 'rustfmt'
+info: checking for self-update
+
+  stable-aarch64-apple-darwin updated - rustc 1.83.0 (90b35a623 2024-11-26) (from rustc 1.82.0 (f6e511eec 2024-10-15))
+
+info: cleaning up downloads & tmp directories
+
+$ cargo install lla
+    Updating crates.io index
+  Installing lla v0.3.0
+    Updating crates.io index
+     Locking 145 packages to latest compatible versions
+      Adding clap v3.2.25 (available: v4.5.23)
+      Adding dashmap v5.5.3 (available: v6.1.0)
+      Adding prost v0.12.6 (available: v0.13.4)
+      Adding strip-ansi-escapes v0.1.1 (available: v0.2.0)
+      Adding terminal_size v0.3.0 (available: v0.4.1)
+      Adding unicode-width v0.1.14 (available: v0.2.0)
+   Compiling proc-macro2 v1.0.92
+   Compiling libc v0.2.168
+   Compiling unicode-ident v1.0.14
+   Compiling autocfg v1.4.0
+   Compiling rustix v0.38.42
+   Compiling anyhow v1.0.94
+   Compiling either v1.13.0
+   Compiling serde v1.0.216
+   Compiling memchr v2.7.4
+   Compiling itertools v0.12.1
+   Compiling prettyplease v0.2.25
+   Compiling aho-corasick v1.1.3
+   Compiling cfg-if v1.0.0
+   Compiling regex-syntax v0.8.5
+   Compiling equivalent v1.0.1
+   Compiling bitflags v2.6.0
+   Compiling crossbeam-utils v0.8.20
+   Compiling bytes v1.9.0
+   Compiling hashbrown v0.15.2
+   Compiling quote v1.0.37
+   Compiling errno v0.3.10
+   Compiling indexmap v2.7.0
+   Compiling syn v2.0.90
+   Compiling fixedbitset v0.4.2
+   Compiling once_cell v1.20.2
+   Compiling fastrand v2.3.0
+   Compiling lock_api v0.4.12
+   Compiling multimap v0.10.0
+   Compiling lazy_static v1.5.0
+   Compiling parking_lot_core v0.9.10
+   Compiling petgraph v0.6.5
+   Compiling heck v0.5.0
+   Compiling log v0.4.22
+   Compiling regex-automata v0.4.9
+   Compiling tempfile v3.14.0
+   Compiling crossbeam-epoch v0.9.18
+   Compiling num-traits v0.2.19
+   Compiling indexmap v1.9.3
+   Compiling portable-atomic v1.10.0
+   Compiling unicode-width v0.1.14
+   Compiling smallvec v1.13.2
+   Compiling serde_json v1.0.133
+   Compiling scopeguard v1.2.0
+   Compiling thiserror v1.0.69
+   Compiling rayon-core v1.12.1
+   Compiling console v0.15.8
+   Compiling regex v1.11.1
+   Compiling crossbeam-deque v0.8.5
+   Compiling vte_generate_state_changes v0.1.2
+   Compiling utf8parse v0.2.2
+   Compiling itoa v1.0.14
+   Compiling os_str_bytes v6.6.1
+   Compiling hashbrown v0.12.3
+   Compiling arrayvec v0.5.2
+   Compiling ryu v1.0.18
+   Compiling core-foundation-sys v0.8.7
+   Compiling winnow v0.6.20
+   Compiling option-ext v0.2.0
+   Compiling iana-time-zone v0.1.61
+   Compiling dirs-sys v0.4.1
+   Compiling vte v0.10.1
+   Compiling clap_lex v0.2.4
+   Compiling atty v0.2.14
+   Compiling textwrap v0.16.1
+   Compiling serde_derive v1.0.216
+   Compiling prost-derive v0.12.6
+   Compiling thiserror-impl v1.0.69
+   Compiling strsim v0.10.0
+   Compiling termcolor v1.4.1
+   Compiling prost v0.12.6
+   Compiling unicode-width v0.2.0
+   Compiling number_prefix v0.4.0
+   Compiling bitflags v1.3.2
+   Compiling zeroize v1.8.1
+   Compiling shell-words v1.1.0
+   Compiling prost-types v0.12.6
+   Compiling hashbrown v0.14.5
+   Compiling same-file v1.0.6
+   Compiling rayon v1.10.0
+   Compiling walkdir v2.5.0
+   Compiling dashmap v5.5.3
+   Compiling prost-build v0.12.6
+   Compiling dialoguer v0.11.0
+   Compiling users v0.11.0
+   Compiling lla_plugin_interface v0.3.0
+   Compiling clap v3.2.25
+   Compiling indicatif v0.17.9
+   Compiling chrono v0.4.39
+error: failed to run custom build command for `lla_plugin_interface v0.3.0`
+
+Caused by:
+  process didn't exit successfully: `/var/folders/j2/z0b166gn4fzfyrlzmjf63bgh0000gn/T/cargo-installRYXC3Y/release/build/lla_plugin_interface-6d423382540ebd6a/build-script-build` (exit status: 101)
+  --- stderr
+  thread 'main' panicked at /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/lla_plugin_interface-0.3.0/build.rs:2:67:
+  called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: "Could not find `protoc`. If `protoc` is installed, try setting the `PROTOC` environment variable to the path of the `protoc` binary. To install it on macOS, run `brew install protobuf`. It is also available at https://github.com/protocolbuffers/protobuf/releases  For more information: https://docs.rs/prost-build/#sourcing-protoc" }
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...
+error: failed to compile `lla v0.3.0`, intermediate artifacts can be found at `/var/folders/j2/z0b166gn4fzfyrlzmjf63bgh0000gn/T/cargo-installRYXC3Y`.
+To reuse those artifacts with a future compilation, set the environment variable `CARGO_TARGET_DIR` to that path.
