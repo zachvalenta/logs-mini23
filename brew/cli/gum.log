@@ -1,0 +1,16 @@
+$ brew install gum
+
+==> Downloading https://ghcr.io/v2/homebrew/core/gum/manifests/0.14.5
+################################################################################### 100.0%
+==> Fetching gum
+==> Downloading https://ghcr.io/v2/homebrew/core/gum/blobs/sha256:be74ddecc6b9d859db9af3e5
+################################################################################### 100.0%
+==> Pouring gum--0.14.5.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/gum/0.14.5: 10 files, 20.4MB
+==> Running `brew cleanup gum`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
