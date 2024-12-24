@@ -1,0 +1,6 @@
+$ pipx install llm
+
+  installed package llm 0.19.1, installed using Python 3.12.1
+  These apps are now globally available
+    - llm
+done! ✨ 🌟 ✨
