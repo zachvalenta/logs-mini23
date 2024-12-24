@@ -440,3 +440,31 @@ No analytics data has been sent yet (nor will any be during this install run).
 
 zach@zachs-mac-mini ~ % (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/zach/.zprofile
 zach@zachs-mac-mini ~ % eval "$(/opt/homebrew/bin/brew shellenv)"
+
+$ brew upgrade cmus
+
+Warning: cmus 2.11.0 already installed
+
+$ brew update
+
+==> Updating Homebrew...
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:303bed4c7fc431a685db3c3c151d873740114adbdccd23762ea2d1e39ea78f47
+################################################################################################################################################ 100.0%
+==> Pouring portable-ruby-3.3.6.arm64_big_sur.bottle.tar.gz
+Updated 6 taps (dotenvx/brew, eddieantonio/eddieantonio, pls-rs/pls, jandedobbeleer/oh-my-posh, lusingander/tap and terrastruct/d2).
+==> New Formulae
+eddieantonio/eddieantonio/reveal
+==> Outdated Formulae
+aom              doggo            git-delta        libgit2          libvpx           msgpack          pastel           sdl2             unbound
+broot            eza              glib             libnghttp2       libxau           ncdu             php              sqlite           unibilium
+ca-certificates  fd               harfbuzz         libpq            libxrender       neovim           pixman           srt              webp
+certifi          ffmpeg           icu4c@76         librist          libzip           oh-my-posh       pkgconf          svt-av1          x265
+cmus             freetds          jpeg             libssh2          luajit           openexr          procs            task             xz
+curl             fribidi          jpeg-turbo       libtiff          mbedtls          openjpeg         pyenv            tesseract        yq
+d2               gettext          jpeg-xl          libtool          mdcat            openldap         python@3.12      tig              yt-dlp
+dav1d            gh               leptonica        libunistring     miller           openssl@3        ripgrep          tmux             zellij
+difftastic       git              libarchive       libuv            mpg123           pango            rubberband       tree-sitter
+
+You have 80 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
