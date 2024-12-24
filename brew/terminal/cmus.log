@@ -1000,3 +1000,728 @@ Removing: /Users/zach/Library/Logs/Homebrew/lazygit... (125B)
 Removing: /Users/zach/Library/Logs/Homebrew/rust... (64B)
 Removing: /Users/zach/Library/Logs/Homebrew/serie... (117B)
 Removing: /Users/zach/Library/Logs/Homebrew/x12pp... (3 files, 20.6KB)
+
+$ brew upgrade cmus
+
+==> Upgrading 1 outdated package:
+cmus 2.11.0 -> 2.12.0
+==> Downloading https://ghcr.io/v2/homebrew/core/cmus/manifests/2.12.0
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for cmus: jpeg-turbo, xz, libtiff, libdeflate, openexr, jpeg-xl, dav1d, ca-certificates, libunistring, openssl@3, libnghttp2, unbound, python-packaging, sqlite, python@3.13, glib, icu4c@76, harfbuzz, fribidi, mbedtls, sdl2, leptonica, libarchive, tesseract and ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.1.0
+################################################################################################################################################ 100.0%
+==> Fetching jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:a9b6c86773453e3973ce817c15357acd3d16c6d839dd2b4b27b8ecd46efd5ac9
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.3
+################################################################################################################################################ 100.0%
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:1e04553da7c89433bb37ad67e9d75ff87e367d422ef5675a39f9b4e26644751e
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libtiff/manifests/4.7.0-1
+################################################################################################################################################ 100.0%
+==> Fetching libtiff
+==> Downloading https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:b8952fb7bfabe979c42b9742cd959e5ba33bab2f8e44c536b9f5f6346190c33a
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libdeflate/manifests/1.23
+################################################################################################################################################ 100.0%
+==> Fetching libdeflate
+==> Downloading https://ghcr.io/v2/homebrew/core/libdeflate/blobs/sha256:163a29ded43e4a43301b2293f791046149afed398d3d25db99606c1a72747db5
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.3.2
+################################################################################################################################################ 100.0%
+==> Fetching openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/blobs/sha256:af8d8617924061ea03870e15c819d6517d7af6560eb4636b99bdd30c34eb96e2
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/manifests/0.11.1
+################################################################################################################################################ 100.0%
+==> Fetching jpeg-xl
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/blobs/sha256:9aa6aeaf24e83b836f4c78739b2f92f6ffdb312c4a4713e6195763267f29c6dd
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/dav1d/manifests/1.5.0
+################################################################################################################################################ 100.0%
+==> Fetching dav1d
+==> Downloading https://ghcr.io/v2/homebrew/core/dav1d/blobs/sha256:9c8563cc40b59627ebe386f80a6bc571eb207e4695cc87614c2f149c0a0ceb77
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-11-26
+################################################################################################################################################ 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:7a3b5f75ca44d330e0f37432af09f58e37bfa873f25d340dece3c3e6c7927657
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.3
+################################################################################################################################################ 100.0%
+==> Fetching libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:b0d7a7078508070bd67589f5060a92100bd1c4aea2a41bf19e7ee8442f483df6
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.4.0
+################################################################################################################################################ 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:4b27265cc378fad113f0ab2f8609098c3ac84f79a76ad68a03d6af96f4eb2380
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.64.0
+################################################################################################################################################ 100.0%
+==> Fetching libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:2a9ac2b92f79808902b895ec2cabd0cdb9551f99256b700e45ae6f0041a3db0f
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/manifests/1.22.0
+################################################################################################################################################ 100.0%
+==> Fetching unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/blobs/sha256:17686e80c85d436a27f924041f61c45c0dac68ad36da04f950f2dea26a35e66e
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python-packaging/manifests/24.2
+################################################################################################################################################ 100.0%
+==> Fetching python-packaging
+==> Downloading https://ghcr.io/v2/homebrew/core/python-packaging/blobs/sha256:81d0db4704a8a4d53322164f860947baa0bae504373934327985c984b24de212
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.47.2
+################################################################################################################################################ 100.0%
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:3ab78c5df09c610070f4a64a8fc55e4ef5037de719e9361b8e30dd00590bd510
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.1
+################################################################################################################################################ 100.0%
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:f12f9cc766b319e552b4c56d8d43aaafd622b8b06005aa44797841995e3aa7c1
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.82.4
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for glib: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.23
+################################################################################################################################################ 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:dbdefb1ee1b6de90e4cca9d5a370239d19e9f1cbb9f07892dd046de134d3cebc
+################################################################################################################################################ 100.0%
+==> Fetching glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:d033605c0619ca209230a1e436e61a466075932689184056e99087f92625a8c9
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/76/manifests/76.1_1
+################################################################################################################################################ 100.0%
+==> Fetching icu4c@76
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/76/blobs/sha256:2f7b9091aa04a8310a473037175e2242f3ef87526fb6914b9078c4002d6098e3
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/manifests/10.1.0
+################################################################################################################################################ 100.0%
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:fcd6245c5056a3e173c76124f05dfa919f08677b3058b9ade36cd63b538ee840
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/fribidi/manifests/1.0.16
+################################################################################################################################################ 100.0%
+==> Fetching fribidi
+==> Downloading https://ghcr.io/v2/homebrew/core/fribidi/blobs/sha256:334c412359217397f5e5c5ad082540ac3d5d494ef543d81c01f4e482b36b699b
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mbedtls/manifests/3.6.2
+################################################################################################################################################ 100.0%
+==> Fetching mbedtls
+==> Downloading https://ghcr.io/v2/homebrew/core/mbedtls/blobs/sha256:7b09a07c271d4ea1f91d084e95118793d1ea9cc54d49124b975786ebe43ad820
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/manifests/2.30.10
+################################################################################################################################################ 100.0%
+==> Fetching sdl2
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/blobs/sha256:5ec54e17cdea933dbb9daf9cc2101664dfd783ff70bcdaaca675dfdeee3d7ccc
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/leptonica/manifests/1.85.0
+################################################################################################################################################ 100.0%
+==> Fetching leptonica
+==> Downloading https://ghcr.io/v2/homebrew/core/leptonica/blobs/sha256:c63d4257101ed2af4aca050ce013a6825ca189ec0f4cea03bdd650ecea77cc71
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libarchive/manifests/3.7.7
+################################################################################################################################################ 100.0%
+==> Fetching libarchive
+==> Downloading https://ghcr.io/v2/homebrew/core/libarchive/blobs/sha256:f958d5c4d48d485952127f8bd60c58340584ddca04224c494030d80ab1d52b88
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tesseract/manifests/5.5.0
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for tesseract: pixman
+==> Downloading https://ghcr.io/v2/homebrew/core/pixman/manifests/0.44.2
+################################################################################################################################################ 100.0%
+==> Fetching pixman
+==> Downloading https://ghcr.io/v2/homebrew/core/pixman/blobs/sha256:9ba0bb20e92ef367e72978e2d73f4fe15567d5ce5624ddc095f1fc7774dcfce4
+################################################################################################################################################ 100.0%
+==> Fetching tesseract
+==> Downloading https://ghcr.io/v2/homebrew/core/tesseract/blobs/sha256:3226ebc3987937dbad65be4aa2ed1a7abcb12c780d2044f453b52c3f80263096
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/manifests/7.1_3
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for ffmpeg: libvpx, mpg123, rubberband and x265
+==> Downloading https://ghcr.io/v2/homebrew/core/libvpx/manifests/1.15.0
+################################################################################################################################################ 100.0%
+==> Fetching libvpx
+==> Downloading https://ghcr.io/v2/homebrew/core/libvpx/blobs/sha256:68b0b266de2faa807df3dcd3c85e0028c8c12c93d22874c0c2676575101a3362
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/manifests/1.32.10
+################################################################################################################################################ 100.0%
+==> Fetching mpg123
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/blobs/sha256:bc9e0b6ff94df269e8741e8f1ba0234adec63445498f008c93eca30860373188
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/rubberband/manifests/4.0.0
+################################################################################################################################################ 100.0%
+==> Fetching rubberband
+==> Downloading https://ghcr.io/v2/homebrew/core/rubberband/blobs/sha256:066c9310bb2eb10817aa44bc17eb1a3ce20f47b4c66e4381b097c8625caef7ff
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/x265/manifests/4.0_1
+################################################################################################################################################ 100.0%
+==> Fetching x265
+==> Downloading https://ghcr.io/v2/homebrew/core/x265/blobs/sha256:02dfe1f1d44105fbf40e26abc95b2528850e5d0c435fb3b89e13a1ca6c15b4b6
+################################################################################################################################################ 100.0%
+==> Fetching ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/blobs/sha256:5006a6b45280faaa8107faa266fe70381507d1ab17b5b9ddb723d7fe4f265df5
+################################################################################################################################################ 100.0%
+==> Fetching cmus
+==> Downloading https://ghcr.io/v2/homebrew/core/cmus/blobs/sha256:fe14820def68e642197f8b7c6c0615edc9887b536083a69bd311aefe8c4c6c9b
+################################################################################################################################################ 100.0%
+==> Upgrading cmus
+  2.11.0 -> 2.12.0
+==> Installing dependencies for cmus: jpeg-turbo, xz, libtiff, libdeflate, openexr, jpeg-xl, dav1d, ca-certificates, libunistring, openssl@3, libnghttp2, unbound, python-packaging, sqlite, python@3.13, glib, icu4c@76, harfbuzz, fribidi, mbedtls, sdl2, leptonica, libarchive, tesseract and ffmpeg
+==> Installing cmus dependency: jpeg-turbo
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-turbo/manifests/3.1.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6a56a664f24b0435ac129cb33185ae84d884e0f2357ac6fd37727dad9ac5c7d7--jpeg-turbo-3.1.0.bottle_manifest.json
+==> Pouring jpeg-turbo--3.1.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-turbo/3.1.0: 47 files, 3.5MB
+==> Installing cmus dependency: xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.6.3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/e68799185cc17334108ba286ba8c3df0587c9fd8375647d85f7157b62a797599--xz-5.6.3.bottle_manifest.json
+==> Pouring xz--5.6.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.6.3: 96 files, 2.0MB
+==> Installing cmus dependency: libtiff
+==> Downloading https://ghcr.io/v2/homebrew/core/libtiff/manifests/4.7.0-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/cc8add3c5369d6c22906554ebc395ebe89f1ac410112bd65bc6d286d4e02f210--libtiff-4.7.0-1.bottle_manifest.json
+==> Pouring libtiff--4.7.0.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libtiff/4.7.0: 486 files, 8.5MB
+==> Installing cmus dependency: libdeflate
+==> Downloading https://ghcr.io/v2/homebrew/core/libdeflate/manifests/1.23
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/1a3f7b254c6a1077003042d709690bf0435eee40ba9563497924c8bf43ea31e5--libdeflate-1.23.bottle_manifest.json
+==> Pouring libdeflate--1.23.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libdeflate/1.23: 17 files, 325.3KB
+==> Installing cmus dependency: openexr
+==> Downloading https://ghcr.io/v2/homebrew/core/openexr/manifests/3.3.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/4b078648726709f306f7df3d93f1a4fa8ea8a965f4926a460b7acd6df793a453--openexr-3.3.2.bottle_manifest.json
+==> Pouring openexr--3.3.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.3.2: 210 files, 6.1MB
+==> Installing cmus dependency: jpeg-xl
+==> Downloading https://ghcr.io/v2/homebrew/core/jpeg-xl/manifests/0.11.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/92498a4db23a1b23add1af0651bb5bb994372d17f721572dea63982bbd74288f--jpeg-xl-0.11.1.bottle_manifest.json
+==> Pouring jpeg-xl--0.11.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-xl/0.11.1: 64 files, 31.9MB
+==> Installing cmus dependency: dav1d
+==> Downloading https://ghcr.io/v2/homebrew/core/dav1d/manifests/1.5.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/ea52141e48e1404ad8fc51f2da7e6df4f915bf50b644280f77cf576e54affbb4--dav1d-1.5.0.bottle_manifest.json
+==> Pouring dav1d--1.5.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.5.0: 16 files, 910.6KB
+==> Installing cmus dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-11-26
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/e16b55434e8bc1472ffb41e1a71c1b853417578c631fa1b69e8730f8cafca76c--ca-certificates-2024-11-26.bottle_manifest.json
+==> Pouring ca-certificates--2024-11-26.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2024-11-26: 4 files, 239.4KB
+==> Installing cmus dependency: libunistring
+==> Downloading https://ghcr.io/v2/homebrew/core/libunistring/manifests/1.3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a570da63bc1839c7e217f203abd54d4d873ebd6b99f6e88994d0e79e2ebe987c--libunistring-1.3.bottle_manifest.json
+==> Pouring libunistring--1.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libunistring/1.3: 59 files, 5.4MB
+==> Installing cmus dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.4.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a8a169d38329b14f967d497d0ea77eee6dc5444175093fc7b26026b357e81736--openssl@3-3.4.0.bottle_manifest.json
+==> Pouring openssl@3--3.4.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.4.0: 7,236 files, 33.5MB
+==> Installing cmus dependency: libnghttp2
+==> Downloading https://ghcr.io/v2/homebrew/core/libnghttp2/manifests/1.64.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/ca092fa9d99f26d52103722d42230c00f21eb8a4a36bf1d40fc9d5f798562d92--libnghttp2-1.64.0.bottle_manifest.json
+==> Pouring libnghttp2--1.64.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.64.0: 14 files, 794.3KB
+==> Installing cmus dependency: unbound
+==> Downloading https://ghcr.io/v2/homebrew/core/unbound/manifests/1.22.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/94cb5ac77fe9ed3d8e9754f9abb482ea9c14403d0c80616f4f280ed4d7b69496--unbound-1.22.0.bottle_manifest.json
+==> Pouring unbound--1.22.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/unbound/1.22.0: 59 files, 6MB
+==> Installing cmus dependency: python-packaging
+==> Downloading https://ghcr.io/v2/homebrew/core/python-packaging/manifests/24.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a654ed84d67e434e714ac548959721dfcfc2297e1cb87be9237baee7632a2b76--python-packaging-24.2.bottle_manifest.json
+==> Pouring python-packaging--24.2.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python-packaging/24.2: 56 files, 491.3KB
+==> Installing cmus dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.47.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/27ec8d19bd501f36464da50d9b2641d87015b451a6b81864afce75a247a2d3b1--sqlite-3.47.2.bottle_manifest.json
+==> Pouring sqlite--3.47.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.47.2: 12 files, 4.9MB
+==> Installing cmus dependency: python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/949676e81ca77af5cb2668914c87d9f9b6738cd8440cda7bb57ccfd96bfe3397--python@3.13-3.13.1.bottle_manifest.json
+==> Pouring python@3.13--3.13.1.arm64_ventura.bottle.tar.gz
+Warning: These files were overwritten during the `brew link` step:
+/opt/homebrew/bin/idle3
+/opt/homebrew/bin/pydoc3
+/opt/homebrew/bin/python3
+/opt/homebrew/bin/python3-config
+/opt/homebrew/share/man/man1/python3.1
+/opt/homebrew/lib/pkgconfig/python3-embed.pc
+/opt/homebrew/lib/pkgconfig/python3.pc
+/opt/homebrew/Frameworks/Python.framework/Headers
+/opt/homebrew/Frameworks/Python.framework/Python
+/opt/homebrew/Frameworks/Python.framework/Resources
+/opt/homebrew/Frameworks/Python.framework/Versions/Current
+
+They have been backed up to: /Users/zach/Library/Caches/Homebrew/Backup
+==> /opt/homebrew/Cellar/python@3.13/3.13.1/bin/python3.13 -Im ensurepip
+==> /opt/homebrew/Cellar/python@3.13/3.13.1/bin/python3.13 -Im pip install -v --no-index --upgrade --isolated --target=/opt/homebrew/lib/python3.13/sit
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.1: 3,269 files, 65.3MB
+==> Installing cmus dependency: glib
+==> Downloading https://ghcr.io/v2/homebrew/core/glib/manifests/2.82.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/b141dca27e79eb3588a79670a9666c1d309b7bea5c0b117fa3ab90e1f205be47--glib-2.82.4.bottle_manifest.json
+==> Installing dependencies for glib: gettext
+==> Installing glib dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.23
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/877a628115309630ae1102dcba7021c03cfffcb1b3dc923224cfae218eba1929--gettext-0.23.bottle_manifest.json
+==> Pouring gettext--0.23.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.23: 2,052 files, 22.4MB
+==> Installing glib
+==> Pouring glib--2.82.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.82.4: 504 files, 36.3MB
+==> Installing cmus dependency: icu4c@76
+==> Downloading https://ghcr.io/v2/homebrew/core/icu4c/76/manifests/76.1_1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/c105f8980d3a6b0ff0253b47492e886520580406ee75fa52509cf5b251b4d633--icu4c@76-76.1_1.bottle_manifest.json
+==> Pouring icu4c@76--76.1_1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@76/76.1_1: 277 files, 81MB
+==> Installing cmus dependency: harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/manifests/10.1.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/7942a4b7c93b609fd780ade60fd720c899f44e3a2859d9327732371179192224--harfbuzz-10.1.0.bottle_manifest.json
+==> Pouring harfbuzz--10.1.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/10.1.0: 77 files, 9.8MB
+==> Installing cmus dependency: fribidi
+==> Downloading https://ghcr.io/v2/homebrew/core/fribidi/manifests/1.0.16
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/9b4a81e7d1c2fe7c2d8ed4194565744f65bab0238c00f7f3f521f5aec2b8697f--fribidi-1.0.16.bottle_manifest.json
+==> Pouring fribidi--1.0.16.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fribidi/1.0.16: 68 files, 568.0KB
+==> Installing cmus dependency: mbedtls
+==> Downloading https://ghcr.io/v2/homebrew/core/mbedtls/manifests/3.6.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/1d26eb1568cca07ecb97d762f511c5e2c2fbc56eb70a75dc4919063bba1bfa9d--mbedtls-3.6.2.bottle_manifest.json
+==> Pouring mbedtls--3.6.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mbedtls/3.6.2: 200 files, 13.2MB
+==> Installing cmus dependency: sdl2
+==> Downloading https://ghcr.io/v2/homebrew/core/sdl2/manifests/2.30.10
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/d87bb9b01d5e6a1c1f72fbc006c1bfacfc93d276b2ca745851a0671585a43bb0--sdl2-2.30.10.bottle_manifest.json
+==> Pouring sdl2--2.30.10.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sdl2/2.30.10: 94 files, 6.5MB
+==> Installing cmus dependency: leptonica
+==> Downloading https://ghcr.io/v2/homebrew/core/leptonica/manifests/1.85.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/2320341c42605b3b080a8ba021dfdc6e3604906b772b77ad098897c13f8f3186--leptonica-1.85.0.bottle_manifest.json
+==> Pouring leptonica--1.85.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/leptonica/1.85.0: 57 files, 7.0MB
+==> Installing cmus dependency: libarchive
+==> Downloading https://ghcr.io/v2/homebrew/core/libarchive/manifests/3.7.7
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/db913cd1183c4958a5c52ed8d1ea4fd89360b33d164c5a2380c504954f26108c--libarchive-3.7.7.bottle_manifest.json
+==> Pouring libarchive--3.7.7.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.7.7: 65 files, 3.8MB
+==> Installing cmus dependency: tesseract
+==> Downloading https://ghcr.io/v2/homebrew/core/tesseract/manifests/5.5.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/4dfae877da07a8ee25a787aee39cfe57ce50e9be1a8e6e3a977aca5ec1713ed6--tesseract-5.5.0.bottle_manifest.json
+==> Installing dependencies for tesseract: pixman
+==> Installing tesseract dependency: pixman
+==> Downloading https://ghcr.io/v2/homebrew/core/pixman/manifests/0.44.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/710d020ae0348db5aff5d6dbdfd222dca000e630d64e8dcd5f8a8499e8131681--pixman-0.44.2.bottle_manifest.json
+==> Pouring pixman--0.44.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pixman/0.44.2: 10 files, 653KB
+==> Installing tesseract
+==> Pouring tesseract--5.5.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tesseract/5.5.0: 75 files, 33.0MB
+==> Installing cmus dependency: ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/manifests/7.1_3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/8fdea8d19401744397874fb1d63b0539508696a416ffa49e6f8b1cbccfa8b012--ffmpeg-7.1_3.bottle_manifest.json
+==> Installing dependencies for ffmpeg: libvpx, mpg123, rubberband and x265
+==> Installing ffmpeg dependency: libvpx
+==> Downloading https://ghcr.io/v2/homebrew/core/libvpx/manifests/1.15.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/97cd4856884c469eac583d12d18b6ce708a4569925959312b89e10e67554811b--libvpx-1.15.0.bottle_manifest.json
+==> Pouring libvpx--1.15.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvpx/1.15.0: 22 files, 4.1MB
+==> Installing ffmpeg dependency: mpg123
+==> Downloading https://ghcr.io/v2/homebrew/core/mpg123/manifests/1.32.10
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/692cc3a4160f69a557151ff579c20ec779fd22cf3862ccaffd16630b309b237f--mpg123-1.32.10.bottle_manifest.json
+==> Pouring mpg123--1.32.10.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpg123/1.32.10: 34 files, 2.0MB
+==> Installing ffmpeg dependency: rubberband
+==> Downloading https://ghcr.io/v2/homebrew/core/rubberband/manifests/4.0.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/bc9f458d122d070584e4df5d712d01aaa5ba968f72342eb12ff5ec4cc8bb97bb--rubberband-4.0.0.bottle_manifest.json
+==> Pouring rubberband--4.0.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/rubberband/4.0.0: 15 files, 2.0MB
+==> Installing ffmpeg dependency: x265
+==> Downloading https://ghcr.io/v2/homebrew/core/x265/manifests/4.0_1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/96e2400c4ee11451373cbd480abc03e8d17f89a349139ca8f612967bd7a5b2db--x265-4.0_1.bottle_manifest.json
+==> Pouring x265--4.0_1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/x265/4.0_1: 12 files, 10.8MB
+==> Installing ffmpeg
+==> Pouring ffmpeg--7.1_3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/7.1_3: 287 files, 52.3MB
+==> Installing cmus
+==> Pouring cmus--2.12.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cmus/2.12.0: 41 files, 1.3MB
+==> Running `brew cleanup cmus`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/cmus/2.11.0... (41 files, 1.3MB)
+==> Upgrading 23 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+aom 3.10.0 -> 3.11.0, certifi 2024.8.30 -> 2024.12.14, curl 8.10.1 -> 8.11.1, eza 0.19.4 -> 0.20.13, freetds 1.4.22 -> 1.4.24, git 2.46.1 -> 2.47.1, libgit2 1.8.1 -> 1.8.4, libpq 16.4 -> 17.2, librist 0.2.10_1 -> 0.2.11, libssh2 1.11.0_1 -> 1.11.1, libzip 1.11.1 -> 1.11.2, neovim 0.10.0 -> 0.10.3, openjpeg 2.5.2 -> 2.5.3, openldap 2.6.8 -> 2.6.9, pango 1.54.0 -> 1.55.5, pyenv 2.4.13 -> 2.5.0, python@3.12 3.12.6 -> 3.12.8, srt 1.5.3 -> 1.5.4, tmux 3.4_1 -> 3.5a, webp 1.4.0 -> 1.5.0, php 8.3.11 -> 8.4.2, yt-dlp 2024.8.6 -> 2024.12.23, zellij 0.40.1 -> 0.41.2
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/manifests/17.2
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.11.1
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/manifests/8.11.1
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for curl: libssh2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.11.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6d2495eb2b5f37f7931b23940ceb29db14a4742a49d1d8cce26964ad91a03f26--libssh2-1.11.1.bottle_manifest.json
+==> Fetching libssh2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/blobs/sha256:f1a9194b318669ded3d72a045c1cc30b4ce53dcb23a0b5953910f6dcd341522b
+################################################################################################################################################ 100.0%
+==> Fetching curl
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/blobs/sha256:a2a7f0e1b2ec4b1444c6fb74e747801da3b2cc17fa2defab8e8766ca66fa2317
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.9
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/manifests/1.4.24
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for freetds: libtool
+==> Downloading https://ghcr.io/v2/homebrew/core/libtool/manifests/2.5.4
+################################################################################################################################################ 100.0%
+==> Fetching libtool
+==> Downloading https://ghcr.io/v2/homebrew/core/libtool/blobs/sha256:f30240dd2c3b9c42be0f4a0dc4f8a9ceabd0d12f28db8e3650076f8d1c59a7bc
+################################################################################################################################################ 100.0%
+==> Fetching freetds
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/blobs/sha256:91fc612f0feecd33ab18dd069a712da552697a288186c7990879905759b72f20
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.47.1
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/manifests/1.8.4
+################################################################################################################################################ 100.0%
+==> Fetching libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/blobs/sha256:dd50ae6085310761b73171d1f225728227d3de9fc763d1f4ed999ee6bee5a4c3
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/manifests/0.2.11
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/manifests/1.11.2
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/neovim/manifests/0.10.3
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for neovim: msgpack, libuv, luajit, tree-sitter and unibilium
+==> Downloading https://ghcr.io/v2/homebrew/core/msgpack/manifests/6.1.0
+################################################################################################################################################ 100.0%
+==> Fetching msgpack
+==> Downloading https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:9798f9eb15c335c663271387feedb42a24953c8a869d657e1b3d58868fb97177
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.49.2
+################################################################################################################################################ 100.0%
+==> Fetching libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:f7f9df3d16699a31cd90bd8e5a8172d590c3f18bef7c03f6cd0bdf32fa4b968e
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/luajit/manifests/2.1.1734355927
+################################################################################################################################################ 100.0%
+==> Fetching luajit
+==> Downloading https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:0dcb50b5ed4180533bf0d42b68e7fd346ce9e4fdcb1a6e568a4c4e9dab88d877
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tree-sitter/manifests/0.24.5
+################################################################################################################################################ 100.0%
+==> Fetching tree-sitter
+==> Downloading https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:2d3b67b9d4bd8ad57f98fac0e8bd0a563939a4579d0ddf80ac67622a83dc95af
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/unibilium/manifests/2.1.2
+################################################################################################################################################ 100.0%
+==> Fetching unibilium
+==> Downloading https://ghcr.io/v2/homebrew/core/unibilium/blobs/sha256:db2c6a451a395ff30ceff7e6dbfd30f7b02343bf08e850ae9d0e20d6c9da42b1
+################################################################################################################################################ 100.0%
+==> Fetching neovim
+==> Downloading https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:148ecb401c4da22bc4f66753cf82b090a4d08236794c5cb09e7a94db2aef25af
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openjpeg/manifests/2.5.3
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pango/manifests/1.55.5
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/manifests/2.5.0
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for pyenv: pkgconf
+==> Downloading https://ghcr.io/v2/homebrew/core/pkgconf/manifests/2.3.0_1-1
+################################################################################################################################################ 100.0%
+==> Fetching pkgconf
+==> Downloading https://ghcr.io/v2/homebrew/core/pkgconf/blobs/sha256:a4b704e993c8129fb60951d175733f3d5eb34d3b5bc7c56695b41dab0aa4a047
+################################################################################################################################################ 100.0%
+==> Fetching pyenv
+==> Downloading https://ghcr.io/v2/homebrew/core/pyenv/blobs/sha256:ae28c4968f3a42aabe29db6325f404ec544074d8e2684077bab411e81bfab702
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.8
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/srt/manifests/1.5.4
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/tmux/manifests/3.5a
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/manifests/1.5.0
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.11.0
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/php/manifests/8.4.2
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for php: aom, libpq, libzip, net-snmp and openldap
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.11.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/c13a2c0d056aa5707ef69eb19f436fc6d9315f23a54efc9d402929ef6bda9d47--aom-3.11.0.bottle_manifest.json
+==> Fetching aom
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:a6d544883fdf924adca547941499685e5e7340a1b7e6e485e1bbfc1bdbea563c
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/manifests/17.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/029ed35a7db4ea701f8c126a65f8510da66a7e1a4c938a9e49f4c7c9d7360374--libpq-17.2.bottle_manifest.json
+==> Fetching libpq
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/blobs/sha256:b9f0e38dab1a54c8bac3ec7379d37c23a9b499dfe8bb4fb19f47407f1a0fd743
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/manifests/1.11.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/bd618dc4cc38b781b9e588d1a2b19fbe2c2391812cb8ca2050e2e744e7bf7e45--libzip-1.11.2.bottle_manifest.json
+==> Fetching libzip
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:66813828486a24c74a23ccf43775c31933cc45cf6b1dbf52ac5c3348bd20adb6
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/net-snmp/manifests/5.9.4
+################################################################################################################################################ 100.0%
+==> Fetching net-snmp
+==> Downloading https://ghcr.io/v2/homebrew/core/net-snmp/blobs/sha256:8d1f5f1b9c27087c08b7fb17c97445d925c7c0afa77e4939979778ca9fc39fa4
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.9
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f46603cdf68c6900f27c1d843de6717b9d0801b262cf34ad53b240410adfd2f9--openldap-2.6.9.bottle_manifest.json
+==> Fetching openldap
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/blobs/sha256:f9f450125e7b6548a81b0d9f83babf08409a6cbe80d40617b8c3f256261a2a6b
+################################################################################################################################################ 100.0%
+==> Fetching php
+==> Downloading https://ghcr.io/v2/homebrew/core/php/blobs/sha256:4c4597261c5c368342e5d1d30f154a04e0f96cd05127744d9353bc276d8b474d
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2024.12.14
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/manifests/2024.12.23
+################################################################################################################################################ 100.0%
+==> Fetching dependencies for yt-dlp: certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2024.12.14
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/2138a839ba863ab07435f0046f3bbe6e4bc7e70ece77044134658df31ad966a8--certifi-2024.12.14.bottle_manifest.json
+==> Fetching certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/blobs/sha256:44725646c779db4d1acc62eb13b8c129bde28644b2a7c0c51c34d3cf3c59ecd0
+################################################################################################################################################ 100.0%
+==> Fetching yt-dlp
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/blobs/sha256:3b156777d7fde2a1ce22ed16412242723d64647ad49e917a88f251e10bf80a1c
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zellij/manifests/0.41.2
+################################################################################################################################################ 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/eza/manifests/0.20.13
+################################################################################################################################################ 100.0%
+==> Fetching eza
+==> Downloading https://ghcr.io/v2/homebrew/core/eza/blobs/sha256:274ef54760cd0afeb7b949805f12aeae5797670675723e772b49cac7a0f612de
+################################################################################################################################################ 100.0%
+==> Upgrading curl
+  8.10.1 -> 8.11.1
+==> Installing dependencies for curl: libssh2
+==> Installing curl dependency: libssh2
+==> Downloading https://ghcr.io/v2/homebrew/core/libssh2/manifests/1.11.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6d2495eb2b5f37f7931b23940ceb29db14a4742a49d1d8cce26964ad91a03f26--libssh2-1.11.1.bottle_manifest.json
+==> Pouring libssh2--1.11.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.1: 201 files, 1.2MB
+==> Installing curl
+==> Pouring curl--8.11.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/curl/8.11.1: 531 files, 4.1MB
+==> Running `brew cleanup curl`...
+Removing: /opt/homebrew/Cellar/curl/8.10.1... (530 files, 4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/curl_bottle_manifest--8.10.1... (15.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/curl--8.10.1... (1.4MB)
+==> Upgrading freetds
+  1.4.22 -> 1.4.24
+==> Installing dependencies for freetds: libtool
+==> Installing freetds dependency: libtool
+==> Downloading https://ghcr.io/v2/homebrew/core/libtool/manifests/2.5.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/caf68ff95c648186998b530b6be93ecb50b17ff8e55d0531c81a5b9456cf2887--libtool-2.5.4.bottle_manifest.json
+==> Pouring libtool--2.5.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtool/2.5.4: 76 files, 4.0MB
+==> Installing freetds
+==> Pouring freetds--1.4.24.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetds/1.4.24: 1,425 files, 16MB
+==> Running `brew cleanup freetds`...
+Removing: /opt/homebrew/Cellar/freetds/1.4.22... (1,424 files, 16MB)
+Removing: /Users/zach/Library/Caches/Homebrew/freetds_bottle_manifest--1.4.22... (14.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/freetds--1.4.22... (3MB)
+==> Upgrading libgit2
+  1.8.1 -> 1.8.4
+==> Pouring libgit2--1.8.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.8.4: 106 files, 4.7MB
+==> Running `brew cleanup libgit2`...
+Removing: /opt/homebrew/Cellar/libgit2/1.8.1... (106 files, 4.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libgit2_bottle_manifest--1.8.1... (12.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libgit2--1.8.1... (1.8MB)
+==> Upgrading neovim
+  0.10.0 -> 0.10.3
+==> Installing dependencies for neovim: msgpack, libuv, luajit, tree-sitter and unibilium
+==> Installing neovim dependency: msgpack
+==> Downloading https://ghcr.io/v2/homebrew/core/msgpack/manifests/6.1.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/64deb06ebbeaaf491c089ce032ab47d3a2fd7017a0d42f92620a8feed75d9e28--msgpack-6.1.0.bottle_manifest.json
+==> Pouring msgpack--6.1.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/msgpack/6.1.0: 39 files, 226.2KB
+==> Installing neovim dependency: libuv
+==> Downloading https://ghcr.io/v2/homebrew/core/libuv/manifests/1.49.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a32b5abd59fa5add407c237e71c8ccb52eca9bed1740be5e315b1bea6efde148--libuv-1.49.2.bottle_manifest.json
+==> Pouring libuv--1.49.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libuv/1.49.2: 20 files, 1.2MB
+==> Installing neovim dependency: luajit
+==> Downloading https://ghcr.io/v2/homebrew/core/luajit/manifests/2.1.1734355927
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/3000fe77be0bf025e802e11a3bbdeea0e04a286948e2acf65c03f198c8b56b5a--luajit-2.1.1734355927.bottle_manifest.json
+==> Pouring luajit--2.1.1734355927.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/luajit/2.1.1734355927: 56 files, 2.1MB
+==> Installing neovim dependency: tree-sitter
+==> Downloading https://ghcr.io/v2/homebrew/core/tree-sitter/manifests/0.24.5
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/ba68a2238e25b3c5c379af3c4db9395c3deb862d3b38418ab661e8e85800cb86--tree-sitter-0.24.5.bottle_manifest.json
+==> Pouring tree-sitter--0.24.5.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tree-sitter/0.24.5: 15 files, 15.3MB
+==> Installing neovim dependency: unibilium
+==> Downloading https://ghcr.io/v2/homebrew/core/unibilium/manifests/2.1.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/2d9cd8927f7cd1da5e432d934cb2f5c4d09314fba2531033031bca58d817cb1c--unibilium-2.1.2.bottle_manifest.json
+==> Pouring unibilium--2.1.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/unibilium/2.1.2: 64 files, 327.8KB
+==> Installing neovim
+==> Pouring neovim--0.10.3.arm64_ventura.bottle.tar.gz
+==> Caveats
+`--HEAD` installs also require:
+  brew install --HEAD utf8proc
+==> Summary
+🍺  /opt/homebrew/Cellar/neovim/0.10.3: 1,902 files, 29.9MB
+==> Running `brew cleanup neovim`...
+Removing: /opt/homebrew/Cellar/neovim/0.10.0... (1,903 files, 32MB)
+==> Upgrading pyenv
+  2.4.13 -> 2.5.0
+==> Installing dependencies for pyenv: pkgconf
+==> Installing pyenv dependency: pkgconf
+==> Downloading https://ghcr.io/v2/homebrew/core/pkgconf/manifests/2.3.0_1-1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/4a660f26297baafd06fb3109f473edfa592f4aa00adbd8a2506b05d0374c5c1d--pkgconf-2.3.0_1-1.bottle_manifest.json
+==> Pouring pkgconf--2.3.0_1.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/pkgconf/2.3.0_1: 27 files, 473.9KB
+==> Installing pyenv
+==> Pouring pyenv--2.5.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pyenv/2.5.0: 1,276 files, 4.1MB
+==> Running `brew cleanup pyenv`...
+Removing: /opt/homebrew/Cellar/pyenv/2.4.13... (1,232 files, 3.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/pyenv_bottle_manifest--2.4.13... (21.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pyenv--2.4.13... (790.9KB)
+==> Upgrading php
+  8.3.11 -> 8.4.2
+==> Installing dependencies for php: aom, libpq, libzip, net-snmp and openldap
+==> Installing php dependency: aom
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.11.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/c13a2c0d056aa5707ef69eb19f436fc6d9315f23a54efc9d402929ef6bda9d47--aom-3.11.0.bottle_manifest.json
+==> Pouring aom--3.11.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aom/3.11.0: 24 files, 10.2MB
+==> Installing php dependency: libpq
+==> Downloading https://ghcr.io/v2/homebrew/core/libpq/manifests/17.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/029ed35a7db4ea701f8c126a65f8510da66a7e1a4c938a9e49f4c7c9d7360374--libpq-17.2.bottle_manifest.json
+==> Pouring libpq--17.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpq/17.2: 2,391 files, 32.4MB
+==> Installing php dependency: libzip
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/manifests/1.11.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/bd618dc4cc38b781b9e588d1a2b19fbe2c2391812cb8ca2050e2e744e7bf7e45--libzip-1.11.2.bottle_manifest.json
+==> Pouring libzip--1.11.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libzip/1.11.2: 155 files, 915.6KB
+==> Installing php dependency: net-snmp
+==> Downloading https://ghcr.io/v2/homebrew/core/net-snmp/manifests/5.9.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/103dd75a6e5bed966500bfcc99a6391dd3778d64076d05a84a1247298b8067d7--net-snmp-5.9.4.bottle_manifest.json
+==> Pouring net-snmp--5.9.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/net-snmp/5.9.4: 554 files, 15.0MB
+==> Installing php dependency: openldap
+==> Downloading https://ghcr.io/v2/homebrew/core/openldap/manifests/2.6.9
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f46603cdf68c6900f27c1d843de6717b9d0801b262cf34ad53b240410adfd2f9--openldap-2.6.9.bottle_manifest.json
+==> Pouring openldap--2.6.9.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openldap/2.6.9: 342 files, 7.8MB
+==> Installing php
+==> Pouring php--8.4.2.arm64_ventura.bottle.tar.gz
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set php_ini /opt/homebrew/etc/php/8.4/php.ini system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set php_dir /opt/homebrew/share/pear system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set doc_dir /opt/homebrew/share/pear/doc system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set ext_dir /opt/homebrew/lib/php/pecl/20240924 system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set bin_dir /opt/homebrew/opt/php/bin system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set data_dir /opt/homebrew/share/pear/data system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set cfg_dir /opt/homebrew/share/pear/cfg system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set www_dir /opt/homebrew/share/pear/htdocs system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set man_dir /opt/homebrew/share/man system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set test_dir /opt/homebrew/share/pear/test system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear config-set php_bin /opt/homebrew/opt/php/bin/php system
+==> /opt/homebrew/Cellar/php/8.4.2/bin/pear update-channels
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /opt/homebrew/Cellar/php/8.4.2: 530 files, 107.9MB
+==> Running `brew cleanup php`...
+Removing: /opt/homebrew/Cellar/php/8.3.11... (524 files, 88.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/php_bottle_manifest--8.3.11... (65.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/php--8.3.11... (20.3MB)
+==> Upgrading yt-dlp
+  2024.8.6 -> 2024.12.23
+==> Installing dependencies for yt-dlp: certifi
+==> Installing yt-dlp dependency: certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2024.12.14
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/2138a839ba863ab07435f0046f3bbe6e4bc7e70ece77044134658df31ad966a8--certifi-2024.12.14.bottle_manifest.json
+==> Pouring certifi--2024.12.14.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2024.12.14: 27 files, 26.4KB
+==> Installing yt-dlp
+==> Pouring yt-dlp--2024.12.23.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/yt-dlp/2024.12.23: 1,699 files, 18.8MB
+==> Running `brew cleanup yt-dlp`...
+Removing: /opt/homebrew/Cellar/yt-dlp/2024.8.6... (1,668 files, 18.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp_bottle_manifest--2024.8.6... (20KB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp--2024.8.6... (4.7MB)
+==> Upgrading eza
+  0.19.4 -> 0.20.13
+==> Pouring eza--0.20.13.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/eza/0.20.13: 15 files, 1.3MB
+==> Running `brew cleanup eza`...
+Removing: /opt/homebrew/Cellar/eza/0.19.4... (15 files, 1.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/eza_bottle_manifest--0.19.4... (10.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/eza--0.19.4... (593.5KB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+==> Caveats
+==> neovim
+`--HEAD` installs also require:
+  brew install --HEAD utf8proc
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> yt-dlp
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> eza
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
