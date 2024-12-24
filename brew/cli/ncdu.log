@@ -32,3 +32,22 @@ ncdu 2.3 -> 2.5
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 Removing: /opt/homebrew/Cellar/ncdu/2.3... (6 files, 574.0KB)
+
+$ brew upgrade ncdu
+==> Upgrading 1 outdated package:
+ncdu 2.5 -> 2.7
+==> Downloading https://ghcr.io/v2/homebrew/core/ncdu/manifests/2.7
+################################################################################################################################################ 100.0%
+==> Fetching ncdu
+==> Downloading https://ghcr.io/v2/homebrew/core/ncdu/blobs/sha256:dbd4d5e5b8d15bfc0923ed9bf43040e04e9f32e8d8d32cae75a26ef1dbc35b3b
+################################################################################################################################################ 100.0%
+==> Upgrading ncdu
+  2.5 -> 2.7
+==> Pouring ncdu--2.7.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ncdu/2.7: 7 files, 505.9KB
+==> Running `brew cleanup ncdu`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/ncdu/2.5... (7 files, 460.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ncdu_bottle_manifest--2.5... (9.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ncdu--2.5... (192.7KB)
