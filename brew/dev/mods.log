@@ -1,0 +1,35 @@
+$ brew install charmbracelet/tap/mods
+
+==> Tapping charmbracelet/tap
+Cloning into '/opt/homebrew/Library/Taps/charmbracelet/homebrew-tap'...
+remote: Enumerating objects: 574, done.
+remote: Counting objects: 100% (73/73), done.
+remote: Compressing objects: 100% (73/73), done.
+remote: Total 574 (delta 46), reused 0 (delta 0), pack-reused 501 (from 1)
+Receiving objects: 100% (574/574), 105.33 KiB | 4.39 MiB/s, done.
+Resolving deltas: 100% (344/344), done.
+Tapped 14 formulae (26 files, 158.6KB).
+==> Fetching charmbracelet/tap/mods
+==> Downloading https://github.com/charmbracelet/mods/releases/download/v1.6.0/mods_1.6.0_Darwin_arm64.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/620999276/c59482b2-048a-4842-bd44-39616eadad49?X-Amz-
+################################################################################################################################################ 100.0%
+==> Installing mods from charmbracelet/tap
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/mods/1.6.0: 10 files, 19.9MB, built in 2 seconds
+==> Running `brew cleanup mods`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
