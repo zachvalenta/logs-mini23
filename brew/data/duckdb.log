@@ -1,0 +1,12 @@
+$ brew install duckdb
+
+==> Downloading https://ghcr.io/v2/homebrew/core/duckdb/manifests/1.1.3
+################################################################################################################################################ 100.0%
+==> Fetching duckdb
+==> Downloading https://ghcr.io/v2/homebrew/core/duckdb/blobs/sha256:06aff3e01d6a7727dc4c202df223e37d71daf63a8ba6f21d21b1a48655d1a3df
+################################################################################################################################################ 100.0%
+==> Pouring duckdb--1.1.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/duckdb/1.1.3: 1,181 files, 152.9MB
+==> Running `brew cleanup duckdb`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
