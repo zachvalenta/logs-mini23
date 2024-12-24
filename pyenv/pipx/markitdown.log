@@ -1,0 +1,6 @@
+$ pipx install markitdown
+
+  installed package markitdown 0.0.1a3, installed using Python 3.12.1
+  These apps are now globally available
+    - markitdown
+done! ✨ 🌟 ✨
