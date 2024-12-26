@@ -1,2 +1,16 @@
 havn v0.1.16:
     havn
+just v1.38.0:
+    just
+taskwarrior-tui v0.26.3:
+    taskwarrior-tui
+television v0.7.1:
+    tv
+uuinfo v0.2.2:
+    uuinfo
+yazi-cli v0.4.2:
+    ya
+yazi-fm v0.4.2:
+    yazi
+zoxide v0.9.6:
+    zoxide
