@@ -468,3 +468,15 @@ difftastic       git              libarchive       libuv            mpg123      
 You have 80 outdated formulae installed.
 You can upgrade them with brew upgrade
 or list them with brew outdated.
+
+$ brew update
+==> Updating Homebrew...
+Updated 1 tap (dotenvx/brew).
+==> Outdated Formulae
+atuin              d2                 eza                gh                 jpeg               libxrender         oh-my-posh         pastel             ripgrep            task               tree-sitter        yq
+broot              difftastic         fd                 git                librist            mdcat              openjpeg           procs              srt                tig                webp               zellij
+ca-certificates    doggo              ffmpeg             git-delta          libxau             miller             pango              python@3.12        svt-av1            tmux               x265
+
+You have 35 outdated formulae installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
