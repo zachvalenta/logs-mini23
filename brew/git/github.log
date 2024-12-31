@@ -33,3 +33,25 @@ Press Enter to open github.com in your browser...
 A new release of gh is available: 2.57.0 → 2.59.0
 To upgrade, run: brew upgrade gh
 https://github.com/cli/cli/releases/tag/v2.59.0
+
+$ brew upgrade gh
+==> Upgrading 1 outdated package:
+gh 2.57.0 -> 2.64.0_1
+==> Downloading https://ghcr.io/v2/homebrew/core/gh/manifests/2.64.0_1
+############################################################################################################# 100.0%
+==> Fetching gh
+==> Downloading https://ghcr.io/v2/homebrew/core/gh/blobs/sha256:f3486152dd9a8de49018b2852d61d8514c51b48e22bee427c2d
+############################################################################################################# 100.0%
+==> Upgrading gh
+  2.57.0 -> 2.64.0_1
+==> Pouring gh--2.64.0_1.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/gh/2.64.0_1: 207 files, 41.3MB
+==> Running `brew cleanup gh`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/gh/2.57.0... (201 files, 41.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/gh_bottle_manifest--2.57.0... (7.2KB)
