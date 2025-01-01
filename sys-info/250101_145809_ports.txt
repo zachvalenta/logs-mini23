@@ -1,0 +1,7 @@
+═════════════════════════════════════
+|__|  /\  \  / |\ | 127.0.0.1:1-65535
+|  | /--\  \/  | \| 
+═════════════════════════════════════
+[?25l⠋ scanning ⠙ scanning ⠹ scanning ⠸ scanning ⠼ scanning ⠴ scanning ⠦ scanning ⠧ scanning ⠇ scanning ⠏ scanning ⠋ scanning ⠙ scanning ⠹ scanning ⠸ scanning ⠼ scanning ⠴ scanning ⠦ scanning ⠧ scanning [?25h1 open, 65534 closed, took 1.308s
+PORT  DESCRIPTION
+54923 unknown
