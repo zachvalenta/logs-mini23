@@ -1,0 +1,89 @@
+140K	/Users/zach/Documents/zv/personal/journal
+4.6M	/Users/zach/Documents/zv/personal/logs
+ 16M	/Users/zach/Documents/zv/personal/people
+ 18M	/Users/zach/Documents/zv/personal/tracking
+5.6G	/Users/zach/Documents/zv/personal/photos
+5.7G	/Users/zach/Documents/zv/personal
+1.5G	/Users/zach/Documents/zv/materials/sw
+3.7G	/Users/zach/Documents/zv/materials/music
+3.9G	/Users/zach/Documents/zv/materials/art
+1.4G	/Users/zach/Documents/zv/materials/za
+ 11G	/Users/zach/Documents/zv/materials
+6.6G	/Users/zach/Documents/zv/av/film
+454M	/Users/zach/Documents/zv/av/lit
+140G	/Users/zach/Documents/zv/av/yin
+147G	/Users/zach/Documents/zv/av
+  0B	/Users/zach/Documents/zv/projects/miller-chip-war
+  0B	/Users/zach/Documents/zv/projects/drawing
+124K	/Users/zach/Documents/zv/projects/econ
+  0B	/Users/zach/Documents/zv/projects/worklog
+ 53M	/Users/zach/Documents/zv/projects/algos
+168M	/Users/zach/Documents/zv/projects/modeling
+  0B	/Users/zach/Documents/zv/projects/svc
+136K	/Users/zach/Documents/zv/projects/compiler-time
+  0B	/Users/zach/Documents/zv/projects/system
+ 54M	/Users/zach/Documents/zv/projects/stat
+248K	/Users/zach/Documents/zv/projects/ai
+858M	/Users/zach/Documents/zv/projects/lla
+124K	/Users/zach/Documents/zv/projects/finance
+ 54M	/Users/zach/Documents/zv/projects/hilpisch
+  0B	/Users/zach/Documents/zv/projects/python-from-the-guts
+  0B	/Users/zach/Documents/zv/projects/data
+  0B	/Users/zach/Documents/zv/projects/writing
+1.2G	/Users/zach/Documents/zv/projects
+540M	/Users/zach/Documents/zv/admin/healthcare
+882M	/Users/zach/Documents/zv/admin/real-estate
+829M	/Users/zach/Documents/zv/admin/employment
+7.7G	/Users/zach/Documents/zv/admin/exports
+234M	/Users/zach/Documents/zv/admin/za
+840M	/Users/zach/Documents/zv/admin/taxes
+109M	/Users/zach/Documents/zv/admin/autos
+170M	/Users/zach/Documents/zv/admin/finance
+ 11G	/Users/zach/Documents/zv/admin
+ 17M	/Users/zach/Documents/zv/notes/sw
+483M	/Users/zach/Documents/zv/notes/domains
+ 16M	/Users/zach/Documents/zv/notes/bookcase
+516M	/Users/zach/Documents/zv/notes
+ 47M	/Users/zach/Documents/zv/capp/edi
+220K	/Users/zach/Documents/zv/capp/dasher
+2.0M	/Users/zach/Documents/zv/capp/handbook
+ 84M	/Users/zach/Documents/zv/capp/crud
+928K	/Users/zach/Documents/zv/capp/worklogs
+689M	/Users/zach/Documents/zv/capp/brand-enablement
+532M	/Users/zach/Documents/zv/capp/data
+840K	/Users/zach/Documents/zv/capp/task-mgmt
+ 41M	/Users/zach/Documents/zv/capp/product-workflow
+1.4G	/Users/zach/Documents/zv/capp
+178G	/Users/zach/Documents/zv
+524M	/Applications/Visual Studio Code.app/Contents
+524M	/Applications/Visual Studio Code.app
+ 47M	/Applications/SoundSource.app/Contents
+ 47M	/Applications/SoundSource.app
+1.1G	/Applications/Google Chrome.app/Contents
+1.1G	/Applications/Google Chrome.app
+383M	/Applications/Numbers.app/Contents
+383M	/Applications/Numbers.app
+6.4M	/Applications/Android File Transfer.app/Contents
+6.4M	/Applications/Android File Transfer.app
+2.7G	/Applications/iMovie.app/Contents
+2.7G	/Applications/iMovie.app
+  0B	/Applications/Utilities
+489M	/Applications/Keynote.app/Contents
+489M	/Applications/Keynote.app
+344M	/Applications/Brave Browser.app/Contents
+344M	/Applications/Brave Browser.app
+419M	/Applications/Pages.app/Contents
+419M	/Applications/Pages.app
+922M	/Applications/GarageBand.app/Contents
+922M	/Applications/GarageBand.app
+5.5M	/Applications/Flux.app/Contents
+5.5M	/Applications/Flux.app
+ 47M	/Applications/Ghostty.app/Contents
+ 47M	/Applications/Ghostty.app
+ 93M	/Applications/iTerm.app/Contents
+ 93M	/Applications/iTerm.app
+8.0M	/Applications/AppCleaner.app/Contents
+8.0M	/Applications/AppCleaner.app
+ 23M	/Applications/GitUp.app/Contents
+ 23M	/Applications/GitUp.app
+7.1G	/Applications
