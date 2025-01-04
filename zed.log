@@ -1,0 +1,5 @@
+# installed from site but install from Homebrew next time
+
+$ which zed # /usr/local/bin/zed
+$ zed domains sw  # ad hoc workspaces
+$ zed --uninstall
