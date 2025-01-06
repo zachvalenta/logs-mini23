@@ -691,3 +691,17 @@ $ cargo install --locked yazi-fm yazi-cli
   Installing /Users/zach/.cargo/bin/ya
    Installed package `yazi-cli v0.4.2` (executable `ya`)
      Summary Successfully installed yazi-fm, yazi-cli!
+
+$ ya pack -a yazi-rs/plugins:smart-enter
+
+  Upgrading package `smart-enter.yazi`
+
+Cloning into '/Users/zach/.local/state/yazi/packages/d3809db7f978e2fb3d48192ce292a622'...
+remote: Enumerating objects: 619, done.
+remote: Counting objects: 100% (262/262), done.
+remote: Compressing objects: 100% (187/187), done.
+remote: Total 619 (delta 162), reused 149 (delta 72), pack-reused 357 (from 1)
+Receiving objects: 100% (619/619), 147.38 KiB | 4.47 MiB/s, done.
+Resolving deltas: 100% (375/375), done.
+
+  Deploying package `smart-enter.yazi`
