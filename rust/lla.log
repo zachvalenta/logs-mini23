@@ -755,3 +755,174 @@ warning: `lla` (bin "lla") generated 3 warnings
 
 $ cargo uninstall lla
     Removing /Users/zach/.cargo/bin/lla
+
+$ cargo install lla
+    Updating crates.io index
+  Downloaded lla v0.3.9
+  Downloaded 1 crate (63.5 KB) in 0.16s
+  Installing lla v0.3.9
+    Updating crates.io index
+     Locking 184 packages to latest compatible versions
+      Adding clap v3.2.25 (available: v4.5.23)
+      Adding clap_complete v3.2.5 (available: v4.5.40)
+      Adding crossterm v0.27.0 (available: v0.28.1)
+      Adding dashmap v5.5.3 (available: v6.1.0)
+      Adding prost v0.12.6 (available: v0.13.4)
+      Adding strip-ansi-escapes v0.1.1 (available: v0.2.0)
+      Adding unicode-width v0.1.14 (available: v0.2.0)
+  Downloaded glob v0.3.2
+  Downloaded serde_derive v1.0.217
+  Downloaded lla_plugin_interface v0.3.9
+  Downloaded prettyplease v0.2.27
+  Downloaded fuzzy-matcher v0.3.7
+  Downloaded lla_plugin_utils v0.3.9
+  Downloaded cc v1.2.7
+  Downloaded tempfile v3.15.0
+  Downloaded serde v1.0.217
+  Downloaded winnow v0.6.22
+  Downloaded syn v2.0.95
+  Downloaded bstr v1.11.3
+  Downloaded 12 crates (1.2 MB) in 0.32s
+   Compiling proc-macro2 v1.0.92
+   Compiling unicode-ident v1.0.14
+   Compiling libc v0.2.169
+   Compiling autocfg v1.4.0
+   Compiling cfg-if v1.0.0
+   Compiling serde v1.0.217
+   Compiling anyhow v1.0.95
+   Compiling memchr v2.7.4
+   Compiling once_cell v1.20.2
+   Compiling either v1.13.0
+   Compiling crossbeam-utils v0.8.21
+   Compiling itertools v0.12.1
+   Compiling rustix v0.38.42
+   Compiling prettyplease v0.2.27
+   Compiling equivalent v1.0.1
+   Compiling hashbrown v0.15.2
+   Compiling log v0.4.22
+   Compiling shlex v1.3.0
+   Compiling bytes v1.9.0
+   Compiling regex-syntax v0.8.5
+   Compiling errno v0.3.10
+   Compiling bitflags v2.6.0
+   Compiling getrandom v0.2.15
+   Compiling indexmap v2.7.0
+   Compiling cc v1.2.7
+   Compiling fixedbitset v0.4.2
+   Compiling quote v1.0.38
+   Compiling syn v2.0.95
+   Compiling pkg-config v0.3.31
+   Compiling fastrand v2.3.0
+   Compiling regex-automata v0.4.9
+   Compiling tempfile v3.15.0
+   Compiling onig_sys v69.8.1
+   Compiling petgraph v0.6.5
+   Compiling lock_api v0.4.12
+   Compiling powerfmt v0.2.0
+   Compiling thiserror v1.0.69
+   Compiling bitflags v1.3.2
+   Compiling heck v0.5.0
+   Compiling parking_lot_core v0.9.10
+   Compiling multimap v0.10.0
+   Compiling itoa v1.0.14
+   Compiling deranged v0.3.11
+   Compiling regex v1.11.1
+   Compiling crossbeam-epoch v0.9.18
+   Compiling num-traits v0.2.19
+   Compiling indexmap v1.9.3
+   Compiling aho-corasick v1.1.3
+   Compiling portable-atomic v1.10.0
+   Compiling adler2 v2.0.0
+   Compiling unicode-width v0.2.0
+   Compiling num-conv v0.1.0
+   Compiling serde_json v1.0.134
+   Compiling time-core v0.1.2
+   Compiling same-file v1.0.6
+   Compiling smallvec v1.13.2
+   Compiling signal-hook v0.3.17
+   Compiling scopeguard v1.2.0
+   Compiling walkdir v2.5.0
+   Compiling time v0.3.37
+   Compiling console v0.15.10
+   Compiling serde_derive v1.0.217
+   Compiling prost-derive v0.12.6
+   Compiling thiserror-impl v1.0.69
+   Compiling prost v0.12.6
+   Compiling prost-types v0.12.6
+   Compiling prost-build v0.12.6
+   Compiling miniz_oxide v0.8.2
+   Compiling crossbeam-deque v0.8.6
+   Compiling lla_plugin_interface v0.3.9
+   Compiling signal-hook-registry v1.4.2
+   Compiling quick-xml v0.32.0
+   Compiling crc32fast v1.4.2
+   Compiling rayon-core v1.12.1
+   Compiling os_str_bytes v6.6.1
+   Compiling hashbrown v0.12.3
+   Compiling winnow v0.6.22
+   Compiling linked-hash-map v0.5.6
+   Compiling ryu v1.0.18
+   Compiling core-foundation-sys v0.8.7
+   Compiling base64 v0.22.1
+   Compiling option-ext v0.2.0
+   Compiling toml_datetime v0.6.8
+   Compiling serde_spanned v0.6.8
+   Compiling plist v1.7.0
+   Compiling bincode v1.3.3
+   Compiling dirs-sys v0.4.1
+   Compiling iana-time-zone v0.1.61
+   Compiling yaml-rust v0.4.5
+   Compiling toml_edit v0.22.22
+   Compiling clap_lex v0.2.4
+   Compiling flate2 v1.0.35
+   Compiling onig v6.4.0
+   Compiling vte_generate_state_changes v0.1.2
+   Compiling mio v0.8.11
+   Compiling atty v0.2.14
+   Compiling bstr v1.11.3
+   Compiling shell-words v1.1.0
+   Compiling termcolor v1.4.1
+   Compiling lazy_static v1.5.0
+   Compiling arrayvec v0.5.2
+   Compiling tinyvec_macros v0.1.1
+   Compiling textwrap v0.16.1
+   Compiling fnv v1.0.7
+   Compiling zeroize v1.8.1
+   Compiling strsim v0.10.0
+   Compiling utf8parse v0.2.2
+   Compiling number_prefix v0.4.0
+   Compiling indicatif v0.17.9
+   Compiling vte v0.10.1
+   Compiling clap v3.2.25
+   Compiling dialoguer v0.11.0
+   Compiling syntect v5.2.0
+   Compiling tinyvec v1.8.1
+   Compiling globset v0.4.15
+   Compiling colored v2.2.0
+   Compiling signal-hook-mio v0.2.4
+   Compiling toml v0.8.19
+   Compiling chrono v0.4.39
+   Compiling dirs v5.0.1
+   Compiling parking_lot v0.12.3
+   Compiling users v0.11.0
+   Compiling thread_local v1.1.8
+   Compiling hashbrown v0.14.5
+   Compiling rayon v1.10.0
+   Compiling fuzzy-matcher v0.3.7
+   Compiling lla_plugin_utils v0.3.9
+   Compiling crossterm v0.27.0
+   Compiling dashmap v5.5.3
+   Compiling clap_complete v3.2.5
+   Compiling ignore v0.4.23
+   Compiling unicode-normalization v0.1.24
+   Compiling strip-ansi-escapes v0.1.1
+   Compiling terminal_size v0.4.1
+   Compiling crossbeam-channel v0.5.14
+   Compiling num_cpus v1.16.0
+   Compiling libloading v0.8.6
+   Compiling glob v0.3.2
+   Compiling unicode-width v0.1.14
+   Compiling lla v0.3.9
+    Finished `release` profile [optimized] target(s) in 29.80s
+  Installing /Users/zach/.cargo/bin/lla
+   Installed package `lla v0.3.9` (executable `lla`)
