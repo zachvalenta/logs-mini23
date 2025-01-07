@@ -1,0 +1,38 @@
+$ brew install pomdtr/tap/sunbeam
+
+==> Tapping pomdtr/tap
+Cloning into '/opt/homebrew/Library/Taps/pomdtr/homebrew-tap'...
+remote: Enumerating objects: 1034, done.
+remote: Counting objects: 100% (117/117), done.
+remote: Compressing objects: 100% (117/117), done.
+remote: Total 1034 (delta 75), reused 0 (delta 0), pack-reused 917 (from 1)
+Receiving objects: 100% (1034/1034), 170.33 KiB | 3.87 MiB/s, done.
+Resolving deltas: 100% (626/626), done.
+Tapped 12 formulae (25 files, 227.7KB).
+==> Fetching pomdtr/tap/sunbeam
+==> Downloading https://github.com/pomdtr/sunbeam/releases/download/v1.0.1/sunbeam-darwin_arm64.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/530362948/2873ecd0-cfd3-42e1-a46a-d4ae36361fe9?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetpro
+########################################################################################################################################################################################################### 100.0%
+==> Installing sunbeam from pomdtr/tap
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+==> Caveats
+zsh functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/sunbeam/1.0.1: 9 files, 20.1MB, built in 1 second
+==> Running `brew cleanup sunbeam`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ sunbeam extension install https://raw.githubusercontent.com/pomdtr/sunbeam/main/extensions/devdocs.sh
+✅ Installed devdocs
