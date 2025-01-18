@@ -1,0 +1,165 @@
+$ brew install pdftk-java
+
+==> Downloading https://ghcr.io/v2/homebrew/core/pdftk-java/manifests/3.3.3
+############################################################################################################################### 100.0%
+==> Fetching dependencies for pdftk-java: ca-certificates, libxau, libxrender and openjdk@11
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-12-31
+############################################################################################################################### 100.0%
+==> Fetching ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:414ada64e60703cd4e9aa97f36e29c1a7ec73d60862b5219b8110731
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libxau/manifests/1.0.12
+############################################################################################################################### 100.0%
+==> Fetching libxau
+==> Downloading https://ghcr.io/v2/homebrew/core/libxau/blobs/sha256:7c0325743bb51f272a93e9fc1edd32f86d89f4f179ba474880b524834d305c2d
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libxrender/manifests/0.9.12
+############################################################################################################################### 100.0%
+==> Fetching libxrender
+==> Downloading https://ghcr.io/v2/homebrew/core/libxrender/blobs/sha256:0d5c91bc0d13b447077fadd8a7b73e1b65091db9d03e5f6f515eb506591c8
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openjdk/11/manifests/11.0.25
+############################################################################################################################### 100.0%
+==> Fetching openjdk@11
+==> Downloading https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:541d61d7a7387578dbc2df2e9b456ff943e44cbc8753dd2410b57dfdfcefe
+############################################################################################################################### 100.0%
+==> Fetching pdftk-java
+==> Downloading https://ghcr.io/v2/homebrew/core/pdftk-java/blobs/sha256:3a5857d7211fd50b381bffc97a2b986bf1b247da437f29ebd93c7f3996901
+############################################################################################################################### 100.0%
+==> Installing dependencies for pdftk-java: ca-certificates, libxau, libxrender and openjdk@11
+==> Installing pdftk-java dependency: ca-certificates
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2024-12-31
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/c41a485689e1507291617fb1f0e2322a087064960638fd050663df867bf53928--ca-certificates-2024-12-31.bottle_manifest.json
+==> Pouring ca-certificates--2024-12-31.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2024-12-31: 4 files, 233.9KB
+==> Installing pdftk-java dependency: libxau
+==> Downloading https://ghcr.io/v2/homebrew/core/libxau/manifests/1.0.12
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6335be202d59f96fdee2e4a02f93d8ee87dfcfdbaa4ed132b8fe8c3e3651e27c--libxau-1.0.12.bottle_manifest.json
+==> Pouring libxau--1.0.12.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxau/1.0.12: 21 files, 134.3KB
+==> Installing pdftk-java dependency: libxrender
+==> Downloading https://ghcr.io/v2/homebrew/core/libxrender/manifests/0.9.12
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/152fb22ff88a23b62841dcfa14aac21018e1d736c072d732185f6139ef922e1c--libxrender-0.9.12.bottle_manifest.json
+==> Pouring libxrender--0.9.12.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxrender/0.9.12: 13 files, 225.3KB
+==> Installing pdftk-java dependency: openjdk@11
+==> Downloading https://ghcr.io/v2/homebrew/core/openjdk/11/manifests/11.0.25
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/8db63845efbb2b9fdf47efeb2e64a61bdd94d5a1f4a8555316cdaeee68c346a8--openjdk@11-11.0.25.bottle_manifest.json
+==> Pouring openjdk@11--11.0.25.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjdk@11/11.0.25: 667 files, 295.6MB
+==> Installing pdftk-java
+==> Pouring pdftk-java--3.3.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pdftk-java/3.3.3: 9 files, 7.0MB
+==> Running `brew cleanup pdftk-java`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Upgrading 9 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+broot 1.30.2 -> 1.44.3, eza 0.20.13 -> 0.20.14, librist 0.2.10_1 -> 0.2.11, pango 1.54.0 -> 1.55.5, ffmpeg 7.1_3 -> 7.1_4, python@3.12 3.12.6 -> 3.12.8, srt 1.5.3 -> 1.5.4, tmux 3.4_1 -> 3.5a, zellij 0.40.1 -> 0.41.2
+==> Downloading https://ghcr.io/v2/homebrew/core/zellij/manifests/0.41.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/e0fd2df20131dfe6fc39a2290c24bd330c0233c8ede568ebf77e886c03cd471c--zellij-0.41.2.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/eza/manifests/0.20.14
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/manifests/0.2.11
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a2325d2a172aadd20de7dbffb5d9ba60ff1144a0f11f4ee120b1df815f02e59b--librist-0.2.11.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/pango/manifests/1.55.5
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/8d16770653d092a3592a686ef6e3650e2d27f63b24afdac55ecf1e4ebc853057--pango-1.55.5.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/srt/manifests/1.5.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/33ca2d2d20854c6aeeb9dbcfb98a9721584a29e8e65bc2dcd6764f2792a2af27--srt-1.5.4.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/manifests/7.1_4-1
+############################################################################################################################### 100.0%
+==> Fetching dependencies for ffmpeg: webp, librist, openjpeg, srt, svt-av1, pango and x265
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/manifests/1.5.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/674b427392a0b30f8c95a3047f8d8b59cc729067bec5e51403e4bb87e009102a--webp-1.5.0.bottle_manifest.json
+==> Fetching webp
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/blobs/sha256:a0ce31323770314c805a305cccb2e30f2a0f04d461842448de9d569f5baa6306
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/manifests/0.2.11
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a2325d2a172aadd20de7dbffb5d9ba60ff1144a0f11f4ee120b1df815f02e59b--librist-0.2.11.bottle_manifest.json
+==> Fetching librist
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/blobs/sha256:891def5dc77ba1e982ab1cb27efe8f47383988e7f503b91d844ceab49a3bac5a
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openjpeg/manifests/2.5.3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/05e309d0892898d6a89fd896da03119707c403fd4cc6877860ec46b66b0946e9--openjpeg-2.5.3.bottle_manifest.json
+==> Fetching openjpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/openjpeg/blobs/sha256:10a4d7d2b3201baa4762b09a3d399361a11685706e5428cd003d02489cf158b
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/srt/manifests/1.5.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/33ca2d2d20854c6aeeb9dbcfb98a9721584a29e8e65bc2dcd6764f2792a2af27--srt-1.5.4.bottle_manifest.json
+==> Fetching srt
+==> Downloading https://ghcr.io/v2/homebrew/core/srt/blobs/sha256:806fa132d70ecfff69e3cecb0f4c70d8e994293e748ca21b7c30290c09e7db05
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/svt-av1/manifests/2.3.0
+############################################################################################################################### 100.0%
+==> Fetching svt-av1
+==> Downloading https://ghcr.io/v2/homebrew/core/svt-av1/blobs/sha256:bb144183d7849c4e6a7621c447d4b7195255d7ab7f374a0cc417f398fd1cfe53
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pango/manifests/1.55.5
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/8d16770653d092a3592a686ef6e3650e2d27f63b24afdac55ecf1e4ebc853057--pango-1.55.5.bottle_manifest.json
+==> Fetching pango
+==> Downloading https://ghcr.io/v2/homebrew/core/pango/blobs/sha256:fe27bd895abe0a5bcc0509e2c186bd30db1648467200a76652976f4ecc55119b
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/x265/manifests/4.1
+############################################################################################################################### 100.0%
+==> Fetching x265
+==> Downloading https://ghcr.io/v2/homebrew/core/x265/blobs/sha256:eaff65e197b22f708f4d44d12b9baf6ed8efeec1439460311ea3ba7722d8d2b3
+############################################################################################################################### 100.0%
+==> Fetching ffmpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/ffmpeg/blobs/sha256:07ca463e1102cd39b55d72c1e074d1d09050a06b5504eea4231570faeb16855d
+############################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.8
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/c8e281b0d5b5a38ad458c87fd3064a69ab50809945e585657d09bcd1c4f0134a--python@3.12-3.12.8.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/tmux/manifests/3.5a
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/de70ea438c2a153e1b1c2a3615d71e01292cc5f156ee11d6e2c2e05e7e447c2f--tmux-3.5a.bottle_manifest.json
+==> Downloading https://ghcr.io/v2/homebrew/core/broot/manifests/1.44.3
+############################################################################################################################### 100.0%
+==> Upgrading ffmpeg
+  7.1_3 -> 7.1_4
+==> Installing dependencies for ffmpeg: webp, librist, openjpeg, srt, svt-av1, pango and x265
+==> Installing ffmpeg dependency: webp
+==> Downloading https://ghcr.io/v2/homebrew/core/webp/manifests/1.5.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/674b427392a0b30f8c95a3047f8d8b59cc729067bec5e51403e4bb87e009102a--webp-1.5.0.bottle_manifest.json
+==> Pouring webp--1.5.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/webp/1.5.0: 64 files, 2.5MB
+==> Installing ffmpeg dependency: librist
+==> Downloading https://ghcr.io/v2/homebrew/core/librist/manifests/0.2.11
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a2325d2a172aadd20de7dbffb5d9ba60ff1144a0f11f4ee120b1df815f02e59b--librist-0.2.11.bottle_manifest.json
+==> Pouring librist--0.2.11.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/librist/0.2.11: 29 files, 816.8KB
+==> Installing ffmpeg dependency: openjpeg
+==> Downloading https://ghcr.io/v2/homebrew/core/openjpeg/manifests/2.5.3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/05e309d0892898d6a89fd896da03119707c403fd4cc6877860ec46b66b0946e9--openjpeg-2.5.3.bottle_manifest.json
+==> Pouring openjpeg--2.5.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjpeg/2.5.3: 543 files, 14.5MB
+==> Installing ffmpeg dependency: srt
+==> Downloading https://ghcr.io/v2/homebrew/core/srt/manifests/1.5.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/33ca2d2d20854c6aeeb9dbcfb98a9721584a29e8e65bc2dcd6764f2792a2af27--srt-1.5.4.bottle_manifest.json
+==> Pouring srt--1.5.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/srt/1.5.4: 21 files, 4.7MB
+==> Installing ffmpeg dependency: svt-av1
+==> Downloading https://ghcr.io/v2/homebrew/core/svt-av1/manifests/2.3.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/2ccb102ef9f06d703e6d89510d637633c81d9b752fca3c56cb3031bcdfcd6503--svt-av1-2.3.0.bottle_manifest.json
+==> Pouring svt-av1--2.3.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/svt-av1/2.3.0: 19 files, 3.0MB
+==> Installing ffmpeg dependency: pango
+==> Downloading https://ghcr.io/v2/homebrew/core/pango/manifests/1.55.5
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/8d16770653d092a3592a686ef6e3650e2d27f63b24afdac55ecf1e4ebc853057--pango-1.55.5.bottle_manifest.json
+==> Pouring pango--1.55.5.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pango/1.55.5: 69 files, 3.4MB
+==> Installing ffmpeg dependency: x265
+==> Downloading https://ghcr.io/v2/homebrew/core/x265/manifests/4.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/00181b764f312cf999d1cb444cebe5e64cc140e907858615976053380f6591e3--x265-4.1.bottle_manifest.json
+==> Pouring x265--4.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/x265/4.1: 12 files, 11.3MB
+==> Installing ffmpeg
+==> Pouring ffmpeg--7.1_4.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/7.1_4: 287 files, 52.3MB
+==> Running `brew cleanup ffmpeg`...
+Removing: /opt/homebrew/Cellar/ffmpeg/7.0.2_1... (287 files, 51.9MB)
+Removing: /opt/homebrew/Cellar/ffmpeg/7.1_3... (287 files, 52.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/ffmpeg_bottle_manifest--7.0.2_1... (83.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ffmpeg_bottle_manifest--7.1_3... (84.6KB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!

@@ -1,0 +1,12 @@
+$ brew install mupdf-tools
+
+==> Downloading https://ghcr.io/v2/homebrew/core/mupdf-tools/manifests/1.25.2
+############################################################################################################################### 100.0%
+==> Fetching mupdf-tools
+==> Downloading https://ghcr.io/v2/homebrew/core/mupdf-tools/blobs/sha256:418f879c3410db0a17d985359c35c8857b1137cba22afb956ad4fa05e8a0
+############################################################################################################################### 100.0%
+==> Pouring mupdf-tools--1.25.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mupdf-tools/1.25.2: 118 files, 127.5MB
+==> Running `brew cleanup mupdf-tools`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
