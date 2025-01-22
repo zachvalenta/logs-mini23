@@ -1,0 +1,25 @@
+$ brew install --cask font-hurmit-nerd-font
+
+==> Downloading https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hermit.zip
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/7e851fe6-647a-40f6-a384-3a0
+############################################################################################################################### 100.0%
+==> Installing Cask font-hurmit-nerd-font
+==> Moving Font 'HurmitNerdFont-Bold.otf' to '/Users/zach/Library/Fonts/HurmitNerdFont-Bold.otf'
+==> Moving Font 'HurmitNerdFont-BoldItalic.otf' to '/Users/zach/Library/Fonts/HurmitNerdFont-BoldItalic.otf'
+==> Moving Font 'HurmitNerdFont-Italic.otf' to '/Users/zach/Library/Fonts/HurmitNerdFont-Italic.otf'
+==> Moving Font 'HurmitNerdFont-Light.otf' to '/Users/zach/Library/Fonts/HurmitNerdFont-Light.otf'
+==> Moving Font 'HurmitNerdFont-LightItalic.otf' to '/Users/zach/Library/Fonts/HurmitNerdFont-LightItalic.otf'
+==> Moving Font 'HurmitNerdFont-Regular.otf' to '/Users/zach/Library/Fonts/HurmitNerdFont-Regular.otf'
+==> Moving Font 'HurmitNerdFontMono-Bold.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontMono-Bold.otf'
+==> Moving Font 'HurmitNerdFontMono-BoldItalic.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontMono-BoldItalic.otf'
+==> Moving Font 'HurmitNerdFontMono-Italic.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontMono-Italic.otf'
+==> Moving Font 'HurmitNerdFontMono-Light.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontMono-Light.otf'
+==> Moving Font 'HurmitNerdFontMono-LightItalic.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontMono-LightItalic.otf'
+==> Moving Font 'HurmitNerdFontMono-Regular.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontMono-Regular.otf'
+==> Moving Font 'HurmitNerdFontPropo-Bold.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontPropo-Bold.otf'
+==> Moving Font 'HurmitNerdFontPropo-BoldItalic.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontPropo-BoldItalic.otf'
+==> Moving Font 'HurmitNerdFontPropo-Italic.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontPropo-Italic.otf'
+==> Moving Font 'HurmitNerdFontPropo-Light.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontPropo-Light.otf'
+==> Moving Font 'HurmitNerdFontPropo-LightItalic.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontPropo-LightItalic.otf'
+==> Moving Font 'HurmitNerdFontPropo-Regular.otf' to '/Users/zach/Library/Fonts/HurmitNerdFontPropo-Regular.otf'
+🍺  font-hurmit-nerd-font was successfully installed!

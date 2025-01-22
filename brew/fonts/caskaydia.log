@@ -1,0 +1,43 @@
+$ brew install --cask font-caskaydia-mono-nerd-font
+
+==> Downloading https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/CascadiaMono.zip
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/c4e53dce-a027-4c79-a3a7-79
+############################################################################################################################## 100.0%
+==> Installing Cask font-caskaydia-mono-nerd-font
+==> Moving Font 'CaskaydiaMonoNerdFont-Bold.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-Bold.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-BoldItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-BoldItalic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-ExtraLight.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-ExtraLight.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-ExtraLightItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-ExtraLightItalic.ttf
+==> Moving Font 'CaskaydiaMonoNerdFont-Italic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-Italic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-Light.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-Light.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-LightItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-LightItalic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-Regular.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-Regular.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-SemiBold.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-SemiBold.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-SemiBoldItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-SemiBoldItalic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-SemiLight.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-SemiLight.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFont-SemiLightItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFont-SemiLightItalic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-Bold.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-Bold.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-BoldItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-BoldItalic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-ExtraLight.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-ExtraLight.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-ExtraLightItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-ExtraLightIt
+==> Moving Font 'CaskaydiaMonoNerdFontMono-Italic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-Italic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-Light.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-Light.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-LightItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-LightItalic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-Regular.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-Regular.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-SemiBold.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-SemiBold.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-SemiBoldItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-SemiBoldItalic
+==> Moving Font 'CaskaydiaMonoNerdFontMono-SemiLight.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-SemiLight.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontMono-SemiLightItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontMono-SemiLightItal
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-Bold.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-Bold.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-BoldItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-BoldItalic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-ExtraLight.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-ExtraLight.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-ExtraLightItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-ExtraLight
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-Italic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-Italic.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-Light.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-Light.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-LightItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-LightItalic.ttf
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-Regular.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-Regular.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-SemiBold.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-SemiBold.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-SemiBoldItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-SemiBoldItal
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-SemiLight.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-SemiLight.ttf'
+==> Moving Font 'CaskaydiaMonoNerdFontPropo-SemiLightItalic.ttf' to '/Users/zach/Library/Fonts/CaskaydiaMonoNerdFontPropo-SemiLightIt
+🍺  font-caskaydia-mono-nerd-font was successfully installed!
