@@ -22,3 +22,22 @@ Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 
 Uninstalling /opt/homebrew/Cellar/fzf/0.53.0... (18 files, 4MB)
+
+$ brew install fzf
+
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/manifests/0.57.0-1
+############################################################################################################################## 100.0%
+==> Fetching fzf
+==> Downloading https://ghcr.io/v2/homebrew/core/fzf/blobs/sha256:f4936470e8ddcd195e4345557c51fd86015e81fd52b9ee3eefef66d37b16e10d
+############################################################################################################################## 100.0%
+==> Pouring fzf--0.57.0.arm64_ventura.bottle.1.tar.gz
+==> Caveats
+To set up shell integration, see:
+  https://github.com/junegunn/fzf#setting-up-shell-integration
+To use fzf in Vim, add the following line to your .vimrc:
+  set rtp+=/opt/homebrew/opt/fzf
+==> Summary
+🍺  /opt/homebrew/Cellar/fzf/0.57.0: 19 files, 4.3MB
+==> Running `brew cleanup fzf`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
