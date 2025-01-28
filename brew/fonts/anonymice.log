@@ -1,0 +1,18 @@
+$ brew install --cask font-anonymice-nerd-font
+
+==> Downloading https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/AnonymousPro.zip
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/8a2e3149-a5f4-47db-a1d4-935947a2b685?X-A
+############################################################################################################################################ 100.0%
+==> Installing Cask font-anonymice-nerd-font
+==> Moving Font 'AnonymiceProNerdFont-Bold.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFont-Bold.ttf'
+==> Moving Font 'AnonymiceProNerdFont-BoldItalic.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFont-BoldItalic.ttf'
+==> Moving Font 'AnonymiceProNerdFont-Italic.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFont-Italic.ttf'
+==> Moving Font 'AnonymiceProNerdFont-Regular.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFont-Regular.ttf'
+==> Moving Font 'AnonymiceProNerdFontMono-Bold.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFontMono-Bold.ttf'
+==> Moving Font 'AnonymiceProNerdFontMono-BoldItalic.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFontMono-BoldItalic.ttf'
+==> Moving Font 'AnonymiceProNerdFontMono-Italic.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFontMono-Italic.ttf'
+==> Moving Font 'AnonymiceProNerdFontMono-Regular.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFontMono-Regular.ttf'
+==> Moving Font 'AnonymiceProNerdFontPropo-Bold.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFontPropo-Bold.ttf'
+==> Moving Font 'AnonymiceProNerdFontPropo-BoldItalic.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFontPropo-BoldItalic.ttf'
+==> Moving Font 'AnonymiceProNerdFontPropo-Italic.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFontPropo-Italic.ttf'
+==> Moving Font 'AnonymiceProNerdFontPropo-Regular.ttf' to '/Users/zach/Library/Fonts/AnonymiceProNerdFontPropo-Regular.ttf'

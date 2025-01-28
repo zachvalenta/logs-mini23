@@ -1,0 +1,19 @@
+$ brew install --cask font-hack-nerd-font
+
+==> Downloading https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Hack.zip
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/7da3de54-c79e-4144-947b-48a41066336d?X-A
+############################################################################################################################################ 100.0%
+==> Installing Cask font-hack-nerd-font
+==> Moving Font 'HackNerdFont-Bold.ttf' to '/Users/zach/Library/Fonts/HackNerdFont-Bold.ttf'
+==> Moving Font 'HackNerdFont-BoldItalic.ttf' to '/Users/zach/Library/Fonts/HackNerdFont-BoldItalic.ttf'
+==> Moving Font 'HackNerdFont-Italic.ttf' to '/Users/zach/Library/Fonts/HackNerdFont-Italic.ttf'
+==> Moving Font 'HackNerdFont-Regular.ttf' to '/Users/zach/Library/Fonts/HackNerdFont-Regular.ttf'
+==> Moving Font 'HackNerdFontMono-Bold.ttf' to '/Users/zach/Library/Fonts/HackNerdFontMono-Bold.ttf'
+==> Moving Font 'HackNerdFontMono-BoldItalic.ttf' to '/Users/zach/Library/Fonts/HackNerdFontMono-BoldItalic.ttf'
+==> Moving Font 'HackNerdFontMono-Italic.ttf' to '/Users/zach/Library/Fonts/HackNerdFontMono-Italic.ttf'
+==> Moving Font 'HackNerdFontMono-Regular.ttf' to '/Users/zach/Library/Fonts/HackNerdFontMono-Regular.ttf'
+==> Moving Font 'HackNerdFontPropo-Bold.ttf' to '/Users/zach/Library/Fonts/HackNerdFontPropo-Bold.ttf'
+==> Moving Font 'HackNerdFontPropo-BoldItalic.ttf' to '/Users/zach/Library/Fonts/HackNerdFontPropo-BoldItalic.ttf'
+==> Moving Font 'HackNerdFontPropo-Italic.ttf' to '/Users/zach/Library/Fonts/HackNerdFontPropo-Italic.ttf'
+==> Moving Font 'HackNerdFontPropo-Regular.ttf' to '/Users/zach/Library/Fonts/HackNerdFontPropo-Regular.ttf'
+🍺  font-hack-nerd-font was successfully installed!

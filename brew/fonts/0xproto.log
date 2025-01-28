@@ -1,0 +1,16 @@
+$ brew install --cask font-0xproto-nerd-font
+
+==> Downloading https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/0xProto.zip
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/1bd53524-73ff-4b56-9041-83eca3a12504?X-A
+############################################################################################################################################ 100.0%
+==> Installing Cask font-0xproto-nerd-font
+==> Moving Font '0xProtoNerdFont-Bold.ttf' to '/Users/zach/Library/Fonts/0xProtoNerdFont-Bold.ttf'
+==> Moving Font '0xProtoNerdFont-Italic.ttf' to '/Users/zach/Library/Fonts/0xProtoNerdFont-Italic.ttf'
+==> Moving Font '0xProtoNerdFont-Regular.ttf' to '/Users/zach/Library/Fonts/0xProtoNerdFont-Regular.ttf'
+==> Moving Font '0xProtoNerdFontMono-Bold.ttf' to '/Users/zach/Library/Fonts/0xProtoNerdFontMono-Bold.ttf'
+==> Moving Font '0xProtoNerdFontMono-Italic.ttf' to '/Users/zach/Library/Fonts/0xProtoNerdFontMono-Italic.ttf'
+==> Moving Font '0xProtoNerdFontMono-Regular.ttf' to '/Users/zach/Library/Fonts/0xProtoNerdFontMono-Regular.ttf'
+==> Moving Font '0xProtoNerdFontPropo-Bold.ttf' to '/Users/zach/Library/Fonts/0xProtoNerdFontPropo-Bold.ttf'
+==> Moving Font '0xProtoNerdFontPropo-Italic.ttf' to '/Users/zach/Library/Fonts/0xProtoNerdFontPropo-Italic.ttf'
+==> Moving Font '0xProtoNerdFontPropo-Regular.ttf' to '/Users/zach/Library/Fonts/0xProtoNerdFontPropo-Regular.ttf'
+🍺  font-0xproto-nerd-font was successfully installed!

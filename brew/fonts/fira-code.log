@@ -1,0 +1,25 @@
+$ brew install --cask font-fira-code-nerd-font
+
+==> Downloading https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraCode.zip
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/cc681323-d1da-4489-b40a-f84c915d8302?X-A
+############################################################################################################################################ 100.0%
+==> Installing Cask font-fira-code-nerd-font
+==> Moving Font 'FiraCodeNerdFont-Bold.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFont-Bold.ttf'
+==> Moving Font 'FiraCodeNerdFont-Light.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFont-Light.ttf'
+==> Moving Font 'FiraCodeNerdFont-Medium.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFont-Medium.ttf'
+==> Moving Font 'FiraCodeNerdFont-Regular.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFont-Regular.ttf'
+==> Moving Font 'FiraCodeNerdFont-Retina.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFont-Retina.ttf'
+==> Moving Font 'FiraCodeNerdFont-SemiBold.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFont-SemiBold.ttf'
+==> Moving Font 'FiraCodeNerdFontMono-Bold.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontMono-Bold.ttf'
+==> Moving Font 'FiraCodeNerdFontMono-Light.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontMono-Light.ttf'
+==> Moving Font 'FiraCodeNerdFontMono-Medium.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontMono-Medium.ttf'
+==> Moving Font 'FiraCodeNerdFontMono-Regular.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontMono-Regular.ttf'
+==> Moving Font 'FiraCodeNerdFontMono-Retina.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontMono-Retina.ttf'
+==> Moving Font 'FiraCodeNerdFontMono-SemiBold.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontMono-SemiBold.ttf'
+==> Moving Font 'FiraCodeNerdFontPropo-Bold.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontPropo-Bold.ttf'
+==> Moving Font 'FiraCodeNerdFontPropo-Light.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontPropo-Light.ttf'
+==> Moving Font 'FiraCodeNerdFontPropo-Medium.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontPropo-Medium.ttf'
+==> Moving Font 'FiraCodeNerdFontPropo-Regular.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontPropo-Regular.ttf'
+==> Moving Font 'FiraCodeNerdFontPropo-Retina.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontPropo-Retina.ttf'
+==> Moving Font 'FiraCodeNerdFontPropo-SemiBold.ttf' to '/Users/zach/Library/Fonts/FiraCodeNerdFontPropo-SemiBold.ttf'
+🍺  font-fira-code-nerd-font was successfully installed!

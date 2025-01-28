@@ -1,0 +1,16 @@
+$ brew install --cask font-fira-mono-nerd-font
+
+==> Downloading https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FiraMono.zip
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/27574418/925da381-ed5d-4f5d-bd34-3ae44a2a5825?X-A
+############################################################################################################################################ 100.0%
+==> Installing Cask font-fira-mono-nerd-font
+==> Moving Font 'FiraMonoNerdFont-Bold.otf' to '/Users/zach/Library/Fonts/FiraMonoNerdFont-Bold.otf'
+==> Moving Font 'FiraMonoNerdFont-Medium.otf' to '/Users/zach/Library/Fonts/FiraMonoNerdFont-Medium.otf'
+==> Moving Font 'FiraMonoNerdFont-Regular.otf' to '/Users/zach/Library/Fonts/FiraMonoNerdFont-Regular.otf'
+==> Moving Font 'FiraMonoNerdFontMono-Bold.otf' to '/Users/zach/Library/Fonts/FiraMonoNerdFontMono-Bold.otf'
+==> Moving Font 'FiraMonoNerdFontMono-Medium.otf' to '/Users/zach/Library/Fonts/FiraMonoNerdFontMono-Medium.otf'
+==> Moving Font 'FiraMonoNerdFontMono-Regular.otf' to '/Users/zach/Library/Fonts/FiraMonoNerdFontMono-Regular.otf'
+==> Moving Font 'FiraMonoNerdFontPropo-Bold.otf' to '/Users/zach/Library/Fonts/FiraMonoNerdFontPropo-Bold.otf'
+==> Moving Font 'FiraMonoNerdFontPropo-Medium.otf' to '/Users/zach/Library/Fonts/FiraMonoNerdFontPropo-Medium.otf'
+==> Moving Font 'FiraMonoNerdFontPropo-Regular.otf' to '/Users/zach/Library/Fonts/FiraMonoNerdFontPropo-Regular.otf'
+🍺  font-fira-mono-nerd-font was successfully installed!
