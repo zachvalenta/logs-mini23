@@ -1,0 +1,31 @@
+$ brew install jesseduffield/lazydocker/lazydocker
+
+==> Tapping jesseduffield/lazydocker
+Cloning into '/opt/homebrew/Library/Taps/jesseduffield/homebrew-lazydocker'...
+remote: Enumerating objects: 127, done.
+remote: Counting objects: 100% (52/52), done.
+remote: Compressing objects: 100% (34/34), done.
+remote: Total 127 (delta 16), reused 2 (delta 1), pack-reused 75 (from 1)
+Receiving objects: 100% (127/127), 21.35 KiB | 3.56 MiB/s, done.
+Resolving deltas: 100% (41/41), done.
+Tapped 1 formula (13 files, 31.3KB).
+==> Fetching jesseduffield/lazydocker/lazydocker
+==> Downloading https://github.com/jesseduffield/lazydocker/releases/download/v0.24.1/lazydocker_0.24.1_Darwin_arm64.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/187335810/7314db3b-f856-4201-9e8b-df09362329e1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetp
+######################################################################################################################################################################################################### 100.0%
+==> Installing lazydocker from jesseduffield/lazydocker
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+🍺  /opt/homebrew/Cellar/lazydocker/0.24.1: 6 files, 12.4MB, built in 2 seconds
+==> Running `brew cleanup lazydocker`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
