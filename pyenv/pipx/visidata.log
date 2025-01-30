@@ -14,3 +14,8 @@ $ pipx inject visidata openpyxl
 
   injected package openpyxl into venv visidata
 done! ✨ 🌟 ✨
+
+$ pipx inject visidata pyarrow
+
+  injected package pyarrow into venv visidata
+done! ✨ 🌟 ✨
