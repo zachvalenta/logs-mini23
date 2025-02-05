@@ -1,0 +1,5 @@
+$ pipx install sqlite-utils
+  installed package sqlite-utils 3.38, installed using Python 3.12.1
+  These apps are now globally available
+    - sqlite-utils
+done! ✨ 🌟 ✨
