@@ -41,3 +41,215 @@ Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ==> yt-dlp
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
+
+$ brew upgrade yt-dlp
+==> Upgrading 1 outdated package:
+yt-dlp 2024.12.23 -> 2025.1.26
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/mani
+##################################################### 100.0%
+==> Fetching dependencies for yt-dlp: sqlite and xz
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/mani
+##################################################### 100.0%
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blob
+##################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifest
+##################################################### 100.0%
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sh
+##################################################### 100.0%
+==> Fetching yt-dlp
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/blob
+##################################################### 100.0%
+==> Upgrading yt-dlp
+  2024.12.23 -> 2025.1.26
+==> Installing dependencies for yt-dlp: sqlite and xz
+==> Installing yt-dlp dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/mani
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/7a63b9acdf9ca49e2b2210a457922c9e0b8953abfa8674fcb0e2ded21d0e2c53--sqlite-3.48.0.bottle_manifest.json
+==> Pouring sqlite--3.48.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.48.0: 12 files, 4.9MB
+==> Installing yt-dlp dependency: xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifest
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/d14e84095418591f4112922f1a834dbac6c7e4fdc334eae0aaff35e2b860cc5b--xz-5.6.4.bottle_manifest.json
+==> Pouring xz--5.6.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.6.4: 96 files, 2.0MB
+==> Installing yt-dlp
+==> Pouring yt-dlp--2025.1.26.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/yt-dlp/2025.1.26: 1,702 files, 18.9MB
+==> Running `brew cleanup yt-dlp`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/yt-dlp/2024.12.23... (1,699 files, 18.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp_bottle_manifest--2024.12.23... (16.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp--2024.12.23... (4.9MB)
+==> Upgrading 6 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+harfbuzz 10.1.0 -> 10.2.0, libzip 1.11.2 -> 1.11.3, openjdk@11 11.0.25 -> 11.0.26, pango 1.55.5 -> 1.56.1, php 8.4.2 -> 8.4.3, python@3.12 3.12.6 -> 3.12.8
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/ma
+##################################################### 100.0%
+==> Fetching dependencies for harfbuzz: libpng and gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/mani
+##################################################### 100.0%
+==> Fetching libpng
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/blob
+##################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/man
+##################################################### 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blo
+##################################################### 100.0%
+==> Fetching harfbuzz
+==> Downloading https://ghcr.io/v2/homebrew/core/harfbuzz/bl
+##################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openjdk/11/
+##################################################### 100.0%
+==> Fetching dependencies for openjdk@11: fontconfig
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/
+##################################################### 100.0%
+==> Fetching fontconfig
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/
+##################################################### 100.0%
+==> Fetching openjdk@11
+==> Downloading https://ghcr.io/v2/homebrew/core/openjdk/11/
+##################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/mani
+##################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pango/manif
+##################################################### 100.0%
+==> Fetching pango
+==> Downloading https://ghcr.io/v2/homebrew/core/pango/blobs
+##################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/php/manifes
+##################################################### 100.0%
+==> Fetching dependencies for php: oniguruma
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/m
+##################################################### 100.0%
+==> Fetching oniguruma
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/b
+##################################################### 100.0%
+==> Fetching php
+==> Downloading https://ghcr.io/v2/homebrew/core/php/blobs/s
+##################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/c8e281b0d5b5a38ad458c87fd3064a69ab50809945e585657d09bcd1c4f0134a--python@3.12-3.12.8.bottle_manifest.json
+==> Upgrading harfbuzz
+  10.1.0 -> 10.2.0
+==> Installing dependencies for harfbuzz: libpng and gettext
+==> Installing harfbuzz dependency: libpng
+==> Downloading https://ghcr.io/v2/homebrew/core/libpng/mani
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6d80bc92108aa9bc4068077c07ccbfad5fb22f8b3af5189e26d5467b33257976--libpng-1.6.46.bottle_manifest.json
+==> Pouring libpng--1.6.46.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpng/1.6.46: 28 files, 1.4MB
+==> Installing harfbuzz dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/man
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a5b6ba6453cc31731ac67fb3d0075d98ab572a913f3e740b54a86d79906f360e--gettext-0.23.1.bottle_manifest.json
+==> Pouring gettext--0.23.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.23.1: 2,052 files, 22.2MB
+==> Installing harfbuzz
+==> Pouring harfbuzz--10.2.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/10.2.0: 77 files, 10MB
+==> Running `brew cleanup harfbuzz`...
+Removing: /opt/homebrew/Cellar/harfbuzz/10.1.0... (77 files, 9.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/harfbuzz_bottle_manifest--10.1.0... (29KB)
+Removing: /Users/zach/Library/Caches/Homebrew/harfbuzz--10.1.0... (2.5MB)
+==> Upgrading openjdk@11
+  11.0.25 -> 11.0.26
+==> Installing dependencies for openjdk@11: fontconfig
+==> Installing openjdk@11 dependency: fontconfig
+==> Downloading https://ghcr.io/v2/homebrew/core/fontconfig/
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6897fed6b85e0f537cb8774ec21346308111caaf26c136f33fdc95302d361fe7--fontconfig-2.16.0.bottle_manifest.json
+==> Pouring fontconfig--2.16.0.arm64_ventura.bottle.tar.gz
+==> Regenerating font cache, this may take a while
+==> /opt/homebrew/Cellar/fontconfig/2.16.0/bin/fc-cache -frv
+🍺  /opt/homebrew/Cellar/fontconfig/2.16.0: 92 files, 1.5MB
+==> Installing openjdk@11
+==> Pouring openjdk@11--11.0.26.arm64_ventura.bottle.1.tar.g
+🍺  /opt/homebrew/Cellar/openjdk@11/11.0.26: 667 files, 295.6MB
+==> Running `brew cleanup openjdk@11`...
+Removing: /opt/homebrew/Cellar/openjdk@11/11.0.25... (667 files, 295.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/openjdk@11_bottle_manifest--11.0.25... (35.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openjdk@11--11.0.25... (178.3MB)
+==> Upgrading pango
+  1.55.5 -> 1.56.1
+==> Pouring pango--1.56.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pango/1.56.1: 69 files, 3.4MB
+==> Running `brew cleanup pango`...
+Removing: /opt/homebrew/Cellar/pango/1.55.5... (69 files, 3.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/pango_bottle_manifest--1.55.5... (30.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pango--1.55.5... (826.5KB)
+==> Upgrading php
+  8.4.2 -> 8.4.3
+==> Installing dependencies for php: oniguruma
+==> Installing php dependency: oniguruma
+==> Downloading https://ghcr.io/v2/homebrew/core/oniguruma/m
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/04e9c35970e8b4c6db751bdaa577e7185a85d364ccc66e079983f524aab95a85--oniguruma-6.9.10.bottle_manifest.json
+==> Pouring oniguruma--6.9.10.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/oniguruma/6.9.10: 15 files, 1.5MB
+==> Installing php
+==> Pouring php--8.4.3.arm64_ventura.bottle.tar.gz
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set php_ini /opt/homebrew/etc/php/8.4/php.ini system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set php_dir /opt/homebrew/share/pear system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set doc_dir /opt/homebrew/share/pear/doc system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set ext_dir /opt/homebrew/lib/php/pecl/20240924 system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set bin_dir /opt/homebrew/opt/php/bin system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set data_dir /opt/homebrew/share/pear/data system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set cfg_dir /opt/homebrew/share/pear/cfg system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set www_dir /opt/homebrew/share/pear/htdocs system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set man_dir /opt/homebrew/share/man system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set test_dir /opt/homebrew/share/pear/test system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear config-set php_bin /opt/homebrew/opt/php/bin/php system
+==> /opt/homebrew/Cellar/php/8.4.3/bin/pear update-channels
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /opt/homebrew/Cellar/php/8.4.3: 529 files, 107.9MB
+==> Running `brew cleanup php`...
+Removing: /opt/homebrew/Cellar/php/8.4.2... (530 files, 107.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/php_bottle_manifest--8.4.2... (50.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/php--8.4.2... (25.3MB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+==> Caveats
+==> yt-dlp
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
