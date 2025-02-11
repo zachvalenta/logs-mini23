@@ -1,0 +1,26 @@
+$ brew install docker
+
+Warning: Treating docker as a formula. For the cask, use homebrew/cask/docker or specify the `--cask` flag. To silence this message, use the `--formula` flag.
+==> Downloading https://ghcr.io/v2/homebrew/core/docker/manifests/27.5.1
+################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for docker: docker-completion
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-completion/manifests/27.5.1
+################################################################################################################################################################################################### 100.0%
+==> Fetching docker-completion
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-completion/blobs/sha256:e6512574d0a8c5edcde29171a494067f1dbab36a8d030284c007ed966165aac6
+################################################################################################################################################################################################### 100.0%
+==> Fetching docker
+==> Downloading https://ghcr.io/v2/homebrew/core/docker/blobs/sha256:5adc3aaf3292b48e5c596768f4e8d43eeb04a7e7ff24dd0e2f736e01792d514c
+################################################################################################################################################################################################### 100.0%
+==> Installing dependencies for docker: docker-completion
+==> Installing docker dependency: docker-completion
+==> Downloading https://ghcr.io/v2/homebrew/core/docker-completion/manifests/27.5.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/272155804f0471d3702d4aee1794475ad11b3105ae094d9af24282224e98cbb0--docker-completion-27.5.1.bottle_manifest.json
+==> Pouring docker-completion--27.5.1.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/docker-completion/27.5.1: 10 files, 342KB
+==> Installing docker
+==> Pouring docker--27.5.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/docker/27.5.1: 14 files, 26.2MB
+==> Running `brew cleanup docker`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).

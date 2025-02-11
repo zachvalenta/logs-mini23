@@ -1,0 +1,43 @@
+$ brew install colima
+
+==> Downloading https://ghcr.io/v2/homebrew/core/colima/manifests/0.8.1
+################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for colima: lima
+==> Downloading https://ghcr.io/v2/homebrew/core/lima/manifests/1.0.4
+################################################################################################################################################################################################### 100.0%
+==> Fetching lima
+==> Downloading https://ghcr.io/v2/homebrew/core/lima/blobs/sha256:754a8a542ce735d010136e5719075212c4523036b08bfbb67aeb148c6d1824f0
+################################################################################################################################################################################################### 100.0%
+==> Fetching colima
+==> Downloading https://ghcr.io/v2/homebrew/core/colima/blobs/sha256:c7be1109ae77f76148c8520fcdfc4b1b391d0ce6508e2d2befc1458c40259f6d
+################################################################################################################################################################################################### 100.0%
+==> Installing dependencies for colima: lima
+==> Installing colima dependency: lima
+==> Downloading https://ghcr.io/v2/homebrew/core/lima/manifests/1.0.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/47a9890ecbf87b173d72f784931f3c029509a2ab44c4fc787af350206e759c7e--lima-1.0.4.bottle_manifest.json
+==> Pouring lima--1.0.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lima/1.0.4: 107 files, 205.6MB
+==> Installing colima
+==> Pouring colima--0.8.1.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+
+To start colima now and restart at login:
+  brew services start colima
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/colima/bin/colima start -f
+==> Summary
+🍺  /opt/homebrew/Cellar/colima/0.8.1: 11 files, 5.7MB
+==> Running `brew cleanup colima`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> colima
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+
+To start colima now and restart at login:
+  brew services start colima
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/colima/bin/colima start -f
