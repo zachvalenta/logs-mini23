@@ -1,0 +1,9 @@
+$ python -m pip install --user tqdm
+
+Collecting tqdm
+  Using cached tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Installing collected packages: tqdm
+Successfully installed tqdm-4.67.1
+[notice] A new release of pip is available: 24.1 -> 25.0
+[notice] To update, run: pip install --upgrade pip
