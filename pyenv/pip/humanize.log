@@ -1,0 +1,9 @@
+$ python -m pip install --user humanize
+
+Collecting humanize
+  Using cached humanize-4.11.0-py3-none-any.whl.metadata (7.8 kB)
+Using cached humanize-4.11.0-py3-none-any.whl (128 kB)
+Installing collected packages: humanize
+Successfully installed humanize-4.11.0
+[notice] A new release of pip is available: 24.1 -> 25.0
+[notice] To update, run: pip install --upgrade pip
