@@ -1,0 +1,5 @@
+$ pipx install datasette
+  installed package datasette 0.65.1, installed using Python 3.12.1
+  These apps are now globally available
+    - datasette
+done! ✨ 🌟 ✨
