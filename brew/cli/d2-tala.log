@@ -1,0 +1,74 @@
+$ brew install terrastruct/tap/tala
+
+==> Tapping terrastruct/tap
+Cloning into '/opt/homebrew/Library/Taps/terrastruct/homebrew-tap'...
+remote: Enumerating objects: 221, done.
+remote: Counting objects: 100% (94/94), done.
+remote: Compressing objects: 100% (71/71), done.
+remote: Total 221 (delta 48), reused 67 (delta 23), pack-reused 127 (from 1)
+Receiving objects: 100% (221/221), 43.05 KiB | 10.76 MiB/s, done.
+Resolving deltas: 100% (103/103), done.
+Tapped 1 formula (17 files, 59.0KB).
+==> Fetching dependencies for terrastruct/tap/tala: d2
+==> Fetching d2
+==> Fetching terrastruct/tap/tala
+==> Downloading https://github.com/terrastruct/tala/releases/download/v0.4.2/tala-v0.4.2-macos-arm64.tar.gz
+==> Downloading from https://objects.githubusercontent.com/github-production-release-asset-2e65be/560587826/9d29ea62-dd56-4517-85e3-5a7b6265cdda?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential
+==> Installing tala from terrastruct/tap
+
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+==> Installing dependencies for terrastruct/tap/tala: d2
+==> Installing terrastruct/tap/tala dependency: d2
+==> Downloading https://ghcr.io/v2/homebrew/core/d2/manifests/0.6.8
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a6b91f415cb9541d7d4393dea04f45c9b57213394fd478486ccaa80ad597d773--d2-0.6.8.bottle_manifest.json
+==> Pouring d2--0.6.8.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/d2/0.6.8: 7 files, 34.5MB
+==> Installing terrastruct/tap/tala
+==> make install PREFIX=/opt/homebrew/Cellar/tala/0.4.2
+🍺  /opt/homebrew/Cellar/tala/0.4.2: 8 files, 42.3MB, built in 2 seconds
+==> Running `brew cleanup tala`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ d2 layout tala
+
+tala (executable plugin at /opt/homebrew/bin/d2plugin-tala):
+
+https://terrastruct.com/tala.
+TALA is a proprietary layout engine designed for software architecture diagrams.
+
+TALA is free to try and evaluate, but requires an API token from a Terrastruct account to use without watermark.
+
+You can set the API token as environment variable $TSTRUCT_TOKEN, or in ~/.config/tstruct/auth.json under the field "api_token".
+
+You can use $XDG_CONFIG_HOME and $TSTRUCT_AUTHFILE to control the location of the authfile.
+
+The advantage to using ~/.config/tstruct/auth.json over $TSTRUCT_TOKEN is that the
+TALA plugin will automatically update the api_token stored in the authfile as your
+subscription renews.
+
+It does this by making a ping to Terrastruct's servers when your subscription
+is set to renew. For example, if you purchased a monthly subscription on
+January 1, the TALA plugin will make a ping to Terrastruct servers when it's
+next run after February 1. The new renewal date will be written to your local
+authfile. The only data sent in this ping is the API token, and you can use
+TALA completely offline before the expiration.
+
+After 12 months of subscription, your copy of TALA is valid forever.
+
+We do give a grace period of 30 days in case of payment issues where only a warning
+is displayed. After the 30 days, the TALA plugin reverts to evaluation mode.
+
+More information for each flag can be found at https://d2lang.com/tour/layouts/tala.
+
+Flags:
+--tala-seeds int64Slice random seed(s) to use for layout. Layouts will be run in parallel with the given seeds, with the best performing one returned. See the TALA manual for more. (default [1,2,3])
