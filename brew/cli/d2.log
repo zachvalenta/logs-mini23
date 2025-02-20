@@ -22,3 +22,33 @@ $ brew install d2
 ==> Running `brew cleanup d2`...
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ brew upgrade d2
+
+==> Auto-updating Homebrew...
+Adjust how often this is run with HOMEBREW_AUTO_UPDATE_SECS or disable with
+HOMEBREW_NO_AUTO_UPDATE. Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Auto-updated Homebrew!
+Updated 5 taps (dotenvx/brew, pomdtr/tap, jesseduffield/lazygit, lusingander/tap and terrastruct/d2).
+==> New Formulae
+lusingander/tap/ddv
+
+You have 62 outdated formulae installed.
+==> Upgrading 1 outdated package:
+d2 0.6.8 -> 0.6.9
+==> Downloading https://ghcr.io/v2/homebrew/core/d2/manifests/0.6.9
+##################################################################################################################################################################################################### 100.0%
+==> Fetching d2
+==> Downloading https://ghcr.io/v2/homebrew/core/d2/blobs/sha256:18eec53b0ff4c8f1d497f3ade4fb74cf90cb8cf1b964d7780575f1b66372058a
+##################################################################################################################################################################################################### 100.0%
+==> Upgrading d2
+  0.6.8 -> 0.6.9
+==> Pouring d2--0.6.9.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/d2/0.6.9: 7 files, 34.6MB
+==> Running `brew cleanup d2`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/d2/0.6.6... (7 files, 34MB)
+Removing: /opt/homebrew/Cellar/d2/0.6.8... (7 files, 34.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/d2_bottle_manifest--0.6.8... (7.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/d2--0.6.8... (11.7MB)
