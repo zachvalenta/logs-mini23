@@ -1,0 +1,39 @@
+$ python -m pip install --user great_tables
+
+Collecting great_tables
+  Downloading great_tables-0.16.1-py3-none-any.whl.metadata (12 kB)
+Collecting commonmark>=0.9.1 (from great_tables)
+  Downloading commonmark-0.9.1-py2.py3-none-any.whl.metadata (5.7 kB)
+Collecting css-inline>=0.14.1 (from great_tables)
+  Downloading css_inline-0.14.6-cp37-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl.metadata (10 kB)
+Collecting faicons>=0.2.2 (from great_tables)
+  Downloading faicons-0.2.2-py3-none-any.whl.metadata (1.8 kB)
+Collecting htmltools>=0.4.1 (from great_tables)
+  Downloading htmltools-0.6.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting importlib-metadata (from great_tables)
+  Downloading importlib_metadata-8.6.1-py3-none-any.whl.metadata (4.7 kB)
+Requirement already satisfied: typing_extensions>=3.10.0.0 in /Users/zach/.local/lib/python3.12/site-packages (from great_tables) (4.12.2)
+Requirement already satisfied: numpy>=1.22.4 in /Users/zach/.local/lib/python3.12/site-packages (from great_tables) (2.0.1)
+Requirement already satisfied: Babel>=2.13.1 in /Users/zach/.local/lib/python3.12/site-packages (from great_tables) (2.17.0)
+Collecting importlib-resources (from great_tables)
+  Downloading importlib_resources-6.5.2-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: packaging>=20.9 in /Users/zach/.local/lib/python3.12/site-packages (from htmltools>=0.4.1->great_tables) (23.2)
+Collecting zipp>=3.20 (from importlib-metadata->great_tables)
+  Using cached zipp-3.21.0-py3-none-any.whl.metadata (3.7 kB)
+Downloading great_tables-0.16.1-py3-none-any.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 5.1 MB/s eta 0:00:00
+Downloading commonmark-0.9.1-py2.py3-none-any.whl (51 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 51.1/51.1 kB 4.5 MB/s eta 0:00:00
+Downloading css_inline-0.14.6-cp37-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl (3.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.5/3.5 MB 9.3 MB/s eta 0:00:00
+Downloading faicons-0.2.2-py3-none-any.whl (607 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 607.2/607.2 kB 13.3 MB/s eta 0:00:00
+Downloading htmltools-0.6.0-py3-none-any.whl (84 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.0/85.0 kB 9.9 MB/s eta 0:00:00
+Downloading importlib_metadata-8.6.1-py3-none-any.whl (26 kB)
+Downloading importlib_resources-6.5.2-py3-none-any.whl (37 kB)
+Using cached zipp-3.21.0-py3-none-any.whl (9.6 kB)
+Installing collected packages: commonmark, zipp, importlib-resources, htmltools, css-inline, importlib-metadata, faicons, great_tables
+Successfully installed commonmark-0.9.1 css-inline-0.14.6 faicons-0.2.2 great_tables-0.16.1 htmltools-0.6.0 importlib-metadata-8.6.1 importlib-resources-6.5.2 zipp-3.21.0
+[notice] A new release of pip is available: 24.1 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
