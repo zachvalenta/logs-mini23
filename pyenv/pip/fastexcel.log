@@ -1,0 +1,10 @@
+$ python -m pip install --user fastexcel
+Collecting fastexcel
+  Downloading fastexcel-0.13.0-cp39-abi3-macosx_11_0_arm64.whl.metadata (3.5 kB)
+Requirement already satisfied: pyarrow>=8.0.0 in /Users/zach/.local/lib/python3.12/site-packages (from fastexcel) (19.0.1)
+Downloading fastexcel-0.13.0-cp39-abi3-macosx_11_0_arm64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 2.5 MB/s eta 0:00:00
+Installing collected packages: fastexcel
+Successfully installed fastexcel-0.13.0
+[notice] A new release of pip is available: 24.1 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
