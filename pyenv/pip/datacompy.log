@@ -1,0 +1,20 @@
+$ python -m pip install --user datacompy
+Collecting datacompy
+  Downloading datacompy-0.16.3-py3-none-any.whl.metadata (9.0 kB)
+Requirement already satisfied: pandas<=2.2.3,>=0.25.0 in /Users/zach/.local/lib/python3.12/site-packages (from datacompy) (2.2.2)
+Requirement already satisfied: numpy<=2.2.3,>=1.22.0 in /Users/zach/.local/lib/python3.12/site-packages (from datacompy) (2.0.1)
+Collecting ordered-set<=4.1.0,>=4.0.2 (from datacompy)
+  Downloading ordered_set-4.1.0-py3-none-any.whl.metadata (5.3 kB)
+Requirement already satisfied: polars<=1.22.0,>=0.20.4 in /Users/zach/.pyenv/versions/3.12.1/lib/python3.12/site-packages (from polars[pandas]<=1.22.0,>=0.20.4->datacompy) (1.6.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /Users/zach/.local/lib/python3.12/site-packages (from pandas<=2.2.3,>=0.25.0->datacompy) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /Users/zach/.local/lib/python3.12/site-packages (from pandas<=2.2.3,>=0.25.0->datacompy) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /Users/zach/.local/lib/python3.12/site-packages (from pandas<=2.2.3,>=0.25.0->datacompy) (2024.1)
+Requirement already satisfied: six>=1.5 in /Users/zach/.local/lib/python3.12/site-packages (from python-dateutil>=2.8.2->pandas<=2.2.3,>=0.25.0->datacompy) (1.16.0)
+Requirement already satisfied: pyarrow>=7.0.0 in /Users/zach/.local/lib/python3.12/site-packages (from polars<=1.22.0,>=0.20.4->polars[pandas]<=1.22.0,>=0.20.4->datacompy) (19.0.1)
+Downloading datacompy-0.16.3-py3-none-any.whl (74 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.9/74.9 kB 1.8 MB/s eta 0:00:00
+Downloading ordered_set-4.1.0-py3-none-any.whl (7.6 kB)
+Installing collected packages: ordered-set, datacompy
+Successfully installed datacompy-0.16.3 ordered-set-4.1.0
+[notice] A new release of pip is available: 24.1 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
