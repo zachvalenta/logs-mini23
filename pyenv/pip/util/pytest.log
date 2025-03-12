@@ -1,0 +1,17 @@
+$ python -m pip install --user pytest
+
+Collecting pytest
+  Downloading pytest-8.3.5-py3-none-any.whl.metadata (7.6 kB)
+Collecting iniconfig (from pytest)
+  Downloading iniconfig-2.0.0-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: packaging in /Users/zach/.local/lib/python3.12/site-packages (from pytest) (23.2)
+Collecting pluggy<2,>=1.5 (from pytest)
+  Using cached pluggy-1.5.0-py3-none-any.whl.metadata (4.8 kB)
+Downloading pytest-8.3.5-py3-none-any.whl (343 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 343.6/343.6 kB 4.5 MB/s eta 0:00:00
+Using cached pluggy-1.5.0-py3-none-any.whl (20 kB)
+Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Installing collected packages: pluggy, iniconfig, pytest
+Successfully installed iniconfig-2.0.0 pluggy-1.5.0 pytest-8.3.5
+[notice] A new release of pip is available: 24.1 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
