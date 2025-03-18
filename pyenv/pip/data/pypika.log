@@ -1,0 +1,17 @@
+$ python -m pip install --user pypika
+
+Collecting pypika
+  Downloading PyPika-0.48.9.tar.gz (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.3/67.3 kB 1.1 MB/s eta 0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Building wheels for collected packages: pypika
+  Building wheel for pypika (pyproject.toml) ... done
+  Created wheel for pypika: filename=pypika-0.48.9-py2.py3-none-any.whl size=53768 sha256=536c0dd7b8ab6fa2476c398960e550c5970371e5d912c15ce5a05de18cfc6d63
+  Stored in directory: /Users/zach/Library/Caches/pip/wheels/d5/3d/69/8d68d249cd3de2584f226e27fd431d6344f7d70fd856ebd01b
+Successfully built pypika
+Installing collected packages: pypika
+Successfully installed pypika-0.48.9
+[notice] A new release of pip is available: 24.1 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
