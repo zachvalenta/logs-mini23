@@ -1,0 +1,64 @@
+$ brew install dos2unix
+
+==> Downloading https://ghcr.io/v2/homebrew/core/dos2unix/manifests/7.5.2
+################################################################################################################################################################ 100.0%
+==> Fetching dos2unix
+==> Downloading https://ghcr.io/v2/homebrew/core/dos2unix/blobs/sha256:e739f5c6536d3fc4fa9a8922197379137322925c4476ee28f52e8e02875f61b9
+################################################################################################################################################################ 100.0%
+==> Pouring dos2unix--7.5.2.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dos2unix/7.5.2: 25 files, 466KB
+==> Running `brew cleanup dos2unix`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/basilk--0.2.0.tar.gz... (644KB)
+Removing: /Users/zach/Library/Caches/Homebrew/diffnav--0.2.8.tar.gz... (1.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/difftastic_bottle_manifest--0.60.0... (8.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/doggo_bottle_manifest--1.0.4... (8.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/dotenvx--64.tar.gz... (15.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/duf_bottle_manifest--0.8.1... (10.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/duf--0.8.1... (1.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/dust_bottle_manifest--1.1.1... (8.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/dust--1.1.1... (1007.7KB)
+Removing: /opt/homebrew/Cellar/fontconfig/2.15.0... (91 files, 2.4MB)
+Removing: /opt/homebrew/Cellar/gettext/0.23... (2,052 files, 22.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/gettext_bottle_manifest--0.23... (11.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gettext--0.23... (9.0MB)
+Removing: /Users/zach/Library/Caches/Homebrew/git_bottle_manifest--2.46.1... (14.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/git-delta_bottle_manifest--0.18.2... (9.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gum_bottle_manifest--0.14.5... (9.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gum--0.14.5... (4.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/jq_bottle_manifest--1.7.1-1... (9.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/jq--1.7.1... (526.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/lazygit--0.44.1.tar.gz... (6.4MB)
+Removing: /opt/homebrew/Cellar/libpng/1.6.44... (28 files, 1.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/ls-lint_bottle_manifest--2.2.3... (8.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ls-lint--2.2.3... (934.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/monolith_bottle_manifest--2.8.3... (9.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/monolith--2.8.3... (2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/neofetch_bottle_manifest--7.1.0-4... (2.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/neofetch--7.1.0... (91.6KB)
+Removing: /opt/homebrew/Cellar/oniguruma/6.9.9... (14 files, 1.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/procs_bottle_manifest--0.14.6... (8.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/screenresolution_bottle_manifest--1.6... (12.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/screenresolution--1.6... (13KB)
+Removing: /Users/zach/Library/Caches/Homebrew/serie--0.4.0.tar.gz... (2.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/task_bottle_manifest--3.1.0... (9.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/x12pp--0.3.0.tar.gz... (16.6KB)
+Removing: /opt/homebrew/Cellar/xz/5.6.3... (96 files, 2.0MB)
+Removing: /Users/zach/Library/Caches/Homebrew/xz_bottle_manifest--5.6.3... (10.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/xz--5.6.3... (584.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/yq_bottle_manifest--4.44.3... (8.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/llvm_bottle_manifest--18.1.8... (48.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/rust_bottle_manifest--1.81.0... (26.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/z3_bottle_manifest--4.13.0... (9.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/ghostty--1.0.0.dmg... (22.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/ghostty--1.1.0.dmg... (22.8MB)
+Removing: /Users/zach/Library/Logs/Homebrew/sunbeam... (114B)
+Removing: /Users/zach/Library/Logs/Homebrew/tala... (2 files, 582B)
+Removing: /Users/zach/Library/Logs/Homebrew/php... (12 files, 2.9KB)
+Removing: /Users/zach/Library/Logs/Homebrew/fontconfig... (146.8KB)
+Removing: /Users/zach/Library/Logs/Homebrew/lazydocker... (131B)
+Pruned 0 symbolic links and 5 directories from /opt/homebrew
