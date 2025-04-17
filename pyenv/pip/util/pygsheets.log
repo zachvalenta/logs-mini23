@@ -1,0 +1,74 @@
+$ python -m pip install pygsheets --user
+
+Collecting pygsheets
+  Downloading pygsheets-2.0.6-py3-none-any.whl.metadata (14 kB)
+Collecting google-api-python-client>=2.50.0 (from pygsheets)
+  Downloading google_api_python_client-2.167.0-py2.py3-none-any.whl.metadata (6.7 kB)
+Collecting google-auth-oauthlib>=0.7.1 (from pygsheets)
+  Using cached google_auth_oauthlib-1.2.1-py2.py3-none-any.whl.metadata (2.7 kB)
+Collecting httplib2<1.0.0,>=0.19.0 (from google-api-python-client>=2.50.0->pygsheets)
+  Using cached httplib2-0.22.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0 (from google-api-python-client>=2.50.0->pygsheets)
+  Downloading google_auth-2.39.0-py2.py3-none-any.whl.metadata (6.2 kB)
+Collecting google-auth-httplib2<1.0.0,>=0.2.0 (from google-api-python-client>=2.50.0->pygsheets)
+  Using cached google_auth_httplib2-0.2.0-py2.py3-none-any.whl.metadata (2.2 kB)
+Collecting google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5 (from google-api-python-client>=2.50.0->pygsheets)
+  Downloading google_api_core-2.24.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting uritemplate<5,>=3.0.1 (from google-api-python-client>=2.50.0->pygsheets)
+  Using cached uritemplate-4.1.1-py2.py3-none-any.whl.metadata (2.9 kB)
+Collecting requests-oauthlib>=0.7.0 (from google-auth-oauthlib>=0.7.1->pygsheets)
+  Using cached requests_oauthlib-2.0.0-py2.py3-none-any.whl.metadata (11 kB)
+Collecting googleapis-common-protos<2.0.0,>=1.56.2 (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.50.0->pygsheets)
+  Downloading googleapis_common_protos-1.70.0-py3-none-any.whl.metadata (9.3 kB)
+Collecting protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<7.0.0,>=3.19.5 (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.50.0->pygsheets)
+  Downloading protobuf-6.30.2-cp39-abi3-macosx_10_9_universal2.whl.metadata (593 bytes)
+Collecting proto-plus<2.0.0,>=1.22.3 (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.50.0->pygsheets)
+  Downloading proto_plus-1.26.1-py3-none-any.whl.metadata (2.2 kB)
+Requirement already satisfied: requests<3.0.0,>=2.18.0 in /Users/zach/.local/lib/python3.12/site-packages (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.50.0->pygsheets) (2.32.3)
+Collecting cachetools<6.0,>=2.0.0 (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client>=2.50.0->pygsheets)
+  Downloading cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting pyasn1-modules>=0.2.1 (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client>=2.50.0->pygsheets)
+  Downloading pyasn1_modules-0.4.2-py3-none-any.whl.metadata (3.5 kB)
+Collecting rsa<5,>=3.1.4 (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client>=2.50.0->pygsheets)
+  Downloading rsa-4.9.1-py3-none-any.whl.metadata (5.6 kB)
+Collecting pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2 (from httplib2<1.0.0,>=0.19.0->google-api-python-client>=2.50.0->pygsheets)
+  Downloading pyparsing-3.2.3-py3-none-any.whl.metadata (5.0 kB)
+Collecting oauthlib>=3.0.0 (from requests-oauthlib>=0.7.0->google-auth-oauthlib>=0.7.1->pygsheets)
+  Using cached oauthlib-3.2.2-py3-none-any.whl.metadata (7.5 kB)
+Collecting pyasn1<0.7.0,>=0.6.1 (from pyasn1-modules>=0.2.1->google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client>=2.50.0->pygsheets)
+  Using cached pyasn1-0.6.1-py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in /Users/zach/.local/lib/python3.12/site-packages (from requests<3.0.0,>=2.18.0->google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.50.0->pygsheets) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /Users/zach/.local/lib/python3.12/site-packages (from requests<3.0.0,>=2.18.0->google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.50.0->pygsheets) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/zach/.local/lib/python3.12/site-packages (from requests<3.0.0,>=2.18.0->google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.50.0->pygsheets) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in /Users/zach/.local/lib/python3.12/site-packages (from requests<3.0.0,>=2.18.0->google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client>=2.50.0->pygsheets) (2025.1.31)
+Downloading pygsheets-2.0.6-py3-none-any.whl (158 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 158.2/158.2 kB 2.6 MB/s eta 0:00:00
+Downloading google_api_python_client-2.167.0-py2.py3-none-any.whl (13.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.2/13.2 MB 27.1 MB/s eta 0:00:00
+Using cached google_auth_oauthlib-1.2.1-py2.py3-none-any.whl (24 kB)
+Downloading google_api_core-2.24.2-py3-none-any.whl (160 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 160.1/160.1 kB 14.0 MB/s eta 0:00:00
+Downloading google_auth-2.39.0-py2.py3-none-any.whl (212 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 212.3/212.3 kB 20.5 MB/s eta 0:00:00
+Using cached google_auth_httplib2-0.2.0-py2.py3-none-any.whl (9.3 kB)
+Using cached httplib2-0.22.0-py3-none-any.whl (96 kB)
+Using cached requests_oauthlib-2.0.0-py2.py3-none-any.whl (24 kB)
+Using cached uritemplate-4.1.1-py2.py3-none-any.whl (10 kB)
+Downloading cachetools-5.5.2-py3-none-any.whl (10 kB)
+Downloading googleapis_common_protos-1.70.0-py3-none-any.whl (294 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.5/294.5 kB 26.8 MB/s eta 0:00:00
+Using cached oauthlib-3.2.2-py3-none-any.whl (151 kB)
+Downloading proto_plus-1.26.1-py3-none-any.whl (50 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.2/50.2 kB 7.1 MB/s eta 0:00:00
+Downloading protobuf-6.30.2-cp39-abi3-macosx_10_9_universal2.whl (417 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 417.6/417.6 kB 10.0 MB/s eta 0:00:00
+Downloading pyasn1_modules-0.4.2-py3-none-any.whl (181 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.3/181.3 kB 10.7 MB/s eta 0:00:00
+Downloading pyparsing-3.2.3-py3-none-any.whl (111 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.1/111.1 kB 14.9 MB/s eta 0:00:00
+Downloading rsa-4.9.1-py3-none-any.whl (34 kB)
+Using cached pyasn1-0.6.1-py3-none-any.whl (83 kB)
+Installing collected packages: uritemplate, pyparsing, pyasn1, protobuf, oauthlib, cachetools, rsa, requests-oauthlib, pyasn1-modules, proto-plus, httplib2, googleapis-common-protos, google-auth, google-auth-oauthlib, google-auth-httplib2, google-api-core, google-api-python-client, pygsheets
+Successfully installed cachetools-5.5.2 google-api-core-2.24.2 google-api-python-client-2.167.0 google-auth-2.39.0 google-auth-httplib2-0.2.0 google-auth-oauthlib-1.2.1 googleapis-common-protos-1.70.0 httplib2-0.22.0 oauthlib-3.2.2 proto-plus-1.26.1 protobuf-6.30.2 pyasn1-0.6.1 pyasn1-modules-0.4.2 pygsheets-2.0.6 pyparsing-3.2.3 requests-oauthlib-2.0.0 rsa-4.9.1 uritemplate-4.1.1
+[notice] A new release of pip is available: 24.1 -> 25.0.1
+[notice] To update, run: pip install --upgrade pip
