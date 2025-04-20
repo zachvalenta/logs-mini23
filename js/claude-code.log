@@ -1,0 +1,10 @@
+$ npm install -g @anthropic-ai/claude-code
+
+added 3 packages in 2s
+2 packages are looking for funding
+  run `npm fund` for details
+npm notice
+npm notice New major version of npm available! 10.9.2 -> 11.3.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.3.0
+npm notice To update run: npm install -g npm@11.3.0
+npm notice
