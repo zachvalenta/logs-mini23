@@ -1,0 +1,12 @@
+$ pipx install httpie
+
+  installed package httpie 3.2.4, installed using Python 3.12.1
+  These apps are now globally available
+    - http
+    - httpie
+    - https
+  These manual pages are now globally available
+    - man1/http.1
+    - man1/httpie.1
+    - man1/https.1
+done! ✨ 🌟 ✨
