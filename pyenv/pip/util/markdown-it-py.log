@@ -1,0 +1,4 @@
+$ python -m pip install markdown-it-py --user
+
+Requirement already satisfied: markdown-it-py in /Users/zach/.local/lib/python3.12/site-packages (3.0.0)
+Requirement already satisfied: mdurl~=0.1 in /Users/zach/.local/lib/python3.12/site-packages (from markdown-it-py) (0.1.2)
