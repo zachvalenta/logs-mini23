@@ -8,3 +8,11 @@ npm notice New major version of npm available! 10.9.2 -> 11.3.0
 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.3.0
 npm notice To update run: npm install -g npm@11.3.0
 npm notice
+
+$ claude update
+Current version: 0.2.74
+Checking for updates...
+New version available: 1.0.31 (current: 0.2.74)
+Installing update...
+Using global installation update method...
+Successfully updated from 0.2.74 to version 1.0.31
