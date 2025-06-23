@@ -37,3 +37,27 @@ Installing collected packages: commonmark, zipp, importlib-resources, htmltools,
 Successfully installed commonmark-0.9.1 css-inline-0.14.6 faicons-0.2.2 great_tables-0.16.1 htmltools-0.6.0 importlib-metadata-8.6.1 importlib-resources-6.5.2 zipp-3.21.0
 [notice] A new release of pip is available: 24.1 -> 25.0.1
 [notice] To update, run: pip install --upgrade pip
+
+$ python -m pip install --user --upgrade great-tables
+
+Requirement already satisfied: great-tables in /Users/zach/.local/lib/python3.12/site-packages (0.16.1)
+Collecting great-tables
+  Downloading great_tables-0.17.0-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: commonmark>=0.9.1 in /Users/zach/.local/lib/python3.12/site-packages (from great-tables) (0.9.1)
+Requirement already satisfied: faicons>=0.2.2 in /Users/zach/.local/lib/python3.12/site-packages (from great-tables) (0.2.2)
+Requirement already satisfied: htmltools>=0.4.1 in /Users/zach/.local/lib/python3.12/site-packages (from great-tables) (0.6.0)
+Requirement already satisfied: importlib-metadata in /Users/zach/.local/lib/python3.12/site-packages (from great-tables) (8.6.1)
+Requirement already satisfied: typing_extensions>=3.10.0.0 in /Users/zach/.local/lib/python3.12/site-packages (from great-tables) (4.12.2)
+Requirement already satisfied: numpy>=1.22.4 in /Users/zach/.local/lib/python3.12/site-packages (from great-tables) (2.0.1)
+Requirement already satisfied: Babel>=2.13.1 in /Users/zach/.local/lib/python3.12/site-packages (from great-tables) (2.17.0)
+Requirement already satisfied: importlib-resources in /Users/zach/.local/lib/python3.12/site-packages (from great-tables) (6.5.2)
+Requirement already satisfied: packaging>=20.9 in /Users/zach/.local/lib/python3.12/site-packages (from htmltools>=0.4.1->great-tables) (23.2)
+Requirement already satisfied: zipp>=3.20 in /Users/zach/.local/lib/python3.12/site-packages (from importlib-metadata->great-tables) (3.21.0)
+Downloading great_tables-0.17.0-py3-none-any.whl (1.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 11.8 MB/s eta 0:00:00
+Installing collected packages: great-tables
+  Attempting uninstall: great-tables
+    Found existing installation: great-tables 0.16.1
+    Uninstalling great-tables-0.16.1:
+      Successfully uninstalled great-tables-0.16.1
+Successfully installed great-tables-0.17.0
