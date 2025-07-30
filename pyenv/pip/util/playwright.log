@@ -1,0 +1,35 @@
+$ python -m pip install --user playwright
+Collecting playwright
+  Downloading playwright-1.54.0-py3-none-macosx_11_0_arm64.whl.metadata (3.5 kB)
+Collecting pyee<14,>=13 (from playwright)
+  Downloading pyee-13.0.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting greenlet<4.0.0,>=3.1.1 (from playwright)
+  Downloading greenlet-3.2.3-cp312-cp312-macosx_11_0_universal2.whl.metadata (4.1 kB)
+Requirement already satisfied: typing-extensions in /Users/zach/.local/lib/python3.12/site-packages (from pyee<14,>=13->playwright) (4.12.2)
+Downloading playwright-1.54.0-py3-none-macosx_11_0_arm64.whl (38.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 38.7/38.7 MB 4.9 MB/s eta 0:00:00
+Downloading greenlet-3.2.3-cp312-cp312-macosx_11_0_universal2.whl (271 kB)
+Downloading pyee-13.0.0-py3-none-any.whl (15 kB)
+Installing collected packages: pyee, greenlet, playwright
+Successfully installed greenlet-3.2.3 playwright-1.54.0 pyee-13.0.0
+
+$ which playwright
+/Users/zach/.local/bin/playwright
+
+$ playwright install
+Downloading Chromium 139.0.7258.5 (playwright build v1181) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1181/chromium-mac-arm64.zip
+128.4 MiB [====================] 100% 0.0s
+Chromium 139.0.7258.5 (playwright build v1181) downloaded to /Users/zach/Library/Caches/ms-playwright/chromium-1181
+Downloading Chromium Headless Shell 139.0.7258.5 (playwright build v1181) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1181/chromium-headless-shell-mac-arm64.zip
+81.7 MiB [====================] 100% 0.0s
+Chromium Headless Shell 139.0.7258.5 (playwright build v1181) downloaded to /Users/zach/Library/Caches/ms-playwright/chromium_headless_shell-1181
+Downloading Firefox 140.0.2 (playwright build v1489) from https://cdn.playwright.dev/dbazure/download/playwright/builds/firefox/1489/firefox-mac-arm64.zip
+86.4 MiB [====================] 100% 0.0s
+Firefox 140.0.2 (playwright build v1489) downloaded to /Users/zach/Library/Caches/ms-playwright/firefox-1489
+You are using a frozen webkit browser which does not receive updates anymore on mac13-arm64. Please update to the latest version of your operating system to test up-to-date browsers.
+Downloading Webkit playwright build v2140 from https://cdn.playwright.dev/dbazure/download/playwright/builds/webkit/2140/webkit-mac-13-arm64.zip
+73.1 MiB [====================] 100% 0.0s
+Webkit playwright build v2140 downloaded to /Users/zach/Library/Caches/ms-playwright/webkit_mac13_arm64_special-2140
+Downloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-mac-arm64.zip
+1 MiB [====================] 100% 0.0s
+FFMPEG playwright build v1011 downloaded to /Users/zach/Library/Caches/ms-playwright/ffmpeg-1011
