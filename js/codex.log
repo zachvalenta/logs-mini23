@@ -1,0 +1,7 @@
+$ npm i -g @openai/codex
+added 1 package in 2s
+
+$ codex --version
+codex-cli 0.20.0
+
+# logged in using account vs. API key
