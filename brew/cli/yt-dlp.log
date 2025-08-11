@@ -43,6 +43,7 @@ zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
 
 $ brew upgrade yt-dlp
+
 ==> Upgrading 1 outdated package:
 yt-dlp 2024.12.23 -> 2025.1.26
 ==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/mani
@@ -231,6 +232,257 @@ Removing: /Users/zach/Library/Caches/Homebrew/php_bottle_manifest--8.4.2... (50.
 Removing: /Users/zach/Library/Caches/Homebrew/php--8.4.2... (25.3MB)
 ==> Checking for dependents of upgraded formulae...
 ==> No broken dependents found!
+==> Caveats
+==> yt-dlp
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> php
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+
+brew upgrade yt-dlp
+==> Upgrading 1 outdated package:
+yt-dlp 2025.1.26 -> 2025.2.19
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/manifests/2025.2.19
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for yt-dlp: certifi, openssl@3, sqlite, expat and python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2025.1.31
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/blobs/sha256:1dc3a71ee0b857af77f190a83822b03cddb39f3c8834bfd2079e6e6fe10f64b4
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.4.1
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:51383da8b5d48f24b1d7a7f218cce1e309b6e299ae2dc5cfce5d69ff90c6e629
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.49.1
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/blobs/sha256:bc9452d380a2b553d773112d283f96386bf7acd7ba9f41186ef13b01e1e0f01f
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/expat/manifests/2.6.4
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching expat
+==> Downloading https://ghcr.io/v2/homebrew/core/expat/blobs/sha256:69954446c870bfbea2df1e26784ac789456d654754f75bd94297bf89bcea66ad
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.2
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:ed78343ecae2c1880e2d2c29f171ccd6df6b681a77b5d6f435cc529ef3957fa2
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching yt-dlp
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/blobs/sha256:c1e1378e282c9c7868722d99b1ebb429e28e20fdc4ab81c5e66a5c2bbd2f9d24
+##################################################################################################################################################################################################################################### 100.0%
+==> Upgrading yt-dlp
+  2025.1.26 -> 2025.2.19
+==> Installing dependencies for yt-dlp: certifi, openssl@3, sqlite, expat and python@3.13
+==> Installing yt-dlp dependency: certifi
+==> Downloading https://ghcr.io/v2/homebrew/core/certifi/manifests/2025.1.31
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a73a70af4149dfe7b8bd11cd9a16aecdd7ad4ac5fe95d74044adb8cd249e070f--certifi-2025.1.31.bottle_manifest.json
+==> Pouring certifi--2025.1.31.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/certifi/2025.1.31: 27 files, 26.8KB
+==> Installing yt-dlp dependency: openssl@3
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/3/manifests/3.4.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a2bb8b71ebddb1fe8553581fcbc1ffc4ab36795c68b3cd47977cf83f1673a5b1--openssl@3-3.4.1.bottle_manifest.json
+==> Pouring openssl@3--3.4.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.4.1: 7,236 files, 33.5MB
+==> Installing yt-dlp dependency: sqlite
+==> Downloading https://ghcr.io/v2/homebrew/core/sqlite/manifests/3.49.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/ce3cf24bf33f0eff2d169e046ba5da3ec75ab9fe0439e7b7face44f42e033fcb--sqlite-3.49.1.bottle_manifest.json
+==> Pouring sqlite--3.49.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.49.1: 13 files, 4.7MB
+==> Installing yt-dlp dependency: expat
+==> Downloading https://ghcr.io/v2/homebrew/core/expat/manifests/2.6.4
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/700d5fdfe27a60378ec5801ebcbf598a7f6eeb78be73ddb517b205e6692b42d6--expat-2.6.4.bottle_manifest.json
+==> Pouring expat--2.6.4.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/expat/2.6.4: 23 files, 671.7KB
+==> Installing yt-dlp dependency: python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.2
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/ed88e7b3fd6fee101e6c569740db52ea7364a7e3d9092a35d8375795a39c2592--python@3.13-3.13.2.bottle_manifest.json
+==> Pouring python@3.13--3.13.2.arm64_ventura.bottle.tar.gz
+==> /opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im ensurepip
+==> /opt/homebrew/Cellar/python@3.13/3.13.2/bin/python3.13 -Im pip install -v --no-index --upgrade --isolated --target=/opt/homebrew/lib/python3.13/site-packages /opt/homebrew/Cellar/python@3.13/3.13.2/Frameworks/Python.framework/Versio
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.2: 3,275 files, 65.5MB
+==> Installing yt-dlp
+==> Pouring yt-dlp--2025.2.19.arm64_ventura.bottle.tar.gz
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/yt-dlp/2025.2.19: 1,705 files, 18.9MB
+==> Running `brew cleanup yt-dlp`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/yt-dlp/2025.1.26... (1,702 files, 18.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp_bottle_manifest--2025.1.26... (15.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp--2025.1.26... (4.9MB)
+==> Upgrading 2 dependents of upgraded formulae:
+Disable this behaviour by setting HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+php 8.4.3 -> 8.4.4, python@3.12 3.12.6 -> 3.12.9
+==> Downloading https://ghcr.io/v2/homebrew/core/php/manifests/8.4.4
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching dependencies for php: curl, freetds, little-cms2, aom and libzip
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/manifests/8.12.1
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching curl
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/blobs/sha256:4bb7dd339d9bb3de5aa76bf6ca0ce01d869df99f820c92a6d5dbad2966091a2f
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/manifests/1.4.26
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching freetds
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/blobs/sha256:32976083451f3f999a77e2742f05e3c138ac74c5589a14040e96f4302ceff55b
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.17
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching little-cms2
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:a4edffc61a638164f92c20dbb084eb00a82ce81cb2e58aa18ad5f1d73c843c5e
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.12.0
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching aom
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/blobs/sha256:baedc04e1b6dc35c2941b2f577d4f84042ec4a5f7510bbc2a71bef69db93ba36
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/manifests/1.11.3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/62c90df80d27d5f859413821d6515fc9e477dee1ad3001cf924f730e591c2fee--libzip-1.11.3.bottle_manifest.json
+==> Fetching libzip
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/blobs/sha256:a5f5cad9a74903117c3168e95aed359880001176cec4012caf3347768e4653b4
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching php
+==> Downloading https://ghcr.io/v2/homebrew/core/php/blobs/sha256:e2eed92db813b5b2db3df20bf346489ada862daee8e0ea6b898307a9522544b0
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.12/manifests/3.12.9
+##################################################################################################################################################################################################################################### 100.0%
+==> Upgrading php
+  8.4.3 -> 8.4.4
+==> Installing dependencies for php: curl, freetds, little-cms2, aom and libzip
+==> Installing php dependency: curl
+==> Downloading https://ghcr.io/v2/homebrew/core/curl/manifests/8.12.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/0e313a5cadaadf21d6690f229ca17519bc94fc89861d243ae810899c8ec458e3--curl-8.12.1.bottle_manifest.json
+==> Pouring curl--8.12.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/curl/8.12.1: 535 files, 4.2MB
+==> Installing php dependency: freetds
+==> Downloading https://ghcr.io/v2/homebrew/core/freetds/manifests/1.4.26
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/39b91a18e9e1554ab81363995a4639f9645b4eea203564d9f3b8c731deed2759--freetds-1.4.26.bottle_manifest.json
+==> Pouring freetds--1.4.26.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetds/1.4.26: 1,425 files, 16MB
+==> Installing php dependency: little-cms2
+==> Downloading https://ghcr.io/v2/homebrew/core/little-cms2/manifests/2.17
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/0e5e5ac9e1df07ae001662a85a70b344b31345897c284172f14874c9d329cb85--little-cms2-2.17.bottle_manifest.json
+==> Pouring little-cms2--2.17.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/little-cms2/2.17: 23 files, 1.4MB
+==> Installing php dependency: aom
+==> Downloading https://ghcr.io/v2/homebrew/core/aom/manifests/3.12.0
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/f08f16b98da583fe0e9212922381b7f89716226535884f4477b6dc807cc2dd3c--aom-3.12.0.bottle_manifest.json
+==> Pouring aom--3.12.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aom/3.12.0: 24 files, 9.8MB
+==> Installing php dependency: libzip
+==> Downloading https://ghcr.io/v2/homebrew/core/libzip/manifests/1.11.3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/62c90df80d27d5f859413821d6515fc9e477dee1ad3001cf924f730e591c2fee--libzip-1.11.3.bottle_manifest.json
+==> Pouring libzip--1.11.3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libzip/1.11.3: 156 files, 918.5KB
+==> Installing php
+==> Pouring php--8.4.4.arm64_ventura.bottle.tar.gz
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set php_ini /opt/homebrew/etc/php/8.4/php.ini system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set php_dir /opt/homebrew/share/pear system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set doc_dir /opt/homebrew/share/pear/doc system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set ext_dir /opt/homebrew/lib/php/pecl/20240924 system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set bin_dir /opt/homebrew/opt/php/bin system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set data_dir /opt/homebrew/share/pear/data system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set cfg_dir /opt/homebrew/share/pear/cfg system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set www_dir /opt/homebrew/share/pear/htdocs system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set man_dir /opt/homebrew/share/man system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set test_dir /opt/homebrew/share/pear/test system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear config-set php_bin /opt/homebrew/opt/php/bin/php system
+==> /opt/homebrew/Cellar/php/8.4.4/bin/pear update-channels
+==> Caveats
+To enable PHP in Apache add the following to httpd.conf and restart Apache:
+    LoadModule php_module /opt/homebrew/opt/php/lib/httpd/modules/libphp.so
+
+    <FilesMatch \.php$>
+        SetHandler application/x-httpd-php
+    </FilesMatch>
+
+Finally, check DirectoryIndex includes index.php
+    DirectoryIndex index.php index.html
+
+The php.ini and php-fpm.ini file can be found in:
+    /opt/homebrew/etc/php/8.4/
+
+To start php now and restart at login:
+  brew services start php
+Or, if you don't want/need a background service you can just run:
+  /opt/homebrew/opt/php/sbin/php-fpm --nodaemonize
+==> Summary
+🍺  /opt/homebrew/Cellar/php/8.4.4: 529 files, 108.0MB
+==> Running `brew cleanup php`...
+Removing: /opt/homebrew/Cellar/php/8.4.3... (529 files, 107.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/php_bottle_manifest--8.4.3... (50KB)
+Removing: /Users/zach/Library/Caches/Homebrew/php--8.4.3... (25.3MB)
+==> Checking for dependents of upgraded formulae...
+==> No broken dependents found!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /opt/homebrew/Cellar/aom/3.11.0... (24 files, 10.2MB)
+Removing: /opt/homebrew/Cellar/certifi/2024.12.14... (27 files, 26.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/colima_bottle_manifest--0.8.1... (22.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/colima--0.8.1... (2.2MB)
+Removing: /opt/homebrew/Cellar/curl/8.11.1... (531 files, 4.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/d2_bottle_manifest--0.6.9... (7.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/d2--0.6.9... (11.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/docker_bottle_manifest--27.5.1... (8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/docker--27.5.1... (8.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/docker-completion_bottle_manifest--27.5.1... (1.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/docker-completion--27.5.1... (69.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/fontconfig_bottle_manifest--2.16.0... (10.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/fontconfig--2.16.0... (378.5KB)
+Removing: /opt/homebrew/Cellar/freetds/1.4.24... (1,425 files, 16MB)
+Removing: /Users/zach/Library/Caches/Homebrew/gettext_bottle_manifest--0.23.1... (11.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gettext--0.23.1... (8.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/harfbuzz_bottle_manifest--10.2.0... (28.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/harfbuzz--10.2.0... (2.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libpng_bottle_manifest--1.6.46... (8.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libpng--1.6.46... (457.3KB)
+Removing: /opt/homebrew/Cellar/libzip/1.11.2... (155 files, 915.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libzip_bottle_manifest--1.11.3... (9.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/lima_bottle_manifest--1.0.4... (22.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/lima--1.0.4... (58.8MB)
+Removing: /opt/homebrew/Cellar/little-cms2/2.16... (23 files, 1.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/oniguruma_bottle_manifest--6.9.10... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/oniguruma--6.9.10... (451.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openjdk@11_bottle_manifest--11.0.26-1... (35.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openjdk@11--11.0.26... (178.3MB)
+Removing: /opt/homebrew/Cellar/openssl@3/3.4.0... (7,236 files, 33.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/pango_bottle_manifest--1.56.1... (30.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pango--1.56.1... (831.1KB)
+Removing: /opt/homebrew/Cellar/python@3.13/3.13.1... (3,269 files, 65.3MB)
+Removing: /opt/homebrew/Cellar/sqlite/3.47.2... (12 files, 4.9MB)
+Removing: /opt/homebrew/Cellar/sqlite/3.48.0... (12 files, 4.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/sqlite_bottle_manifest--3.48.0... (8.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/sqlite--3.48.0... (2.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/tala--0.4.2.tar.gz... (18.0MB)
+Removing: /Users/zach/Library/Caches/Homebrew/xz_bottle_manifest--5.6.4... (8.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/xz--5.6.4... (596.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/portable-ruby-3.3.7.arm64_big_sur.bottle.tar.gz... (11.2MB)
+Removing: /Users/zach/Library/Logs/Homebrew/daylight... (125B)
+Pruned 0 symbolic links and 5 directories from /opt/homebrew
 ==> Caveats
 ==> yt-dlp
 zsh completions have been installed to:
