@@ -31,3 +31,75 @@ Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ==> eza
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
+
+
+# libgit2 updated from 1.8 to 1.9, which broke eza and git-delta
+
+$ desk
+dyld[34858]: Library not loaded: /opt/homebrew/opt/libgit2/lib/libgit2.1.8.dylib
+  Referenced from: <06168BE8-0727-31DF-8D75-12A6F7651524> /opt/homebrew/Cellar/eza/0.20.13/bin/eza
+  Reason: tried: '/opt/homebrew/opt/libgit2/lib/libgit2.1.8.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/opt/libgit2/lib/libgit2.1.8.dylib' (no such file), '/opt/homebrew/opt/libgit2/lib/libgit2.1.8.dylib' (no such file), '/usr/local/lib/libgit2.1.8.dylib' (no such file), '/usr/lib/libgit2.1.8.dylib' (no such file, not in dyld cache), '/opt/homebrew/Cellar/libgit2/1.9.1/lib/libgit2.1.8.dylib' (no such file), '/System/Volumes/Preboot/Cryptexes/OS/opt/homebrew/Cellar/libgit2/1.9.1/lib/libgit2.1.8.dylib' (no such file), '/opt/homebrew/Cellar/libgit2/1.9.1/lib/libgit2.1.8.dylib' (no such file), '/usr/local/lib/libgit2.1.8.dylib' (no such file), '/usr/lib/libgit2.1.8.dylib' (no such file, not in dyld cache)
+
+$ brew uses --installed libgit2
+eza                                                                                                                    git-delta
+
+$ brew update
+
+==> Updating Homebrew...
+Updated 6 taps (dotenvx/brew, charmbracelet/tap, pomdtr/tap, lusingander/tap, terrastruct/tap and terrastruct/d2).
+==> Outdated Formulae
+aom                d2                 faad2              gnutls             krb5               libpng             ls-lint            mupdf-tools        pcre2              ripgrep            tmux               zola
+apr                dav1d              fd                 gum                libarchive         libpq              luajit             ncdu               php                sdl2               tree-sitter        zstd
+atuin              diffnav            ffmpeg             harfbuzz           libass             libsndfile         luv                neovim             pixman             serie              unbound
+basilk             difftastic         flac               highway            libavif            libssh             m4                 nettle             pkgconf            snappy             utf8proc
+bat                docker             freetds            icu4c@76           libbluray          libtasn1           mbedtls            oh-my-posh         procs              svt-av1            webp
+broot              docker-completion  fzf                imath              libdeflate         libuv              mdcat              openexr            pyenv              tala               yq
+cairo              doggo              gettext            jpeg               libidn2            libvpx             miller             openjdk@11         python-packaging   task               yt-dlp
+cmus               duckdb             gh                 jpeg-turbo         libmicrohttpd      libx11             mods               openldap           python@3.12        tesseract          zellij
+colima             dust               git                jpeg-xl            libnghttp2         libzip             monolith           pango              python@3.13        theora             zeromq
+curl               eza                glib               jq                 libogg             lima               mpg123             pastel             rav1e              tig                zimg
+==> Outdated Casks
+font-0xproto-nerd-font                         font-blex-mono-nerd-font                       font-fira-code-nerd-font                       font-hack-nerd-font                            font-jetbrains-mono-nerd-font
+font-anonymice-nerd-font                       font-caskaydia-mono-nerd-font                  font-fira-mono-nerd-font                       font-hurmit-nerd-font
+
+You have 112 outdated formulae and 9 outdated casks installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+
+$ brew reinstall eza
+
+==> Fetching downloads for: eza
+==> Downloading https://ghcr.io/v2/homebrew/core/eza/manifests/0.23.0
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching eza
+==> Downloading https://ghcr.io/v2/homebrew/core/eza/blobs/sha256:2384f655b0557ad14ab2ef716b3f1d73cbd2458a6bce7dc6850965b898c40f64
+##################################################################################################################################################################################################################################### 100.0%
+==> Reinstalling eza
+==> Pouring eza--0.23.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/eza/0.23.0: 15 files, 1.4MB
+==> Running `brew cleanup eza`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+
+$ brew reinstall git-delta
+
+==> Fetching downloads for: git-delta
+==> Downloading https://ghcr.io/v2/homebrew/core/git-delta/manifests/0.18.2_3
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/3a2ad41e182a1c836ebc7063fcd983e769eee39c8adedb4d1114028745fa109f--git-delta-0.18.2_3.bottle_manifest.json
+==> Fetching git-delta
+==> Downloading https://ghcr.io/v2/homebrew/core/git-delta/blobs/sha256:ff3d53184c7906ef335c901fec639c8355f802644d025703b0b39c6b18b0727f
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/31ec020943ae01884b8d42397748336aeb9302a39a8ff9d1a66914d4e022585e--git-delta--0.18.2_3.arm64_ventura.bottle.tar.gz
+==> Reinstalling git-delta
+==> Pouring git-delta--0.18.2_3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/git-delta/0.18.2_3: 11 files, 6.3MB
+==> Running `brew cleanup git-delta`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
