@@ -1,0 +1,40 @@
+$ brew upgrade git
+
+==> Upgrading 1 outdated package:
+git 2.46.1 -> 2.51.0
+==> Fetching downloads for: git
+==> Fetching dependencies for git: gettext and pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.26
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:c9cf89dc04f56eb4939b00eea3c0361cd4498f8237e527f2f741682bf7e6de61
+##################################################################################################################################################################################################################################### 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.45
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:a780535fb2f47a39bd16d28f966da1c99b868d7e15b2d18b75b509b6deb85e0d
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:ab01726cef10625602ddbcc0bd638ab939a142a5319999fb6f2fc0c995013535
+##################################################################################################################################################################################################################################### 100.0%
+==> Upgrading git
+  2.46.1 -> 2.51.0
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.26
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/d28158ffec04fae757cdbeb46750e8e2ed43b7b17ada49d72a5bda2cff4cd6ed--gettext-0.26.bottle_manifest.json
+==> Pouring gettext--0.26.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.26: 2,428 files, 28.3MB
+==> Installing git dependency: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.45
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/bbac938545583185faba88567f1a952d7cc0b825820a2980533f7b3550dc31ad--pcre2-10.45.bottle_manifest.json
+==> Pouring pcre2--10.45.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.45: 242 files, 6.7MB
+==> Installing git
+==> Pouring git--2.51.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/git/2.51.0: 1,693 files, 56.2MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/git/2.46.1... (1,679 files, 54.3MB)
+==> No outdated dependents to upgrade!
