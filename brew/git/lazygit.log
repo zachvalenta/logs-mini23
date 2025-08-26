@@ -29,3 +29,7 @@ You should download the Command Line Tools for Xcode 15.2.
 ==> Running `brew cleanup lazygit`...
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+# previous version was from 24.09; updated for custom pagers https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Pagers.md#delta
+$ lazygit --version
+commit=, build date=, build source=Homebrew, version=0.54.2, os=darwin, arch=arm64, git version=2.46.1

@@ -14,3 +14,37 @@ zsh completions have been installed to:
 ==> Running `brew cleanup git-delta`...
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ delta --version
+delta 0.18.2
+
+$ brew upgrade delta
+==> Upgrading 1 outdated package:
+delta 0.18.2 -> 0.18.2_3
+==> Fetching downloads for: git-delta
+==> Fetching dependencies for git-delta: libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/manifests/1.9.1
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/blobs/sha256:73166df03c2abe26516e8dc29a5b3dfaf8131a519a724520efeb817cb6936dc7
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching git-delta
+==> Downloading https://ghcr.io/v2/homebrew/core/git-delta/blobs/sha256:ff3d53184c7906ef335c901fec639c8355f802644d025703b0b39c6b18b0727f
+##################################################################################################################################################################################################################################### 100.0%
+==> Upgrading delta
+  0.18.2 -> 0.18.2_3
+==> Installing git-delta dependency: libgit2
+==> Downloading https://ghcr.io/v2/homebrew/core/libgit2/manifests/1.9.1
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/6e665b2e520a25929d0347f220fed4c93744ac835372978af6abeedcbe0017eb--libgit2-1.9.1.bottle_manifest.json
+==> Pouring libgit2--1.9.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgit2/1.9.1: 109 files, 5.0MB
+==> Pouring git-delta--0.18.2_3.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/git-delta/0.18.2_3: 11 files, 6.3MB
+==> Running `brew cleanup git-delta`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/git-delta/0.18.2... (11 files, 7MB)
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
