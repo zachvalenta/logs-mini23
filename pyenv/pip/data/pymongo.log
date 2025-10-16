@@ -1,0 +1,13 @@
+$ python -m pip install --user pymongo
+
+Collecting pymongo
+  Downloading pymongo-4.15.3-cp312-cp312-macosx_11_0_arm64.whl.metadata (22 kB)
+Collecting dnspython<3.0.0,>=1.16.0 (from pymongo)
+  Downloading dnspython-2.8.0-py3-none-any.whl.metadata (5.7 kB)
+Downloading pymongo-4.15.3-cp312-cp312-macosx_11_0_arm64.whl (920 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 920.7/920.7 kB 2.0 MB/s eta 0:00:00
+Downloading dnspython-2.8.0-py3-none-any.whl (331 kB)
+Installing collected packages: dnspython, pymongo
+Successfully installed dnspython-2.8.0 pymongo-4.15.3
+[notice] A new release of pip is available: 25.1.1 -> 25.2
+[notice] To update, run: pip install --upgrade pip
