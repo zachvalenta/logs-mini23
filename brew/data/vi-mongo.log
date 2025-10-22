@@ -1,0 +1,72 @@
+$ brew tap kopecmaciej/vi-mongo
+
+==> Tapping kopecmaciej/vi-mongo
+Cloning into '/opt/homebrew/Library/Taps/kopecmaciej/homebrew-vi-mongo'...
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 14 (delta 2), reused 11 (delta 2), pack-reused 0 (from 0)
+Receiving objects: 100% (14/14), 4.17 KiB | 2.08 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+Tapped 1 formula (15 files, 14.9KB).
+
+$ brew install vi-mongo
+
+==> Fetching downloads for: vi-mongo
+==> Fetching kopecmaciej/vi-mongo/vi-mongo
+==> Downloading https://github.com/kopecmaciej/vi-mongo/releases/download/v0.1.30/vi-mongo_Darwin_arm64.tar.gz
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/723375876/a8827d6e-7508-48f2-a1a6-ce32b26a17a0?sp=r&sv=2018-11-
+########################################################################################################################################################## 100.0%
+==> Installing vi-mongo from kopecmaciej/vi-mongo
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+1   $ brew tap kopecmaciej/vi-mongo
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+This is a Tier 2 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-2
+You can report Tier 2 unrelated issues to Homebrew/* repositories!
+Read the above document instead before opening any issues or PRs.
+
+🍺  /opt/homebrew/Cellar/vi-mongo/v0.1.30: 6 files, 16.4MB, built in 1 second
+==> Running `brew cleanup vi-mongo`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> No outdated dependents to upgrade!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/ca-certificates/2024-12-31... (4 files, 233.9KB)
+Removing: /opt/homebrew/Cellar/certifi/2025.1.31... (27 files, 26.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/certifi_bottle_manifest--2025.1.31... (2.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/certifi--2025.1.31... (5.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/daylight--1.1.0.tar.gz... (2.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/dos2unix_bottle_manifest--7.5.2... (9.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/dos2unix--7.5.2... (114.5KB)
+Removing: /opt/homebrew/Cellar/expat/2.6.4... (23 files, 671.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/expat_bottle_manifest--2.6.4... (7.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/expat--2.6.4... (212.2KB)
+Removing: /opt/homebrew/Cellar/gettext/0.23.1... (2,052 files, 22.2MB)
+Removing: /opt/homebrew/Cellar/libgit2/1.8.4... (106 files, 4.7MB)
+Removing: /opt/homebrew/Cellar/mpdecimal/4.0.0... (22 files, 640.7KB)
+Removing: /opt/homebrew/Cellar/openssl@3/3.4.1... (7,236 files, 33.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.4.1... (11.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3--3.4.1... (9.8MB)
+Removing: /opt/homebrew/Cellar/pcre2/10.44... (237 files, 6.3MB)
+Removing: /opt/homebrew/Cellar/readline/8.2.13... (51 files, 1.7MB)
+Removing: /opt/homebrew/Cellar/sqlite/3.49.1... (13 files, 4.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/sqlite_bottle_manifest--3.49.1... (10.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/sqlite--3.49.1... (2.2MB)
+Removing: /opt/homebrew/Cellar/xz/5.6.4... (96 files, 2.0MB)
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/c76bd5d607f544946a2f876e31b967af5b6ad99c68a2a67a0a02acc7c592f5f2... (638 files, 5.1MB)
+Removing: /Users/zach/Library/Logs/Homebrew/python@3.13... (2 files, 2KB)
+Removing: /Users/zach/Library/Logs/Homebrew/php... (12 files, 2.9KB)
+Removing: /Users/zach/Library/Logs/Homebrew/openssl@3... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/ca-certificates... (64B)
