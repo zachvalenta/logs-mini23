@@ -1,0 +1,11 @@
+$ python -m pip install --user asyncpg
+
+Collecting asyncpg
+  Downloading asyncpg-0.30.0-cp312-cp312-macosx_11_0_arm64.whl.metadata (5.0 kB)
+Downloading asyncpg-0.30.0-cp312-cp312-macosx_11_0_arm64.whl (637 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 637.0/637.0 kB 9.0 MB/s eta 0:00:00
+Installing collected packages: asyncpg
+Successfully installed asyncpg-0.30.0
+
+[notice] A new release of pip is available: 25.1.1 -> 25.3
+[notice] To update, run: pip install --upgrade pip
