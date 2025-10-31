@@ -1,0 +1,12 @@
+$ brew install --cask font-karla
+
+==> Cloning https://github.com/google/fonts.git
+Cloning into '/Users/zach/Library/Caches/Homebrew/Cask/fonts.git--git-sparse'...
+==> Checking out branch main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+==> Installing Cask font-karla
+==> Moving Font 'Karla-Italic[wght].ttf' to '/Users/zach/Library/Fonts/Karla-Italic[wght].ttf'
+==> Moving Font 'Karla[wght].ttf' to '/Users/zach/Library/Fonts/Karla[wght].ttf'
+🍺  font-karla was successfully installed!
+==> No outdated dependents to upgrade!
