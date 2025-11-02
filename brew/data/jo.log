@@ -1,0 +1,17 @@
+$ brew install jo
+
+==> Fetching downloads for: jo
+==> Downloading https://ghcr.io/v2/homebrew/core/jo/manifests/1.9-1
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching jo
+==> Downloading https://ghcr.io/v2/homebrew/core/jo/blobs/sha256:f76a57de3814c4a9b5fb87fb9e63e6d20cca457a94467783033b27d293229bc7
+##################################################################################################################################################################################################################################### 100.0%
+==> Pouring jo--1.9.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/jo/1.9: 11 files, 97.7KB
+==> Running `brew cleanup jo`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
