@@ -1,0 +1,25 @@
+$ python -m pip install --user behave
+
+Collecting behave
+  Downloading behave-1.3.3-py2.py3-none-any.whl.metadata (10 kB)
+Collecting cucumber-tag-expressions>=4.1.0 (from behave)
+  Downloading cucumber_tag_expressions-8.0.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting cucumber-expressions>=17.1.0 (from behave)
+  Downloading cucumber_expressions-18.0.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting parse>=1.18.0 (from behave)
+  Downloading parse-1.20.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting parse-type>=0.6.0 (from behave)
+  Downloading parse_type-0.6.6-py2.py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: six>=1.15.0 in /Users/zach/.local/lib/python3.12/site-packages (from behave) (1.16.0)
+Collecting colorama>=0.3.7 (from behave)
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Downloading behave-1.3.3-py2.py3-none-any.whl (223 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading cucumber_expressions-18.0.1-py3-none-any.whl (20 kB)
+Downloading cucumber_tag_expressions-8.0.0-py3-none-any.whl (9.7 kB)
+Downloading parse-1.20.2-py2.py3-none-any.whl (20 kB)
+Downloading parse_type-0.6.6-py2.py3-none-any.whl (27 kB)
+Installing collected packages: parse, parse-type, cucumber-tag-expressions, cucumber-expressions, colorama, behave
+Successfully installed behave-1.3.3 colorama-0.4.6 cucumber-expressions-18.0.1 cucumber-tag-expressions-8.0.0 parse-1.20.2 parse-type-0.6.6
+[notice] A new release of pip is available: 25.1.1 -> 25.3
+[notice] To update, run: pip install --upgrade pip
