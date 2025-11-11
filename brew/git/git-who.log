@@ -1,0 +1,14 @@
+$ brew install git-who
+
+==> Fetching downloads for: git-who
+==> Downloading https://ghcr.io/v2/homebrew/core/git-who/manifests/1.2-1
+########################################################################################################################################################## 100.0%
+==> Fetching git-who
+==> Downloading https://ghcr.io/v2/homebrew/core/git-who/blobs/sha256:2cc6b40cc76044eaa90effece5d9dcdefc2240db4fdb73ef89ad56bae49664e6
+########################################################################################################################################################## 100.0%
+==> Pouring git-who--1.2.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/git-who/1.2: 6 files, 3.3MB
+==> Running `brew cleanup git-who`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> No outdated dependents to upgrade!
