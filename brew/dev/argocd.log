@@ -1,0 +1,27 @@
+$ brew install argocd
+
+==> Fetching downloads for: argocd
+==> Downloading https://ghcr.io/v2/homebrew/core/argocd/manifests/3.1.1
+########################################################################################################################################################## 100.0%
+==> Fetching argocd
+==> Downloading https://ghcr.io/v2/homebrew/core/argocd/blobs/sha256:8889a94d0a61157f2d1417c21779668b3d20df5c0e194298312d7f6a43efaf28
+########################################################################################################################################################## 100.0%
+==> Pouring argocd--3.1.1.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/argocd/3.1.1: 10 files, 230.0MB
+==> Running `brew cleanup argocd`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+
+$ argocd version --client
+
+argocd: v3.1.1+fa342d1
+  BuildDate: 2025-08-25T17:02:14Z
+  GitCommit: fa342d153e0e7942938256aea491a68439a53c44
+  GitTreeState: clean
+  GoVersion: go1.25.0
+  Compiler: gc
+  Platform: darwin/arm64
