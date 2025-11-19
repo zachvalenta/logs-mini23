@@ -1,0 +1,8 @@
+$ brew install --cask wave
+
+==> Downloading https://dl.waveterm.dev/releases-w2/Wave-darwin-arm64-0.11.4.dmg
+########################################################################################################################################################## 100.0%
+==> Installing Cask wave
+==> Moving App 'Wave.app' to '/Applications/Wave.app'
+🍺  wave was successfully installed!
+==> No outdated dependents to upgrade!
