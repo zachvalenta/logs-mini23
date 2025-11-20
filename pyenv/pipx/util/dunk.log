@@ -1,0 +1,6 @@
+$ pipx install dunk
+
+  installed package dunk 0.5.0b0, installed using Python 3.12.1
+  These apps are now globally available
+    - dunk
+done! ✨ 🌟 ✨
