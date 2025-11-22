@@ -1,0 +1,55 @@
+$ brew install tuios
+Warning: No available formula with the name "tuios". Did you mean tio?
+==> Searching for similarly named formulae and casks...
+==> Formulae
+tio
+To install tio, run:
+  brew install tio
+==> Casks
+tuist
+To install tuist, run:
+  brew install --cask tuist
+
+$ brew tap Gaurav-Gosain/tap
+==> Tapping gaurav-gosain/tap
+Cloning into '/opt/homebrew/Library/Taps/gaurav-gosain/homebrew-tap'...
+remote: Enumerating objects: 44, done.
+remote: Counting objects: 100% (44/44), done.
+remote: Compressing objects: 100% (32/32), done.
+remote: Total 44 (delta 9), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (44/44), 6.29 KiB | 1.26 MiB/s, done.
+Resolving deltas: 100% (9/9), done.
+Tapped 1 cask and 1 formula (14 files, 15.2KB).
+
+$ brew install tuios
+Warning: Treating tuios as a formula. For the cask, use gaurav-gosain/tap/tuios or specify the `--cask` flag. To silence this message, use the `--formula` flag.
+==> Fetching downloads for: tuios
+==> Fetching gaurav-gosain/tap/tuios
+==> Downloading https://github.com/Gaurav-Gosain/tuios/releases/download/v0.0.24/tuios_0.0.24_Darwin_arm64.tar.gz
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/1051789550/bd3a1d82-5640-48db-92ee-2b1e0e870428?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-11-22T17%3A25%3A33Z&rscd=attachment%3B+filename%
+##################################################################################################################################################################################################################################### 100.0%
+==> Installing tuios from gaurav-gosain/tap
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+This is a Tier 2 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-2
+You can report Tier 2 unrelated issues to Homebrew/* repositories!
+Read the above document instead before opening any issues or PRs.
+🍺  /opt/homebrew/Cellar/tuios/0.0.24: 6 files, 8.1MB, built in 1 second
+==> Running `brew cleanup tuios`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> No outdated dependents to upgrade!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/libnghttp2/1.64.0... (14 files, 794.3KB)
+Removing: /opt/homebrew/Cellar/libuv/1.49.2... (20 files, 1.2MB)
+Removing: /opt/homebrew/Cellar/zstd/1.5.6... (32 files, 2.1MB)
+Removing: /Users/zach/Library/Logs/Homebrew/vi-mongo... (125B)
