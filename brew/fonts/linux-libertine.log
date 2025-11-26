@@ -1,0 +1,17 @@
+$ brew install --cask font-linux-libertine
+
+==> Downloading https://downloads.sourceforge.net/linuxlibertine/LinLibertineTTF_5.3.0_2012_07_02.tgz
+==> Downloading from https://gigenet.dl.sourceforge.net/project/linuxlibertine/linuxlibertine/5.3.0/LinLibertineTTF_5.3.0_2012_07_02.tgz?viasf=1
+##################################################################################################################################################################################################################################### 100.0%
+==> Installing Cask font-linux-libertine
+==> Moving Font 'LinLibertine_DRah.ttf' to '/Users/zach/Library/Fonts/LinLibertine_DRah.ttf'
+==> Moving Font 'LinLibertine_I.ttf' to '/Users/zach/Library/Fonts/LinLibertine_I.ttf'
+==> Moving Font 'LinLibertine_Mah.ttf' to '/Users/zach/Library/Fonts/LinLibertine_Mah.ttf'
+==> Moving Font 'LinLibertine_RBIah.ttf' to '/Users/zach/Library/Fonts/LinLibertine_RBIah.ttf'
+==> Moving Font 'LinLibertine_RBah.ttf' to '/Users/zach/Library/Fonts/LinLibertine_RBah.ttf'
+==> Moving Font 'LinLibertine_RIah.ttf' to '/Users/zach/Library/Fonts/LinLibertine_RIah.ttf'
+==> Moving Font 'LinLibertine_RZIah.ttf' to '/Users/zach/Library/Fonts/LinLibertine_RZIah.ttf'
+==> Moving Font 'LinLibertine_RZah.ttf' to '/Users/zach/Library/Fonts/LinLibertine_RZah.ttf'
+==> Moving Font 'LinLibertine_Rah.ttf' to '/Users/zach/Library/Fonts/LinLibertine_Rah.ttf'
+🍺  font-linux-libertine was successfully installed!
+==> No outdated dependents to upgrade!

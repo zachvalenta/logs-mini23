@@ -1,0 +1,23 @@
+$ brew install --cask font-libertinus
+
+==> Downloading https://github.com/alerque/libertinus/releases/download/v7.051/Libertinus-7.051.tar.zst
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/10892932/2ccf0e31-b582-40ec-9321-8d100e63e3f7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2025-11-26T22%3A20%3A07Z&rscd=attachment%3B+filename%3D
+##################################################################################################################################################################################################################################### 100.0%
+All dependencies satisfied.
+==> Installing Cask font-libertinus
+==> Moving Font 'LibertinusKeyboard-Regular.otf' to '/Users/zach/Library/Fonts/LibertinusKeyboard-Regular.otf'
+==> Moving Font 'LibertinusMath-Regular.otf' to '/Users/zach/Library/Fonts/LibertinusMath-Regular.otf'
+==> Moving Font 'LibertinusMono-Regular.otf' to '/Users/zach/Library/Fonts/LibertinusMono-Regular.otf'
+==> Moving Font 'LibertinusSans-Bold.otf' to '/Users/zach/Library/Fonts/LibertinusSans-Bold.otf'
+==> Moving Font 'LibertinusSans-Italic.otf' to '/Users/zach/Library/Fonts/LibertinusSans-Italic.otf'
+==> Moving Font 'LibertinusSans-Regular.otf' to '/Users/zach/Library/Fonts/LibertinusSans-Regular.otf'
+==> Moving Font 'LibertinusSerif-Bold.otf' to '/Users/zach/Library/Fonts/LibertinusSerif-Bold.otf'
+==> Moving Font 'LibertinusSerif-BoldItalic.otf' to '/Users/zach/Library/Fonts/LibertinusSerif-BoldItalic.otf'
+==> Moving Font 'LibertinusSerif-Italic.otf' to '/Users/zach/Library/Fonts/LibertinusSerif-Italic.otf'
+==> Moving Font 'LibertinusSerif-Regular.otf' to '/Users/zach/Library/Fonts/LibertinusSerif-Regular.otf'
+==> Moving Font 'LibertinusSerif-Semibold.otf' to '/Users/zach/Library/Fonts/LibertinusSerif-Semibold.otf'
+==> Moving Font 'LibertinusSerif-SemiboldItalic.otf' to '/Users/zach/Library/Fonts/LibertinusSerif-SemiboldItalic.otf'
+==> Moving Font 'LibertinusSerifDisplay-Regular.otf' to '/Users/zach/Library/Fonts/LibertinusSerifDisplay-Regular.otf'
+==> Moving Font 'LibertinusSerifInitials-Regular.otf' to '/Users/zach/Library/Fonts/LibertinusSerifInitials-Regular.otf'
+🍺  font-libertinus was successfully installed!
+==> No outdated dependents to upgrade!

@@ -1,0 +1,16 @@
+$ brew install --cask font-source-serif-4
+
+==> Cloning https://github.com/google/fonts.git
+Updating /Users/zach/Library/Caches/Homebrew/Cask/fonts.git--git-sparse
+From https://github.com/google/fonts
+   c6c66ca57..0f5e1aba1  main       -> origin/main
+==> Checking out branch main
+Already on 'main'
+Your branch is behind 'origin/main' by 140 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+HEAD is now at 0f5e1aba1 Merge pull request #10016 from google/lists_2111
+==> Installing Cask font-source-serif-4
+==> Moving Font 'SourceSerif4-Italic[opsz,wght].ttf' to '/Users/zach/Library/Fonts/SourceSerif4-Italic[opsz,wght].ttf'
+==> Moving Font 'SourceSerif4[opsz,wght].ttf' to '/Users/zach/Library/Fonts/SourceSerif4[opsz,wght].ttf'
+🍺  font-source-serif-4 was successfully installed!
+==> No outdated dependents to upgrade!
