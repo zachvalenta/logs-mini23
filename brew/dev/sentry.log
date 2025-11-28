@@ -1,0 +1,37 @@
+$ brew install getsentry/tools/sentry-cli
+
+==> Tapping getsentry/tools
+Cloning into '/opt/homebrew/Library/Taps/getsentry/homebrew-tools'...
+remote: Enumerating objects: 1651, done.
+remote: Counting objects: 100% (165/165), done.
+remote: Compressing objects: 100% (165/165), done.
+remote: Total 1651 (delta 40), reused 0 (delta 0), pack-reused 1486 (from 4)
+Receiving objects: 100% (1651/1651), 271.10 KiB | 1.11 MiB/s, done.
+Resolving deltas: 100% (459/459), done.
+Tapped 2 formulae (16 files, 329.5KB).
+==> Fetching downloads for: sentry-cli
+==> Fetching getsentry/tools/sentry-cli
+==> Downloading https://downloads.sentry-cdn.com/sentry-cli/2.58.2/sentry-cli-Darwin-universal
+##################################################################################################################################################################################################################################### 100.0%
+==> Installing sentry-cli from getsentry/tools
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+This is a Tier 2 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-2
+You can report Tier 2 unrelated issues to Homebrew/* repositories!
+Read the above document instead before opening any issues or PRs.
+
+🍺  /opt/homebrew/Cellar/sentry-cli/2.58.2: 4 files, 34.3MB, built in 1 second
+==> Running `brew cleanup sentry-cli`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> No outdated dependents to upgrade!
