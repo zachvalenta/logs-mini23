@@ -1119,3 +1119,36 @@ Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp--2025.2.19... (4.9MB)
 ==> Caveats
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
+
+$ brew upgrade yt-dlp
+==> Upgrading 1 outdated package:
+yt-dlp 2025.8.11 -> 2025.8.22
+==> Fetching downloads for: yt-dlp
+==> Fetching dependencies for yt-dlp: python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.7
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/blobs/sha256:8f35604ec6b1993367b0bf35f7929e5015043bc8360f2c45a7202af584c70d89
+##################################################################################################################################################################################################################################### 100.0%
+==> Fetching yt-dlp
+==> Downloading https://ghcr.io/v2/homebrew/core/yt-dlp/blobs/sha256:56ce1c7bc20d8621c4723a3047358fec25ade524bff6d4bbd370a0278751fc07
+##################################################################################################################################################################################################################################### 100.0%
+==> Upgrading yt-dlp
+  2025.8.11 -> 2025.8.22
+==> Installing yt-dlp dependency: python@3.13
+==> Downloading https://ghcr.io/v2/homebrew/core/python/3.13/manifests/3.13.7
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/da407eee2a8ce68682cfa86c53da83fe62d25f8db0dd50869320b2d46ff697a8--python@3.13-3.13.7.bottle_manifest.json
+==> Pouring python@3.13--3.13.7.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/python@3.13/3.13.7: 3,620 files, 66.7MB
+==> Pouring yt-dlp--2025.8.22.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yt-dlp/2025.8.22: 1,736 files, 19.5MB
+==> Running `brew cleanup yt-dlp`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/yt-dlp/2025.8.11... (1,742 files, 19.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp_bottle_manifest--2025.8.11... (21KB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp--2025.8.11... (5MB)
+==> No outdated dependents to upgrade!
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
