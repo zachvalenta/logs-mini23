@@ -3,3 +3,7 @@ $ pipx install pgcli
   These apps are now globally available
     - pgcli
 done! ✨ 🌟 ✨
+
+$ pipx inject pgcli psycopg_binary
+  injected package psycopg-binary into venv pgcli
+done! ✨
