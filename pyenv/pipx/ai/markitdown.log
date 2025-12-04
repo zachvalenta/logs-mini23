@@ -7,3 +7,6 @@ done! ✨ 🌟 ✨
 
 $ pipx upgrade markitdown
 upgraded package markitdown from 0.0.1a3 to 0.1.3 (location: /Users/zach/Library/Application Support/pipx/venvs/markitdown)
+
+$ pipx upgrade markitdown
+upgraded package markitdown from 0.1.3 to 0.1.4 (location: /Users/zach/Library/Application Support/pipx/venvs/markitdown)
