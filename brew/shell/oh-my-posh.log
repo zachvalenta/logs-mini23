@@ -56,3 +56,21 @@ https://github.com/sponsors/JanDeDobbeleer
 
 In case you're looking for help, want to share how you use Oh My Posh, or find like-minded individuals, join our Discord community!
 https://discord.gg/n7E3DkXssv
+
+$ oh-my-posh upgrade
+
+📦 Upgrading Oh My Posh from 21.27.0 to v28.1.1
+
+🚀 Upgrade successful, restart your shell to take full advantage of the new functionality.
+
+Error: unknown flag: --shell
+Usage:
+  oh-my-posh get [shell|millis|accent|toggles|width] [flags]
+
+Flags:
+  -h, --help   help for get
+
+Global Flags:
+  -c, --config string   config file path
+      --plain           plain text output (no ANSI)
+      --trace           enable tracing
