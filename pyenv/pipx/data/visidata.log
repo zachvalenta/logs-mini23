@@ -22,3 +22,12 @@ done! ✨ 🌟 ✨
 
 $ pipx upgrade visidata
 upgraded package visidata from 3.0.2 to 3.1.1 (location: /Users/zach/Library/Application Support/pipx/venvs/visidata)
+
+$ pipx inject visidata psycopg_binary
+  injected package psycopg-binary into venv visidata
+done! ✨ 🌟 ✨
+
+$ pipx inject visidata psycopg2-binary
+
+  injected package psycopg2-binary into venv visidata
+done! ✨ 🌟 ✨
