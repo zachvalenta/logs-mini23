@@ -1,0 +1,30 @@
+$ python -m pip install --user plotille
+Collecting plotille
+  Downloading plotille-5.0.0.tar.gz (53 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Building wheels for collected packages: plotille
+  Building wheel for plotille (pyproject.toml) ... done
+  Created wheel for plotille: filename=plotille-5.0.0-py3-none-any.whl size=58028 sha256=2f48eed41daabe9dc2eb1ba91f97047e9ad5f9a5b5597a29a8c5623cbd91e185
+  Stored in directory: /Users/zach/Library/Caches/pip/wheels/e1/bd/61/5aafd07b5a3d087e51e7e221781dd4d1d9f7c763f5b411a074
+Successfully built plotille
+Installing collected packages: plotille
+Successfully installed plotille-5.0.0
+[notice] A new release of pip is available: 25.1.1 -> 25.3
+[notice] To update, run: pip install --upgrade pip
+
+$ python -m pip uninstall --user plotille
+Usage:
+  /Users/zach/.pyenv/versions/3.12.1/bin/python -m pip uninstall [options] <package> ...
+  /Users/zach/.pyenv/versions/3.12.1/bin/python -m pip uninstall [options] -r <requirements file> ...
+no such option: --user
+
+$ python -m pip uninstall plotille
+Found existing installation: plotille 5.0.0
+Uninstalling plotille-5.0.0:
+  Would remove:
+    /Users/zach/.local/lib/python3.12/site-packages/plotille-5.0.0.dist-info/*
+    /Users/zach/.local/lib/python3.12/site-packages/plotille/*
+Proceed (Y/n)? Y
+  Successfully uninstalled plotille-5.0.0
