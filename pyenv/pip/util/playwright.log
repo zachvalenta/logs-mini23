@@ -33,3 +33,6 @@ Webkit playwright build v2140 downloaded to /Users/zach/Library/Caches/ms-playwr
 Downloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-mac-arm64.zip
 1 MiB [====================] 100% 0.0s
 FFMPEG playwright build v1011 downloaded to /Users/zach/Library/Caches/ms-playwright/ffmpeg-1011
+
+$ playwright install chromium
+
