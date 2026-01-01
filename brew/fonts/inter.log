@@ -1,0 +1,110 @@
+$ brew install --cask font-inter
+
+==> Downloading https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/101033179/c9d3bddb
+############################################################################################################# 100.0%
+==> Installing Cask font-inter
+==> Moving Font 'InterVariable-Italic.ttf' to '/Users/zach/Library/Fonts/InterVariable-Italic.ttf'
+==> Moving Font 'InterVariable.ttf' to '/Users/zach/Library/Fonts/InterVariable.ttf'
+==> Moving Font 'Inter-Black.otf' to '/Users/zach/Library/Fonts/Inter-Black.otf'
+==> Moving Font 'Inter-BlackItalic.otf' to '/Users/zach/Library/Fonts/Inter-BlackItalic.otf'
+==> Moving Font 'Inter-Bold.otf' to '/Users/zach/Library/Fonts/Inter-Bold.otf'
+==> Moving Font 'Inter-BoldItalic.otf' to '/Users/zach/Library/Fonts/Inter-BoldItalic.otf'
+==> Moving Font 'Inter-ExtraBold.otf' to '/Users/zach/Library/Fonts/Inter-ExtraBold.otf'
+==> Moving Font 'Inter-ExtraBoldItalic.otf' to '/Users/zach/Library/Fonts/Inter-ExtraBoldItalic.otf'
+==> Moving Font 'Inter-ExtraLight.otf' to '/Users/zach/Library/Fonts/Inter-ExtraLight.otf'
+==> Moving Font 'Inter-ExtraLightItalic.otf' to '/Users/zach/Library/Fonts/Inter-ExtraLightItalic.otf'
+==> Moving Font 'Inter-Italic.otf' to '/Users/zach/Library/Fonts/Inter-Italic.otf'
+==> Moving Font 'Inter-Light.otf' to '/Users/zach/Library/Fonts/Inter-Light.otf'
+==> Moving Font 'Inter-LightItalic.otf' to '/Users/zach/Library/Fonts/Inter-LightItalic.otf'
+==> Moving Font 'Inter-Medium.otf' to '/Users/zach/Library/Fonts/Inter-Medium.otf'
+==> Moving Font 'Inter-MediumItalic.otf' to '/Users/zach/Library/Fonts/Inter-MediumItalic.otf'
+==> Moving Font 'Inter-Regular.otf' to '/Users/zach/Library/Fonts/Inter-Regular.otf'
+==> Moving Font 'Inter-SemiBold.otf' to '/Users/zach/Library/Fonts/Inter-SemiBold.otf'
+==> Moving Font 'Inter-SemiBoldItalic.otf' to '/Users/zach/Library/Fonts/Inter-SemiBoldItalic.otf'
+==> Moving Font 'Inter-Thin.otf' to '/Users/zach/Library/Fonts/Inter-Thin.otf'
+==> Moving Font 'Inter-ThinItalic.otf' to '/Users/zach/Library/Fonts/Inter-ThinItalic.otf'
+==> Moving Font 'InterDisplay-Black.otf' to '/Users/zach/Library/Fonts/InterDisplay-Black.otf'
+==> Moving Font 'InterDisplay-BlackItalic.otf' to '/Users/zach/Library/Fonts/InterDisplay-BlackItalic.otf'
+==> Moving Font 'InterDisplay-Bold.otf' to '/Users/zach/Library/Fonts/InterDisplay-Bold.otf'
+==> Moving Font 'InterDisplay-BoldItalic.otf' to '/Users/zach/Library/Fonts/InterDisplay-BoldItalic.otf'
+==> Moving Font 'InterDisplay-ExtraBold.otf' to '/Users/zach/Library/Fonts/InterDisplay-ExtraBold.otf'
+==> Moving Font 'InterDisplay-ExtraBoldItalic.otf' to '/Users/zach/Library/Fonts/InterDisplay-ExtraBoldItalic.otf'
+==> Moving Font 'InterDisplay-ExtraLight.otf' to '/Users/zach/Library/Fonts/InterDisplay-ExtraLight.otf'
+==> Moving Font 'InterDisplay-ExtraLightItalic.otf' to '/Users/zach/Library/Fonts/InterDisplay-ExtraLightItalic.otf'
+==> Moving Font 'InterDisplay-Italic.otf' to '/Users/zach/Library/Fonts/InterDisplay-Italic.otf'
+==> Moving Font 'InterDisplay-Light.otf' to '/Users/zach/Library/Fonts/InterDisplay-Light.otf'
+==> Moving Font 'InterDisplay-LightItalic.otf' to '/Users/zach/Library/Fonts/InterDisplay-LightItalic.otf'
+==> Moving Font 'InterDisplay-Medium.otf' to '/Users/zach/Library/Fonts/InterDisplay-Medium.otf'
+==> Moving Font 'InterDisplay-MediumItalic.otf' to '/Users/zach/Library/Fonts/InterDisplay-MediumItalic.otf'
+==> Moving Font 'InterDisplay-Regular.otf' to '/Users/zach/Library/Fonts/InterDisplay-Regular.otf'
+==> Moving Font 'InterDisplay-SemiBold.otf' to '/Users/zach/Library/Fonts/InterDisplay-SemiBold.otf'
+==> Moving Font 'InterDisplay-SemiBoldItalic.otf' to '/Users/zach/Library/Fonts/InterDisplay-SemiBoldItalic.otf'
+==> Moving Font 'InterDisplay-Thin.otf' to '/Users/zach/Library/Fonts/InterDisplay-Thin.otf'
+==> Moving Font 'InterDisplay-ThinItalic.otf' to '/Users/zach/Library/Fonts/InterDisplay-ThinItalic.otf'
+🍺  font-inter was successfully installed!
+Warning: You are using macOS 13.
+We (and Apple) do not provide support for this old version.
+You may have better luck with MacPorts which supports older versions of macOS:
+  https://www.macports.org
+
+This is a Tier 3 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-3
+You can report Tier 3 unrelated issues to Homebrew/* repositories!
+Read the above document before opening any issues or PRs.
+
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/aom_bottle_manifest--3.12.0... (25.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/aom--3.12.0... (4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-08-12... (2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/ca-certificates--2025-08-12... (132.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/certifi_bottle_manifest--2025.8.3... (2.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/certifi--2025.8.3... (4.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/curl_bottle_manifest--8.12.1... (15.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/curl--8.12.1... (1.5MB)
+Removing: /Users/zach/Library/Caches/Homebrew/expat_bottle_manifest--2.7.1... (8.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/expat--2.7.1... (221.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/eza_bottle_manifest--0.23.0... (12.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/eza--0.23.0... (628.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/freetds_bottle_manifest--1.4.26... (14.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/freetds--1.4.26... (3.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/gettext_bottle_manifest--0.26... (16KB)
+Removing: /Users/zach/Library/Caches/Homebrew/gettext--0.26... (9.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/git_bottle_manifest--2.51.0... (21.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/git--2.51.0... (21.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/git-delta_bottle_manifest--0.18.2_3... (13KB)
+Removing: /Users/zach/Library/Caches/Homebrew/git-delta--0.18.2_3... (2.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/lazygit_bottle_manifest--0.54.2... (7.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/lazygit--0.54.2... (7.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libgit2_bottle_manifest--1.9.1... (12.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libgit2--1.9.1... (2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libzip--1.11.3... (142.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/little-cms2_bottle_manifest--2.17... (13.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/little-cms2--2.17... (433.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mpdecimal_bottle_manifest--4.0.1... (9.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mpdecimal--4.0.1... (182.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.5.2... (12.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3--3.5.2... (10.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/pcre2_bottle_manifest--10.45... (10.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pcre2--10.45... (2.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/php_bottle_manifest--8.4.4... (51.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/php--8.4.4... (26.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.12_bottle_manifest--3.12.9... (25KB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.2... (27.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.6... (31.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.13--3.13.2... (16.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.13--3.13.6... (17.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/readline_bottle_manifest--8.3.1... (10.1KB)
+Removing: /Users/zach/Library/Caches/Homebrew/readline--8.3.1... (761.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/sqlite_bottle_manifest--3.50.4... (11.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/sqlite--3.50.4... (2.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/xz_bottle_manifest--5.8.1... (11.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/xz--5.8.1... (749.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/portable-ruby-3.4.7.arm64_big_sur.bottle.tar.gz... (12.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/portable-ruby-3.4.5.arm64_big_sur.bottle.tar.gz... (12.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/9857322932db1075c1bb0e18715c0100e54c980b13f0770aaa027620250b6c8c... (654 files, 5.6MB)
+Removing: /Users/zach/Library/Logs/Homebrew/tuios... (119B)
+Removing: /Users/zach/Library/Logs/Homebrew/sentry-cli... (122B)
+Removing: /Users/zach/Library/Logs/Homebrew/node... (64B)
