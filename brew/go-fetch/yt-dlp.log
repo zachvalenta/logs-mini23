@@ -1152,3 +1152,9 @@ Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp--2025.8.11... (5MB)
 ==> Caveats
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
+
+$ brew uninstall yt-dlp
+Uninstalling /opt/homebrew/Cellar/yt-dlp/2025.8.22... (1,736 files, 20.5MB)
+==> Autoremoving 1 unneeded formula:
+certifi
+Uninstalling /opt/homebrew/Cellar/certifi/2025.8.3... (27 files, 25.4KB)

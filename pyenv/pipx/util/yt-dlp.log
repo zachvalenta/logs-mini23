@@ -1,0 +1,7 @@
+$ pipx install yt-dlp
+  installed package yt-dlp 2025.12.8, installed using Python 3.12.1
+  These apps are now globally available
+    - yt-dlp
+  These manual pages are now globally available
+    - man1/yt-dlp.1
+done! ✨ 🌟 ✨
