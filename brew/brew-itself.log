@@ -516,3 +516,37 @@ font-anonymice-nerd-font        font-caskaydia-mono-nerd-font   font-fira-mono-n
 You have 149 outdated formulae and 9 outdated casks installed.
 You can upgrade them with brew upgrade
 or list them with brew outdated.
+
+$ brew update
+==> Updating Homebrew...
+==> Downloading https://ghcr.io/v2/homebrew/core/portable-ruby/blobs/sha256:1c98fa49eacc935640a6f8e10a2bf33f14cfc276804b71ddb658ea45ba99d167
+########################################################################################################################################################## 100.0%
+==> Pouring portable-ruby-3.4.8.arm64_big_sur.bottle.tar.gz
+Updated 7 taps (dotenvx/brew, gaurav-gosain/tap, jandedobbeleer/oh-my-posh, getsentry/tools, charmbracelet/tap, jesseduffield/lazydocker and lusingander/tap).
+==> Outdated Formulae
+aom                 diffnav             fzf                 leptonica           libtasn1            ncdu                pkgconf             theora
+apr                 difftastic          gettext             libarchive          libtiff             ncurses             procs               tig
+argocd              docker              gh                  libass              libunistring        neovim              pyenv               tmux
+atuin               docker-completion   git                 libavif             libvpx              net-snmp            python-packaging    tree-sitter
+basilk              doggo               glib                libbluray           libx11              nettle              python@3.12         unbound
+bat                 dos2unix            gnutls              libdeflate          libzip              node                python@3.13         unixodbc
+broot               duckdb              gum                 libgit2             lima                oh-my-posh          rav1e               utf8proc
+brotli              duf                 harfbuzz            libidn2             ls-lint             openexr             readline            uvwasi
+c-ares              dust                highway             libmicrohttpd       luajit              openjdk@11          ripgrep             vi-mongo
+ca-certificates     expat               icu4c@76            libnghttp2          luv                 openjpeg            sdl2                webp
+cairo               eza                 icu4c@77            libnghttp3          m4                  openldap            sentry-cli          x264
+cjson               faad2               imath               libngtcp2           mbedtls             openssl@3           serie               xorgproto
+cmus                fd                  jpeg                libogg              mdcat               opus                simdjson            xz
+colima              ffmpeg              jpeg-turbo          libpng              miller              p11-kit             snappy              yq
+curl                flac                jpeg-xl             libpq               mods                pango               sqlite              zellij
+d2                  fontconfig          jq                  librist             mongosh             pastel              svt-av1             zeromq
+dasel               freetds             krb5                libsndfile          monolith            pcre2               tala                zimg
+dav1d               freetype            lazydocker          libsodium           mpg123              php                 task                zola
+daylight            frei0r              lazygit             libssh              mupdf-tools         pixman              tesseract
+==> Outdated Casks
+font-0xproto-nerd-font          font-blex-mono-nerd-font        font-fira-code-nerd-font        font-hack-nerd-font             font-jetbrains-mono-nerd-font
+font-anonymice-nerd-font        font-caskaydia-mono-nerd-font   font-fira-mono-nerd-font        font-hurmit-nerd-font
+
+You have 151 outdated formulae and 9 outdated casks installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
