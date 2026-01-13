@@ -53,3 +53,74 @@ Removing: /opt/homebrew/Cellar/libnghttp2/1.64.0... (14 files, 794.3KB)
 Removing: /opt/homebrew/Cellar/libuv/1.49.2... (20 files, 1.2MB)
 Removing: /opt/homebrew/Cellar/zstd/1.5.6... (32 files, 2.1MB)
 Removing: /Users/zach/Library/Logs/Homebrew/vi-mongo... (125B)
+
+$ brew uninstall tuios
+
+Warning: Treating tuios as a formula. For the cask, use gaurav-gosain/tap/tuios or specify the `--cask` flag. To silence this message, use the `--formula` flag.
+Uninstalling /opt/homebrew/Cellar/tuios/0.0.24... (6 files, 8.5MB)
+
+$ brew install tuios
+
+Warning: Treating tuios as a formula. For the cask, use gaurav-gosain/tap/tuios or specify the `--cask` flag. To silence this message, use the `--formula` flag.
+Warning: You are using macOS 13.
+We (and Apple) do not provide support for this old version.
+You may have better luck with MacPorts which supports older versions of macOS:
+  https://www.macports.org
+
+This is a Tier 3 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-3
+You can report Tier 3 unrelated issues to Homebrew/* repositories!
+Read the above document before opening any issues or PRs.
+
+==> Fetching downloads for: tuios
+✔︎ API Source tuios.rb                                                                                                                                                                                            Verified      1.6KB/  1.6KB
+==> Downloading https://raw.githubusercontent.com/Homebrew/homebrew-core/211b31f603834c01803641fe08f2681dd35ca7cd/Formula/g/go.rb
+Already downloaded: /Users/zach/Library/Caches/Homebrew/downloads/a5484bd603e56aff931fad5c0a4706c45cae800df0d09f9de5fa1338b110a8d0--go.rb
+✔︎ API Source go.rb                                                                                                                                                                                               Verified      4.5KB/  4.5KB
+✔︎ Formula go (1.25.5)                                                                                                                                                                                            Verified     32.0MB/ 32.0MB
+✔︎ Formula tuios (0.5.1)                                                                                                                                                                                          Verified     16.8MB/ 16.8MB
+✔︎ Resource go--gobootstrap                                                                                                                                                                                       Verified     67.3MB/ 67.3MB
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+This is a Tier 2 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-2
+You can report Tier 2 unrelated issues to Homebrew/* repositories!
+Read the above document before opening any issues or PRs.
+
+==> Installing tuios dependency: go
+Warning: A newer Command Line Tools release is available.
+Update them from Software Update in System Settings.
+
+If that doesn't show you any updates, run:
+  sudo rm -rf /Library/Developer/CommandLineTools
+  sudo xcode-select --install
+
+Alternatively, manually download them from:
+  https://developer.apple.com/download/all/.
+You should download the Command Line Tools for Xcode 15.2.
+
+This is a Tier 2 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-2
+You can report Tier 2 unrelated issues to Homebrew/* repositories!
+Read the above document before opening any issues or PRs.
+
+==> ./make.bash
+🍺  /opt/homebrew/Cellar/go/1.25.5: 14,439 files, 203.1MB, built in 1 minute 3 seconds
+==> go build -ldflags=-s -w -X main.version=0.5.1 -X main.commit=Homebrew -X main.date=2025-12-25T08:26:40Z -X main.builtBy=Homebrew ./cmd/tuios
+🍺  /opt/homebrew/Cellar/tuios/0.5.1: 10 files, 10.2MB, built in 8 seconds
+==> Running `brew cleanup tuios`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/tuios--0.0.24.tar.gz... (3.3MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
