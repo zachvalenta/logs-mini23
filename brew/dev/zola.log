@@ -71,3 +71,30 @@ Removing: /Users/zach/Library/Logs/Homebrew/ca-certificates... (64B)
 Removing: /Users/zach/Library/Logs/Homebrew/unbound... (64B)
 Removing: /Users/zach/Library/Logs/Homebrew/gnutls... (64B)
 Removing: /Users/zach/Library/Logs/Homebrew/oh-my-posh... (3 files, 141.9KB)
+
+$ brew upgrade zola
+==> Upgrading 1 outdated package:
+zola 0.19.2 -> 0.21.0
+Warning: You are using macOS 13.
+We (and Apple) do not provide support for this old version.
+You may have better luck with MacPorts which supports older versions of macOS:
+  https://www.macports.org
+
+This is a Tier 3 configuration:
+  https://docs.brew.sh/Support-Tiers#tier-3
+You can report Tier 3 unrelated issues to Homebrew/* repositories!
+Read the above document before opening any issues or PRs.
+
+==> Fetching downloads for: zola
+✔︎ Bottle zola (0.21.0)                                                                                                                                                                                           Downloaded   11.3MB/ 11.3MB
+==> Upgrading zola
+  0.19.2 -> 0.21.0
+==> Pouring zola--0.21.0.arm64_ventura.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zola/0.21.0: 12 files, 35MB
+==> Running `brew cleanup zola`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/zola/0.19.2... (12 files, 32MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
