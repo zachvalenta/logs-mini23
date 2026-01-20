@@ -1,15 +1,41 @@
+bmm v0.2.0:
+    bmm
+carl v0.5.0:
+    carl
+fresh-editor v0.1.18:
+    fresh
 gfold v4.6.0:
     gfold
+gitlogue v0.3.0:
+    gitlogue
 havn v0.1.16:
     havn
+hygg v0.1.17:
+    hygg
+jolt-tui v1.1.0:
+    jolt
 just v1.38.0:
     just
+lla v0.3.9:
+    lla
+lsd v1.2.0:
+    lsd
+mdfried v0.14.5:
+    mdfried
+pls v0.0.1-beta.9 (https://github.com/pls-rs/pls#572a9b5b):
+    pls
 taskwarrior-tui v0.26.3:
     taskwarrior-tui
 television v0.7.1:
     tv
+tgt v1.0.0:
+    tgt
+tokei v12.1.2:
+    tokei
 uuinfo v0.2.2:
     uuinfo
+xan v0.49.0:
+    xan
 yazi-cli v0.4.2:
     ya
 yazi-fm v0.4.2:
