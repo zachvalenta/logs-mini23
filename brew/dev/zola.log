@@ -98,3 +98,18 @@ Removing: /opt/homebrew/Cellar/zola/0.19.2... (12 files, 32MB)
 ==> Caveats
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
+
+$ brew install zola
+==> Fetching downloads for: zola
+✔︎ Bottle Manifest zola (0.22.1)                                                                                                                                                                                  Downloaded    8.9KB/  8.9KB
+✔︎ Bottle zola (0.22.1)                                                                                                                                                                                           Downloaded   12.9MB/ 12.9MB
+==> Pouring zola--0.22.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zola/0.22.1: 12 files, 37.6MB
+==> Running `brew cleanup zola`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/zola_bottle_manifest--0.21.0... (11.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/zola--0.21.0... (11.3MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
