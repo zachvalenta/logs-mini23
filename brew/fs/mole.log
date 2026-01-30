@@ -1,0 +1,13 @@
+$ brew install mole
+
+==> Fetching downloads for: mole
+✔︎ Bottle Manifest mole (1.23.2)                                                                                               Downloaded    5.6KB/  5.6KB
+✔︎ Bottle mole (1.23.2)                                                                                                        Downloaded    3.0MB/  3.0MB
+==> Pouring mole--1.23.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mole/1.23.2: 53 files, 7.8MB
+==> Running `brew cleanup mole`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
