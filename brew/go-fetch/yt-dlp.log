@@ -1158,3 +1158,20 @@ Uninstalling /opt/homebrew/Cellar/yt-dlp/2025.8.22... (1,736 files, 20.5MB)
 ==> Autoremoving 1 unneeded formula:
 certifi
 Uninstalling /opt/homebrew/Cellar/certifi/2025.8.3... (27 files, 25.4KB)
+
+$ brew upgrade yt-dlp
+✔︎ JSON API formula_tap_migrations.jws.json                                                                                                                                                                       Downloaded    1.9KB/  1.9KB
+✔︎ JSON API cask_tap_migrations.jws.json                                                                                                                                                                          Downloaded    2.4KB/  2.4KB
+Error: yt-dlp not installed
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/go--gobootstrap--1.22.12.tar.gz... (67.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/go_mod_cache... (3,843 files, 97.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/go_cache... (2,088 files, 192.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp--2025.8.22... (5.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/api-source/Homebrew/homebrew-core/211b31f603834c01803641fe08f2681dd35ca7cd/Formula/go.rb... (4.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/api-source/Homebrew/homebrew-core/211b31f603834c01803641fe08f2681dd35ca7cd/Formula/tuios.rb... (1.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/api-source/Homebrew/homebrew-core/d5c03b92d2819af92b5f2c2977941d14e254587d/Formula/yt-dlp.rb... (4.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/df1aa1b52d539bc46f4c26d74e28e2929bc875d246b063e252ea7ce3b624e7ea... (653 files, 5.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/bootsnap/684c26d8211c6bacd91f8187e94767537f4d3bb555c2f7d7d582cc7ad2221890... (657 files, 5.7MB)
