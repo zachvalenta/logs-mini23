@@ -1,0 +1,10 @@
+$ brew install youplot
+
+==> Fetching downloads for: youplot
+✔︎ Bottle Manifest youplot (0.4.6_2)                                                                                                                                                                              Downloaded   10.9KB/ 10.9KB
+✔︎ Bottle youplot (0.4.6_2)                                                                                                                                                                                       Downloaded    1.1MB/  1.1MB
+==> Pouring youplot--0.4.6_2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/youplot/0.4.6_2: 337 files, 2MB
+==> Running `brew cleanup youplot`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
