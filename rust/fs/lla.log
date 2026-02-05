@@ -1201,3 +1201,87 @@ $ cargo install lla
     Finished `release` profile [optimized] target(s) in 46.73s
    Replacing /Users/zach/.cargo/bin/lla
     Replaced package `lla v0.3.9` with `lla v0.5.3` (executable `lla`)
+
+$ lla install
+
+╔══════════════════════════════════════╗
+║     Prebuilt Plugin Installation     ║
+╚══════════════════════════════════════╝
+
+▸ Release Details
+───────────────────
+• Release: v0.5.4
+• Asset: plugins-macos-arm64.tar.gz
+• Checksum: b84d218364f990b3ecbfa888b2c60b3edc804e165d441a45a635f4967d4e8f19
+
+✔ Downloaded plugins-macos-arm64.tar.gz 18.9 MB at 27.8 MB/s
+✔ Checksum verified
+✔ Archive extracted
+ℹ Found 27 plugin binaries
+
+▸ Select Plugins
+──────────────────
+Space to toggle, Enter to confirm
+
+Select plugins to install: brew v0.5.4 – Homebrew package manager plugin - install, uninstall, upgrade, and search packages, categorizer v0.5.4 – Categorizes files based on their extensions and metadata, code_complexity v0.5.4 – Analyzes code complexity and provides metrics, code_snippet_extractor v0.5.4 – Extract and manage code snippets with tagging support, dirs_meta v0.5.4 – Analyzes directories and shows metadata, duplicate_file_detector v0.5.4 – Detects duplicate files by comparing their content hashes, file_copier v0.5.4 – A plugin for lla that provides clipboard functionality for copying files and directories, file_hash v0.5.4 – Displays the hash of each file, file_meta v0.5.4 – Displays the file metadata of each file, file_mover v0.5.4 – A plugin for lla that provides clipboard functionality for moving files and directories, file_organizer v0.5.4 – A plugin for lla that organizes files using various strategies, file_remover v0.5.4 – A plugin for lla that provides interactive file and directory removal, file_tagger v0.5.4 – Add and manage tags for files, flush_dns v0.5.4 – Flush DNS cache on macOS, Linux, and Windows, git_status v0.5.4 – Shows Git repository status information, google_meet v0.5.4 – Google Meet plugin for creating meeting rooms and managing links, google_search v0.5.4 – Google search with autosuggestions, search history management, and clipboard fallback, hackernews v0.5.4 – Hacker News plugin - browse top stories, best stories, new stories, ask HN, and show HN, jwt v0.5.4 – JWT decoder and analyzer with search and validation capabilities, keyword_search v0.5.4 – Searches file contents for user-specified keywords, kill_process v0.1.0 – A plugin for lla that allows killing processes with an interactive interface, last_git_commit v0.5.4 – A plugin for the lla that provides the last git commit hash, npm v0.5.4 – NPM package search with bundlephobia integration and favorites management, remove_paywall v0.5.4 – Remove paywalls from URLs using services like 12ft.io, archive.is, and removepaywall.com, sizeviz v0.5.4 – File size visualizer plugin for lla, speed_test v0.5.4 – Internet speed test plugin - test download/upload speeds and latency, youtube v0.5.4 – YouTube search plugin with autosuggestions and history management
+
+ℹ Selected 27 plugins
+✔ Installed brew v0.5.4
+✔ Installed categorizer v0.5.4
+✔ Installed code_complexity v0.5.4
+✔ Installed code_snippet_extractor v0.5.4
+✔ Installed dirs_meta v0.5.4
+✔ Installed duplicate_file_detector v0.5.4
+✔ Installed file_copier v0.5.4
+✔ Installed file_hash v0.5.4
+✔ Installed file_meta v0.5.4
+✔ Installed file_mover v0.5.4
+✔ Installed file_organizer v0.5.4
+✔ Installed file_remover v0.5.4
+✔ Installed file_tagger v0.5.4
+✔ Installed flush_dns v0.5.4
+✔ Installed git_status v0.5.4
+✔ Installed google_meet v0.5.4
+✔ Installed google_search v0.5.4
+✔ Installed hackernews v0.5.4
+✔ Installed jwt v0.5.4
+✔ Installed keyword_search v0.5.4
+✔ Installed kill_process v0.1.0
+✔ Installed last_git_commit v0.5.4
+✔ Installed npm v0.5.4
+✔ Installed remove_paywall v0.5.4
+✔ Installed sizeviz v0.5.4
+✔ Installed speed_test v0.5.4
+✔ Installed youtube v0.5.4
+
+
+▸ Installation Summary
+────────────────────────
+Installed
+✔ brew v0.5.4
+✔ categorizer v0.5.4
+✔ code_complexity v0.5.4
+✔ code_snippet_extractor v0.5.4
+✔ dirs_meta v0.5.4
+✔ duplicate_file_detector v0.5.4
+✔ file_copier v0.5.4
+✔ file_hash v0.5.4
+✔ file_meta v0.5.4
+✔ file_mover v0.5.4
+✔ file_organizer v0.5.4
+✔ file_remover v0.5.4
+✔ file_tagger v0.5.4
+✔ flush_dns v0.5.4
+✔ git_status v0.5.4
+✔ google_meet v0.5.4
+✔ google_search v0.5.4
+✔ hackernews v0.5.4
+✔ jwt v0.5.4
+✔ keyword_search v0.5.4
+✔ kill_process v0.1.0
+✔ last_git_commit v0.5.4
+✔ npm v0.5.4
+✔ remove_paywall v0.5.4
+✔ sizeviz v0.5.4
+✔ speed_test v0.5.4
+✔ youtube v0.5.4
