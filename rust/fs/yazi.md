@@ -1,4 +1,6 @@
-# original
+# 🌱 ORIGINAL
+
+## basic
 
 ```sh
 $ cargo install --locked yazi-fm yazi-cli
@@ -696,7 +698,7 @@ Installed package `yazi-cli v0.4.2` (executable `ya`)
     Summary Successfully installed yazi-fm, yazi-cli!
 ```
 
-# smart enter
+## smart enter
 
 ```sh
 $ ya pack -a yazi-rs/plugins:smart-enter
@@ -714,7 +716,9 @@ Resolving deltas: 100% (375/375), done.
 Deploying package `smart-enter.yazi`
 ```
 
-# detection
+# ✴️ CLAUDE ERR
+
+## detection
 
 I'm confused about what I'm seeing here:
 
@@ -747,7 +751,7 @@ Do not install tools on your own. If you'd like to install something new, ask me
 
 Let's fix this first before proceeding. Tell me what you installed by yourself and let's either clean it up | version control it.
 
-# summary of err
+## summary
 
 Your yazi installation is back to the original:
 - yazi-fm v0.4.2 (installed)
@@ -773,3 +777,91 @@ This creates a proper audit trail. Then we can decide: do you want to:
 1. Keep stock 0.4.2 and revert config to old syntax (so both work)
 2. Install custom sympop/yazi as your main yazi (get theme + symbol preview)
 3. Use both: custom for dev, stock for daily use (requires separate configs)
+
+# 📌 TODOS
+
+## ✅ version control sympop conf
+
+/Users/zach/.config/yazi-sympop
+
+Here's my understanding of yazi config files and where I have them symlinked in my dotfiles:
+
+```sh
+├── .config/yazi
+│   └── Catppuccin-mocha.tmTheme  # shell/yazi/Catppuccin-mocha.tmTheme
+│   └── keymap.toml               # shell/yazi/keymap.toml
+│   └── package.toml              # shell/yazi/plugins.toml
+│   └── theme.toml                # shell/yazi/catppuccin.toml
+│   └── yazi.toml                 # shell/yazi/config.toml
+```
+
+My guess is that the only file with diffs is ~/.config/yazi-sympop/yazi/theme.toml?
+
+Can you copy whatever config files for sympop yazi differ than the ones I have for stock yazi into my dotfiles and then symlink to those from the sympop yazi dir?
+
+## ✅ Markdown header pollution
+
+One more thing: I've noticed that when it comes to symbol preview for Markdown, some stuff is sneaking in that are not in fact headers.
+
+## not listing files under CWD
+
+One more thing: I've noticed that sympop yazi is not listing files w/ the CWD (unlike stock yazi). Check out the screenshots w/ yazi-file-list on my desktop.
+
+## dir icon
+
+The color we're using for the dir *icon* (dark blue) is a bit too dark.
+
+You earlier tried to toggle this to mauve (#cba6f7 from Catppuccin) but I'm not seeing it yet; maybe there's a diff config element we need to apply this to?
+
+## conf
+
+I think we've got the Catppuccin colors hard-coded into the source. Let's move that to config.
+
+## file types
+
+Let's pair down sympop to only handle these file types:
+
+* Markdown
+* Python
+* Rust
+* JS
+* TS
+
+## pluggable
+
+Can we use a plugin architecture so that other contributors can add other languages that they care about? I don't need sympop to work for PHP, but someone might!
+
+## documentation
+
+Where does docs for other plugins live, if it exists at all? If it does, let's write some for sympop!
+
+## installion
+
+The way I've installed yazi
+```sh
+$ cargo install --locked yazi-fm yazi-cli
+```
+
+is not what the docs recommend https://yazi-rs.github.io/docs/installation#crates
+> Now you can install yazi-build via cargo, which will in turn install yazi-fm and yazi-cli: `cargo install --force yazi-build`
+
+So given that we're happy with the config for sympop yazi - which is based on the most recent release of yazi - we should be able to:
+
+* uninstall my stock version of yazi
+* re-install yazi using the recommended approach
+* update my stock yazi config w/ what we're using for sympop yazi
+
+I don't need you to take those steps - I want to version control everything myself - just what your opinion on that approach.
+
+---
+
+* not sure what to make of this
+```sh
+$ yazi --version
+Yazi 0.4.2 (VERGEN_IDEMPOTENT_OUTPUT 2026-02-06)
+
+$ y --version
+Yazi 26.1.4 (4062f72b 2026-02-09)
+could not find file/dir to remove
+could not find file/dir to remove
+```
