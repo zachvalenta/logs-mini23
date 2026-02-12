@@ -803,15 +803,39 @@ Can you copy whatever config files for sympop yazi differ than the ones I have f
 
 One more thing: I've noticed that when it comes to symbol preview for Markdown, some stuff is sneaking in that are not in fact headers.
 
-## not listing files under CWD
+## ✅ not listing files under CWD
 
 One more thing: I've noticed that sympop yazi is not listing files w/ the CWD (unlike stock yazi). Check out the screenshots w/ yazi-file-list on my desktop.
 
-## dir icon
+## ✅ dir icon
+
+> also be nice if the parent/current didn't offset
 
 The color we're using for the dir *icon* (dark blue) is a bit too dark.
 
+Rn, here are the colors I'm seeing:
+
+* current dir: dark blue, highlighted yellow
+* parent dir of current dir: grey
+* peer dir (i.e. same level as current dir): dark blue
+* peer parent dir (i.e. same level as parent dir): dark blue
+
+Seems like we should have all these be diff colors:
+
+* current dir: something that goes good w/ the yellow hightlight (maybe `blueviolet` or whatever the catppuccin equivalent is?)
+* parent dir of current dir: darker grey
+* peer dir (i.e. same level as current dir): something lighter than `blueviolet` (maybe `mediumpurple` or whatever the catppuccin equivalent is?)
+* peer parent dir (i.e. same level as parent dir): lighter grey
+
 You earlier tried to toggle this to mauve (#cba6f7 from Catppuccin) but I'm not seeing it yet; maybe there's a diff config element we need to apply this to?
+
+```sh
+Unfortunately, yazi's theme system doesn't support the full granularity you want. All directories at all levels will be mauve - we can't have different colors for "peer current" vs "peer parent". The only special indicators are:
+
+- Current (selected): Yellow highlight from [indicator].current
+- Parent directory: Now darker grey #585b70
+- All other dirs: Mauve #cba6f7
+```
 
 ## conf
 
