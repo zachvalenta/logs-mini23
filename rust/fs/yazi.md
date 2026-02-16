@@ -837,23 +837,64 @@ Unfortunately, yazi's theme system doesn't support the full granularity you want
 - All other dirs: Mauve #cba6f7
 ```
 
-## conf
+## ✅ pre-rf testing
 
-I think we've got the Catppuccin colors hard-coded into the source. Let's move that to config.
+This sounds great! Before we make the change, not sure how if/how yazi does testing, but:
 
-## file types
+* if there's a typical approach to doing tests for the project, we can follow that
+* if there's *not* a typical approach, let's throw up some tmp units tests that we can use to baseline our current state and prevent regression during the refactor
 
-Let's pair down sympop to only handle these file types:
+I like this approach, but: `/tmp/symbol-plugin-tests/` -> don't we want our tests to be integrated into the repo itself? And if so, don't we need to figure out what Lua runtime the project is expecting?
 
-* Markdown
-* Python
-* Rust
-* JS
-* TS
+Ok, seems like you're telling me the plugins aren't tested. We're already introducing a new plugin to core yazi, so don't want to make any architectural changes on top of that. So, let's go back to your previous idea and use `/tmp/symbol-plugin-tests/` for our tests. Since we already have a working plugin, we can't go red-green-refactor exactly, so let's:
 
-## pluggable
+* write the tests
+* green
+* I'll init a git repo in the test repo and make initial commit
 
-Can we use a plugin architecture so that other contributors can add other languages that they care about? I don't need sympop to work for PHP, but someone might!
+```sh
+cd /tmp/symbol-plugin-tests & luajit test_runner.lua test
+```
+
+## filetype plugins
+
+Here's what I'm thinking:
+
+* strip down the languages sympop supports to: Markdown, Python, JS, TS, Rust, Go
+* write the plugin w/ a plugin *architecture* so that other contributors can add other languages that they care about? I don't need sympop to work for PHP, but someone might! ++ There's no way we can handle every language someone might want to account for by ourselves.
+
+* state of affairs before refactor
+```sh
+1. Markdown (.md) - Headers (H1-H4 with hierarchy)
+2. Python (.py) - Classes and functions/methods
+3. Lua (.lua) - Functions (including table methods)
+4. JavaScript/TypeScript (.js, .ts, .jsx, .tsx, .mjs) - Classes, functions, methods, exports
+5. Rust (.rs) - Structs, enums, impl blocks, functions (pub/private)
+6. Go (.go) - Types, functions, methods (with receiver nesting)
+7. Ruby (.rb) - Classes and methods
+8. Shell (.sh, .bash, .zsh) - Functions
+
+Each extractor provides:
+- Hierarchy/nesting where applicable (methods under classes/impl blocks)
+- Color coding via Catppuccin Mocha colors (headers, classes, functions, exports)
+- Smart context tracking (e.g., Python indentation, Rust impl blocks, Go receivers)
+
+The plugin also handles edge cases like skipping markdown headers inside code blocks and URLs starting with http:// or https://.
+```
+
+## clarify filetype config
+
+Right now as I observe the behavior, we use sympop if it's a file type we've got configured to use sympop 📍 check your config for this + is my sympop config backwards compatible w/ stock yazi?
+
+and use the file preview otherwise.
+
+## colors from config
+
+Do we have the catppuccin theme specifcied in my config or in the src of sympop itself? Bc if it's in the src, we should rf so that users are bringing their own overrides.
+
+## switch
+
+Any way we could allow to switch btw file and symbol preview after we've already opened yazi?
 
 ## documentation
 
@@ -889,3 +930,5 @@ Yazi 26.1.4 (4062f72b 2026-02-09)
 could not find file/dir to remove
 could not find file/dir to remove
 ```
+
+## Lua notes on embedded
