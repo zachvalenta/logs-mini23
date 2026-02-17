@@ -8,3 +8,7 @@ done! ✨ 🌟 ✨
 $ pipx upgrade aider-chat
 
 upgraded package aider-chat from 0.67.0 to 0.69.1 (location: /Users/zach/Library/Application Support/pipx/venvs/aider-chat)
+
+$ pipx uninstall aider-chat
+
+uninstalled aider-chat! ✨ 🌟 ✨
