@@ -856,7 +856,38 @@ Ok, seems like you're telling me the plugins aren't tested. We're already introd
 cd /tmp/symbol-plugin-tests & luajit test_runner.lua test
 ```
 
-## filetype plugins
+ok, made the commits for both src and test. just to verify test is actually testing src, can you update source for each type. let's say: Markdown only shows top-level headers, Python only shows classes, stuff like that. the point is to:
+
+* verify that the tests are red
+* potentially improve the source itself (maybe the extractors can be more granual i.e. separate functions | modules, etc)
+
+I noticed the test code changed as well...
+```sh
+In /tmp/symbol-plugin-tests/:
+- test_runner.lua = test code (the test harness) - unchanged ✓
+- symbol.lua = copy of source being tested - changed ✓
+
+Only symbol.lua changed, which is correct because:
+1. We modified the plugin in sympop
+2. We copied it to the test directory
+3. test_runner.lua loads that copy and tests it
+
+The workflow:
+sympop/symbol.lua (source)
+    ↓ [we edit this]
+    ↓ [cp to test dir]
+/tmp/symbol-plugin-tests/symbol.lua (copy for testing)
+    ↓ [loaded by]
+test_runner.lua (test harness - unchanged)
+
+So symbol.lua in the test directory isn't "test code" - it's a copy of the source that gets tested.
+
+Does that make sense? The test code itself (test_runner.lua) didn't change - only the source being tested did.
+```
+
+Okidoke, makes sense! I reverted both the source and the copy of the source we're using in the tests.
+
+## ✅ filetype plugins
 
 Here's what I'm thinking:
 
@@ -882,27 +913,78 @@ Each extractor provides:
 The plugin also handles edge cases like skipping markdown headers inside code blocks and URLs starting with http:// or https://.
 ```
 
-## clarify filetype config
+## ✅ colors from config / theme
 
-Right now as I observe the behavior, we use sympop if it's a file type we've got configured to use sympop 📍 check your config for this + is my sympop config backwards compatible w/ stock yazi?
+Do we have the catppuccin theme specifcied in my config or in the src of sympop itself? Bc if it's in the src, we should rf so that users can bring/set their own theme/colors.
 
-and use the file preview otherwise.
+Ok, few thoughts come to mind:
 
-## colors from config
+* colors look the same as before, but want a way to test this
+* my first thought is make an alternate theme file and then point the symlink at that just to validate
+* re: fallback colors, did you see this pattern elsewhere in the codebase / how'd you arrive at those specific fallback colors?
 
-Do we have the catppuccin theme specifcied in my config or in the src of sympop itself? Bc if it's in the src, we should rf so that users are bringing their own overrides.
+I only had to repoint the config, no need to rebuild:
+```sh
+ln -sf /tmp/test-theme-wild-colors.toml ~/.config/yazi-sympop/yazi/theme.toml
+```
+
+### theme vs. styles
+
+Check out the PNGs on my desktop, change did in fact happen but to the general theme vs. the symbols.
+
+Before we commit, question: when I asked you to extract the theme from the src, what I meant was *the colors of the symbols in the preview*. How does yazi / sympop refer to / talk about those / what are the right semantics here?
+
+Ok, rn my taxonomy is:
+
+* _theme_: colors for overall UI
+* _style_: colors for particular UI element
+
+### run around
+
+> conf dir symlink pointed at the Catppuccin theme vs. hurts-too-look-at theme
+
+So based on those screenshots, what we un-hard-coded was the theme, given that the symbols styles didn't change. Yay/nay?
+
+```sh
+The binary still has the old hardcoded code:
+
+local COLORS = {
+header1 = "#f38ba8",  -- OLD hardcoded version!
+
+The problem: Lua plugins are embedded into the binary at build time. Theme changes work instantly (read at runtime), but plugin code changes need a rebuild.
+
+To actually test the theme integration:
+cd ~/Documents/zv/projects/design/app/sympop
+cargo build --release
+```
+
+Ok, that makes sense, but then doesn't that explanation make this the incorrect thing to test, because what we're trying to test is the symbol styling vs. the overall theme?
+```sh
+ln -sf /tmp/test-theme-wild-colors.toml ~/.config/yazi-sympop/yazi/theme.toml
+```
+
+It seems like this could take a lot of doing + I'm already fine enough w/ the colors for symbol preview. Maybe the biggest thing I want to know before we move on is: where are these colors coming from?
+
+# REFINEMENT
+
+## Lua notes on embedded
 
 ## switch
 
 Any way we could allow to switch btw file and symbol preview after we've already opened yazi?
 
+## return to testing
+
 ## documentation
 
 Where does docs for other plugins live, if it exists at all? If it does, let's write some for sympop!
 
-## installion
+## installation
 
-The way I've installed yazi
+> Is my sympop config backwards compatible w/ stock yazi?
+
+Ok, re: config compatability btw stock and sympop, the way I've installed yazi
+
 ```sh
 $ cargo install --locked yazi-fm yazi-cli
 ```
@@ -930,5 +1012,3 @@ Yazi 26.1.4 (4062f72b 2026-02-09)
 could not find file/dir to remove
 could not find file/dir to remove
 ```
-
-## Lua notes on embedded
