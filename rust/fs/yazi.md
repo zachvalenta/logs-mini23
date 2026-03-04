@@ -965,13 +965,40 @@ ln -sf /tmp/test-theme-wild-colors.toml ~/.config/yazi-sympop/yazi/theme.toml
 
 It seems like this could take a lot of doing + I'm already fine enough w/ the colors for symbol preview. Maybe the biggest thing I want to know before we move on is: where are these colors coming from?
 
-# REFINEMENT
+# PR
+
+## how I'm using
+
+---
+
+claude --resume 9f2280f3-bdd6-42ee-a1bd-4ffa0a75ef72
+repo `/Users/zach/Documents/zv/projects/design/app/sympop`
+`/tmp/yazi-sympop-tests`
+* confi for stock `/Users/zach/.config/yazi`
+* confi for sympop `/Users/zach/.config/yazi-sympop/yazi`
+
+## msg
+
+Can you write up the PR msg for this feature?
+
+Things I'm curious about:
+
+* how do users config that they want to turn on sympop?
+* how do users config sympop?
+
+https://github.com/sxyazi/yazi/releases
+https://github.com/zachvalenta/yazi/tree/symbol-preview-take-two
+
+# 💎 REFINEMENT
+
+## doc
+
+- [x] snapshot testing
+- [x] Lua
+- [ ] yazi
+- [ ] CV
 
 ## Lua notes on embedded
-
-## switch
-
-Any way we could allow to switch btw file and symbol preview after we've already opened yazi?
 
 ## return to testing
 
@@ -1011,4 +1038,23 @@ $ y --version
 Yazi 26.1.4 (4062f72b 2026-02-09)
 could not find file/dir to remove
 could not find file/dir to remove
+```
+
+## switch
+
+Any way we could allow to switch btw file and symbol preview after we've already opened yazi?
+
+```sh
+What changed:
+- Separated concerns: Symbol previewer (built-in) + Toggle action (user plugin)
+- Shared state: Uses file ~/.local/state/yazi/symbol-mode to communicate
+- User plugin: ~/.config/yazi-sympop/yazi/plugins/toggle-symbol.yazi/init.lua handles the toggle action
+
+How it works now:
+1. Press T → calls the user action plugin
+2. Plugin toggles state file and shows notification
+3. Symbol previewer reads state file to decide: symbols vs. full file
+4. Preview refreshes automatically
+
+This should work because user plugins CAN be called as actions, unlike built-in previewers!
 ```
