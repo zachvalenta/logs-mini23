@@ -965,6 +965,16 @@ ln -sf /tmp/test-theme-wild-colors.toml ~/.config/yazi-sympop/yazi/theme.toml
 
 It seems like this could take a lot of doing + I'm already fine enough w/ the colors for symbol preview. Maybe the biggest thing I want to know before we move on is: where are these colors coming from?
 
+## ✅ fix Rust symbols
+
+Check out /Users/zach/Documents/zv/projects/tools/corkboard/src.
+
+Then check out app.png and task.png on desktop. Seems like we're not capturing all symbols for Rust files.
+
+## ✅ add support for Lua
+
+can we add symbol preview for Lua files?
+
 # PR
 
 ## how I'm using
@@ -974,8 +984,37 @@ It seems like this could take a lot of doing + I'm already fine enough w/ the co
 claude --resume 9f2280f3-bdd6-42ee-a1bd-4ffa0a75ef72
 repo `/Users/zach/Documents/zv/projects/design/app/sympop`
 `/tmp/yazi-sympop-tests`
-* confi for stock `/Users/zach/.config/yazi`
-* confi for sympop `/Users/zach/.config/yazi-sympop/yazi`
+* conf for stock `/Users/zach/.config/yazi`
+* conf for sympop `/Users/zach/.config/yazi-sympop/yazi`
+
+```sh
+I've written up a comprehensive PR message at /tmp/symbol-preview-pr.md. Here's what I covered:
+
+Main sections:
+1. Summary - What it does in one sentence
+2. Demo - Example output for different languages
+3. How to enable - Config for both sympop and stock yazi users
+4. How to customize - Colors via theme, file types via config
+5. Supported languages - List with what each extracts
+6. Technical details - Architecture, performance, testing
+7. Questions answered - Direct answers to your config questions
+
+Key answers to your questions:
+
+"How do users config that they want to turn on symbol preview?"
+- Add file patterns to prepend_previewers in yazi.toml
+- Stock yazi safely ignores this config (backwards compatible)
+- When they upgrade to a version with the plugin, it activates automatically
+
+"How do users config symbol preview?"
+- Colors: Change theme.toml - plugin follows theme automatically
+- File types: Edit prepend_previewers array to add/remove extensions
+- No other config needed - uses sensible defaults from theme
+
+The PR emphasizes that this is zero-config for colors (uses theme) and minimal config for activation (just list file patterns). Both work across stock yazi and sympop.
+
+Want me to adjust anything?
+```
 
 ## msg
 
