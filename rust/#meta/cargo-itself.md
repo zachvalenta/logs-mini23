@@ -1,3 +1,15 @@
+## 2026-03-17 — triggered by room rust-toolchain.toml (channel = "stable")
+
+```sh
+$ cd /tmp/room && cargo build --release --target wasm32-wasip1
+# rust-toolchain.toml required stable, which was 1.94.0 — updated from 1.92.0
+info: syncing channel updates for 'stable-aarch64-apple-darwin'
+info: latest update on 2026-03-05, rust version 1.94.0 (4a4ef493e 2026-03-02)
+# ... installed 1.94.0
+```
+
+## 2025-06-26
+
 $ rustup update
 
 info: syncing channel updates for 'stable-aarch64-apple-darwin'

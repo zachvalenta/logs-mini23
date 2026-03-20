@@ -213,3 +213,17 @@ $ rustc --version  # rustc 1.82.0 (f6e511eec 2024-10-15)
 - config files
 - `which`
 * if successful, move from less important packages to more
+
+# add WASM as compilation
+
+add wasm32-wasip1 target 26.03-17
+
+Adds a compilation target for WASM to your existing Rust install. Like installing a cross-compilerRust itself doesn't change.
+
+needed to build room.wasm from source against zellij-tile 0.43.1
+
+```sh
+$ rustup target add wasm32-wasip1
+info: downloading component 'rust-std' for 'wasm32-wasip1'
+info: installing component 'rust-std' for 'wasm32-wasip1'
+```
