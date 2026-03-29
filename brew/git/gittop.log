@@ -1,0 +1,26 @@
+$ brew install hjr265/gittop/gittop
+
+✔︎ JSON API formula_tap_migrations.jws.json                                                                             Downloaded    1.9KB/  1.9KB
+✔︎ JSON API cask_tap_migrations.jws.json                                                                                Downloaded    2.4KB/  2.4KB
+==> Tapping hjr265/gittop
+Cloning into '/opt/homebrew/Library/Taps/hjr265/homebrew-gittop'...
+remote: Enumerating objects: 37, done.
+remote: Counting objects: 100% (37/37), done.
+remote: Compressing objects: 100% (21/21), done.
+remote: Total 37 (delta 6), reused 36 (delta 5), pack-reused 0 (from 0)
+Receiving objects: 100% (37/37), 7.51 KiB | 3.75 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+Tapped 1 formula (15 files, 15.4KB).
+==> Fetching downloads for: gittop
+✔︎ Bottle Manifest go (1.25.6)                                                                                          Downloaded    7.5KB/  7.5KB
+✔︎ Formula gittop (0.4.0)                                                                                               Verified      1.0MB/  1.0MB
+✔︎ Bottle go (1.25.6)                                                                                                   Downloaded   57.5MB/ 57.5MB
+==> Installing gittop from hjr265/gittop
+==> Installing hjr265/gittop/gittop dependency: go
+==> Pouring go--1.25.6.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/go/1.25.6: 14,440 files, 203.2MB
+==> go build -ldflags=-s -w
+🍺  /opt/homebrew/Cellar/gittop/0.4.0: 6 files, 8.3MB, built in 18 seconds
+==> Running `brew cleanup gittop`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
