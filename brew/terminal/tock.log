@@ -1,0 +1,13 @@
+$ brew install tock
+
+==> Fetching downloads for: tock
+✔︎ Bottle Manifest tock (1.6.2)                                                                                         Downloaded    7.5KB/  7.5KB
+✔︎ Bottle tock (1.6.2)                                                                                                  Downloaded    3.3MB/  3.3MB
+==> Pouring tock--1.6.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tock/1.6.2: 10 files, 8.7MB
+==> Running `brew cleanup tock`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
