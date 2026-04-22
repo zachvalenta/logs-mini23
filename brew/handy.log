@@ -1,0 +1,75 @@
+$ brew install --cask handy
+
+✔︎ JSON API formula_tap_migrations.jws.json                                                                                                                                                                       Downloaded    2.0KB/  2.0KB
+✔︎ JSON API cask_tap_migrations.jws.json                                                                                                                                                                          Downloaded    2.2KB/  2.2KB
+==> Downloading https://github.com/cjpais/Handy/releases/download/v0.7.0/Handy_0.7.0_aarch64.dmg
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/931888694/d545b88b-0ec2-49f6-93be-71a7d9ac1ee2?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-22T15%3A35%3A51Z&rscd=attachment%3B+filename%3
+##################################################################################################################################################################################################################################### 100.0%
+==> Installing Cask handy
+==> Moving App 'Handy.app' to '/Applications/Handy.app'
+🍺  handy was successfully installed!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/argocd_bottle_manifest--3.1.1... (8.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/argocd--3.1.1... (77.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/c-ares_bottle_manifest--1.34.5-1... (9.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/c-ares--1.34.5... (303.8KB)
+Removing: /opt/homebrew/Cellar/gettext/0.26... (2,428 files, 29.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/git-who_bottle_manifest--1.2-1... (9.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/git-who--1.2... (1.4MB)
+Removing: /opt/homebrew/Cellar/go/1.25.5... (14,439 files, 203.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/go--1.25.5.tar.gz... (32.0MB)
+Removing: /Users/zach/Library/Caches/Homebrew/icu4c@77_bottle_manifest--77.1... (12.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/icu4c@77--77.1... (31.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libnghttp2_bottle_manifest--1.66.0... (8.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libnghttp2--1.66.0... (235.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libnghttp3_bottle_manifest--1.11.0... (9.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libnghttp3--1.11.0... (187.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libngtcp2_bottle_manifest--1.15.0... (10.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libngtcp2--1.15.0... (390.9KB)
+Removing: /opt/homebrew/Cellar/libunistring/1.3... (59 files, 5.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/libuv_bottle_manifest--1.51.0... (9.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/libuv--1.51.0... (381.6KB)
+Removing: /opt/homebrew/Cellar/luajit/2.1.1734355927... (56 files, 2.2MB)
+Removing: /opt/homebrew/Cellar/luv/1.48.0-2... (16 files, 877.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mongosh_bottle_manifest--2.5.6... (69.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/mongosh--2.5.6... (22.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/node_bottle_manifest--24.6.0-2... (27.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/node--24.6.0... (21.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.13_bottle_manifest--3.13.7... (34.0KB)
+Removing: /Users/zach/Library/Caches/Homebrew/python@3.13--3.13.7... (17.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/sentry-cli--2.58.2... (35.9MB)
+Removing: /Users/zach/Library/Caches/Homebrew/simdjson_bottle_manifest--3.13.0... (9.4KB)
+Removing: /Users/zach/Library/Caches/Homebrew/simdjson--3.13.0... (999.7KB)
+Removing: /opt/homebrew/Cellar/utf8proc/2.9.0... (11 files, 789.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/uvwasi_bottle_manifest--0.0.21... (9.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/uvwasi--0.0.21... (70.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/zstd_bottle_manifest--1.5.7-1... (16.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/zstd--1.5.7... (809.9KB)
+==> Autoremoving 3 unneeded formulae:
+libvterm
+msgpack
+tree-sitter
+Uninstalling /opt/homebrew/Cellar/msgpack/6.1.0... (39 files, 231.6KB)
+Uninstalling /opt/homebrew/Cellar/tree-sitter/0.24.5... (15 files, 16MB)
+tree-sitter 0.22.6 is still installed.
+To remove all versions, run:
+  brew uninstall --force tree-sitter
+Uninstalling /opt/homebrew/Cellar/libvterm/0.3.3... (12 files, 400.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/go_mod_cache... (17,187 files, 383.0MB)
+Removing: /Users/zach/Library/Caches/Homebrew/go_cache... (2,236 files, 182.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/yt-dlp_bottle_manifest--2025.8.22... (21.6KB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/Libertinus-7.051.tar.zst--7.051.tar.zst... (6.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/LinLibertineTTF_5.3.0_2012_07_02.tgz--5.3.0,2012_07_02.tgz... (3.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/Wave-darwin-arm64-0.11.4.dmg--0.11.4.dmg... (190.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/fonts.git--git-sparse... (67 files, 23.1MB)
+Removing: /Users/zach/Library/Logs/Homebrew/libunistring... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/utf8proc... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/gettext... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/zellij... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/tree-sitter@0.25... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/luajit... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/neovim... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/luv... (64B)
