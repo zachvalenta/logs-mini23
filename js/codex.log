@@ -11,3 +11,9 @@ added 1 package, and changed 1 package in 3s
 
 $ codex -V
 codex-cli 0.117.0
+
+$ npm install -g @openai/codex
+changed 2 packages in 4s
+
+$ codex --version
+codex-cli 0.125.0
