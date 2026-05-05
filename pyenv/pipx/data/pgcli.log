@@ -7,3 +7,6 @@ done! ✨ 🌟 ✨
 $ pipx inject pgcli psycopg_binary
   injected package psycopg-binary into venv pgcli
 done! ✨
+
+$ pipx upgrade pgcli
+upgraded package pgcli from 4.3.0 to 4.4.0 (location: /Users/zach/Library/Application Support/pipx/venvs/pgcli)
