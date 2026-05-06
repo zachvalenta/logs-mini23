@@ -1,0 +1,9 @@
+$ brew install scc
+==> Fetching downloads for: scc
+✔︎ Bottle Manifest scc (3.6.0)                                                                                                                                                                                    Downloaded    7.5KB/  7.5KB
+✔︎ Bottle scc (3.6.0)                                                                                                                                                                                             Downloaded    1.7MB/  1.7MB
+==> Pouring scc--3.6.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/scc/3.6.0: 6 files, 4.4MB
+==> Running `brew cleanup scc`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
