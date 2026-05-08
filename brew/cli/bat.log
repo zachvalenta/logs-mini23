@@ -25,3 +25,39 @@ Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ==> bat
 zsh completions have been installed to:
   /opt/homebrew/share/zsh/site-functions
+
+$ brew upgrade bat
+
+✔︎ JSON API formula_tap_migrations.jws.json                                                                                                                                                                       Downloaded    2.0KB/  2.0KB
+✔︎ JSON API cask_tap_migrations.jws.json                                                                                                                                                                          Downloaded    2.2KB/  2.2KB
+==> Upgrading 1 outdated package:
+bat 0.24.0_1 -> 0.26.1
+==> Fetching downloads for: bat
+✔︎ Bottle Manifest openssl@3 (3.6.0)                                                                                                                                                                              Downloaded   11.8KB/ 11.8KB
+✔︎ Bottle bat (0.26.1)                                                                                                                                                                                            Downloaded    2.8MB/  2.8MB
+✔︎ Bottle openssl@3 (3.6.0)                                                                                                                                                                                       Downloaded   10.9MB/ 10.9MB
+==> Upgrading bat
+  0.24.0_1 -> 0.26.1
+==> Installing bat dependency: openssl@3
+==> Pouring openssl@3--3.6.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.0: 7,609 files, 37.7MB
+==> Pouring bat--0.26.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/bat/0.26.1: 15 files, 5.0MB
+==> Running `brew cleanup bat`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/bat/0.24.0_1... (15 files, 4MB)
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+
+$ bat justfile
+
+[bat error]: The binary caches for the user-customized syntaxes and themes in '/Users/zach/.cache/bat' are not compatible with this version of bat (0.26.1). To solve this, either rebuild the cache (bat cache --build) or remove the custom syntaxes/themes (bat cache --clear).
+
+$ bat cache --build
+
+No syntaxes were found in '/Users/zach/.config/bat/syntaxes', using the default set.
+Writing theme set to /Users/zach/.cache/bat/themes.bin ... okay
+Writing syntax set to /Users/zach/.cache/bat/syntaxes.bin ... okay
+Writing metadata to folder /Users/zach/.cache/bat ... okay
