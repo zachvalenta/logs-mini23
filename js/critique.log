@@ -1,0 +1,10 @@
+$ bun install -g critique
+
+bun add v1.3.13 (bf2e2cec)
+
+installed critique@0.1.140 with binaries:
+ - critique
+
+131 packages installed [2.44s]
+
+Blocked 1 postinstall. Run `bun pm -g untrusted` for details.
