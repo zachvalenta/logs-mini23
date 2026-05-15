@@ -1,0 +1,6 @@
+$ bun install -g opencode-ai
+
+bun add v1.3.13 (bf2e2cec)
+installed opencode-ai@1.14.50 with binaries:
+ - opencode
+2 packages installed [2.73s]
