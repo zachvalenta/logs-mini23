@@ -1,0 +1,6 @@
+$ bun add -g tokscale@2.1.1
+
+bun add v1.3.13 (bf2e2cec)
+installed tokscale@2.1.1 with binaries:
+ - tokscale
+3 packages installed [1.76s]
