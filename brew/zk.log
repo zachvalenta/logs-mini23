@@ -1,0 +1,36 @@
+$ brew install zk
+
+✔︎ JSON API formula_tap_migrations.jws.json                                                                                           Downloaded    2.0KB/  2.0KB
+✔︎ JSON API cask_tap_migrations.jws.json                                                                                              Downloaded    2.2KB/  2.2KB
+==> Fetching downloads for: zk
+✔︎ Bottle Manifest zk (0.15.2)                                                                                                        Downloaded    9.3KB/  9.3KB
+✔︎ Bottle Manifest icu4c@78 (78.2)                                                                                                    Downloaded    9.7KB/  9.7KB
+✔︎ Bottle zk (0.15.2)                                                                                                                 Downloaded    4.8MB/  4.8MB
+✔︎ Bottle icu4c@78 (78.2)                                                                                                             Downloaded   31.8MB/ 31.8MB
+==> Installing zk dependency: icu4c@78
+==> Pouring icu4c@78--78.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@78/78.2: 279 files, 87.7MB
+==> Pouring zk--0.15.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/zk/0.15.2: 7 files, 12.2MB
+==> Running `brew cleanup zk`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/openssl@3/3.5.2... (7,563 files, 37.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/pkgconf_bottle_manifest--2.5.1... (12.2KB)
+Removing: /Users/zach/Library/Caches/Homebrew/pkgconf--2.5.1... (121.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/tuios--0.5.1.tar.gz... (16.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/zola_bottle_manifest--0.22.1... (8.9KB)
+Removing: /Users/zach/Library/Caches/Homebrew/zola--0.22.1... (12.9MB)
+==> Autoremoving 2 unneeded formulae:
+libgit2@1.7
+tree-sitter
+Uninstalling /opt/homebrew/Cellar/tree-sitter/0.22.6... (15 files, 14.8MB)
+Uninstalling /opt/homebrew/Cellar/libgit2@1.7/1.7.2... (105 files, 4.7MB)
+Removing: /Users/zach/Library/Caches/Homebrew/portable-ruby-3.4.8.arm64_big_sur.bottle.tar.gz... (12.2MB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/Inter-4.1.zip--4.1.zip... (33.7MB)
+Removing: /Users/zach/Library/Logs/Homebrew/go... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/tock... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/gittop... (2 files, 2.6KB)
