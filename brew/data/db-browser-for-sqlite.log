@@ -1,0 +1,7 @@
+$ brew install db-browser-for-sqlite
+
+==> Downloading https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1.dmg
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/19416551/ed9e8d2a-f2e4-43c8-a3c5-2dd028ef176f?sp=r&sv=2018-11-
+######################################################################################################################################################### 100.0%
+==> Installing Cask db-browser-for-sqlite
+==> Moving App 'DB Browser for SQLite.app' to '/Applications/DB Browser for SQLite.app'
