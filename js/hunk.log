@@ -1,0 +1,10 @@
+$ bun install -g hunkdiff
+
+bun add v1.3.13 (bf2e2cec)
+warn: incorrect peer dependency "react@19.2.6"
+
+installed hunkdiff@0.15.3 with binaries:
+ - hunk
+ - hunkdiff
+
+69 packages installed [3.99s]
