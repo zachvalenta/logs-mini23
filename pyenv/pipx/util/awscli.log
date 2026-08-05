@@ -1,9 +1,0 @@
-$ pipx install awscli
-  installed package awscli 1.46.0, installed using Python 3.12.1
-  These apps are now globally available
-    - aws
-    - aws.cmd
-    - aws_bash_completer
-    - aws_completer
-    - aws_zsh_completer.sh
-done! ✨ 🌟 ✨
