@@ -8,3 +8,6 @@ done! ✨ 🌟 ✨
 
 $ pipx upgrade yt-dlp
 upgraded package yt-dlp from 2025.12.8 to 2026.1.31 (location: /Users/zach/Library/Application Support/pipx/venvs/yt-dlp)
+
+$ pipx upgrade yt-dlp
+upgraded package yt-dlp from 2026.1.31 to 2026.7.4 (location: /Users/zach/Library/Application Support/pipx/venvs/yt-dlp)
