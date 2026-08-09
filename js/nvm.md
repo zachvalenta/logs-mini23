@@ -1,3 +1,6 @@
+# init
+
+```sh
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -23,7 +26,11 @@ export NVM_DIR="$HOME/.config/nvm"
 
 $ command -v nvm
 nvm
+```
 
+# LTS
+
+```sh
 $ nvm install --lts
 Installing latest LTS version.
 Downloading and installing node v22.13.1...
@@ -38,3 +45,30 @@ $ nvm current # v22.13.1
 $ nvm ls      # -> v22.13.1, default -> lts/* (-> v22.13.1), unstable -> N/A (default)
 $ which node  # /Users/zach/.config/nvm/versions/node/v22.13.1/bin/node
 $ which npm   # /Users/zach/.config/nvm/versions/node/v22.13.1/bin/npm
+```
+
+# export
+
+* _26.08.09_: fixed lazy-load wrapper in `/Users/zach/Documents/denv/dotfiles/shell/zsh/modules/nvm.sh`
+
+PROBLEM
+* `_load_nvm()` used `local NVM_DIR="$HOME/.config/nvm"`
+* `nvm.sh` loaded successfully, but after `_load_nvm()` returned, `NVM_DIR` was not present in the shell environment
+* later `nvm install 22.13.1` tried to write under root paths like `/alias` and `/.cache`
+
+FIX
+```sh
+_load_nvm() {
+    export NVM_DIR="$HOME/.config/nvm"
+    unset -f nvm node npm gemini claude codex _load_nvm
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+}
+```
+
+VERIFY
+```sh
+echo "$NVM_DIR"       # /Users/zach/.config/nvm
+nvm install 22.13.1
+nvm use 22.13.1
+node -v               # v22.13.1
+```
