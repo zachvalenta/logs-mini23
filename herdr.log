@@ -1,0 +1,14 @@
+$ curl -fsSL https://herdr.dev/install.sh | sh
+
+      ,ww
+     wWWWWWWW_)  herdr installer
+     `WWWWWW'    herdr.dev
+      II  II
+
+  > detected macos/aarch64
+  > fetching latest release manifest...
+  > downloading v0.8.0...
+  > installed herdr to /Users/zach/.local/bin/herdr
+
+  > ready. run 'herdr' to get started.
+
