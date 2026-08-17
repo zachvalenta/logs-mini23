@@ -1,0 +1,20 @@
+brew install dagger/tap/dagger
+
+✔︎ JSON API formula_tap_migrations.jws.json                                                                                           Downloaded    2.0KB/  2.0KB
+✔︎ JSON API cask_tap_migrations.jws.json                                                                                              Downloaded    2.2KB/  2.2KB
+==> Tapping dagger/tap
+Cloning into '/opt/homebrew/Library/Taps/dagger/homebrew-tap'...
+remote: Enumerating objects: 748, done.
+remote: Counting objects: 100% (108/108), done.
+remote: Compressing objects: 100% (42/42), done.
+remote: Total 748 (delta 93), reused 66 (delta 66), pack-reused 640 (from 1)
+Receiving objects: 100% (748/748), 140.35 KiB | 1.71 MiB/s, done.
+Resolving deltas: 100% (389/389), done.
+Tapped 1 cask and 3 formulae (18 files, 193.2KB).
+==> Fetching downloads for: dagger
+✔︎ Formula dagger (0.21.8)                                                                                                            Verified     21.0MB/ 21.0MB
+==> Installing dagger from dagger/tap
+🍺  /opt/homebrew/Cellar/dagger/0.21.8: 5 files, 62.4MB, built in 1 second
+==> Running `brew cleanup dagger`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
