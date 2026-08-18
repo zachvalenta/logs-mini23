@@ -130,3 +130,112 @@ sudo xcode-select -s /Library/Developer/CommandLineTools
 ```
 
 I would treat `npm run ios` as feasible but heavier than Expo Go / Android. If you just need UI iteration, skip it for now.
+
+# 2026.09.18
+
+## probably annoying, not dangerous
+
+zjv, full Xcode is heavy and fussy, but it is unlikely to permanently screw up your local dev env if you install it normally from the App Store and avoid changing global toolchains manually.
+
+The pain is mostly:
+
+COSTS
+* Huge download/install: often 10-20GB+ download, 30-50GB+ installed/derived data/cache over time.
+* Time: can easily be 30-90 min depending on network/disk.
+* First-run prompts: license, components, simulator runtimes.
+* Occasional macOS/Xcode version mismatch.
+* Apple signing/provisioning headaches for real-device builds.
+* Simulator disk bloat.
+
+RISK TO LOCAL ENV
+* Low if you do standard install.
+* Medium annoyance if `xcode-select` switches global developer dir and some tools start resolving Apple SDK paths differently.
+* Reversible with:
+```sh
+sudo xcode-select -s /Library/Developer/CommandLineTools
+```
+or:
+```sh
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+```
+
+## what changes globally
+
+Installing Xcode itself mostly just adds:
+
+```txt
+/Applications/Xcode.app
+~/Library/Developer/Xcode
+~/Library/Developer/CoreSimulator
+```
+
+The global-ish setting is:
+
+```sh
+xcode-select -p
+```
+
+Right now yours is:
+
+```txt
+/Library/Developer/CommandLineTools
+```
+
+After Xcode setup, Expo/iOS wants:
+
+```sh
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+```
+
+That is the main "env mutation".
+
+## safe install path
+
+LOWEST-RISK ROUTE
+```sh
+xcode-select -p
+```
+
+Install Xcode from App Store.
+
+Then:
+
+```sh
+sudo xcodebuild -license accept
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+xcodebuild -version
+xcrun simctl list devices available
+```
+
+If you want to go back:
+
+```sh
+sudo xcode-select -s /Library/Developer/CommandLineTools
+```
+
+## cleanup if you hate it
+
+```sh
+rm -rf ~/Library/Developer/Xcode/DerivedData
+rm -rf ~/Library/Developer/CoreSimulator/Caches
+```
+
+Full uninstall is basically:
+
+```sh
+sudo rm -rf /Applications/Xcode.app
+sudo xcode-select -s /Library/Developer/CommandLineTools
+```
+
+I would not casually delete all of `~/Library/Developer` because Command Line Tools and other Apple tooling may use parts of it.
+
+## recommendation
+
+If your goal is daily speed: do not bother.
+
+If your goal is occasional native iOS validation: Xcode is tolerable, and lower-friction than fighting Expo Go/dev-client forever.
+
+Best compromise:
+* web-first for daily work
+* install Xcode only if you need simulator/native-camera validation
+* keep `xcode-select` switchable and documented in `denv/mobile.md`
