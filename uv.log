@@ -1,0 +1,7 @@
+$ curl -LsSf https://astral.sh/uv/install.sh | sh
+
+downloading uv 0.12.5 aarch64-apple-darwin
+installing to /Users/zach/.local/bin
+  uv
+  uvx
+everything's installed!
