@@ -1,0 +1,251 @@
+brew install kew
+==> Fetching downloads for: kew
+✔︎ Bottle Manifest kew (3.7.3)                                                                                                        Downloaded   68.8KB/ 68.8KB
+✔︎ Bottle Manifest libpng (1.6.54)                                                                                                    Downloaded    8.5KB/  8.5KB
+✔︎ Bottle libpng (1.6.54)                                                                                                             Downloaded  459.0KB/459.0KB
+✔︎ Bottle Manifest freetype (2.14.1_1)                                                                                                Downloaded    9.2KB/  9.2KB
+✔︎ Bottle freetype (2.14.1_1)                                                                                                         Downloaded  991.0KB/991.0KB
+✔︎ Bottle Manifest fontconfig (2.17.1)                                                                                                Downloaded   17.3KB/ 17.3KB
+✔︎ Bottle fontconfig (2.17.1)                                                                                                         Downloaded  400.1KB/400.1KB
+✔︎ Bottle Manifest pcre2 (10.47)                                                                                                      Downloaded   10.4KB/ 10.4KB
+✔︎ Bottle pcre2 (10.47)                                                                                                               Downloaded    2.4MB/  2.4MB
+✔︎ Bottle Manifest glib (2.86.3)                                                                                                      Downloaded   20.2KB/ 20.2KB
+✔︎ Bottle glib (2.86.3)                                                                                                               Downloaded    9.2MB/  9.2MB
+✔︎ Bottle Manifest xorgproto (2025.1)                                                                                                 Downloaded   13.1KB/ 13.1KB
+✔︎ Bottle xorgproto (2025.1)                                                                                                          Downloaded  720.1KB/720.1KB
+✔︎ Bottle Manifest libx11 (1.8.12)                                                                                                    Downloaded   18.3KB/ 18.3KB
+✔︎ Bottle libx11 (1.8.12)                                                                                                             Downloaded    2.3MB/  2.3MB
+✔︎ Bottle Manifest pixman (0.46.4)                                                                                                    Downloaded    9.3KB/  9.3KB
+✔︎ Bottle pixman (0.46.4)                                                                                                             Downloaded  416.2KB/416.2KB
+✔︎ Bottle Manifest cairo (1.18.4)                                                                                                     Downloaded   37.0KB/ 37.0KB
+✔︎ Bottle cairo (1.18.4)                                                                                                              Downloaded    1.6MB/  1.6MB
+✔︎ Bottle Manifest jpeg-turbo (3.1.3)                                                                                                 Downloaded    8.3KB/  8.3KB
+✔︎ Bottle jpeg-turbo (3.1.3)                                                                                                          Downloaded    1.1MB/  1.1MB
+✔︎ Bottle Manifest brotli (1.2.0)                                                                                                     Downloaded    8.0KB/  8.0KB
+✔︎ Bottle brotli (1.2.0)                                                                                                              Downloaded  793.5KB/793.5KB
+✔︎ Bottle Manifest highway (1.3.0)                                                                                                    Downloaded    9.7KB/  9.7KB
+✔︎ Bottle highway (1.3.0)                                                                                                             Downloaded  896.7KB/896.7KB
+✔︎ Bottle Manifest imath (3.2.2)                                                                                                      Downloaded    7.4KB/  7.4KB
+✔︎ Bottle imath (3.2.2)                                                                                                               Downloaded  194.3KB/194.3KB
+✔︎ Bottle Manifest libtiff (4.7.1)                                                                                                    Downloaded   12.5KB/ 12.5KB
+✔︎ Bottle libtiff (4.7.1)                                                                                                             Downloaded    1.9MB/  1.9MB
+✔︎ Bottle Manifest libdeflate (1.25)                                                                                                  Downloaded    7.8KB/  7.8KB
+✔︎ Bottle libdeflate (1.25)                                                                                                           Downloaded  113.3KB/113.3KB
+✔︎ Bottle Manifest openjph (0.26.0)                                                                                                   Downloaded   12.2KB/ 12.2KB
+✔︎ Bottle openjph (0.26.0)                                                                                                            Downloaded  157.5KB/157.5KB
+✔︎ Bottle Manifest openexr (3.4.4_1)                                                                                                  Downloaded   15.6KB/ 15.6KB
+✔︎ Bottle openexr (3.4.4_1)                                                                                                           Downloaded    1.1MB/  1.1MB
+✔︎ Bottle Manifest jpeg-xl (0.11.1_3)                                                                                                 Downloaded   33.7KB/ 33.7KB
+✔︎ Bottle Manifest little-cms2 (2.18)                                                                                                 Downloaded   12.2KB/ 12.2KB
+✔︎ Bottle little-cms2 (2.18)                                                                                                          Downloaded  434.8KB/434.8KB
+✔︎ Bottle Manifest aom (3.13.1)                                                                                                       Downloaded   32.2KB/ 32.2KB
+✔︎ Bottle aom (3.13.1)                                                                                                                Downloaded    4.2MB/  4.2MB
+✔︎ Bottle Manifest dav1d (1.5.3)                                                                                                      Downloaded    7.6KB/  7.6KB
+✔︎ Bottle dav1d (1.5.3)                                                                                                               Downloaded  364.6KB/364.6KB
+✔︎ Bottle Manifest libavif (1.3.0)                                                                                                    Downloaded   27.8KB/ 27.8KB
+✔︎ Bottle libavif (1.3.0)                                                                                                             Downloaded  315.9KB/315.9KB
+✔︎ Bottle Manifest gdk-pixbuf (2.44.4)                                                                                                Downloaded   22.0KB/ 22.0KB
+✔︎ Bottle gdk-pixbuf (2.44.4)                                                                                                         Downloaded  783.6KB/783.6KB
+✔︎ Bottle Manifest harfbuzz (12.3.1)                                                                                                  Downloaded   29.9KB/ 29.9KB
+✔︎ Bottle harfbuzz (12.3.1)                                                                                                           Downloaded    3.1MB/  3.1MB
+✔︎ Bottle Manifest pango (1.57.0_1)                                                                                                   Downloaded   31.5KB/ 31.5KB
+✔︎ Bottle pango (1.57.0_1)                                                                                                            Downloaded  886.2KB/886.2KB
+✔︎ Bottle Manifest librsvg (2.61.3_1)                                                                                                 Downloaded   36.5KB/ 36.5KB
+✔︎ Bottle Manifest webp (1.6.0)                                                                                                       Downloaded   19.5KB/ 19.5KB
+✔︎ Bottle webp (1.6.0)                                                                                                                Downloaded  901.9KB/901.9KB
+✔︎ Bottle Manifest chafa (1.18.0)                                                                                                     Downloaded   48.8KB/ 48.8KB
+✔︎ Bottle Manifest faad2 (2.11.2)                                                                                                     Downloaded    9.8KB/  9.8KB
+✔︎ Bottle Manifest isl (0.27)                                                                                                         Downloaded   14.5KB/ 14.5KB
+✔︎ Bottle Manifest mpfr (4.2.2)                                                                                                       Downloaded   12.7KB/ 12.7KB
+✔︎ Bottle Manifest libmpc (1.3.1)                                                                                                     Downloaded   16.8KB/ 16.8KB
+✔︎ Bottle Manifest gcc (15.2.0)                                                                                                       Downloaded   23.4KB/ 23.4KB
+✔︎ Bottle Manifest hwloc (2.12.2_1)                                                                                                   Downloaded   10.6KB/ 10.6KB
+✔︎ Bottle faad2 (2.11.2)                                                                                                              Downloaded  325.6KB/325.6KB
+✔︎ Bottle chafa (1.18.0)                                                                                                              Downloaded  487.2KB/487.2KB
+✔︎ Bottle Manifest pmix (5.0.9)                                                                                                       Downloaded   16.9KB/ 16.9KB
+✔︎ Bottle Manifest open-mpi (5.0.9)                                                                                                   Downloaded   22.0KB/ 22.0KB
+✔︎ Bottle Manifest fftw (3.3.10_2)                                                                                                    Downloaded   29.2KB/ 29.2KB
+✔︎ Bottle librsvg (2.61.3_1)                                                                                                          Downloaded    5.0MB/  5.0MB
+✔︎ Bottle libmpc (1.3.1)                                                                                                              Downloaded  146.4KB/146.4KB
+✔︎ Bottle Manifest libogg (1.3.6)                                                                                                     Downloaded    9.3KB/  9.3KB
+✔︎ Bottle mpfr (4.2.2)                                                                                                                Downloaded    1.1MB/  1.1MB
+✔︎ Bottle Manifest opus (1.6.1)                                                                                                       Downloaded    7.3KB/  7.3KB
+✔︎ Bottle Manifest utf8cpp (4.0.9)                                                                                                    Downloaded    2.0KB/  2.0KB
+✔︎ Bottle libogg (1.3.6)                                                                                                              Downloaded  234.7KB/234.7KB
+✔︎ Bottle Manifest taglib (2.1.1)                                                                                                     Downloaded   12.1KB/ 12.1KB
+✔︎ Bottle isl (0.27)                                                                                                                  Downloaded    1.7MB/  1.7MB
+✔︎ Bottle utf8cpp (4.0.9)                                                                                                             Downloaded   25.9KB/ 25.9KB
+✔︎ Bottle opus (1.6.1)                                                                                                                Downloaded  505.2KB/505.2KB
+✔︎ Bottle kew (3.7.3)                                                                                                                 Downloaded  486.0KB/486.0KB
+✔︎ Bottle taglib (2.1.1)                                                                                                              Downloaded  474.7KB/474.7KB
+✔︎ Bottle jpeg-xl (0.11.1_3)                                                                                                          Downloaded   13.8MB/ 13.8MB
+✔︎ Bottle fftw (3.3.10_2)                                                                                                             Downloaded    3.1MB/  3.1MB
+✔︎ Bottle hwloc (2.12.2_1)                                                                                                            Downloaded    4.4MB/  4.4MB
+✔︎ Bottle pmix (5.0.9)                                                                                                                Downloaded    8.9MB/  8.9MB
+✔︎ Bottle open-mpi (5.0.9)                                                                                                            Downloaded   16.8MB/ 16.8MB
+✔︎ Bottle gcc (15.2.0)                                                                                                                Downloaded  152.3MB/152.3MB
+==> Installing dependencies for kew: libpng, freetype, fontconfig, pcre2, glib, xorgproto, libx11, pixman, cairo, jpeg-turbo, brotli, highway, imath, libtiff, libdeflate, openjph, openexr, jpeg-xl, aom, dav1d, libavif, gdk-pixbuf, harfbuzz, pango, librsvg, webp, chafa, faad2, isl, mpfr, libmpc, gcc, hwloc, pmix, open-mpi, fftw, libogg, opus, utf8cpp and taglib
+==> Installing kew dependency: libpng
+==> Pouring libpng--1.6.54.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpng/1.6.54: 28 files, 1.4MB
+==> Installing kew dependency: freetype
+==> Pouring freetype--2.14.1_1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetype/2.14.1_1: 68 files, 2.7MB
+==> Installing kew dependency: fontconfig
+==> Pouring fontconfig--2.17.1.arm64_tahoe.bottle.1.tar.gz
+==> Regenerating font cache, this may take a while
+==> /opt/homebrew/Cellar/fontconfig/2.17.1/bin/fc-cache --force --really-force --verbose
+🍺  /opt/homebrew/Cellar/fontconfig/2.17.1: 98 files, 1.6MB
+==> Installing kew dependency: pcre2
+==> Pouring pcre2--10.47.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.47: 244 files, 7.3MB
+==> Installing kew dependency: glib
+==> Pouring glib--2.86.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.86.3: 504 files, 39.6MB
+==> Installing kew dependency: xorgproto
+==> Pouring xorgproto--2025.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xorgproto/2025.1: 268 files, 4.1MB
+==> Installing kew dependency: libx11
+==> Pouring libx11--1.8.12.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libx11/1.8.12: 1,043 files, 7.4MB
+==> Installing kew dependency: pixman
+==> Pouring pixman--0.46.4.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/pixman/0.46.4: 11 files, 1.4MB
+==> Installing kew dependency: cairo
+==> Pouring cairo--1.18.4.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/cairo/1.18.4: 58 files, 4.7MB
+==> Installing kew dependency: jpeg-turbo
+==> Pouring jpeg-turbo--3.1.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-turbo/3.1.3: 47 files, 3.7MB
+==> Installing kew dependency: brotli
+==> Pouring brotli--1.2.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/brotli/1.2.0: 33 files, 1.9MB
+==> Installing kew dependency: highway
+==> Pouring highway--1.3.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/highway/1.3.0: 81 files, 5.6MB
+==> Installing kew dependency: imath
+==> Pouring imath--3.2.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/imath/3.2.2: 50 files, 988KB
+==> Installing kew dependency: libtiff
+==> Pouring libtiff--4.7.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtiff/4.7.1: 488 files, 9.0MB
+==> Installing kew dependency: libdeflate
+==> Pouring libdeflate--1.25.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libdeflate/1.25: 17 files, 335.8KB
+==> Installing kew dependency: openjph
+==> Pouring openjph--0.26.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.26.0: 25 files, 634.6KB
+==> Installing kew dependency: openexr
+==> Pouring openexr--3.4.4_1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.4.4_1: 212 files, 4.6MB
+==> Installing kew dependency: jpeg-xl
+==> Pouring jpeg-xl--0.11.1_3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-xl/0.11.1_3: 64 files, 35.8MB
+==> Installing kew dependency: aom
+==> Pouring aom--3.13.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aom/3.13.1: 28 files, 10.6MB
+==> Installing kew dependency: dav1d
+==> Pouring dav1d--1.5.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dav1d/1.5.3: 16 files, 940KB
+==> Installing kew dependency: libavif
+==> Pouring libavif--1.3.0.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libavif/1.3.0: 22 files, 1MB
+==> Installing kew dependency: gdk-pixbuf
+==> Pouring gdk-pixbuf--2.44.4.arm64_tahoe.bottle.tar.gz
+==> /opt/homebrew/Cellar/gdk-pixbuf/2.44.4/bin/gdk-pixbuf-query-loaders --update-cache
+🍺  /opt/homebrew/Cellar/gdk-pixbuf/2.44.4: 151 files, 4.2MB
+==> Installing kew dependency: harfbuzz
+==> Pouring harfbuzz--12.3.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/12.3.1: 77 files, 11.6MB
+==> Installing kew dependency: pango
+==> Pouring pango--1.57.0_1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pango/1.57.0_1: 69 files, 3.7MB
+==> Installing kew dependency: librsvg
+==> Pouring librsvg--2.61.3_1.arm64_tahoe.bottle.tar.gz
+==> /opt/homebrew/opt/gdk-pixbuf/bin/gdk-pixbuf-query-loaders --update-cache
+🍺  /opt/homebrew/Cellar/librsvg/2.61.3_1: 21 files, 13MB
+==> Installing kew dependency: webp
+==> Pouring webp--1.6.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/webp/1.6.0: 64 files, 2.6MB
+==> Installing kew dependency: chafa
+==> Pouring chafa--1.18.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/chafa/1.18.0: 65 files, 2.6MB
+==> Installing kew dependency: faad2
+==> Pouring faad2--2.11.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/faad2/2.11.2: 18 files, 672KB
+==> Installing kew dependency: isl
+==> Pouring isl--0.27.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/isl/0.27: 74 files, 8.0MB
+==> Installing kew dependency: mpfr
+==> Pouring mpfr--4.2.2.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpfr/4.2.2: 31 files, 3.3MB
+==> Installing kew dependency: libmpc
+==> Pouring libmpc--1.3.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libmpc/1.3.1: 13 files, 502.7KB
+==> Installing kew dependency: gcc
+==> Pouring gcc--15.2.0.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/gcc/15.2.0: 1,602 files, 460.7MB
+==> Installing kew dependency: hwloc
+==> Pouring hwloc--2.12.2_1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/hwloc/2.12.2_1: 976 files, 11.3MB
+==> Installing kew dependency: pmix
+==> Pouring pmix--5.0.9.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pmix/5.0.9: 385 files, 15.6MB
+==> Installing kew dependency: open-mpi
+==> Pouring open-mpi--5.0.9.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/open-mpi/5.0.9: 2,627 files, 78.4MB
+==> Installing kew dependency: fftw
+==> Pouring fftw--3.3.10_2.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/fftw/3.3.10_2: 74 files, 8.6MB
+==> Installing kew dependency: libogg
+==> Pouring libogg--1.3.6.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libogg/1.3.6: 103 files, 551.0KB
+==> Installing kew dependency: opus
+==> Pouring opus--1.6.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/opus/1.6.1: 16 files, 1.1MB
+==> Installing kew dependency: utf8cpp
+==> Pouring utf8cpp--4.0.9.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/utf8cpp/4.0.9: 15 files, 149.8KB
+==> Installing kew dependency: taglib
+==> Pouring taglib--2.1.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/taglib/2.1.1: 138 files, 2MB
+==> Installing kew
+==> Pouring kew--3.7.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/kew/3.7.3: 30 files, 1.3MB
+==> Running `brew cleanup kew`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+
+brew uninstall kew
+Uninstalling /opt/homebrew/Cellar/kew/3.7.3... (30 files, 1.3MB)
+==> Autoremoving 13 unneeded formulae:
+chafa
+fftw
+gcc
+gdk-pixbuf
+hwloc
+isl
+libmpc
+librsvg
+mpfr
+open-mpi
+pmix
+taglib
+utf8cpp
+Uninstalling /opt/homebrew/Cellar/taglib/2.1.1... (138 files, 2MB)
+Uninstalling /opt/homebrew/Cellar/fftw/3.3.10_2... (74 files, 8.6MB)
+Uninstalling /opt/homebrew/Cellar/chafa/1.18.0... (65 files, 2.6MB)
+Uninstalling /opt/homebrew/Cellar/open-mpi/5.0.9... (2,627 files, 78.4MB)
+Uninstalling /opt/homebrew/Cellar/utf8cpp/4.0.9... (15 files, 149.8KB)
+Uninstalling /opt/homebrew/Cellar/librsvg/2.61.3_1... (21 files, 13MB)
+Uninstalling /opt/homebrew/Cellar/gdk-pixbuf/2.44.4... (151 files, 4.2MB)
+Uninstalling /opt/homebrew/Cellar/gcc/15.2.0... (1,602 files, 460.7MB)
+Uninstalling /opt/homebrew/Cellar/pmix/5.0.9... (385 files, 15.6MB)
+
+Warning: The following may be pmix configuration files and have not been removed!
+If desired, remove them manually with `rm -rf`:
+  /opt/homebrew/etc/pmix-mca-params.conf
+Uninstalling /opt/homebrew/Cellar/hwloc/2.12.2_1... (976 files, 11.3MB)
+Uninstalling /opt/homebrew/Cellar/isl/0.27... (74 files, 8.0MB)
+Uninstalling /opt/homebrew/Cellar/libmpc/1.3.1... (13 files, 502.7KB)
+Uninstalling /opt/homebrew/Cellar/mpfr/4.2.2... (31 files, 3.3MB)
