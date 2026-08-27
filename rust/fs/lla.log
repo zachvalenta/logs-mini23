@@ -1679,3 +1679,40 @@ warning: spurious network error (2 tries remaining): [55] Failed sending data to
     Finished `release` profile [optimized] target(s) in 1m 58s
    Replacing /Users/zach/.cargo/bin/lla
     Replaced package `lla v0.5.3` with `lla v0.6.4` (executable `lla`)
+
+
+lla
+Failed to load plugin "/Users/zach/.config/lla/plugins/libcategorizer.dylib": Plugin /Users/zach/.config/lla/plugins/libcategorizer.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libfile_meta.dylib": Plugin /Users/zach/.config/lla/plugins/libfile_meta.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libbrew.dylib": Plugin /Users/zach/.config/lla/plugins/libbrew.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libcode_complexity.dylib": Plugin /Users/zach/.config/lla/plugins/libcode_complexity.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libcode_snippet_extractor.dylib": Plugin /Users/zach/.config/lla/plugins/libcode_snippet_extractor.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libdirs_meta.dylib": Plugin /Users/zach/.config/lla/plugins/libdirs_meta.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libduplicate_file_detector.dylib": Plugin /Users/zach/.config/lla/plugins/libduplicate_file_detector.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libfile_copier.dylib": Plugin /Users/zach/.config/lla/plugins/libfile_copier.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libfile_hash.dylib": Plugin /Users/zach/.config/lla/plugins/libfile_hash.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libfile_mover.dylib": Plugin /Users/zach/.config/lla/plugins/libfile_mover.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libfile_organizer.dylib": Plugin /Users/zach/.config/lla/plugins/libfile_organizer.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libfile_remover.dylib": Plugin /Users/zach/.config/lla/plugins/libfile_remover.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libfile_tagger.dylib": Plugin /Users/zach/.config/lla/plugins/libfile_tagger.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libflush_dns.dylib": Plugin /Users/zach/.config/lla/plugins/libflush_dns.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libgit_status.dylib": Plugin /Users/zach/.config/lla/plugins/libgit_status.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libgoogle_meet.dylib": Plugin /Users/zach/.config/lla/plugins/libgoogle_meet.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libgoogle_search.dylib": Plugin /Users/zach/.config/lla/plugins/libgoogle_search.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libhackernews.dylib": Plugin /Users/zach/.config/lla/plugins/libhackernews.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libjwt.dylib": Plugin /Users/zach/.config/lla/plugins/libjwt.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libkeyword_search.dylib": Plugin /Users/zach/.config/lla/plugins/libkeyword_search.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libkill_process.dylib": Plugin /Users/zach/.config/lla/plugins/libkill_process.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/liblast_git_commit.dylib": Plugin /Users/zach/.config/lla/plugins/liblast_git_commit.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libnpm.dylib": Plugin /Users/zach/.config/lla/plugins/libnpm.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libremove_paywall.dylib": Plugin /Users/zach/.config/lla/plugins/libremove_paywall.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libsizeviz.dylib": Plugin /Users/zach/.config/lla/plugins/libsizeviz.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libspeed_test.dylib": Plugin /Users/zach/.config/lla/plugins/libspeed_test.dylib uses API v1 and is disabled; migrate it to API v3
+Failed to load plugin "/Users/zach/.config/lla/plugins/libyoutube.dylib": Plugin /Users/zach/.config/lla/plugins/libyoutube.dylib uses API v1 and is disabled; migrate it to API v3
+ .git/
+ .gitignore
+ data/
+ design/
+ guts/
+ rf.html
+ rf.md
