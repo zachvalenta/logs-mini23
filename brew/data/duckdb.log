@@ -10,3 +10,17 @@ $ brew install duckdb
 ==> Running `brew cleanup duckdb`...
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+
+$ brew upgrade duckdb
+==> Upgrading 1 outdated package:
+duckdb 1.1.3 -> 1.4.3
+==> Fetching downloads for: duckdb
+✔︎ Bottle duckdb (1.4.3)                                                                                                      Downloaded   45.1MB/ 45.1MB
+==> Upgrading duckdb
+  1.1.3 -> 1.4.3
+==> Pouring duckdb--1.4.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/duckdb/1.4.3: 1,308 files, 178.7MB
+==> Running `brew cleanup duckdb`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/duckdb/1.1.3... (1,181 files, 160.3MB)
