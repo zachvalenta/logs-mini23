@@ -1,0 +1,75 @@
+$ brew install betterleaks
+
+✔︎ JSON API formula_tap_migrations.jws.json                                                                                                                                                                       Downloaded    2.0KB/  2.0KB
+✔︎ JSON API cask_tap_migrations.jws.json                                                                                                                                                                          Downloaded    2.2KB/  2.2KB
+Warning: No available formula with the name "betterleaks". Did you mean bettercap?
+==> Searching for similarly named formulae and casks...
+==> Formulae
+bettercap
+
+To install bettercap, run:
+  brew install bettercap
+
+==> Casks
+betterdisplay
+
+To install betterdisplay, run:
+
+$ brew install --cask betterdisplay
+ 2026.09.07 11:15   ~/../denv/logs/brew/dev  main ≡ x  brew install betterleaks/tap/betterleaks
+
+==> Tapping betterleaks/tap
+Cloning into '/opt/homebrew/Library/Taps/betterleaks/homebrew-tap'...
+remote: Enumerating objects: 76, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (38/38), done.
+remote: Total 76 (delta 18), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (76/76), 9.49 KiB | 607.00 KiB/s, done.
+Resolving deltas: 100% (18/18), done.
+Tapped 1 cask (13 files, 17.9KB).
+==> Downloading https://github.com/betterleaks/betterleaks/releases/download/v1.8.1/betterleaks_1.8.1_darwin_arm64.tar.gz
+==> Downloading from https://release-assets.githubusercontent.com/github-production-release-asset/1149107700/d00cdb32-32e6-4bca-9821-8e28e110b666?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-09-07T16%3A04%3A44Z&rscd=attachment%3B+filename%
+##################################################################################################################################################################################################################################### 100.0%
+==> Installing Cask betterleaks
+==> Linking Binary 'betterleaks' to '/opt/homebrew/bin/betterleaks'
+🍺  betterleaks was successfully installed!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/aom/3.12.0... (24 files, 10.3MB)
+Removing: /Users/zach/Library/Caches/Homebrew/bat_bottle_manifest--0.26.1... (12KB)
+Removing: /Users/zach/Library/Caches/Homebrew/bat--0.26.1... (2.8MB)
+Removing: /opt/homebrew/Cellar/brotli/1.1.0... (24 files, 1MB)
+Removing: /opt/homebrew/Cellar/cairo/1.18.2... (53 files, 2.3MB)
+Removing: /opt/homebrew/Cellar/dav1d/1.5.0... (16 files, 932.4KB)
+Removing: /opt/homebrew/Cellar/faad2/2.11.1... (17 files, 673.0KB)
+Removing: /opt/homebrew/Cellar/fontconfig/2.16.0... (92 files, 1.6MB)
+Removing: /opt/homebrew/Cellar/freetype/2.13.3... (68 files, 2.6MB)
+Removing: /opt/homebrew/Cellar/glib/2.82.4... (504 files, 38MB)
+Removing: /opt/homebrew/Cellar/harfbuzz/10.2.0... (77 files, 10.5MB)
+Removing: /opt/homebrew/Cellar/highway/1.2.0... (75 files, 4.4MB)
+Removing: /opt/homebrew/Cellar/imath/3.1.12... (50 files, 969.8KB)
+Removing: /opt/homebrew/Cellar/jpeg-turbo/3.1.0... (47 files, 3.7MB)
+Removing: /opt/homebrew/Cellar/jpeg-xl/0.11.1... (64 files, 33.4MB)
+Removing: /opt/homebrew/Cellar/libavif/1.1.1... (21 files, 656.8KB)
+Removing: /opt/homebrew/Cellar/libdeflate/1.23... (17 files, 333KB)
+Removing: /opt/homebrew/Cellar/libogg/1.3.5... (103 files, 549.5KB)
+Removing: /opt/homebrew/Cellar/libpng/1.6.46... (28 files, 1.4MB)
+Removing: /opt/homebrew/Cellar/libtiff/4.7.0... (486 files, 8.9MB)
+Removing: /opt/homebrew/Cellar/libx11/1.8.10... (1,043 files, 7.4MB)
+Removing: /opt/homebrew/Cellar/openexr/3.3.2... (210 files, 6.4MB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.0... (11.8KB)
+Removing: /Users/zach/Library/Caches/Homebrew/openssl@3--3.6.0... (10.9MB)
+Removing: /opt/homebrew/Cellar/opus/1.5.2... (16 files, 1MB)
+Removing: /opt/homebrew/Cellar/pango/1.56.1... (69 files, 3.6MB)
+Removing: /opt/homebrew/Cellar/pcre2/10.45... (242 files, 7MB)
+Removing: /opt/homebrew/Cellar/pixman/0.44.2... (10 files, 668.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/restic_bottle_manifest--0.18.1... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/restic--0.18.1... (10.6MB)
+Removing: /Users/zach/Library/Caches/Homebrew/scc_bottle_manifest--3.6.0... (7.5KB)
+Removing: /Users/zach/Library/Caches/Homebrew/scc--3.6.0... (1.7MB)
+Removing: /opt/homebrew/Cellar/webp/1.5.0... (64 files, 2.7MB)
+Removing: /opt/homebrew/Cellar/xorgproto/2024.1... (268 files, 4.1MB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/Handy_0.7.0_aarch64.dmg--0.7.0.dmg... (15.5MB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/little-cms2... (22 files, 1.5MB)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
