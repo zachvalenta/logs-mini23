@@ -42,7 +42,7 @@ uv run python --version  # Python 3.9.6
 uv run python -c "import sys; print(sys.executable)" # /Library/Developer/CommandLineTools/usr/bin/python3
 ```
 
-# 3.14
+# install 3.14, 3.15
 
 ```sh
 uv python dir  # /Users/zach/.local/share/uv/python
@@ -57,6 +57,8 @@ drwxr-xr-x@ - └──  python
 drwxr-xr-x@ -     ├──  .temp
 lrwxr-xr-x@ -     ├──  cpython-3.14-macos-aarch64-none -> /Users/zach/.local/share/uv/python/cpython-3.14.7-macos-aarch64-none
 drwxr-xr-x@ -     └──  cpython-3.14.7-macos-aarch64-none
+
+uv python install 3.15  # installed Python 3.15.0rc1 in 2.62s + cpython-3.15.0rc1-macos-aarch64-none (python3.15)
 ```
 
 # venv, verify ssl/lzma
