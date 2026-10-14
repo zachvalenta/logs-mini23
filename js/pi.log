@@ -16,3 +16,14 @@ installed @earendil-works/pi-coding-agent@0.78.0 with binaries:
 
 49 packages installed [1496.00ms]
 Updated pi
+
+$ pi update
+Updated packages
+Updating pi with bun install -g --ignore-scripts --minimum-release-age=0 @earendil-works/pi-coding-agent...
+bun add v1.3.13 (bf2e2cec)
+
+installed @earendil-works/pi-coding-agent@1.2.0 with binaries:
+ - pi
+
+55 packages installed [2.74s]
+Updated pi
