@@ -1,0 +1,18 @@
+$ brew install hf
+
+✔︎ JSON API formula_tap_migrations.jws.json                                                                                       Downloaded    2.2KB/  2.2KB
+✔︎ JSON API cask_tap_migrations.jws.json                                                                                          Downloaded    2.2KB/  2.2KB
+Warning: No available formula with the name "hf".
+==> Searching for similarly named formulae and casks...
+==> Formulae
+airspyhf                       fishfish                       hfstospell                     shfmt                          zsh-f-sy-h
+arm-linux-gnueabihf-binutils   hf-mcp-server                  hfsutils                       squashfs                       zsh-fast-syntax-highlighting
+
+To install airspyhf, run:
+  brew install airspyhf
+
+==> Casks
+crushftp                  epoch-flip-clock          hfsleuth                  path-finder               watchfacestudio           wealthfolio
+
+To install crushftp, run:
+  brew install --cask crushftp
