@@ -16,3 +16,26 @@ crushftp                  epoch-flip-clock          hfsleuth                  pa
 
 To install crushftp, run:
   brew install --cask crushftp
+
+$ uv tool install "huggingface_hub[cli]"
+
+Resolved 15 packages in 759ms
+Prepared 14 packages in 615ms
+Installed 15 packages in 15ms
+ + anyio==4.15.1
+ + click==8.5.0
+ + filelock==4.2.4
+ + fsspec==2026.9.0
+ + h11==0.16.0
+ + hf-xet==1.7.0
+ + httpcore2==2.16.0
+ + httpx2==2.16.0
+ + huggingface-hub==2.2.0
+ + idna==3.20
+ + packaging==26.3
+ + pyyaml==6.0.3
+ + tqdm==4.70.1
+ + truststore==0.10.5
+ + typing-extensions==4.16.0
+warning: The package `huggingface-hub==2.2.0` does not have an extra named `cli`
+Installed 2 executables: hf, tiny-agents
