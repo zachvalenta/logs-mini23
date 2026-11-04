@@ -20,3 +20,6 @@ Installing to existing venv 'markitdown'
   These apps are now globally available
     - markitdown
 done! ✨ 🌟 ✨
+
+$ pipx upgrade markitdown
+upgraded package markitdown from 0.1.5 to 0.1.9 (location: /Users/zach/Library/Application Support/pipx/venvs/markitdown)
