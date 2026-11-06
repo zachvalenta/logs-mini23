@@ -1,0 +1,89 @@
+brew install --cask font-computer-modern
+==> Downloading https://downloads.sourceforge.net/cm-unicode/cm-unicode-0.7.0-ttf.tar.xz
+==> Downloading from https://cytranet.dl.sourceforge.net/project/cm-unicode/cm-unicode/0.7.0/cm-unicode-0.7.0-ttf.tar.xz?viasf=1&fid=ba85c78e6086f4d8&e=1794080799&st=UqMDzjhQckNbLzEiTOyHJw
+#############################################################################################################################################################################################               ##################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################### 100.0%
+==> Installing Cask font-computer-modern
+==> Moving Font 'cmunbbx.ttf' to '/Users/zach/Library/Fonts/cmunbbx.ttf'
+==> Moving Font 'cmunbi.ttf' to '/Users/zach/Library/Fonts/cmunbi.ttf'
+==> Moving Font 'cmunbl.ttf' to '/Users/zach/Library/Fonts/cmunbl.ttf'
+==> Moving Font 'cmunbmo.ttf' to '/Users/zach/Library/Fonts/cmunbmo.ttf'
+==> Moving Font 'cmunbmr.ttf' to '/Users/zach/Library/Fonts/cmunbmr.ttf'
+==> Moving Font 'cmunbso.ttf' to '/Users/zach/Library/Fonts/cmunbso.ttf'
+==> Moving Font 'cmunbsr.ttf' to '/Users/zach/Library/Fonts/cmunbsr.ttf'
+==> Moving Font 'cmunbtl.ttf' to '/Users/zach/Library/Fonts/cmunbtl.ttf'
+==> Moving Font 'cmunbto.ttf' to '/Users/zach/Library/Fonts/cmunbto.ttf'
+==> Moving Font 'cmunbx.ttf' to '/Users/zach/Library/Fonts/cmunbx.ttf'
+==> Moving Font 'cmunbxo.ttf' to '/Users/zach/Library/Fonts/cmunbxo.ttf'
+==> Moving Font 'cmunci.ttf' to '/Users/zach/Library/Fonts/cmunci.ttf'
+==> Moving Font 'cmunit.ttf' to '/Users/zach/Library/Fonts/cmunit.ttf'
+==> Moving Font 'cmunobi.ttf' to '/Users/zach/Library/Fonts/cmunobi.ttf'
+==> Moving Font 'cmunobx.ttf' to '/Users/zach/Library/Fonts/cmunobx.ttf'
+==> Moving Font 'cmunorm.ttf' to '/Users/zach/Library/Fonts/cmunorm.ttf'
+==> Moving Font 'cmunoti.ttf' to '/Users/zach/Library/Fonts/cmunoti.ttf'
+==> Moving Font 'cmunrb.ttf' to '/Users/zach/Library/Fonts/cmunrb.ttf'
+==> Moving Font 'cmunrm.ttf' to '/Users/zach/Library/Fonts/cmunrm.ttf'
+==> Moving Font 'cmunsi.ttf' to '/Users/zach/Library/Fonts/cmunsi.ttf'
+==> Moving Font 'cmunsl.ttf' to '/Users/zach/Library/Fonts/cmunsl.ttf'
+==> Moving Font 'cmunso.ttf' to '/Users/zach/Library/Fonts/cmunso.ttf'
+==> Moving Font 'cmunss.ttf' to '/Users/zach/Library/Fonts/cmunss.ttf'
+==> Moving Font 'cmunssdc.ttf' to '/Users/zach/Library/Fonts/cmunssdc.ttf'
+==> Moving Font 'cmunst.ttf' to '/Users/zach/Library/Fonts/cmunst.ttf'
+==> Moving Font 'cmunsx.ttf' to '/Users/zach/Library/Fonts/cmunsx.ttf'
+==> Moving Font 'cmuntb.ttf' to '/Users/zach/Library/Fonts/cmuntb.ttf'
+==> Moving Font 'cmunti.ttf' to '/Users/zach/Library/Fonts/cmunti.ttf'
+==> Moving Font 'cmuntt.ttf' to '/Users/zach/Library/Fonts/cmuntt.ttf'
+==> Moving Font 'cmuntx.ttf' to '/Users/zach/Library/Fonts/cmuntx.ttf'
+==> Moving Font 'cmunui.ttf' to '/Users/zach/Library/Fonts/cmunui.ttf'
+==> Moving Font 'cmunvi.ttf' to '/Users/zach/Library/Fonts/cmunvi.ttf'
+==> Moving Font 'cmunvt.ttf' to '/Users/zach/Library/Fonts/cmunvt.ttf'
+🍺  font-computer-modern was successfully installed!
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /Users/zach/Library/Caches/Homebrew/icu4c@78_bottle_manifest--78.2... (9.7KB)
+Removing: /Users/zach/Library/Caches/Homebrew/icu4c@78--78.2... (31.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/zk_bottle_manifest--0.15.2... (9.3KB)
+Removing: /Users/zach/Library/Caches/Homebrew/zk--0.15.2... (4.8MB)
+Removing: /Users/zach/Library/Caches/Homebrew/Cask/DB.Browser.for.SQLite-v3.13.1.dmg--3.13.1.dmg... (45.6MB)
+Removing: /Users/zach/Library/Logs/Homebrew/faad2... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/hwloc... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/libtiff... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/xorgproto... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/libpng... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/taglib... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/pixman... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/opus... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/freetype... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/mpfr... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/imath... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/libavif... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/pango... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/highway... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/brotli... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/gdk-pixbuf... (207B)
+Removing: /Users/zach/Library/Logs/Homebrew/dagger... (113B)
+Removing: /Users/zach/Library/Logs/Homebrew/libogg... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/harfbuzz... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/glib... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/aom... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/gcc... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/cairo... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/webp... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/kew... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/open-mpi... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/utf8cpp... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/openexr... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/fontconfig... (39.3KB)
+Removing: /Users/zach/Library/Logs/Homebrew/libdeflate... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/librsvg... (197B)
+Removing: /Users/zach/Library/Logs/Homebrew/dav1d... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/openjph... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/duckdb... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/isl... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/pcre2... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/jpeg-xl... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/fftw... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/pmix... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/libx11... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/chafa... (64B)
+Removing: /Users/zach/Library/Logs/Homebrew/jpeg-turbo... (64B)
